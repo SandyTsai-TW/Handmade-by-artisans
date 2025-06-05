@@ -23,6 +23,111 @@ $font-weight-regular: 400;
 $font-weight-medium: 600;
 $font-weight-semibold: 700;
 
+
+.largeTitle,
+.title1,
+.title2,
+.title2-a,
+.title3,
+.headline,
+.headline-a,
+.fontBody,
+.callout,
+.subhead,
+.subhead-a,
+.footnote,
+.footnote-a,
+.underline,
+.caption1,
+.caption1-a,
+.caption2,
+.caption2-a {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.largeTitle,
+.title1,
+.title2,
+.title3,
+.headline,
+.subhead,
+.footnote,
+.underline,
+.caption1,
+.caption2 {
+    font-weight: $font-weight-regular;
+}
+
+.largeTitle {
+    font-size: calc(2.125rem + 1.8vw);
+    line-height: 2.5625;
+    letter-spacing: 0.015rem;
+}
+
+.title1 {
+    font-size: calc(1.75rem + 1.5vw);
+    line-height: 2.125;
+    letter-spacing: 0.015rem;
+}
+
+.title2 {
+    font-size: calc(1.375rem + 0.9vw);
+    line-height: 1.75;
+    letter-spacing: 0.015rem;
+}
+
+.title2-a {
+    font-weight: $font-weight-medium;
+    font-size: calc(1.375rem + 0.9vw);
+    line-height: 1.75;
+    letter-spacing: 0.015rem;
+}
+
+.title3 {
+    font-size: calc(1.25rem + 0.6vw);
+    line-height: 1.5625;
+    letter-spacing: 0.015rem;
+}
+
+.headline, %headline {
+    font-size: calc(1.0625rem + 0.3vw);
+    line-height: 1.375;
+    letter-spacing: 0.05rem;
+}
+
+.headline-a {
+    font-weight: $font-weight-semibold;
+    @extend %headline;
+}
+
+.fontBody {
+    font-weight: $font-weight-medium;
+    @extend %headline;
+}
+
+.callout {
+    font-weight: $font-weight-medium;
+    font-size: 1rem;
+    line-height: 1.3125;
+    letter-spacing: 0.05rem;
+}
+
+.subhead {
+    font-size: 0.9375rem;
+    line-height: 1.3125;
+    letter-spacing: 0.025rem;
+}
+
+.subhead-a {
+    font-weight: $font-weight-medium;
+    font-size: calc(0.9375rem + 0.3vw);
+    line-height: 1.25;
+    letter-spacing: 0.0375rem;
+}
+
+
 .footnote, %footnote {
     font-size: calc(0.8rem + 0.3vw);
     font-weight: $font-weight-regular;
@@ -30,24 +135,53 @@ $font-weight-semibold: 700;
     letter-spacing: 0.0313rem;
 }
 
-
-
 .underline {
     @extend %footnote;
     text-decoration: underline;
 }
-.caption1 {
+
+.caption1, %caption1 {
     font-size: calc(0.75rem + 0.1vw);
     font-weight: $font-weight-regular;
     line-height: 1;
     letter-spacing: 0.015rem;
 }
 
+.caption1-a {
+    @extend %caption1;
+    font-weight: $font-weight-medium;
+}
+
+.caption2, %caption2 {
+    font-size: calc(0.7rem + 0.1vw);
+    line-height: .875rem;
+    letter-spacing: 0.0313rem;
+}
+
+.caption2-a {
+    @extend %caption2;
+    font-weight: $font-weight-medium;
+}
+
+
 @media (max-width: 320px) {
-    %footnote {
+    .headline, %headline {
+            font-size: calc(0.9rem + 0.1vw);
+        }
+    .footnote, %footnote {
         font-size: calc(0.6rem + 0.1vw);
     }
 }
+
+@media (min-width: 768px) {
+    .headline, %headline {
+        font-size: calc(1.6rem + 0.4vw);
+    }
+    .footnote, %footnote {
+        font-size: calc(1.3rem + 0.3vw);
+    }  
+}
+
 //////////////////Others//////////////////////////////////////////
 
 // radius
@@ -97,3 +231,14 @@ $font-weight-semibold: 700;
         0 3px 1px 0 rgba($color: #000000, $alpha: 0.06);
 }
 
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
