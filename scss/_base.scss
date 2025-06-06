@@ -141,9 +141,9 @@ $font-weight-semibold: 700;
 }
 
 .caption1, %caption1 {
-    font-size: calc(0.75rem + 0.1vw);
+    font-size: calc(0.8rem + 0.1vw);
     font-weight: $font-weight-regular;
-    line-height: 1;
+    line-height: 1.2;
     letter-spacing: 0.015rem;
 }
 
@@ -166,10 +166,13 @@ $font-weight-semibold: 700;
 
 @media (max-width: 320px) {
     .headline, %headline {
-            font-size: calc(0.9rem + 0.1vw);
+        font-size: calc(0.9rem + 0.1vw);
         }
     .footnote, %footnote {
-        font-size: calc(0.6rem + 0.1vw);
+        font-size: calc(0.7rem + 0.2vw);
+    }
+    .caption1, %caption1 {
+        font-size: calc(0.6rem + 0.2vw);
     }
 }
 
@@ -179,7 +182,10 @@ $font-weight-semibold: 700;
     }
     .footnote, %footnote {
         font-size: calc(1.3rem + 0.3vw);
-    }  
+    }
+    .caption1, %caption1 {
+        font-size: calc(1.2rem + 0.3vw);
+    }
 }
 
 //////////////////Others//////////////////////////////////////////
@@ -213,7 +219,7 @@ $font-weight-semibold: 700;
 }
 
 %r-bg {
-    box-shadow: 4 2px 20px -10px rgba($color: #000000, $alpha: 0.1),
+    box-shadow: 4px 2px 20px -10px rgba($color: #000000, $alpha: 0.1),
         2px 2px 8px 0 rgba($color: #000000, $alpha: 0.25);
 }
 
@@ -239,6 +245,7 @@ img {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    object-fit: cover;
     background-position: center;
+    background-color: #CECBC9;
 }

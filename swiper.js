@@ -1,4 +1,4 @@
-const swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
   slidesPerView: 1.25,
   loop: true,
@@ -12,6 +12,14 @@ const swiper = new Swiper(".mySwiper", {
   
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
+var swiper = new Swiper(".mySwiper1", {
+  slidesPerView: 2.5,
+  spaceBetween: 16,
+  pagination: {
     clickable: true,
   },
 });

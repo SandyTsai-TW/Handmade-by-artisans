@@ -4,6 +4,8 @@
 body {
     background: $white;
     margin-bottom: 2rem;
+
+    // overflow: hidden;
     
     @media (min-width: 768px) {
         margin-top: .5rem;
@@ -11,7 +13,7 @@ body {
 }
 
 // .container {
-    // border: 1px solid red;
+//     border: 1px solid red;
 // }
 
 // ////////HEADER////////////////////////////////
@@ -73,25 +75,24 @@ body {
 
 ///////////////////// MAIN///////////////////////////////////
 
-// swiper.js
-.swiper-top {
+// carousel     swiper.js
+.carousel {
     position: relative;
     width: 100%;
     margin: 1.25rem auto 2.25rem;
-}
 
-.swiper {
-    margin: auto;
+    .swiper {
+            margin: auto;
+    
+        .swiper-slide {
+            aspect-ratio: 16 / 9;
 
-    .swiper-slide {
-        aspect-ratio: 16 / 9;
-
-        img {
-            background-image: url(../Images/img.svg);
-            @extend %radius4;
-        }
+            img {
+                background-image: url(../Images/img.svg);
+                @extend %radius4;
+            }
+        }   
     }
-
 }
 
 .swiper-pagination .swiper-pagination-bullet {
@@ -117,8 +118,14 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 // ///////////CONTENT////////////////
-// hot-search
+content {
+    display: flex;
+    flex-direction: column;
 
+    gap: calc(2.125rem + 2.3vw);
+}
+
+// hot-search//////////////////////////
 .hot-search {
    .card_top {
     padding: .625rem 0;
@@ -140,6 +147,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
             .title {
                 padding: .5rem;
+                min-height: 16%;
 
                 h5 {
                     width: 40%;
@@ -156,6 +164,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
             .title {
                 padding: .125rem;
+                min-height: 22%;
 
                 h5 {
                     text-align: end;
@@ -196,6 +205,51 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
             }      
         }
    }
+}
+
+
+// HITO////////////////////////////
+.hito {
+    .swiper {
+            width: 100%;
+            height: 100%;
+    }
+    .swiper-wrapper{
+        padding: .625rem 0;
+    }
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .item {
+            width: 100%;
+            height: 100%;
+            @extend %r-bg;
+        }
+        img {
+            aspect-ratio: 16 / 9;
+            border-radius: 2% 2% 0 0;
+        }
+        .subtitle {
+            padding: .375rem .5rem;
+            text-align: center;
+            border-radius: 0 0 2% 2%;
+
+            @extend %blur3;
+            background-color: $white-02;
+            
+            @media (min-width: 768px)  {
+                padding: calc(.5rem + 0.3vw);
+            }
+
+            h5 {
+                margin: 0;
+                color: $black-02;
+                -webkit-text-stroke: 0.0125rem $black-03;
+            }
+        }
+    }
 }
 
 
