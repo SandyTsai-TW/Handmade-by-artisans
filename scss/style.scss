@@ -4,10 +4,6 @@
 body {
     background: $white;
     margin-bottom: 2rem;
-    
-    // @media (min-width: 768px) {
-    //     margin-top: .5rem;
-    // }
 }
 
 // .container {
@@ -80,7 +76,6 @@ body {
     margin-top: calc(1rem + 1.3vw);
     margin-bottom: calc(1.75rem + 2.3vw );
     
-
     .swiper {
             margin: auto;
     
@@ -211,10 +206,8 @@ content {
 // HITO         swiper.js//
 .hito {
     .swiper {
-            width: 100%;
-            height: 100%;
-
-            
+        width: 100%;
+        height: 100%;    
     }
     .swiper-wrapper{
         padding: .625rem 0;
@@ -225,7 +218,6 @@ content {
         align-items: center;
 
         .card {
-
             @extend %r-bg;
         }
         img {
@@ -268,97 +260,8 @@ content {
     .swiper {
             width: 100%;
             height: 100%;
-        }
-    
-    .swiper-slide {
-        .card {
-            border: transparent;
-            .img-container {
-                position: relative;
-
-                img {
-                    aspect-ratio: 16 / 9;
-                    @extend %radius8;
-                    @extend %r-bg; 
-                }
-            }
-            .unfill-heart {
-                background-color: $white-02;
-                width: 12%;
-                height: 12%;
-                position: absolute;
-                right: .625rem;
-                top: .625rem;
-            }
-            .card-cover {
-                width: 100%;
-                background: $other-03;
-
-                display: flex;
-                justify-content: start;
-                align-items: center;
-                gap: .5rem;
-                
-                padding: calc(0.25rem + 0.8vw) calc(0.6rem + 0.45vw);
-
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                
-                border-radius: 0 0 .5rem .5rem;
-                overflow: hidden;
-
-                .card-level {
-                    @extend %caption2-a;
-                    color: $white;
-                    background-color: $primary;
-                    border: 0;
-                    
-                    padding: calc(0.125rem + 0.6vw) calc(0.25rem + 0.6vw);
-                    @extend %radius4;
-                    @extend %text-bg;
-                    min-width: 3.625rem;
-                    @include textOverflow(1);
-                }
-                p {
-                    margin: 0;
-                    color: $white;
-                }
-            }
-            .card-body {
-                padding: .625rem;
-            }               
-            .card-title {
-                color: $black-03;
-                @extend %text-bg;
-
-                min-height: 2.5rem;
-                overflow: hidden;
-                @include textOverflow(2);
-
-                @media (min-width: 768px) {
-                    min-height: 4.375rem; 
-                }
-            }
-            .avator {
-                display: flex;
-                justify-content: start;
-                align-items: center;
-                gap: .25rem;
-                padding: 0.0625rem .25rem;
-
-                .footnote {
-                    color: $gray-100;
-                    @extend %text-bg;
-
-                    margin: 0;
-                    width: 75%;
-                    @include textOverflow(1);
-                    overflow: hidden;
-                }
-            }   
-        }
     }
+}
     .swiper-pagination-2 {
         display: none;
 
@@ -368,8 +271,7 @@ content {
             margin: .5rem 3rem;
         }
     }          
-}
-    
+
         
 
 
