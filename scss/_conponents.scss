@@ -38,3 +38,10 @@
         color: $gray-300;
     }
 }
+
+@mixin textOverflow($number) {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $number;
+}

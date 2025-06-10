@@ -1,3 +1,4 @@
+// carousel
 var swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
   slidesPerView: 1.25,
@@ -16,10 +17,43 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+// hito
 var swiper = new Swiper(".mySwiper1", {
   slidesPerView: 2.5,
   spaceBetween: 16,
   pagination: {
+    el: ".swiper-pagination-1",
     clickable: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 3.5,
+      spaceBetween: 30,
+    },
+  }
+});
+
+// recommend
+var swiper = new Swiper(".mySwiper2", {
+  slidesPerView: 1.3,
+  spaceBetween: 16,
+  freeMode: true,
+  pagination: {
+    el: ".swiper-pagination-2",
+    clickable: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 1.3,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+    },
   },
 });
