@@ -28,11 +28,11 @@ var swiper = new Swiper(".mySwiper1", {
   breakpoints: {
     768: {
       slidesPerView: 2.5,
-      spaceBetween: 30,
+      spaceBetween: 32,
     },
     1024: {
       slidesPerView: 3.5,
-      spaceBetween: 30,
+      spaceBetween: 32,
     },
   }
 });
@@ -49,11 +49,32 @@ var swiper = new Swiper(".mySwiper2", {
   breakpoints: {
     768: {
       slidesPerView: 1.3,
-      spaceBetween: 30,
+      spaceBetween: 32,
     },
     1024: {
       slidesPerView: 2.5,
-      spaceBetween: 30,
+      spaceBetween: 32,
+    },
+  },
+});
+
+// movie
+var swiper = new Swiper(".mySwiper3", {
+  slidesPerView: 1.17,
+  spaceBetween: 16,
+  freeMode: true,
+  pagination: {
+    el: ".swiper-pagination-3",
+    clickable: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 1.17,
+      spaceBetween: 32,
+    },
+    1024: {
+      slidesPerView: 2.2,
+      spaceBetween: 32,
     },
   },
 });

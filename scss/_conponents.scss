@@ -56,6 +56,7 @@
     @extend %radius4;
     @extend %text-bg;
     min-width: 3.625rem;
+    max-width: 35%;
     @include textOverflow(1);
 }   
 
@@ -71,13 +72,13 @@
             @extend %r-bg; 
         }
     }
-    .unfill-heart {
+    span {
         background-color: $white-02;
         width: 12%;
         height: 12%;
         position: absolute;
-        right: .625rem;
-        top: .625rem;
+        right: 3%;
+        top: 7%;
     }
     .card-cover {
         width: 100%;
@@ -88,7 +89,8 @@
         align-items: center;
         gap: .5rem;
         
-        padding: calc(0.25rem + 0.8vw) calc(0.6rem + 0.45vw);
+        padding: .25rem .625rem;
+        min-height: 18%;
     
         position: absolute;
         left: 0;
@@ -97,9 +99,17 @@
         border-radius: 0 0 .5rem .5rem;
         overflow: hidden;
 
+        @media (min-width: 768px) {
+            padding: 0.6rem 1rem;
+        }
+
         p {
             margin: 0;
             color: $white;
+            @extend %text-bg;
+            max-width: 65%;
+            @include textOverflow(1);
+            overflow: hidden;
         }
     }
 

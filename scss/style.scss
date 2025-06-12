@@ -268,13 +268,43 @@ content {
         @media (min-width: 768px) {
             display: block;
             text-align: center;
-            margin: .5rem 3rem;
+            margin: .8rem 3rem;
         }
     }          
 
         
+// movie        swiper.js//
+.movie {
+    .swiper {
+        width: 100%;
+        height: 100%;
+        
+        .smallCard {
+            span {
+                background-color: $white;
+                width: 22%;
+                height: 22%;
+            }
+            .card-cover {
+                background: $black-04;
+                padding: .375rem 1.125rem;
+    
+                p {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .swiper-pagination-3 {
+        display: none;
 
-
+        @media (min-width: 768px) {
+            display: block;
+            text-align: center;
+            margin: 1rem 3rem;
+        }
+    }
+}
 
 
 
