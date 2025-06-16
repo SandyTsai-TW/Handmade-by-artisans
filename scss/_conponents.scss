@@ -22,6 +22,47 @@
     }
 }
 
+// btn
+.nav {
+    flex-wrap: nowrap;
+
+    .nav-item {
+        flex: 1 1 auto;
+    }
+    .nav-link { 
+        padding: .25rem .375rem;
+        text-align: center;
+        color: $gray-300;
+
+        transition: all .3s;
+
+        @media (min-width: 768px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: .5rem .375rem;
+        }
+
+        span {
+            margin: .25rem;
+
+            @media (min-width: 768px) {
+                margin-right: 0.5rem;
+            }
+        }
+
+        div {
+            margin: 0;
+        }
+        
+        &:hover {
+            color: $primary;
+        }
+    }  
+}
+
+
 .title {
     display: flex;
     justify-content: space-between;
