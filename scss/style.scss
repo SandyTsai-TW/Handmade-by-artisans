@@ -80,17 +80,36 @@ header {
     }
 
     .nav {
-        .nav-link { 
-            transition: all 0.3s;
-            border-bottom: .25rem solid $gray-500;
-
-            &:hover {
-                border-bottom: .25rem solid $primary;
-            }
-            div {
+        .nav-link {
+            padding: 0;
+    
+            .icon-content {
+                display: inline-block;
                 margin-bottom: .25rem;
+    
+                @media (min-width: 768px) {
+                    display: flex;
+                }
+    
+                span {
+                    text-align: center;
+                }
             }
-
+            .box {
+                display: block;
+                width: 100%;
+                height: .25rem;
+                background-color: $gray-500;
+            }
+            &:hover .box {
+                background-color: $primary;
+                border-radius: .25rem .25rem 0 0;
+            }
+    
+            @media (min-width: 768px) {
+                display: block;
+                padding: .5rem .375rem;
+            }
         }
     } 
 }
