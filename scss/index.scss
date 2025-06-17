@@ -8,14 +8,11 @@ body {
     background: $white;
 }
 
-// .container {
-//     border: 1px solid red;
-// }
 
 // ////////HEADER////////////////////////////////
 header, .segmented-controls--home ,footer{
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     width: 100%;
     background-color: $white;
 }
@@ -74,12 +71,15 @@ header {
 
 .segmented-controls--home {
     top: 3.625rem;
-
+    
     @media (min-width: 768px) {
         top: 5rem;
     }
 
     .nav {
+        .nav-item {
+            padding-top: .625rem;
+        }
         .nav-link {
             padding: 0;
     
@@ -89,6 +89,10 @@ header {
     
                 @media (min-width: 768px) {
                     display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    margin-bottom: .5rem;
                 }
     
                 span {
@@ -108,7 +112,8 @@ header {
     
             @media (min-width: 768px) {
                 display: block;
-                padding: .5rem .375rem;
+
+                // height: 3.5rem;
             }
         }
     } 
@@ -143,7 +148,9 @@ main {
         }   
     }
 }
-
+.swiper-pagination {
+    z-index: 2;
+}
 .swiper-pagination .swiper-pagination-bullet {
     background-color: #fff;
     width: .25rem;
@@ -307,6 +314,10 @@ content {
             margin: .5rem;
         }
     }
+    .swiper-button-next-1 {
+        border: 1px solid red;
+        height: 200px;
+    }
 }
 
 // recommend    swiper.js//
@@ -370,8 +381,9 @@ footer {
         padding: 0.25rem 0;
         .nav-link {
             color: $gray-200;
-            &:hover {          
-            }
+        }
+        .btn-active {
+            color: $primary;
         }
     }
 }

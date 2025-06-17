@@ -10,7 +10,7 @@ var swiper = new Swiper(".mySwiper", {
     stretch: 0,
     slideShadows: true,
   },
-  
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -34,7 +34,7 @@ var swiper = new Swiper(".mySwiper1", {
       slidesPerView: 3.5,
       spaceBetween: 32,
     },
-  }
+  },
 });
 
 // recommend
