@@ -13171,9 +13171,10 @@ main {
   margin: 0;
 }
 
-.largeCards .largeCard:not(:last-child) {
-  display: block;
-  margin-bottom: calc(1.5rem + 0.3vw);
+.largeCards {
+  display: flex;
+  flex-direction: column;
+  gap: calc(1.5rem + 0.3vw);
 }
 
 .price {
