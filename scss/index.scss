@@ -1,16 +1,7 @@
 @import "all";
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background: $white;
-}
-
-
 // ////////HEADER////////////////////////////////
-header, .segmented-controls--home ,footer{
+header, .segmented-controls--home ,footer {
     position: fixed;
     z-index: 3;
     width: 100%;

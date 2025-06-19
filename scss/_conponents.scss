@@ -63,7 +63,6 @@
 }
 
 
-
 .title {
     display: flex;
     justify-content: space-between;
@@ -102,7 +101,7 @@
     @include textOverflow(1);
 }   
 
-.smallCard {
+.smallCard, %smallCard {
     border: transparent;
 
     .img-container {
@@ -156,7 +155,7 @@
     }
 
     .card-body {
-        padding: .625rem;
+        padding: calc(0.625rem + 0.3vw) .625rem;
     }               
     .card-title {
         color: $black-03;
@@ -188,4 +187,57 @@
         @include textOverflow(1);
         overflow: hidden;
     }
-}   
+}
+
+.price {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: calc(0.25rem + 0.4vw);
+
+    h5, h4, p {
+        margin: 0;
+        @extend %text-bg;
+    }
+    h5, p {
+        color: $black-01;
+    }
+}
+
+.largeCard {
+    @extend %smallCard;
+        img {
+            @extend %class-bg; 
+        }
+    .card-cover {
+        padding: .375rem .625rem;
+        min-height: 10%;
+
+        @media (min-width: 768px) {
+            padding: 0.8rem 1rem;
+            
+        }
+    }              
+    .card-title {
+        color: $black-02;
+        min-height: 0;
+
+        @media (min-width: 768px) {
+            min-height: 0; 
+        }
+    }
+    .card-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        overflow: hidden;
+
+        @media (min-width: 768px) {
+            min-height: 4rem; 
+        }
+    }
+    .footnote {
+        width: 100%;
+    }    
+}

@@ -22,7 +22,7 @@ $other-03: linear-gradient(90deg, rgba(0, 0, 0, .4) 31%, rgba(0, 0, 0, .05) 97%)
 
 //////////////////Font//////////////////////////////////////////
 $font-weight-regular: 400;
-$font-weight-medium: 600;
+$font-weight-medium: 500;
 $font-weight-semibold: 700;
 
 
@@ -198,6 +198,14 @@ $font-weight-semibold: 700;
     }
 }
 
+.number {
+    font-family: "SF pro";
+    font-weight: $font-weight-medium;
+    font-size: calc( .75rem + 1.2vw);
+    line-height: 1.3125;
+    letter-spacing: 0.015rem;
+}
+
 //////////////////Others//////////////////////////////////////////
 
 // radius
@@ -247,6 +255,17 @@ $font-weight-semibold: 700;
         0 3px 1px 0 rgba($color: #000000, $alpha: 0.06);
 }
 
+
+// Global////////////////////////////////
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: $white;
+}
+
 a {
     text-decoration: none;
 }
@@ -259,3 +278,4 @@ img {
     background-position: center;
     background-color: #CECBC9;
 }
+

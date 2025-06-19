@@ -1,0 +1,196 @@
+@import "all";
+
+// ////////HEADER////////////////////////////////
+header, .segmented-controls--home ,footer {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background-color: $white;
+}
+
+header {
+    top: 0;
+}
+.navbar {
+    .container {
+        flex-wrap: nowrap;
+        gap: .5rem;
+        
+        @media (min-width: 768px) {
+            height: 4rem;
+        }
+    }
+
+    button {
+            padding: 0;
+    }
+
+    .navbar-brand {
+        margin: 0;
+
+        img {
+            width: 2rem;
+            height: 2rem;
+
+            @media (min-width: 768px) {
+                width: 2.25rem;
+                height: 2.25rem;
+            }
+        }
+    }
+    form {
+        @media (min-width: 768px) {
+            height: 2.5rem;
+        }
+    }
+    .search {
+        background-color: $gray-200;
+    }
+    .btn-group {
+        button:nth-of-type(1) {
+                margin-right: .5rem;
+        }
+        span {
+        background-color: $black-02;
+            @media (min-width: 768px) {
+                width: 1.8rem;
+                height: 1.8rem;
+            }
+        }
+    } 
+}
+
+.segmented-controls--home {
+    top: 3.625rem;
+    
+    @media (min-width: 768px) {
+        top: 5rem;
+    }
+
+    .nav {
+        .nav-item {
+            padding-top: .625rem;
+        }
+        .nav-link {
+            padding: 0;
+    
+            .icon-content {
+                display: inline-block;
+                margin-bottom: .25rem;
+    
+                @media (min-width: 768px) {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    margin-bottom: .5rem;
+                }
+    
+                span {
+                    text-align: center;
+                }
+            }
+            .box {
+                display: block;
+                width: 100%;
+                height: .25rem;
+                background-color: $gray-500;
+            }
+            &:hover .box {
+                background-color: $primary;
+                border-radius: .25rem .25rem 0 0;
+            }
+    
+            @media (min-width: 768px) {
+                display: block;
+            }
+        }
+        .btn-active {
+            color: $primary;
+
+            .box {
+                background-color: $primary;
+                border-radius: .25rem .25rem 0 0;
+            }
+        }
+    } 
+}
+
+///////////////////// MAIN///////////////////////////////////
+main {
+    margin-top: calc(7.47rem + 1.3vw);
+    margin-bottom: calc(5.875rem + 1.3vw);
+
+    @media (min-width: 768px) {
+        margin-top: calc(7.8rem + 1.3vw);
+    }
+}
+
+// segmented-controls--filter///////////////////////
+
+.segmented-controls--filter {
+    .filters {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: .625rem;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: none;
+        background-color: transparent;
+        padding: .625rem .0625rem;
+        color: $gray-300;
+
+        div {
+            margin: 0;
+        }
+    }
+}
+
+
+// largeCards////////////////////////
+.largeCards {
+    .largeCard:not(:last-child) {
+        display: block;
+        margin-bottom: calc(1.5rem + 0.3vw);
+    }
+}
+
+.price {
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+
+// footer
+footer {
+    bottom: 0;
+    .tabbar {
+        border-top: .025rem solid $gray-400;
+        padding: 0.25rem 0;
+        .nav-link {
+            color: $gray-200;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
