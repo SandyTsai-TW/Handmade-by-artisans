@@ -16,7 +16,7 @@ $bg: linear-gradient(to bottom, rgba(234, 131, 56, .6), rgba(232, 146, 84, .1), 
     linear-gradient($white);
 $avatar: linear-gradient(142deg, rgba(254, 251, 249, .81) 2%, rgba(#F37B2A, 100%));
 $company: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-$other-01: $black-04;
+$other-01: rgba($color: #000000, $alpha: 0.04);
 $other-02: rgba(251,197,159,.21);
 $other-03: linear-gradient(90deg, rgba(0, 0, 0, .4) 31%, rgba(0, 0, 0, .05) 97%);
 
@@ -74,17 +74,15 @@ $font-weight-semibold: 700;
     letter-spacing: 0.015rem;
 }
 
-.title2 {
+.title2, %title2 {
     font-size: calc(1.375rem + 0.9vw);
     line-height: 1.75;
     letter-spacing: 0.015rem;
 }
 
 .title2-a {
+    @extend %title2;
     font-weight: $font-weight-medium;
-    font-size: calc(1.375rem + 0.9vw);
-    line-height: 1.75;
-    letter-spacing: 0.015rem;
 }
 
 .title3 {
@@ -116,8 +114,8 @@ $font-weight-semibold: 700;
     letter-spacing: 0.05rem;
 }
 
-.subhead, %subhead{
-    font-size: calc(0.9rem + 0.3vw);
+.subhead, %subhead {
+    font-size: calc(0.84rem + 0.3vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
 }
@@ -126,7 +124,6 @@ $font-weight-semibold: 700;
     font-weight: $font-weight-medium;
     @extend %subhead;
 }
-
 
 .footnote, %footnote {
     font-size: calc(0.8rem + 0.3vw);
@@ -165,9 +162,43 @@ $font-weight-semibold: 700;
 
 
 @media (max-width: 320px) {
+    .largeTitle {
+        font-size: calc(2.125rem + 1.8vw);
+        line-height: 2.5625;
+        letter-spacing: 0.015rem;
+    }
+    
+    .title1 {
+        font-size: calc(1.75rem + 0.4vw);
+        line-height: 2.125;
+        letter-spacing: 0.015rem;
+    }
+    
+    .title2, %title2 {
+        font-size: calc(1.375rem + 0.4vw);
+        line-height: 1.75;
+        letter-spacing: 0.015rem;
+    }
+    .title3 {
+        font-size: calc(1.25rem + 0.4vw);
+        line-height: 1.5625;
+        letter-spacing: 0.015rem;
+    }
+
     .headline, %headline {
         font-size: calc(0.9rem + 0.1vw);
-        }
+    }
+    .callout {
+        font-weight: $font-weight-medium;
+        font-size: calc(0.8rem + 0.1vw);
+        line-height: 1.3125;
+        letter-spacing: 0.05rem;
+    }
+    .subhead, %subhead{
+        font-size: calc(0.7rem + 0.1vw);
+        line-height: 1.25;
+        letter-spacing: 0.0375rem;
+    }
     .footnote, %footnote {
         font-size: calc(0.7rem + 0.2vw);
     }
@@ -243,6 +274,10 @@ $font-weight-semibold: 700;
 
 %text-bg {
     text-shadow: 0px 2px 6px rgba($color: #8D8C8C, $alpha: 0.2);
+}
+
+%text-bg-box {
+    box-shadow: 0px 2px 6px rgba($color: #8D8C8C, $alpha: 0.2);
 }
 
 %class-bg {

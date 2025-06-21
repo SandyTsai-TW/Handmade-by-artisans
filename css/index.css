@@ -12038,7 +12038,7 @@ textarea.form-control-lg {
   letter-spacing: 0.015rem;
 }
 
-.title2 {
+.title2, .title2-a {
   font-size: calc(1.375rem + 0.9vw);
   line-height: 1.75;
   letter-spacing: 0.015rem;
@@ -12046,9 +12046,6 @@ textarea.form-control-lg {
 
 .title2-a {
   font-weight: 500;
-  font-size: calc(1.375rem + 0.9vw);
-  line-height: 1.75;
-  letter-spacing: 0.015rem;
 }
 
 .title3 {
@@ -12078,8 +12075,8 @@ textarea.form-control-lg {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .subhead-a {
-  font-size: calc(0.9rem + 0.3vw);
+.subhead, .button, .button-active, .subhead-a {
+  font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
 }
@@ -12088,7 +12085,7 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
-.footnote, .underline {
+.footnote, .search-bar .form-control, .underline {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
   line-height: 1.125;
@@ -12121,10 +12118,41 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 320px) {
+  .largeTitle {
+    font-size: calc(2.125rem + 1.8vw);
+    line-height: 2.5625;
+    letter-spacing: 0.015rem;
+  }
+  .title1 {
+    font-size: calc(1.75rem + 0.4vw);
+    line-height: 2.125;
+    letter-spacing: 0.015rem;
+  }
+  .title2, .title2-a {
+    font-size: calc(1.375rem + 0.4vw);
+    line-height: 1.75;
+    letter-spacing: 0.015rem;
+  }
+  .title3 {
+    font-size: calc(1.25rem + 0.4vw);
+    line-height: 1.5625;
+    letter-spacing: 0.015rem;
+  }
   .headline, .headline-a, .fontBody {
     font-size: calc(0.9rem + 0.1vw);
   }
-  .footnote, .underline {
+  .callout {
+    font-weight: 500;
+    font-size: calc(0.8rem + 0.1vw);
+    line-height: 1.3125;
+    letter-spacing: 0.05rem;
+  }
+  .subhead, .button, .button-active, .subhead-a {
+    font-size: calc(0.7rem + 0.1vw);
+    line-height: 1.25;
+    letter-spacing: 0.0375rem;
+  }
+  .footnote, .search-bar .form-control, .underline {
     font-size: calc(0.7rem + 0.2vw);
   }
   .caption1, .caption1-a {
@@ -12138,10 +12166,10 @@ textarea.form-control-lg {
   .headline, .headline-a, .fontBody {
     font-size: calc(1.6rem + 0.4vw);
   }
-  .subhead, .subhead-a {
+  .subhead, .button, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
-  .footnote, .underline {
+  .footnote, .search-bar .form-control, .underline {
     font-size: calc(1.3rem + 0.3vw);
   }
   .caption1, .caption1-a {
@@ -12168,7 +12196,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img {
+.smallCard .img-container img, .largeCard .img-container img, .button, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12187,6 +12215,10 @@ textarea.form-control-lg {
 
 .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .smallCard .card-title, .largeCard .card-title, .smallCard .card-cover p, .largeCard .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
+}
+
+.button, .button-active {
+  box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
 .largeCard img {
@@ -12263,7 +12295,7 @@ img {
   letter-spacing: 0.015rem;
 }
 
-.title2 {
+.title2, .title2-a {
   font-size: calc(1.375rem + 0.9vw);
   line-height: 1.75;
   letter-spacing: 0.015rem;
@@ -12271,9 +12303,6 @@ img {
 
 .title2-a {
   font-weight: 500;
-  font-size: calc(1.375rem + 0.9vw);
-  line-height: 1.75;
-  letter-spacing: 0.015rem;
 }
 
 .title3 {
@@ -12303,8 +12332,8 @@ img {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .subhead-a {
-  font-size: calc(0.9rem + 0.3vw);
+.subhead, .button, .button-active, .subhead-a {
+  font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
 }
@@ -12313,7 +12342,7 @@ img {
   font-weight: 500;
 }
 
-.footnote, .underline {
+.footnote, .search-bar .form-control, .underline {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
   line-height: 1.125;
@@ -12346,10 +12375,41 @@ img {
 }
 
 @media (max-width: 320px) {
+  .largeTitle {
+    font-size: calc(2.125rem + 1.8vw);
+    line-height: 2.5625;
+    letter-spacing: 0.015rem;
+  }
+  .title1 {
+    font-size: calc(1.75rem + 0.4vw);
+    line-height: 2.125;
+    letter-spacing: 0.015rem;
+  }
+  .title2, .title2-a {
+    font-size: calc(1.375rem + 0.4vw);
+    line-height: 1.75;
+    letter-spacing: 0.015rem;
+  }
+  .title3 {
+    font-size: calc(1.25rem + 0.4vw);
+    line-height: 1.5625;
+    letter-spacing: 0.015rem;
+  }
   .headline, .headline-a, .fontBody {
     font-size: calc(0.9rem + 0.1vw);
   }
-  .footnote, .underline {
+  .callout {
+    font-weight: 500;
+    font-size: calc(0.8rem + 0.1vw);
+    line-height: 1.3125;
+    letter-spacing: 0.05rem;
+  }
+  .subhead, .button, .button-active, .subhead-a {
+    font-size: calc(0.7rem + 0.1vw);
+    line-height: 1.25;
+    letter-spacing: 0.0375rem;
+  }
+  .footnote, .search-bar .form-control, .underline {
     font-size: calc(0.7rem + 0.2vw);
   }
   .caption1, .caption1-a {
@@ -12363,10 +12423,10 @@ img {
   .headline, .headline-a, .fontBody {
     font-size: calc(1.6rem + 0.4vw);
   }
-  .subhead, .subhead-a {
+  .subhead, .button, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
-  .footnote, .underline {
+  .footnote, .search-bar .form-control, .underline {
     font-size: calc(1.3rem + 0.3vw);
   }
   .caption1, .caption1-a {
@@ -12393,7 +12453,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img {
+.smallCard .img-container img, .largeCard .img-container img, .button, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12412,6 +12472,10 @@ img {
 
 .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .smallCard .card-title, .largeCard .card-title, .smallCard .card-cover p, .largeCard .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
+}
+
+.button, .button-active {
+  box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
 .largeCard img {
@@ -12443,13 +12507,15 @@ img {
 .search-bar {
   width: 100%;
   background: rgba(0, 0, 0, 0.1);
-  padding: 0 0.5rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
+}
+.search-bar .form-control {
+  padding: 0;
 }
 .search-bar input[type=search] {
   border: transparent;
   background: transparent;
-  padding: 0.375rem 0.25rem 0.2rem;
 }
 .search-bar input[type=search]:focus {
   box-shadow: none;
@@ -12495,6 +12561,20 @@ img {
 }
 .nav .nav-link:hover {
   color: #F37B2A;
+}
+
+.button, .button-active {
+  padding: 0.625rem 1.875rem;
+  border: 0.025rem solid rgba(0, 0, 0, 0.1);
+  color: #F37B2A;
+  background-color: rgba(0, 0, 0, 0.04);
+  margin: 0;
+}
+
+.button-active {
+  border: 0.025rem solid #F37B2A;
+  color: #fff;
+  background-color: #F37B2A;
 }
 
 .title {
@@ -12702,7 +12782,7 @@ img {
   letter-spacing: 0.015rem;
 }
 
-.title2 {
+.title2, .title2-a {
   font-size: calc(1.375rem + 0.9vw);
   line-height: 1.75;
   letter-spacing: 0.015rem;
@@ -12710,9 +12790,6 @@ img {
 
 .title2-a {
   font-weight: 500;
-  font-size: calc(1.375rem + 0.9vw);
-  line-height: 1.75;
-  letter-spacing: 0.015rem;
 }
 
 .title3 {
@@ -12742,8 +12819,8 @@ img {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .subhead-a {
-  font-size: calc(0.9rem + 0.3vw);
+.subhead, .subhead-a, .button, .button-active {
+  font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
 }
@@ -12752,7 +12829,7 @@ img {
   font-weight: 500;
 }
 
-.footnote, .underline {
+.footnote, .underline, .search-bar .form-control {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
   line-height: 1.125;
@@ -12785,10 +12862,41 @@ img {
 }
 
 @media (max-width: 320px) {
+  .largeTitle {
+    font-size: calc(2.125rem + 1.8vw);
+    line-height: 2.5625;
+    letter-spacing: 0.015rem;
+  }
+  .title1 {
+    font-size: calc(1.75rem + 0.4vw);
+    line-height: 2.125;
+    letter-spacing: 0.015rem;
+  }
+  .title2, .title2-a {
+    font-size: calc(1.375rem + 0.4vw);
+    line-height: 1.75;
+    letter-spacing: 0.015rem;
+  }
+  .title3 {
+    font-size: calc(1.25rem + 0.4vw);
+    line-height: 1.5625;
+    letter-spacing: 0.015rem;
+  }
   .headline, .headline-a, .fontBody {
     font-size: calc(0.9rem + 0.1vw);
   }
-  .footnote, .underline {
+  .callout {
+    font-weight: 500;
+    font-size: calc(0.8rem + 0.1vw);
+    line-height: 1.3125;
+    letter-spacing: 0.05rem;
+  }
+  .subhead, .subhead-a, .button, .button-active {
+    font-size: calc(0.7rem + 0.1vw);
+    line-height: 1.25;
+    letter-spacing: 0.0375rem;
+  }
+  .footnote, .underline, .search-bar .form-control {
     font-size: calc(0.7rem + 0.2vw);
   }
   .caption1, .caption1-a {
@@ -12802,10 +12910,10 @@ img {
   .headline, .headline-a, .fontBody {
     font-size: calc(1.6rem + 0.4vw);
   }
-  .subhead, .subhead-a {
+  .subhead, .subhead-a, .button, .button-active {
     font-size: calc(1.5rem + 0.3vw);
   }
-  .footnote, .underline {
+  .footnote, .underline, .search-bar .form-control {
     font-size: calc(1.3rem + 0.3vw);
   }
   .caption1, .caption1-a {
@@ -12832,7 +12940,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img {
+.button, .button-active, .smallCard .img-container img, .largeCard .img-container img {
   border-radius: 0.5rem;
 }
 
@@ -12851,6 +12959,10 @@ img {
 
 .avator-user, .card-level, .smallCard .card-cover p, .smallCard .card-title, .avator_small .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .card-cover p, .largeCard .card-title {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
+}
+
+.button, .button-active {
+  box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
 .largeCard img {
@@ -13111,6 +13223,12 @@ header {
 @media (min-width: 768px) {
   .navbar form {
     height: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .navbar form span {
+    width: 1.8rem;
+    height: 1.8rem;
   }
 }
 .navbar .search {
