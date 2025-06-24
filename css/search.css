@@ -12196,7 +12196,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .button, .button-active {
+.smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .button, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12208,7 +12208,7 @@ textarea.form-control-lg {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.button, .button-active {
+.company-focus, .toolbar .company-focus, .button, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12444,7 +12444,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .button, .button-active {
+.smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .button, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12456,7 +12456,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.button, .button-active {
+.company-focus, .toolbar .company-focus, .button, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12557,6 +12557,21 @@ img {
   border: 0.025rem solid #F37B2A;
   color: #fff;
   background-color: #F37B2A;
+}
+
+.company-focus, .toolbar .company-focus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.0625rem;
+  padding: 0.625rem 0.875rem;
+  color: #fff;
+  background-color: #F37B2A;
+  border: 0;
+}
+.company-focus:active {
+  background-color: #de610c;
+  color: #fff;
 }
 
 .title {
@@ -12716,6 +12731,22 @@ img {
   width: 100%;
 }
 
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #EFEDED;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: calc(0.75rem + 0.4vw) 0;
+}
+.toolbar .subhead {
+  margin: 0;
+}
 .largeTitle,
 .title1,
 .title2,
@@ -12922,7 +12953,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.button, .button-active, .smallCard .img-container img, .largeCard .img-container img {
+.button, .button-active, .company-focus, .smallCard .img-container img, .largeCard .img-container img, .toolbar .company-focus {
   border-radius: 0.5rem;
 }
 
@@ -12934,7 +12965,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.button, .button-active {
+.button, .button-active, .company-focus, .toolbar .company-focus {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 

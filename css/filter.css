@@ -12075,7 +12075,7 @@ textarea.form-control-lg {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .button, .button-active, .subhead-a {
+.subhead, .hito .search-imgs .search-img .text, .button, .button-active, .subhead-a {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
@@ -12147,7 +12147,7 @@ textarea.form-control-lg {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .button, .button-active, .subhead-a {
+  .subhead, .hito .search-imgs .search-img .text, .button, .button-active, .subhead-a {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -12166,7 +12166,7 @@ textarea.form-control-lg {
   .headline, .headline-a, .fontBody {
     font-size: calc(1.6rem + 0.4vw);
   }
-  .subhead, .button, .button-active, .subhead-a {
+  .subhead, .hito .search-imgs .search-img .text, .button, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, .search-bar .form-control, .underline {
@@ -12186,6 +12186,10 @@ textarea.form-control-lg {
   font-size: calc(0.75rem + 1.2vw);
   line-height: 1.3125;
   letter-spacing: 0.015rem;
+}
+
+.hito .search-imgs .search-img img {
+  border-radius: 0.125rem;
 }
 
 .card-level {
@@ -12319,7 +12323,7 @@ img {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .button, .button-active, .subhead-a {
+.subhead, .hito .search-imgs .search-img .text, .button, .button-active, .subhead-a {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
@@ -12391,7 +12395,7 @@ img {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .button, .button-active, .subhead-a {
+  .subhead, .hito .search-imgs .search-img .text, .button, .button-active, .subhead-a {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -12410,7 +12414,7 @@ img {
   .headline, .headline-a, .fontBody {
     font-size: calc(1.6rem + 0.4vw);
   }
-  .subhead, .button, .button-active, .subhead-a {
+  .subhead, .hito .search-imgs .search-img .text, .button, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, .search-bar .form-control, .underline {
@@ -12430,6 +12434,10 @@ img {
   font-size: calc(0.75rem + 1.2vw);
   line-height: 1.3125;
   letter-spacing: 0.015rem;
+}
+
+.hito .search-imgs .search-img img {
+  border-radius: 0.125rem;
 }
 
 .card-level {
@@ -12824,7 +12832,7 @@ img {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .subhead-a, .button, .button-active {
+.subhead, .hito .search-imgs .search-img .text, .subhead-a, .button, .button-active {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
@@ -12896,7 +12904,7 @@ img {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .subhead-a, .button, .button-active {
+  .subhead, .hito .search-imgs .search-img .text, .subhead-a, .button, .button-active {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -12915,7 +12923,7 @@ img {
   .headline, .headline-a, .fontBody {
     font-size: calc(1.6rem + 0.4vw);
   }
-  .subhead, .subhead-a, .button, .button-active {
+  .subhead, .hito .search-imgs .search-img .text, .subhead-a, .button, .button-active {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, .underline, .search-bar .form-control {
@@ -12935,6 +12943,10 @@ img {
   font-size: calc(0.75rem + 1.2vw);
   line-height: 1.3125;
   letter-spacing: 0.015rem;
+}
+
+.hito .search-imgs .search-img img {
+  border-radius: 0.125rem;
 }
 
 .card-level {
@@ -13176,161 +13188,146 @@ img {
   background-position: center;
 }
 
-header, .segmented-controls--home, footer {
-  position: fixed;
-  z-index: 3;
-  width: 100%;
-  background-color: #fff;
+.navbar {
+  padding: 0.625rem 0;
 }
-
-header {
-  top: 0;
-}
-
 .navbar .container {
-  flex-wrap: nowrap;
-  gap: 0.5rem;
-}
-@media (min-width: 768px) {
-  .navbar .container {
-    height: 4rem;
-  }
-}
-.navbar button {
-  padding: 0;
-}
-.navbar .navbar-brand {
-  margin: 0;
-}
-.navbar .navbar-brand img {
-  width: 2rem;
-  height: 2rem;
-}
-@media (min-width: 768px) {
-  .navbar .navbar-brand img {
-    width: 2.25rem;
-    height: 2.25rem;
-  }
-}
-@media (min-width: 768px) {
-  .navbar form {
-    height: 2.5rem;
-  }
-}
-.navbar .search {
-  background-color: #908A86;
-}
-.navbar .btn-group button:nth-of-type(1) {
-  margin-right: 0.5rem;
-}
-.navbar .btn-group span {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-@media (min-width: 768px) {
-  .navbar .btn-group span {
-    width: 1.8rem;
-    height: 1.8rem;
-  }
-}
-
-.segmented-controls--home {
-  top: 3.625rem;
-}
-@media (min-width: 768px) {
-  .segmented-controls--home {
-    top: 5rem;
-  }
-}
-.segmented-controls--home .nav .nav-item {
-  padding-top: 0.625rem;
-}
-.segmented-controls--home .nav .nav-link {
-  padding: 0;
-}
-.segmented-controls--home .nav .nav-link .icon-content {
-  display: inline-block;
-  margin-bottom: 0.25rem;
-}
-@media (min-width: 768px) {
-  .segmented-controls--home .nav .nav-link .icon-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.5rem;
-  }
-}
-.segmented-controls--home .nav .nav-link .icon-content span {
-  text-align: center;
-}
-.segmented-controls--home .nav .nav-link .box {
   display: block;
-  width: 100%;
-  height: 0.25rem;
-  background-color: #EFEDED;
 }
-.segmented-controls--home .nav .nav-link:hover .box {
-  background-color: #F37B2A;
-  border-radius: 0.25rem 0.25rem 0 0;
-}
-@media (min-width: 768px) {
-  .segmented-controls--home .nav .nav-link {
-    display: block;
-  }
-}
-.segmented-controls--home .nav .btn-active {
-  color: #F37B2A;
-}
-.segmented-controls--home .nav .btn-active .box {
-  background-color: #F37B2A;
-  border-radius: 0.25rem 0.25rem 0 0;
+.navbar .container h6, .navbar .container .h6 {
+  margin: 0;
+  display: inline-block;
 }
 
 main {
-  margin-top: calc(7.47rem + 1.3vw);
-  margin-bottom: calc(5.875rem + 1.3vw);
+  margin-top: calc(0.2rem + 1.3vw);
+  margin-bottom: calc(2.2rem + 1.3vw);
 }
 @media (min-width: 768px) {
   main {
-    margin-top: calc(7.8rem + 1.3vw);
+    margin-bottom: calc(4.2rem + 1.3vw);
   }
 }
 
-.segmented-controls--filter .filters {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 0.625rem;
-}
-.segmented-controls--filter button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  background-color: transparent;
-  padding: 0.625rem 0.0625rem;
-  color: #AFAAA7;
-}
-.segmented-controls--filter button div {
-  margin: 0;
-}
-
-.largeCards {
+content {
   display: flex;
   flex-direction: column;
-  gap: calc(1.5rem + 0.3vw);
+  gap: calc(1.2rem + 2.3vw);
 }
 
-.price {
-  width: 35%;
+.course-location .title,
+.course-date-range .title,
+.hito .title {
+  margin-bottom: calc(0.375rem + 1.3vw);
+}
+
+.course-location {
+  padding: calc(0.625rem + 0.4vw) 0rem;
+}
+.course-location h4, .course-location .h4 {
+  color: rgba(0, 0, 0, 0.8);
+}
+.course-location form button {
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .course-location form {
+    height: 4rem;
+  }
+}
+.course-location .search {
+  background-color: #908A86;
+}
+.course-location .swiper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .course-location .swiper {
+    margin-bottom: 2rem;
+  }
+}
+.course-location .swiper .swiper-wrapper {
+  margin-top: calc(1rem + 0.8vw);
+  margin-bottom: calc(0.625rem + 3.2vw);
+}
+.course-location .swiper .swiper-slide {
+  display: inline-block;
+  text-align: center;
+}
+.course-location .swiper .swiper-slide .button {
+  padding: 0.625rem;
+  cursor: pointer;
+}
+.course-location .swiper-scrollbar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .course-location .swiper-scrollbar {
+    display: block;
+  }
+}
+.course-location .swiper-scrollbar-drag {
+  background-color: #AFAAA7;
+}
+.course-location .line {
+  margin-top: 1rem;
+}
+
+.course-date-range h4, .course-date-range .h4 {
+  color: #000;
+}
+.course-date-range .swiper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .course-date-range .swiper {
+    margin-bottom: 2rem;
+  }
+}
+.course-date-range .swiper .swiper-slide {
+  display: inline-block;
+  text-align: center;
+}
+.course-date-range .swiper .swiper-slide .button {
+  padding: 0.625rem;
+  cursor: pointer;
+}
+.course-date-range .line {
+  margin-top: 1rem;
+}
+
+.hito h4, .hito .h4 {
+  color: #000;
+}
+.hito .search-imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .hito .search-imgs {
+    margin: calc(2rem + 1.3vw) 0rem;
+  }
+}
+.hito .search-imgs .search-img {
+  display: flex;
+  flex-direction: column;
+}
+.hito .search-imgs .search-img img {
+  aspect-ratio: 1/1;
+}
+.hito .search-imgs .search-img .text {
+  text-align: center;
+  margin-top: 0.125rem;
 }
 
 footer {
+  position: fixed;
   bottom: 0;
-}
-footer .tabbar {
-  border-top: 0.025rem solid #CECBC9;
-  padding: 0.25rem 0;
-}
-footer .tabbar .nav-link {
-  color: #908A86;
-}/*# sourceMappingURL=index_recommend.css.map */
+  width: 100%;
+}/*# sourceMappingURL=filter.css.map */

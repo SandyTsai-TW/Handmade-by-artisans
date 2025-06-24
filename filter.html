@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>職人手作</title>
+    <link rel="shortcut icon" href="./Images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/filter.css">
+  <!-- js -->
+    <script src="./node_modules/swiper/swiper-bundle.min.js" defer></script>
+    <script src="js/filter.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <span class="icon arrow-left"></span>
+        <h6 class="subhead">篩選條件</h6>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <content>
+      <div class="container">
+        <div class="course-location">
+          <div class="title">
+            <h4 class="subhead">課程所在地</h4>
+          </div>
+          <form class="d-flex search-bar" role="search">
+            <button class="btn" type="submit">
+              <span class="icon search"></span>
+            </button>
+            <input class="form-control" type="search" placeholder="搜尋..." aria-label="Search"/>
+          </form>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="button">全部</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">基隆市</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">台北市</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">新北市</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">桃園市</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">新竹市</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">新竹縣</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">苗栗縣</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">台中市</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">彰化縣</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">南投縣</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">雲林縣</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">嘉義市</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">嘉義縣</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">台南市</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">高雄市</div>
+              </div>
+            </div>
+            <div class="swiper-scrollbar"></div>          
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="course-date-range">
+          <div class="title">
+            <h4 class="subhead">課程日期範圍</h4>
+          </div>
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="button">全部</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">一周內</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">一個月內</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="button">三個月內</div>
+              </div>
+            </div>          
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="hito">
+          <div class="title">
+            <h4 class="subhead">熱門分類</h4>
+          </div>
+          <div class="search-imgs">
+            <div class="search-img">
+              <img src="example-pic/Hito-1.webp">
+              <div class="text">繪畫/寫字</div>
+            </div>
+            <div class="search-img">
+              <img src="example-pic/Hito-2.webp">
+              <div class="text">編織/縫紉</div>
+            </div>
+            <div class="search-img">
+              <img src="example-pic/Hito-3.webp">
+              <div class="text">植栽/花藝</div>
+            </div>
+            <div class="search-img">
+              <img src="example-pic/Hito-4.webp">
+              <div class="text">金工/飾品</div>
+            </div>
+            <div class="search-img">
+              <img src="example-pic/Hito-5.webp">
+              <div class="text">蠟燭/香氛</div>
+            </div>
+            <div class="search-img">
+              <img src="example-pic/Hito-6.webp">
+              <div class="text">陶藝/玻璃</div>
+            </div>
+            <div class="search-img">
+              <img src="example-pic/Hito-7.webp">
+              <div class="text">皮件/皮革</div>
+            </div>
+            <div class="search-img">
+              <img src="example-pic/Hito-8.webp">
+              <div class="text">木工/竹藝</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </content>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="toolbar">
+        <div class="subhead">清除全部</div>
+        <button href="#!" type="button" class="company-focus">
+          <div class="icon search"></div>
+          <div class="subhead">搜尋</div>
+        </button>
+        
+        
+        
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
