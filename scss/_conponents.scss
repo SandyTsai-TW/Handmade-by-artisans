@@ -87,6 +87,24 @@
     background-color: $primary;
 }
 
+// Message
+.message-avator, %message-avator {
+    display: inline-block;
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    
+    background-color: $gray-400;
+    @extend %text-bg-box;
+    
+    img {
+        @extend %message-avator;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
 // compony/status
 .company-focus, %company-focus {
     display: flex;
