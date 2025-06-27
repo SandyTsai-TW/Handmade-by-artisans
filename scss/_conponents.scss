@@ -267,7 +267,7 @@
     }
 }
 
-.largeCard {
+.largeCard, %largeCard {
     @extend %smallCard;
         img {
             @extend %class-bg; 
@@ -304,6 +304,7 @@
         width: 100%;
     }    
 }
+
 
 .line {
     width: 100%;

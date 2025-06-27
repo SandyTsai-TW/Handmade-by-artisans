@@ -132,6 +132,12 @@ $font-weight-semibold: 700;
     letter-spacing: 0.0313rem;
 }
 
+.footnote-a {
+    @extend %footnote;
+    font-size: calc(0.78rem + 0.3vw);
+    font-weight: $font-weight-medium;
+}
+
 .underline {
     @extend %footnote;
     text-decoration: underline;

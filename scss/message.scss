@@ -9,9 +9,12 @@
     .container {
         justify-content: flex-start;
         
+        .icon {
+            background-color: $black-01;
+        }
         h6 {
             margin: 0;
-            display: inline-block;
+            color: $black-01;
         }
     }
 }

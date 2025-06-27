@@ -12085,11 +12085,16 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
-.footnote, .message .message-body .time, .search-bar .form-control, .underline {
+.footnote, .message .message-body .time, .search-bar .form-control, .underline, .footnote-a {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
   line-height: 1.125;
   letter-spacing: 0.0313rem;
+}
+
+.footnote-a {
+  font-size: calc(0.78rem + 0.3vw);
+  font-weight: 500;
 }
 
 .underline {
@@ -12152,7 +12157,7 @@ textarea.form-control-lg {
     line-height: 1.25;
     letter-spacing: 0.0375rem;
   }
-  .footnote, .message .message-body .time, .search-bar .form-control, .underline {
+  .footnote, .message .message-body .time, .search-bar .form-control, .footnote-a, .underline {
     font-size: calc(0.7rem + 0.2vw);
   }
   .caption1, .caption1-a {
@@ -12169,7 +12174,7 @@ textarea.form-control-lg {
   .subhead, .button, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
-  .footnote, .message .message-body .time, .search-bar .form-control, .underline {
+  .footnote, .message .message-body .time, .search-bar .form-control, .footnote-a, .underline {
     font-size: calc(1.3rem + 0.3vw);
   }
   .caption1, .caption1-a {
@@ -12334,11 +12339,16 @@ img {
   font-weight: 500;
 }
 
-.footnote, .message .message-body .time, .search-bar .form-control, .underline {
+.footnote, .message .message-body .time, .search-bar .form-control, .footnote-a, .underline {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
   line-height: 1.125;
   letter-spacing: 0.0313rem;
+}
+
+.footnote-a {
+  font-size: calc(0.78rem + 0.3vw);
+  font-weight: 500;
 }
 
 .underline {
@@ -12401,7 +12411,7 @@ img {
     line-height: 1.25;
     letter-spacing: 0.0375rem;
   }
-  .footnote, .message .message-body .time, .search-bar .form-control, .underline {
+  .footnote, .message .message-body .time, .search-bar .form-control, .footnote-a, .underline {
     font-size: calc(0.7rem + 0.2vw);
   }
   .caption1, .caption1-a {
@@ -12418,7 +12428,7 @@ img {
   .subhead, .button, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
-  .footnote, .message .message-body .time, .search-bar .form-control, .underline {
+  .footnote, .message .message-body .time, .search-bar .form-control, .footnote-a, .underline {
     font-size: calc(1.3rem + 0.3vw);
   }
   .caption1, .caption1-a {
@@ -12856,11 +12866,16 @@ img {
   font-weight: 500;
 }
 
-.footnote, .message .message-body .time, .underline, .search-bar .form-control {
+.footnote, .message .message-body .time, .footnote-a, .underline, .search-bar .form-control {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
   line-height: 1.125;
   letter-spacing: 0.0313rem;
+}
+
+.footnote-a {
+  font-size: calc(0.78rem + 0.3vw);
+  font-weight: 500;
 }
 
 .underline {
@@ -12923,7 +12938,7 @@ img {
     line-height: 1.25;
     letter-spacing: 0.0375rem;
   }
-  .footnote, .message .message-body .time, .underline, .search-bar .form-control {
+  .footnote, .message .message-body .time, .footnote-a, .underline, .search-bar .form-control {
     font-size: calc(0.7rem + 0.2vw);
   }
   .caption1, .caption1-a {
@@ -12940,7 +12955,7 @@ img {
   .subhead, .subhead-a, .button, .button-active {
     font-size: calc(1.5rem + 0.3vw);
   }
-  .footnote, .message .message-body .time, .underline, .search-bar .form-control {
+  .footnote, .message .message-body .time, .footnote-a, .underline, .search-bar .form-control {
     font-size: calc(1.3rem + 0.3vw);
   }
   .caption1, .caption1-a {
@@ -13217,9 +13232,12 @@ img {
 .navbar .container {
   justify-content: flex-start;
 }
+.navbar .container .icon {
+  background-color: #000;
+}
 .navbar .container h6, .navbar .container .h6 {
   margin: 0;
-  display: inline-block;
+  color: #000;
 }
 
 .search-bar {
