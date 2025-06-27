@@ -13230,29 +13230,11 @@ img {
   padding: 0.625rem 0;
 }
 .navbar .container {
-  justify-content: flex-start;
-}
-.navbar .container .icon {
-  background-color: #000;
+  justify-content: center;
 }
 .navbar .container h6, .navbar .container .h6 {
   margin: 0;
-  color: #000;
-}
-
-.search-bar {
-  margin: 0.5rem 0;
-}
-.search-bar .btn {
-  padding: 0;
-}
-@media (min-width: 768px) {
-  .search-bar {
-    height: 4rem;
-  }
-}
-.search-bar .search {
-  background-color: #908A86;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 content {
@@ -13357,4 +13339,7 @@ footer .tabbar {
 }
 footer .tabbar .nav-link {
   color: #908A86;
-}/*# sourceMappingURL=message.css.map */
+}
+footer .tabbar .btn-active {
+  color: #F37B2A;
+}/*# sourceMappingURL=notify.css.map */
