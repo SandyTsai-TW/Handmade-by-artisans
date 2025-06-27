@@ -1,0 +1,162 @@
+@import "all";
+
+// ////////HEADER////////////////////////////////
+.navbar {
+    padding: .625rem 0;
+
+    .container {
+        justify-content: flex-start;
+        
+        h6 {
+            margin: 0;
+            display: inline-block;
+        }
+    }
+}
+
+///////////////////// MAIN///////////////////////////////////
+main {
+    padding: calc(1.25rem + 0.3vw) 0;
+    background: $other-02;
+    height: 100%;
+}
+
+.message-date {
+    text-align: center;
+    h6 {
+        display: inline-block;
+        margin: 0;
+        color: $primary;
+        padding: .125rem .625rem;
+        background-color: $other-01;
+        @extend %text-bg-box;
+        text-align: center;
+    }
+}
+
+// ///////////CONTENT////////////////
+content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    padding-top: 1.25rem;
+    height: 100%;
+
+    @media (min-width: 768px) {
+        gap: 0.625rem;  
+    }
+}
+
+.dialog-box {
+    margin-bottom: .875rem;
+    display: flex;
+    align-items: flex-start;
+
+    @media (min-width: 768px) {
+        margin-bottom: 1.5rem;  
+    }
+
+    h6 {
+        color: $black;
+        padding: .625rem;
+        text-align: justify;
+        background: $gray-500;
+        @extend %text-bg-box;
+        @extend %radius8;
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0.1563rem;
+            border-top: .4375rem solid transparent;
+            border-bottom: .4375rem solid transparent;
+        }
+    }
+    .time {
+        display: flex;
+        align-self: flex-end;
+
+        .footnote  {
+            margin: 0;
+            color: $gray-200;
+        }
+    }
+}
+
+
+.remote {
+    h6 {
+        margin: 0 .5rem 0 0;
+        &::before {
+            border-right: .625rem solid $gray-500;
+            left: -0.375rem;
+            transform: rotate(17deg);
+        }
+    }
+}
+
+.local {
+    justify-content: flex-end;
+    h6 {
+        margin: 0 0 0 .5rem;
+        background: lighten($color: $primary, $amount: 15%);
+
+        &::before {
+            border-left: .625rem solid lighten($color: $primary, $amount: 15%);
+            right: -0.375rem;
+            transform: rotate(325deg);
+        }
+    }
+    .time {
+        order: -1;
+
+        .footnote {
+            align-self: center;
+        }
+        .icon {
+            color: $gray-200;
+        }
+    }
+}
+
+
+// footer
+footer {
+    background-color: $white-03;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    .search-bar {
+        margin: 1rem .375rem;
+        border-radius: 1.25rem;
+        background-color: $gray-500;
+        
+        button {
+            padding: .1875rem;
+            background-color: $primary;
+            border-radius: 50%;
+
+            span {
+                background-color: $white;
+            }
+        }
+        input[type="search"] {
+            padding: 0 .5rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

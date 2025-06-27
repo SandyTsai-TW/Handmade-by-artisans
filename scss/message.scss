@@ -5,9 +5,9 @@
 
 .navbar {
     padding: .625rem 0;
-
+    
     .container {
-        display: block;
+        justify-content: flex-start;
         
         h6 {
             margin: 0;
@@ -17,9 +17,6 @@
 }
 
 ///////////////////// MAIN///////////////////////////////////
-main {
-    margin-bottom: calc(4.2rem + 1.3vw);
-}
 
 .search-bar {
     margin: .5rem 0;
@@ -56,6 +53,9 @@ content {
     min-height: 4.625rem;
     margin: .25rem 0;
 
+    &:last-child{
+        margin-bottom: 4.5rem;
+    }
     .message-avator {
         flex-shrink: 0;
         margin: .75rem;

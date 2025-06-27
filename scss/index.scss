@@ -122,7 +122,6 @@ header {
 ///////////////////// MAIN///////////////////////////////////
 main {
     margin-top: calc(8.47rem + 1.3vw);
-    margin-bottom: calc(5.875rem + 1.3vw);
 
     @media (min-width: 768px) {
         margin-top: calc(9.375rem + 1.3vw);
@@ -326,20 +325,21 @@ content {
             width: 100%;
             height: 100%;
     }
-}
     .swiper-pagination-2 {
         display: none;
-
+    
         @media (min-width: 768px) {
             display: block;
             text-align: center;
             margin: .8rem 3rem;
         }
     }          
+}
 
         
 // movie        swiper.js//
 .movie {
+    margin-bottom: 5.5rem;
     .swiper {
         width: 100%;
         height: 100%;

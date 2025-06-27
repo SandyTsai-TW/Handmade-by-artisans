@@ -293,6 +293,10 @@ $font-weight-semibold: 700;
 
 // Global////////////////////////////////
 
+html,body {
+    height: 100%;
+}
+
 html {
     scroll-behavior: smooth;
 }

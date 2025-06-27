@@ -119,7 +119,6 @@ header {
 ///////////////////// MAIN///////////////////////////////////
 main {
     margin-top: calc(7.47rem + 1.3vw);
-    margin-bottom: calc(5.875rem + 1.3vw);
 
     @media (min-width: 768px) {
         margin-top: calc(7.8rem + 1.3vw);
@@ -158,6 +157,9 @@ main {
     flex-direction: column;
     gap: calc(1.5rem + 0.3vw);
 
+    .s-mb6 {
+        margin-bottom: 6rem;
+    }
 }
 .price {
     width: 35%;

@@ -12085,7 +12085,7 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
-.footnote, .message .message-body .time, .search-bar .form-control, .underline {
+.footnote, .search-bar .form-control, .underline {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
   line-height: 1.125;
@@ -12152,7 +12152,7 @@ textarea.form-control-lg {
     line-height: 1.25;
     letter-spacing: 0.0375rem;
   }
-  .footnote, .message .message-body .time, .search-bar .form-control, .underline {
+  .footnote, .search-bar .form-control, .underline {
     font-size: calc(0.7rem + 0.2vw);
   }
   .caption1, .caption1-a {
@@ -12169,7 +12169,7 @@ textarea.form-control-lg {
   .subhead, .button, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
-  .footnote, .message .message-body .time, .search-bar .form-control, .underline {
+  .footnote, .search-bar .form-control, .underline {
     font-size: calc(1.3rem + 0.3vw);
   }
   .caption1, .caption1-a {
@@ -12192,7 +12192,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .button, .button-active {
+.dialog-box h6, .dialog-box .h6, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .button, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12204,7 +12204,7 @@ textarea.form-control-lg {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.company-focus, .toolbar .company-focus, .message-avator, .message-avator img, .button, .button-active {
+.dialog-box h6, .dialog-box .h6, .message-date h6, .message-date .h6, .company-focus, .toolbar .company-focus, .message-avator, .message-avator img, .button, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12334,7 +12334,7 @@ img {
   font-weight: 500;
 }
 
-.footnote, .message .message-body .time, .search-bar .form-control, .underline {
+.footnote, .search-bar .form-control, .underline {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
   line-height: 1.125;
@@ -12401,7 +12401,7 @@ img {
     line-height: 1.25;
     letter-spacing: 0.0375rem;
   }
-  .footnote, .message .message-body .time, .search-bar .form-control, .underline {
+  .footnote, .search-bar .form-control, .underline {
     font-size: calc(0.7rem + 0.2vw);
   }
   .caption1, .caption1-a {
@@ -12418,7 +12418,7 @@ img {
   .subhead, .button, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
-  .footnote, .message .message-body .time, .search-bar .form-control, .underline {
+  .footnote, .search-bar .form-control, .underline {
     font-size: calc(1.3rem + 0.3vw);
   }
   .caption1, .caption1-a {
@@ -12441,7 +12441,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .button, .button-active {
+.dialog-box h6, .dialog-box .h6, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .button, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12453,7 +12453,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.company-focus, .toolbar .company-focus, .message-avator, .message-avator img, .button, .button-active {
+.dialog-box h6, .dialog-box .h6, .message-date h6, .message-date .h6, .company-focus, .toolbar .company-focus, .message-avator, .message-avator img, .button, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12856,7 +12856,7 @@ img {
   font-weight: 500;
 }
 
-.footnote, .message .message-body .time, .underline, .search-bar .form-control {
+.footnote, .underline, .search-bar .form-control {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
   line-height: 1.125;
@@ -12923,7 +12923,7 @@ img {
     line-height: 1.25;
     letter-spacing: 0.0375rem;
   }
-  .footnote, .message .message-body .time, .underline, .search-bar .form-control {
+  .footnote, .underline, .search-bar .form-control {
     font-size: calc(0.7rem + 0.2vw);
   }
   .caption1, .caption1-a {
@@ -12940,7 +12940,7 @@ img {
   .subhead, .subhead-a, .button, .button-active {
     font-size: calc(1.5rem + 0.3vw);
   }
-  .footnote, .message .message-body .time, .underline, .search-bar .form-control {
+  .footnote, .underline, .search-bar .form-control {
     font-size: calc(1.3rem + 0.3vw);
   }
   .caption1, .caption1-a {
@@ -12963,7 +12963,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.button, .button-active, .company-focus, .smallCard .img-container img, .largeCard .img-container img, .toolbar .company-focus {
+.dialog-box h6, .dialog-box .h6, .button, .button-active, .company-focus, .smallCard .img-container img, .largeCard .img-container img, .toolbar .company-focus {
   border-radius: 0.5rem;
 }
 
@@ -12975,7 +12975,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.button, .button-active, .message-avator, .message-avator img, .company-focus, .toolbar .company-focus {
+.dialog-box h6, .dialog-box .h6, .message-date h6, .message-date .h6, .button, .button-active, .message-avator, .message-avator img, .company-focus, .toolbar .company-focus {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13222,25 +13222,30 @@ img {
   display: inline-block;
 }
 
-.search-bar {
-  margin: 0.5rem 0;
+main {
+  padding: calc(1.25rem + 0.3vw) 0;
+  background: rgba(251, 197, 159, 0.21);
+  height: 100%;
 }
-.search-bar .btn {
-  padding: 0;
+
+.message-date {
+  text-align: center;
 }
-@media (min-width: 768px) {
-  .search-bar {
-    height: 4rem;
-  }
-}
-.search-bar .search {
-  background-color: #908A86;
+.message-date h6, .message-date .h6 {
+  display: inline-block;
+  margin: 0;
+  color: #F37B2A;
+  padding: 0.125rem 0.625rem;
+  background-color: rgba(0, 0, 0, 0.04);
+  text-align: center;
 }
 
 content {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  padding-top: 1.25rem;
+  height: 100%;
 }
 @media (min-width: 768px) {
   content {
@@ -13248,88 +13253,89 @@ content {
   }
 }
 
-.message {
+.dialog-box {
+  margin-bottom: 0.875rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: calc(0.5rem + 0.3vw);
-  overflow: hidden;
-  min-height: 4.625rem;
-  margin: 0.25rem 0;
-}
-.message:last-child {
-  margin-bottom: 4.5rem;
-}
-.message .message-avator {
-  flex-shrink: 0;
-  margin: 0.75rem;
+  align-items: flex-start;
 }
 @media (min-width: 768px) {
-  .message .message-avator {
-    width: 3.75rem;
-    height: 3.75rem;
+  .dialog-box {
+    margin-bottom: 1.5rem;
   }
 }
-.message .message-content {
-  width: 100%;
-}
-.message .message-body,
-.message .message-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: calc(0.5rem + 0.3vw);
-}
-.message .message-body {
-  margin-bottom: 0.125rem;
-}
-.message .message-body h5, .message .message-body .h5 {
-  margin: 0;
+.dialog-box h6, .dialog-box .h6 {
   color: #000;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
+  padding: 0.625rem;
+  text-align: justify;
+  background: #EFEDED;
+  position: relative;
 }
-.message .message-body .time {
-  color: #736B66;
-  padding: 0 0.125rem;
+.dialog-box h6:before, .dialog-box .h6:before {
+  content: "";
+  position: absolute;
+  top: 0.1563rem;
+  border-top: 0.4375rem solid transparent;
+  border-bottom: 0.4375rem solid transparent;
 }
-.message .message-footer .subhead {
+.dialog-box .time {
+  display: flex;
+  align-self: flex-end;
+}
+.dialog-box .time .footnote {
   margin: 0;
-  color: #736B66;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  align-self: flex-start;
+  color: #908A86;
 }
-.message .message-footer .number1 {
-  background-color: #F37B2A;
-  width: 1.25rem;
-  height: 1.25rem;
-  margin: 0.625rem;
-  flex-shrink: 0;
+
+.remote h6, .remote .h6 {
+  margin: 0 0.5rem 0 0;
 }
-@media (min-width: 768px) {
-  .message .message-footer .number1 {
-    width: 1.875rem;
-    height: 1.875rem;
-  }
+.remote h6::before, .remote .h6::before {
+  border-right: 0.625rem solid #EFEDED;
+  left: -0.375rem;
+  transform: rotate(17deg);
+}
+
+.local {
+  justify-content: flex-end;
+}
+.local h6, .local .h6 {
+  margin: 0 0 0 0.5rem;
+  background: #f7a872;
+}
+.local h6::before, .local .h6::before {
+  border-left: 0.625rem solid #f7a872;
+  right: -0.375rem;
+  transform: rotate(325deg);
+}
+.local .time {
+  order: -1;
+}
+.local .time .footnote {
+  align-self: center;
+}
+.local .time .icon {
+  color: #908A86;
 }
 
 footer {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
   position: fixed;
   width: 100%;
   bottom: 0;
 }
-footer .tabbar {
-  border-top: 0.025rem solid #CECBC9;
-  padding: 0.25rem 0;
+footer .search-bar {
+  margin: 1rem 0.375rem;
+  border-radius: 1.25rem;
+  background-color: #EFEDED;
 }
-footer .tabbar .nav-link {
-  color: #908A86;
-}/*# sourceMappingURL=message.css.map */
+footer .search-bar button {
+  padding: 0.1875rem;
+  background-color: #F37B2A;
+  border-radius: 50%;
+}
+footer .search-bar button span {
+  background-color: #fff;
+}
+footer .search-bar input[type=search] {
+  padding: 0 0.5rem;
+}/*# sourceMappingURL=message_service.css.map */
