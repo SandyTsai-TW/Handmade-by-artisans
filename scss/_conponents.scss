@@ -29,7 +29,7 @@
 
 
 
-// btn
+///////// btn//////////////////////////////////
 .nav {
     flex-wrap: nowrap;
 
@@ -87,7 +87,28 @@
     background-color: $primary;
 }
 
-// Message
+// movie-under
+.movieUnder-btn {
+    padding: .3125rem .625rem;
+    @extend %caption1;
+    color: $gray-200;
+    @extend %radius8;
+
+    transition: all .4s;
+
+        @media (min-width: 768px) {
+            padding: .625rem;
+        }
+    &:hover {
+        color: $primary;
+        background-color: $white;
+        @extend %r-bg;
+    }
+}
+
+
+
+// Message///////////////////////////////
 .message-avator, %message-avator {
     display: inline-block;
     width: 3.125rem;
@@ -177,12 +198,17 @@
         }
     }
     span {
-        background-color: $white-02;
         width: 12%;
         height: 12%;
         position: absolute;
         right: 3%;
         top: 7%;
+    }
+    .unfill-heart {
+        background-color: $white-02;
+    }
+    .heart {
+        background-color: $primary;
     }
     .card-cover {
         width: 100%;
@@ -241,6 +267,9 @@
     gap: .25rem;
     padding: 0.0625rem .25rem;
 
+    img {
+       flex-shrink: 0;
+    }
     .footnote {
         color: $gray-100;
         @extend %text-bg;

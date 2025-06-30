@@ -12101,7 +12101,7 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 
-.caption1, .caption1-a {
+.caption1, .movieUnder-btn, .caption1-a {
   font-size: calc(0.8rem + 0.1vw);
   font-weight: 400;
   line-height: 1.2;
@@ -12160,7 +12160,7 @@ textarea.form-control-lg {
   .footnote, .search-bar .form-control, .footnote-a, .underline {
     font-size: calc(0.7rem + 0.2vw);
   }
-  .caption1, .caption1-a {
+  .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
   .caption2, .caption2-a, .card-level {
@@ -12177,7 +12177,7 @@ textarea.form-control-lg {
   .footnote, .search-bar .form-control, .footnote-a, .underline {
     font-size: calc(1.3rem + 0.3vw);
   }
-  .caption1, .caption1-a {
+  .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
   .caption2, .caption2-a, .card-level {
@@ -12197,11 +12197,11 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .company-focus, .toolbar .company-focus, .button, .button-active {
+.smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .company-focus, .toolbar .company-focus, .movieUnder-btn, .button, .button-active {
   border-radius: 0.5rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img {
+.smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .movieUnder-btn:hover {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -12355,7 +12355,7 @@ img {
   text-decoration: underline;
 }
 
-.caption1, .caption1-a {
+.caption1, .movieUnder-btn, .caption1-a {
   font-size: calc(0.8rem + 0.1vw);
   font-weight: 400;
   line-height: 1.2;
@@ -12414,7 +12414,7 @@ img {
   .footnote, .search-bar .form-control, .footnote-a, .underline {
     font-size: calc(0.7rem + 0.2vw);
   }
-  .caption1, .caption1-a {
+  .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
   .caption2, .caption2-a, .card-level {
@@ -12431,7 +12431,7 @@ img {
   .footnote, .search-bar .form-control, .footnote-a, .underline {
     font-size: calc(1.3rem + 0.3vw);
   }
-  .caption1, .caption1-a {
+  .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
   .caption2, .caption2-a, .card-level {
@@ -12451,11 +12451,11 @@ img {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .company-focus, .toolbar .company-focus, .button, .button-active {
+.smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .company-focus, .toolbar .company-focus, .movieUnder-btn, .button, .button-active {
   border-radius: 0.5rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img {
+.smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .movieUnder-btn:hover {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -12571,6 +12571,21 @@ img {
   background-color: #F37B2A;
 }
 
+.movieUnder-btn {
+  padding: 0.3125rem 0.625rem;
+  color: #908A86;
+  transition: all 0.4s;
+}
+@media (min-width: 768px) {
+  .movieUnder-btn {
+    padding: 0.625rem;
+  }
+}
+.movieUnder-btn:hover {
+  color: #F37B2A;
+  background-color: #fff;
+}
+
 .message-avator, .message-avator img {
   display: inline-block;
   width: 3.125rem;
@@ -12636,12 +12651,17 @@ img {
   aspect-ratio: 16/9;
 }
 .smallCard span, .largeCard span, .cards .collectCard span {
-  background-color: rgba(255, 255, 255, 0.8);
   width: 12%;
   height: 12%;
   position: absolute;
   right: 3%;
   top: 7%;
+}
+.smallCard .unfill-heart, .largeCard .unfill-heart, .cards .collectCard .unfill-heart {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.smallCard .heart, .largeCard .heart, .cards .collectCard .heart {
+  background-color: #F37B2A;
 }
 .smallCard .card-cover, .largeCard .card-cover, .cards .collectCard .card-cover {
   width: 100%;
@@ -12697,6 +12717,9 @@ img {
   align-items: center;
   gap: 0.25rem;
   padding: 0.0625rem 0.25rem;
+}
+.avator_small img {
+  flex-shrink: 0;
 }
 .avator_small .footnote {
   color: #736B66;
@@ -12882,7 +12905,7 @@ img {
   text-decoration: underline;
 }
 
-.caption1, .caption1-a {
+.caption1, .caption1-a, .movieUnder-btn {
   font-size: calc(0.8rem + 0.1vw);
   font-weight: 400;
   line-height: 1.2;
@@ -12941,7 +12964,7 @@ img {
   .footnote, .footnote-a, .underline, .search-bar .form-control {
     font-size: calc(0.7rem + 0.2vw);
   }
-  .caption1, .caption1-a {
+  .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(0.6rem + 0.2vw);
   }
   .caption2, .caption2-a, .card-level {
@@ -12958,7 +12981,7 @@ img {
   .footnote, .footnote-a, .underline, .search-bar .form-control {
     font-size: calc(1.3rem + 0.3vw);
   }
-  .caption1, .caption1-a {
+  .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(1.2rem + 0.3vw);
   }
   .caption2, .caption2-a, .card-level {
@@ -12978,11 +13001,11 @@ img {
   border-radius: 0.25rem;
 }
 
-.button, .button-active, .company-focus, .smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .toolbar .company-focus {
+.button, .button-active, .movieUnder-btn, .company-focus, .smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .toolbar .company-focus {
   border-radius: 0.5rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img {
+.movieUnder-btn:hover, .smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -13201,7 +13224,7 @@ img {
 }
 
 .share {
-  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M18.414 9L12 2.586L5.586 9H11v7h2V9zM3 14v4a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-4h-2v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-4z' stroke-width='0.4' stroke='%23000'/%3E%3C/svg%3E");
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' d='m14.5 7.5l-3.978-4l-4.022 4m4.022-3.979V15.5m-3.022-5h-2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2' stroke-width='1.5'/%3E%3C/svg%3E");
 }
 
 .map {
