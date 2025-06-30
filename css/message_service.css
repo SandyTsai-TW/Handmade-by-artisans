@@ -12102,7 +12102,7 @@ textarea.form-control-lg {
 }
 
 .caption1, .movieUnder-btn, .caption1-a {
-  font-size: calc(0.8rem + 0.1vw);
+  font-size: calc(0.7rem + 0.1vw);
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.015rem;
@@ -12356,7 +12356,7 @@ img {
 }
 
 .caption1, .movieUnder-btn, .caption1-a {
-  font-size: calc(0.8rem + 0.1vw);
+  font-size: calc(0.7rem + 0.1vw);
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.015rem;
@@ -12906,7 +12906,7 @@ img {
 }
 
 .caption1, .caption1-a, .movieUnder-btn {
-  font-size: calc(0.8rem + 0.1vw);
+  font-size: calc(0.7rem + 0.1vw);
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.015rem;

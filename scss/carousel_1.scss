@@ -76,15 +76,18 @@ main {
     top: 3rem;
     z-index: 2;
     background-color: $white;
+
+    @media (min-width: 768px) {
+        top: 5rem;        
+    }
 }
 .movieUnder {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: .375rem 0;   
 }
 .movieUnder-btn {
-    width: 100%;
     text-align: center;
 }
 
