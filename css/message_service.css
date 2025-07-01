@@ -12113,7 +12113,7 @@ textarea.form-control-lg {
 }
 
 .caption2, .caption2-a, .card-level {
-  font-size: calc(0.6rem + 0.1vw);
+  font-size: calc(0.57rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
@@ -12370,7 +12370,7 @@ img {
 }
 
 .caption2, .caption2-a, .card-level {
-  font-size: calc(0.6rem + 0.1vw);
+  font-size: calc(0.57rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
@@ -12791,7 +12791,7 @@ img {
 }
 
 .card-content {
-  margin: 0.625rem 0;
+  padding: 0.625rem 0;
 }
 .card-content h5, .card-content .h5 {
   margin: 0.375rem 0;
@@ -12935,7 +12935,7 @@ img {
 }
 
 .caption2, .caption2-a, .card-level {
-  font-size: calc(0.6rem + 0.1vw);
+  font-size: calc(0.57rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
