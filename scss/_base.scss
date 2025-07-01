@@ -68,7 +68,7 @@ $font-weight-semibold: 700;
     letter-spacing: 0.015rem;
 }
 
-.title1 {
+.title1, %title1 {
     font-size: calc(1.75rem + 1.5vw);
     line-height: 2.125;
     letter-spacing: 0.015rem;
@@ -80,12 +80,12 @@ $font-weight-semibold: 700;
     letter-spacing: 0.015rem;
 }
 
-.title2-a {
+.title2-a, %title2-a {
     @extend %title2;
     font-weight: $font-weight-medium;
 }
 
-.title3 {
+.title3, %title3 {
     font-size: calc(1.25rem + 0.6vw);
     line-height: 1.5625;
     letter-spacing: 0.015rem;
@@ -97,17 +97,17 @@ $font-weight-semibold: 700;
     letter-spacing: 0.05rem;
 }
 
-.headline-a {
+.headline-a, %headline-a {
     font-weight: $font-weight-semibold;
     @extend %headline;
 }
 
-.fontBody {
+.fontBody, %fontBody {
     font-weight: $font-weight-medium;
     @extend %headline;
 }
 
-.callout {
+.callout, %callout {
     font-weight: $font-weight-medium;
     font-size: 1rem;
     line-height: 1.3125;
@@ -120,7 +120,7 @@ $font-weight-semibold: 700;
     letter-spacing: 0.0375rem;
 }
 
-.subhead-a {
+.subhead-a, %subhead-a {
     font-weight: $font-weight-medium;
     @extend %subhead;
 }
@@ -132,13 +132,13 @@ $font-weight-semibold: 700;
     letter-spacing: 0.0313rem;
 }
 
-.footnote-a {
+.footnote-a, %footnote-a {
     @extend %footnote;
     font-size: calc(0.78rem + 0.3vw);
     font-weight: $font-weight-medium;
 }
 
-.underline {
+.underline, %underline {
     @extend %footnote;
     text-decoration: underline;
 }
@@ -150,13 +150,13 @@ $font-weight-semibold: 700;
     letter-spacing: 0.015rem;
 }
 
-.caption1-a {
+.caption1-a, %caption1-a {
     @extend %caption1;
     font-weight: $font-weight-medium;
 }
 
 .caption2, %caption2 {
-    font-size: calc(0.7rem + 0.1vw);
+    font-size: calc(0.6rem + 0.1vw);
     line-height: .875rem;
     letter-spacing: 0.0313rem;
 }
@@ -212,13 +212,16 @@ $font-weight-semibold: 700;
         font-size: calc(0.6rem + 0.2vw);
     }
     .caption2, %caption2 {
-        font-size: calc(0.6rem + 0.2vw);
+        font-size: calc(0.46rem + 0.2vw);
     }
 }
 
 @media (min-width: 768px) {
     .headline, %headline {
         font-size: calc(1.6rem + 0.4vw);
+    }
+    .callout {
+        font-size: calc(1.6rem + 0.2vw);
     }
     .subhead, %subhead {
         font-size: calc(1.5rem + 0.3vw);

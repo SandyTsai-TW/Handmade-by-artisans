@@ -12054,7 +12054,7 @@ textarea.form-control-lg {
   letter-spacing: 0.015rem;
 }
 
-.headline, .fontBody, .headline-a {
+.headline, .fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title, .headline-a {
   font-size: calc(1.0625rem + 0.3vw);
   line-height: 1.375;
   letter-spacing: 0.05rem;
@@ -12064,7 +12064,7 @@ textarea.form-control-lg {
   font-weight: 700;
 }
 
-.fontBody {
+.fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
   font-weight: 500;
 }
 
@@ -12075,7 +12075,7 @@ textarea.form-control-lg {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .search-imgs .search-img .text, .button, .button-active, .subhead-a {
+.subhead, .button, .button-active, .subhead-a {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
@@ -12112,13 +12112,13 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
-.caption2, .caption2-a, .card-level {
+.caption2, .courseCard .card-body .evaluate .stars .messages-number, .courseCard .imgs .cover, .caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
   font-size: calc(0.6rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
 
-.caption2-a, .card-level {
+.caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
   font-weight: 500;
 }
 
@@ -12143,7 +12143,7 @@ textarea.form-control-lg {
     line-height: 1.5625;
     letter-spacing: 0.015rem;
   }
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
     font-size: calc(0.9rem + 0.1vw);
   }
   .callout {
@@ -12152,7 +12152,7 @@ textarea.form-control-lg {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .search-imgs .search-img .text, .button, .button-active, .subhead-a {
+  .subhead, .button, .button-active, .subhead-a {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -12163,18 +12163,18 @@ textarea.form-control-lg {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .courseCard .card-body .evaluate .stars .messages-number, .courseCard .imgs .cover, .caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
 @media (min-width: 768px) {
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
     font-size: calc(1.6rem + 0.4vw);
   }
   .callout {
     font-size: calc(1.6rem + 0.2vw);
   }
-  .subhead, .search-imgs .search-img .text, .button, .button-active, .subhead-a {
+  .subhead, .button, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, .search-bar .form-control, .footnote-a, .underline {
@@ -12183,7 +12183,7 @@ textarea.form-control-lg {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .courseCard .card-body .evaluate .stars .messages-number, .courseCard .imgs .cover, .caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2rem;
   }
@@ -12196,7 +12196,7 @@ textarea.form-control-lg {
   letter-spacing: 0.015rem;
 }
 
-.search-imgs .search-img img {
+.card-box .bottom .straight, .card-box .line, .card-box .top .straight, .courseCard .imgs .img1-1, .courseCard .imgs {
   border-radius: 0.125rem;
 }
 
@@ -12204,7 +12204,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .movieUnder-btn, .button, .button-active {
+.card-box, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .movieUnder-btn, .button, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12212,11 +12212,11 @@ textarea.form-control-lg {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .smallCard .card-title, .largeCard .card-title, .smallCard .card-cover p, .largeCard .card-cover p, .card-level {
+.card-box, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .smallCard .card-title, .largeCard .card-title, .smallCard .card-cover p, .largeCard .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.company-focus, .toolbar .company-focus, .message-avator, .message-avator img, .button, .button-active {
+.courseCard .imgs .img1-1, .company-focus, .toolbar .company-focus, .message-avator, .message-avator img, .button, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12315,7 +12315,7 @@ img {
   letter-spacing: 0.015rem;
 }
 
-.headline, .headline-a, .fontBody {
+.headline, .headline-a, .fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
   font-size: calc(1.0625rem + 0.3vw);
   line-height: 1.375;
   letter-spacing: 0.05rem;
@@ -12325,7 +12325,7 @@ img {
   font-weight: 700;
 }
 
-.fontBody {
+.fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
   font-weight: 500;
 }
 
@@ -12336,7 +12336,7 @@ img {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .search-imgs .search-img .text, .button, .button-active, .subhead-a {
+.subhead, .button, .button-active, .subhead-a {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
@@ -12373,13 +12373,13 @@ img {
   font-weight: 500;
 }
 
-.caption2, .caption2-a, .card-level {
+.caption2, .courseCard .card-body .evaluate .stars .messages-number, .courseCard .imgs .cover, .caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
   font-size: calc(0.6rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
 
-.caption2-a, .card-level {
+.caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
   font-weight: 500;
 }
 
@@ -12404,7 +12404,7 @@ img {
     line-height: 1.5625;
     letter-spacing: 0.015rem;
   }
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
     font-size: calc(0.9rem + 0.1vw);
   }
   .callout {
@@ -12413,7 +12413,7 @@ img {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .search-imgs .search-img .text, .button, .button-active, .subhead-a {
+  .subhead, .button, .button-active, .subhead-a {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -12424,18 +12424,18 @@ img {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .courseCard .card-body .evaluate .stars .messages-number, .courseCard .imgs .cover, .caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
 @media (min-width: 768px) {
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
     font-size: calc(1.6rem + 0.4vw);
   }
   .callout {
     font-size: calc(1.6rem + 0.2vw);
   }
-  .subhead, .search-imgs .search-img .text, .button, .button-active, .subhead-a {
+  .subhead, .button, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, .search-bar .form-control, .footnote-a, .underline {
@@ -12444,7 +12444,7 @@ img {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .courseCard .card-body .evaluate .stars .messages-number, .courseCard .imgs .cover, .caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2rem;
   }
@@ -12457,7 +12457,7 @@ img {
   letter-spacing: 0.015rem;
 }
 
-.search-imgs .search-img img {
+.card-box .bottom .straight, .card-box .line, .card-box .top .straight, .courseCard .imgs .img1-1, .courseCard .imgs {
   border-radius: 0.125rem;
 }
 
@@ -12465,7 +12465,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .movieUnder-btn, .button, .button-active {
+.card-box, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .movieUnder-btn, .button, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12473,11 +12473,11 @@ img {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .smallCard .card-title, .largeCard .card-title, .smallCard .card-cover p, .largeCard .card-cover p, .card-level {
+.card-box, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .smallCard .card-title, .largeCard .card-title, .smallCard .card-cover p, .largeCard .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.company-focus, .toolbar .company-focus, .message-avator, .message-avator img, .button, .button-active {
+.courseCard .imgs .img1-1, .company-focus, .toolbar .company-focus, .message-avator, .message-avator img, .button, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12884,7 +12884,7 @@ img {
   letter-spacing: 0.015rem;
 }
 
-.headline, .headline-a, .fontBody {
+.headline, .headline-a, .fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
   font-size: calc(1.0625rem + 0.3vw);
   line-height: 1.375;
   letter-spacing: 0.05rem;
@@ -12894,7 +12894,7 @@ img {
   font-weight: 700;
 }
 
-.fontBody {
+.fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
   font-weight: 500;
 }
 
@@ -12905,7 +12905,7 @@ img {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .search-imgs .search-img .text, .subhead-a, .button, .button-active {
+.subhead, .subhead-a, .button, .button-active {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
@@ -12942,13 +12942,13 @@ img {
   font-weight: 500;
 }
 
-.caption2, .caption2-a, .card-level {
+.caption2, .courseCard .card-body .evaluate .stars .messages-number, .courseCard .imgs .cover, .caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
   font-size: calc(0.6rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
 
-.caption2-a, .card-level {
+.caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
   font-weight: 500;
 }
 
@@ -12973,7 +12973,7 @@ img {
     line-height: 1.5625;
     letter-spacing: 0.015rem;
   }
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
     font-size: calc(0.9rem + 0.1vw);
   }
   .callout {
@@ -12982,7 +12982,7 @@ img {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .search-imgs .search-img .text, .subhead-a, .button, .button-active {
+  .subhead, .subhead-a, .button, .button-active {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -12993,18 +12993,18 @@ img {
   .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .courseCard .card-body .evaluate .stars .messages-number, .courseCard .imgs .cover, .caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
 @media (min-width: 768px) {
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .fontBody, .card-box .top .frame .card-item .amount, .courseCard .card-body .card-title {
     font-size: calc(1.6rem + 0.4vw);
   }
   .callout {
     font-size: calc(1.6rem + 0.2vw);
   }
-  .subhead, .search-imgs .search-img .text, .subhead-a, .button, .button-active {
+  .subhead, .subhead-a, .button, .button-active {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, .footnote-a, .underline, .search-bar .form-control {
@@ -13013,7 +13013,7 @@ img {
   .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .courseCard .card-body .evaluate .stars .messages-number, .courseCard .imgs .cover, .caption2-a, .courseCard .card-body .evaluate .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2rem;
   }
@@ -13026,7 +13026,7 @@ img {
   letter-spacing: 0.015rem;
 }
 
-.search-imgs .search-img img {
+.card-box .bottom .straight, .card-box .line, .card-box .top .straight, .courseCard .imgs .img1-1, .courseCard .imgs {
   border-radius: 0.125rem;
 }
 
@@ -13034,7 +13034,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.button, .button-active, .movieUnder-btn, .company-focus, .smallCard .img-container img, .largeCard .img-container img, .toolbar .company-focus {
+.card-box, .button, .button-active, .movieUnder-btn, .company-focus, .smallCard .img-container img, .largeCard .img-container img, .toolbar .company-focus {
   border-radius: 0.5rem;
 }
 
@@ -13042,11 +13042,11 @@ img {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .card-level, .smallCard .card-cover p, .smallCard .card-title, .avator_small .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .card-cover p, .largeCard .card-title {
+.card-box, .avator-user, .card-level, .smallCard .card-cover p, .smallCard .card-title, .avator_small .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .card-cover p, .largeCard .card-title {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.button, .button-active, .message-avator, .message-avator img, .company-focus, .toolbar .company-focus {
+.courseCard .imgs .img1-1, .button, .button-active, .message-avator, .message-avator img, .company-focus, .toolbar .company-focus {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13340,87 +13340,235 @@ img {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%231877f2' d='M256 128C256 57.308 198.692 0 128 0S0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445' stroke-width='5.5' stroke='%231877f2'/%3E%3Cpath fill='%23fff' d='m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A129 129 0 0 0 128 256a129 129 0 0 0 20-1.555V165z' stroke-width='5.5' stroke='%23fff'/%3E%3C/svg%3E");
 }
 
-.navbar {
-  padding: 0.625rem 0;
-}
-.navbar .container {
-  flex-wrap: nowrap;
-  gap: 0.5rem;
-}
 @media (min-width: 768px) {
   .navbar .container {
     height: 4rem;
   }
 }
-.navbar form .btn {
+.navbar button {
   padding: 0;
+  color: #000;
 }
 @media (min-width: 768px) {
   .navbar form {
     height: 2.5rem;
   }
 }
-.navbar .search {
-  background-color: #908A86;
-}
-
-main {
-  margin-top: calc(0.3rem + 1.3vw);
-  margin-bottom: calc(16.75rem + 1.3vw);
+.navbar form span {
+  background-color: #736B66;
+  padding-right: 0.25rem;
 }
 @media (min-width: 768px) {
-  main {
-    margin-top: calc(0.8rem + 1.3vw);
+  .navbar form span {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}
+.navbar .btn-group button:nth-of-type(1) {
+  margin-right: 0.25rem;
+}
+.navbar .btn-group span {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+@media (min-width: 768px) {
+  .navbar .btn-group span {
+    width: 1.8rem;
+    height: 1.8rem;
   }
 }
 
-content {
-  display: flex;
-  flex-direction: column;
-  gap: calc(1.2rem + 2.3vw);
+.courseCard .imgs {
+  overflow: hidden;
+  position: relative;
 }
-
-.search-history {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 0.625rem 0;
+.courseCard .imgs .img16-9 {
+  aspect-ratio: 16/9;
 }
-.search-history h4, .search-history .h4 {
-  color: #000;
-}
-.search-history .buttons {
-  display: flex;
-  gap: calc(0.7rem + 0.4vw);
-}
-.search-history .buttons .button {
-  padding: 0.75rem 0.625rem;
-}
-
-.hito {
-  margin-bottom: 6rem;
-}
-.hito .title {
-  margin-bottom: 1rem;
-}
-.hito h4, .hito .h4 {
-  color: #000;
-}
-
-.search-imgs {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1rem;
-}
-.search-imgs .search-img {
-  display: flex;
-  flex-direction: column;
-}
-.search-imgs .search-img img {
+.courseCard .imgs .img1-1 {
+  position: absolute;
+  right: 4%;
+  top: 25%;
+  transform: translateY(-50%);
+  z-index: 1;
   aspect-ratio: 1/1;
+  width: 10%;
+  overflow: hidden;
+  border: 0.0625rem solid #fff;
 }
-.search-imgs .search-img .text {
+.courseCard .imgs .img1-1:nth-of-type(2) {
+  top: 50%;
+}
+.courseCard .imgs .img1-1:nth-of-type(3) {
+  top: 75%;
+}
+.courseCard .imgs .cover {
+  display: inline-block;
+  width: 10%;
+  color: #fff;
   text-align: center;
-  margin-top: 0.125rem;
-}/*# sourceMappingURL=search.css.map */
+  position: absolute;
+  right: 4%;
+  top: 72%;
+  z-index: 3;
+}
+@media (max-width: 320px) {
+  .courseCard .imgs .cover {
+    top: 71%;
+  }
+}
+@media (min-width: 768px) {
+  .courseCard .imgs .cover {
+    top: 72.5%;
+    font-size: 130%;
+  }
+}
+@media (min-width: 1024px) {
+  .courseCard .imgs .cover {
+    top: 73.5%;
+    font-size: 200%;
+  }
+}
+.courseCard .card-body {
+  padding-top: 1rem;
+}
+.courseCard .card-body .card-title {
+  margin-bottom: 0.75rem;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.courseCard .card-body .evaluate {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.25rem;
+  padding-bottom: 0.5rem;
+}
+.courseCard .card-body .evaluate .stars {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 5px 0;
+}
+.courseCard .card-body .evaluate .stars .star, .courseCard .card-body .evaluate .stars .half-star {
+  background-color: #F37B2A;
+}
+.courseCard .card-body .evaluate .stars .fraction {
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0.0625rem;
+}
+.courseCard .card-body .evaluate .stars .messages-number {
+  color: #AFAAA7;
+  margin-top: 0.0625rem;
+}
+.courseCard .card-body .place {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.courseCard .card-body .place span {
+  background-color: #AFAAA7;
+  margin-right: 0.125rem;
+}
+.courseCard .card-body .place h6, .courseCard .card-body .place .h6 {
+  margin: 0.3125rem 0;
+  color: #AFAAA7;
+}
+
+.card-box {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.04);
+  border: 0.0625rem solid rgba(0, 0, 0, 0.1);
+  padding: calc(0.75rem + 0.1vw) calc(1rem + 0.1vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-box .top {
+  display: flex;
+  width: 100%;
+}
+.card-box .top .frame {
+  display: flex;
+  width: 100%;
+}
+.card-box .top .frame .card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: calc(0.25rem + 0.4vw);
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .card-box .top .frame .card-item {
+    width: 90%;
+  }
+}
+.card-box .top .frame .card-item .hours {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.25rem;
+}
+.card-box .top .frame .card-item h6, .card-box .top .frame .card-item .h6, .card-box .top .frame .card-item p {
+  margin: 0;
+  color: #736B66;
+}
+.card-box .top .frame .card-item .amount {
+  color: #F37B2A;
+}
+.card-box .top .straight {
+  background-color: #fff;
+  width: calc(0.8rem + 0.1vw);
+  margin: 0 1.125rem;
+}
+.card-box .line {
+  height: calc(0.2rem + 0.1vw);
+  width: 100%;
+  background-color: #fff;
+  margin: calc(0.5rem + 0.5vw) 0;
+}
+.card-box .bottom {
+  display: flex;
+  width: 100%;
+}
+.card-box .bottom .frame {
+  display: flex;
+  width: 100%;
+  padding: calc(0.25rem + 0.4vw) calc(0.1563rem + 0.4vw);
+}
+.card-box .bottom .frame .card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card-box .bottom .frame .card-item span {
+  margin-right: 0.25rem;
+}
+.card-box .bottom .frame .card-item span, .card-box .bottom .frame .card-item h6, .card-box .bottom .frame .card-item .h6, .card-box .bottom .frame .card-item p {
+  color: #736B66;
+}
+.card-box .bottom .frame .card-item h6, .card-box .bottom .frame .card-item .h6, .card-box .bottom .frame .card-item p {
+  margin: 0;
+}
+.card-box .bottom .frame .card-item .text {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.card-box .bottom .straight {
+  background-color: #fff;
+  width: calc(0.5rem + 0.1vw);
+  margin: 0 1rem;
+}
+@media (max-width: 320px) {
+  .card-box .bottom .straight {
+    margin: 0 0.4rem;
+  }
+}/*# sourceMappingURL=course_oneDay.css.map */
