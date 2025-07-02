@@ -11,5 +11,6 @@
         "koijb",
         "qrcode",
         "unfill"
-    ]
+    ],
+    "liveSassCompile.settings.autoprefix": []
 }

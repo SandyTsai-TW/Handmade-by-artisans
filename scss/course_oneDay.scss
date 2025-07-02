@@ -53,6 +53,11 @@ header {
 }
 
 ////////////////// MAIN//////////////////////////
+main {
+    display: flex;
+    flex-direction: column;
+    gap: calc(1.25rem + 1.3vw)
+}
 .courseCard {
     .imgs {
         @extend %radius2;
@@ -163,125 +168,256 @@ header {
             }
         }
     }
+    .card-price {
+        padding: .5rem 0;
+        .card-box {
+            width: 100%;
+            height: 100%;
+            background: $other-01;
+            border: .0625rem solid $black-05;
+            @extend %radius8;
+            @extend %text-bg;
+            padding: calc(0.75rem + 0.1vw) calc(1rem + 0.1vw);
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+            .top {
+                display: flex;
+                width: 100%;
+        
+                .frame {
+                    display: flex;
+                    width: 100%;
+                    .card-item {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 100%;
+                        padding: calc(0.25rem + 0.4vw);
+                        margin: auto;
+        
+                            @media (min-width: 768px) {
+                                width: 90%;
+                            }
+                        
+                        .hours {
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: baseline;
+                            gap: .25rem;
+                        }
+                        h6, p {
+                            margin: 0;
+                            color: $gray-100;
+                        }
+                        .amount {
+                            @extend %fontBody;
+                            color: $primary;
+                        }
+                    }
+                }
+                .straight {
+                    background-color: $white;
+                    width: calc(0.8rem + 0.1vw);
+                    @extend %radius2;
+        
+                    margin: 0 1.125rem;
+                }
+            }
+            .line {
+                height: calc(0.2rem + 0.1vw);
+                width: 100%;
+                background-color: $white;
+                @extend %radius2;
+        
+                margin: calc(0.5rem + 0.5vw) 0;
+                
+            }
+            .bottom {
+                display: flex;
+                width: 100%;
+        
+                .frame {
+                    display: flex;
+                    width: 100%;
+                    padding: calc(0.25rem + 0.4vw) calc(0.1563rem + 0.4vw);
+        
+                    .card-item {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+        
+                        span {
+                            margin-right: .25rem;
+                        }
+                        span, h6, p{
+                            color: $gray-100;
+                        }
+                        h6, p {
+                            margin: 0;
+                        }
+                        .text {
+                            display: flex;
+                            align-items: center;
+                            gap: .25rem;
+                        }
+                    }
+                }
+                .straight {
+                    background-color: $white;
+                    width: calc(0.5rem + 0.1vw);
+                    @extend %radius2;
+                    margin: 0 1rem;
+        
+                    @media (max-width: 320px) {
+                        margin: 0 .4rem;
+                    }
+                }
+            }
+        }
+        
+        .price {
+            margin: .75rem 0 .5rem;
+            h4 {
+                color: $primary;
+            }
+        }
+    }
 }
-.card-price {
-    padding: .5rem 0;
-    .card-box {
+
+
+.segmented-controls {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 1.25rem;
+}
+.btn-active {
+    h6 {
+        color: $primary;
+    }
+    .box {
+        background-color: $primary;
+        border-radius: 0.25rem 0.25rem 0 0;
+    }
+}
+
+// content////////////////////////////
+content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: calc(2.2rem + 0.3vw);
+}
+
+// plans/////////////////////////////////
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .75rem;
+    padding-bottom: 2.25rem;
+
+    .title {
+        h4 {
+            color: $black-02;
+        }
+    }
+    .times {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(98px,1fr));
+        grid-column-gap: 15px;
+        grid-row-gap: 12px;
         width: 100%;
-        height: 100%;
-        background: $other-01;
-        border: .0625rem solid $black-05;
+    }
+    .options {
+        width: 100%;
+        .date-btn:not(:last-child),
+        .people:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+    .people {
+        border: .025rem solid $black-05;
+        background-color: $other-01;
+        @extend %text-bg-box;
         @extend %radius8;
-        @extend %text-bg;
-        padding: calc(0.75rem + 0.1vw) calc(1rem + 0.1vw);
+        padding: .75rem 1rem;
     
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     
-        .top {
+        .adult {
             display: flex;
-            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: .125rem;
     
-            .frame {
-                display: flex;
-                width: 100%;
-                .card-item {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    width: 100%;
-                    padding: calc(0.25rem + 0.4vw);
-                    margin: auto;
-    
-                        @media (min-width: 768px) {
-                            width: 90%;
-                        }
-                    
-                    .hours {
-                        display: flex;
-                        justify-content: flex-end;
-                        align-items: center;
-                        gap: .25rem;
-                    }
-                    h6, p {
-                        margin: 0;
-                        color: $gray-100;
-                    }
-                    .amount {
-                        @extend %fontBody;
-                        color: $primary;
-                    }
-                }
+            .subhead, .caption2 {
+                margin: 0;
             }
-            .straight {
-                background-color: $white;
-                width: calc(0.8rem + 0.1vw);
-                @extend %radius2;
-    
-                margin: 0 1.125rem;
+            .subhead {
+                color: $black-02;
+            }
+            .caption2 {
+                color: $gray-200;
             }
         }
-        .line {
-            height: calc(0.2rem + 0.1vw);
-            width: 100%;
-            background-color: $white;
-            @extend %radius2;
     
-            margin: calc(0.5rem + 0.5vw) 0;
-            
-        }
-        .bottom {
+        .course-number {
             display: flex;
-            width: 100%;
-    
-            .frame {
-                display: flex;
-                width: 100%;
-                padding: calc(0.25rem + 0.4vw) calc(0.1563rem + 0.4vw);
-    
-                .card-item {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 100%;
-    
-                    span {
-                        margin-right: .25rem;
-                    }
-                    span, h6, p{
-                        color: $gray-100;
-                    }
-                    h6, p {
-                        margin: 0;
-                    }
-                    .text {
-                        display: flex;
-                        align-items: center;
-                        gap: .25rem;
-                    }
-                }
+            justify-content: center;
+            align-items: center;
+            gap: 1.375rem;
+            span {
+                color: $gray-300;
             }
-            .straight {
-                background-color: $white;
-                width: calc(0.5rem + 0.1vw);
-                @extend %radius2;
-                margin: 0 1rem;
-    
-                @media (max-width: 320px) {
-                    margin: 0 .4rem;
-                }
+            .title2 {
+                margin: 0;
+                color: $primary;
             }
-        }
-    }
-    
-    .price {
-        margin: .75rem 0 .5rem;
-        h4 {
-            color: $primary;
         }
     }
 }
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2.25rem 0;
+
+    .headline-a {
+        margin: 0;
+        color: $black-01;
+    }
+    .number {
+        font-size: calc(1.375rem + 0.9vw);
+        color: $primary;
+    }
+}
+
+.line {
+    margin-bottom: .875rem;
+}
+
+// about
+.about {
+    .title {
+        h4 {
+            color: $gray-100;
+        }
+    }
+}
+
+
+
 // footer////////////////////////////////
 
