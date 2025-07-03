@@ -78,6 +78,13 @@
     @extend %text-bg-box;
     margin: 0;
     @extend %radius8;
+    cursor: pointer;
+
+    &:hover {
+        border: .025rem solid $primary;
+        color: $white;
+        background-color: $primary;
+    }
 }
 .button-active {
     @extend %button;
@@ -92,6 +99,7 @@
     @extend %caption1;
     color: $gray-200;
     @extend %radius8;
+    cursor: pointer;
 
     transition: all .4s;
 
@@ -114,6 +122,7 @@
     gap: .5rem;
     width: 100%;
     transition: all .4s;
+    cursor: pointer;
 
     h6 {
         margin: 0;
@@ -147,7 +156,6 @@
     .subhead {
         margin: 0;
     }
-
 }
 
 // Message///////////////////////////////
@@ -171,22 +179,50 @@
 // compony/status
 .company-focus, %company-focus {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: .0625rem;
-    padding: .625rem .875rem;
+    padding: .625rem 1.875rem;
     color: $white;
     background-color: $primary;
     @extend %text-bg-box;
     border: 0;
     @extend %radius8;
+    cursor: pointer;
+
+    .subhead {
+        margin: 0;
+    }
 
     &:active {
         background-color: darken($color: $primary, $amount: 10%);
         color: $white;
-
     }
 }
+
+.company-following {
+    @extend %company-focus;
+    padding: .625rem;
+    color: $primary;
+    background-color: $other-01;
+    border: .025rem solid $black-05;
+    .subhead {
+        margin: 0;
+    }
+}
+.company-follow {
+    @extend %company-focus;
+    gap: .25rem;
+    padding: .625rem;
+    color: $primary;
+    background-color: $white;
+    border: .05rem solid $primary;
+
+    .subhead {
+        margin: 0;
+    }
+}
+
 
 
 .title {
@@ -203,6 +239,7 @@
     p {
         margin: 0;
         color: $gray-300;
+        text-shadow: 0 0 0.0125px $gray-300;
     }
 }
 
@@ -225,7 +262,37 @@
     min-width: 3.625rem;
     max-width: 35%;
     @include textOverflow(1);
-}   
+}
+
+.stars {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .25rem;
+    margin: 5px 0;
+    .icons {
+        display: flex;
+        gap: 0;
+        
+        .icon {
+            width: 1rem;
+            height: 1rem;
+        }
+        .star, .half-star {
+            background-color: $primary;
+        }
+    }
+    .fraction {
+        @extend %caption2-a;
+        color: $black-02;
+        margin-top: 0.0625rem;
+    }
+    .messages-number {
+        @extend %caption2;
+        color: $gray-300;
+        margin-top: 0.0625rem;
+    }
+}
 
 .smallCard, %smallCard {
     border: transparent;
@@ -321,6 +388,10 @@
         @include textOverflow(1);
         overflow: hidden;
     }
+    .caption2 {
+        margin: 0;
+        color: $gray-100;
+    }
 }
 
 .price {
@@ -383,7 +454,6 @@
 }
 
 // Card / Course reservation/Course Card/////////////////
-
 .card-content {
     padding: .625rem 0;
     h5 {
@@ -396,7 +466,52 @@
     }
 }
 
+.company-card {
+    position: relative;
+
+    .img-container {
+        @extend %radius8;
+        overflow: hidden;
+        background-color: $gray-400;
+        aspect-ratio: 16 / 9;
+    }
+    .card-cover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: calc(.5rem + 0.3vw);
+        padding: calc(.625rem + 0.6vw) calc(1.125rem + 0.6vw) ;
+        background: $white-03;
+        @extend %blur3;
+        border-radius: 0 0 .5rem .5rem;
+        overflow: hidden;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+
+        .subhead {
+            color: $black-02;
+            margin: 0;
+            @include textOverflow(1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .stars {
+            .messages-number {
+                color: $gray-100;
+            }
+        }
+    }
+}
+
 // footer/////////////////////////////
+.tool-focus {
+    @extend %company-focus;
+    padding: .625rem;
+}
+
 .toolbar {
     display: flex;
     justify-content: space-between;

@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>職人手作</title>
     <link rel="shortcut icon" href="./Images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/course_oneDay.css">
   <!-- js -->
+    <script src="./node_modules/swiper/swiper-bundle.min.js" defer></script>
+    <script src="js/course.js" defer></script>
     <script src="js/all.js" defer></script>
 </head>
 <body>
@@ -58,11 +61,13 @@
           <div class="evaluate">
             <button class="card-level" type="button">一日體驗</button>
             <div class="stars">
-              <span class="icon star"></span>
-              <span class="icon star"></span>
-              <span class="icon star"></span>
-              <span class="icon star"></span>
-              <span class="icon half-star"></span>
+              <div class="icons">
+                <span class="icon star"></span>
+                <span class="icon star"></span>
+                <span class="icon star"></span>
+                <span class="icon star"></span>
+                <span class="icon half-star"></span>
+              </div>
               <div class="fraction">4.8</div>
               <div class="messages-number">(486)</div>
             </div>
@@ -253,12 +258,220 @@
       </div>
 
       <div class="container">
-        <div class="about">
+        <div class="about-class">
           <div class="title">
             <h4 class="headline-a">關於教室</h4>
           </div>
+          <a href="#!" class="company-card">
+            <div class="img-container">
+              <img src="./example-pic/Hito-3.webp">
+            </div>
+            <div class="card-cover">
+              <h6 class="subhead">微微花物</h6>
+              <div class="stars">
+                <div class="icons">
+                  <span class="icon star"></span>
+                  <span class="icon star"></span>
+                  <span class="icon star"></span>
+                  <span class="icon star"></span>
+                  <span class="icon half-star"></span>
+                </div>
+                <div class="fraction">4.8</div>
+                <div class="messages-number">(486)</div>
+              </div>
+            </div>
+          </a>
+          <div class="btn-gp">
+            <div class="company-follow">
+              <span class="icon plus"></span>
+              <div class="subhead">加入追蹤</div>
+            </div>
+            <div class="company-focus">
+              <span class="icon more-class"></span>
+              <div class="subhead">查看更多課程</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-teacher">
+          <div class="title">
+            <h4 class="headline-a">關於老師</h4>
+          </div>
+          <div class="area">
+            <div class="item">
+              <div class="avator_small">
+                <img class="avator-user" src="./example-pic/woodworker-avator.webp">
+                <p class="footnote">藍嵐</p>
+                <div class="caption2">老師</div>
+              </div>
+              <div class="teaching">
+                <h6 class="footnote">教學項目:</h6>
+                <p class="footnote">插花</p>
+              </div>
+            </div>
+            <div class="directions">
+              <p class="footnote">您好，我是花藝師藍嵐，有豐富的花藝教學經驗。
+                ① 韓國 IFDA 鮮花認證課程② 生活應用鮮花課程③ 永生乾燥花商業應用課程④ 花藝體驗課程</p>
+            </div>
+          </div>
+          <div class="company-follow">
+            <div class="img-container">
+              <img src="./Icons/Portfolio.svg" alt="">
+            </div>
+            <div class="subhead">查看作品集</div>
+          </div>
         </div>
       </div>
+
+      <div class="container">
+        <div class="student">
+          <div class="title">
+            <h4 class="headline-a">學生作品集</h4>
+            <p class="footnote">查看更多</p>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#!" class="img-container">
+                  <img src="./example-pic/flower-st1.webp">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#!" class="img-container">
+                  <img src="./example-pic/flower-st2.webp">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#!" class="img-container">
+                  <img src="./example-pic/flower-st3.webp">
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="line"></div>
+          <div class="content">
+            <div class="title">
+              <h4 class="subhead">課程內容</h4>
+            </div>
+            <ul>
+              <li class="subhead">作品尺寸：(一)小型花束：完成品寬度約25公分(二)中型花束：完成品約30公分(三)大型花束：完成品約37公分。</li>
+              <li class="subhead">作品樣式及色系：可參考我們提供的作品照，也可依喜好決定色系或樣式，請直接與我們聯繫或寫在備註即可。</li>
+              <li class="subhead">使用花材：以當季現有花材為主，若有任何問題歡迎聯繫品牌設計師。</li>
+              <li class="subhead">保存方式與期限：（一）避免潮濕、避免強光照射。（二）若有灰塵時，可用吹風機以最小的風吹淨，或以軟毛刷輕輕拂拭。（三）保守估計乾燥花為1-2年，永生花為3-5年但若維持上述兩點保存方式，其實可達更長的年限，端看個人愛護方式。</li>
+            </ul>
+          </div>
+          <div class="content">
+            <div class="title subtitle">
+              <h4 class="subhead">如何使用</h4>
+            </div>
+            <ul>
+              <li class="subhead">現場請出示電子憑證。</li>
+            </ul>
+          </div>
+          <div class="content">
+            <div class="title subtitle">
+              <h4 class="subhead">取消政策</h4>
+            </div>
+            <ul>
+              <li class="subhead">由於老師須於活動前準備材料，故若繳費完成後如無法出席者，可聯繫教室改期，恕不退費。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="evaluate">
+          <div class="title">
+            <h4 class="headline-a">評價</h4>
+            <p class="footnote">查看更多</p>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="evaluate-card">
+                  <h6 class="footnote">第一次體驗手作乾燥花束課程，搭配老師幽默風趣又不失專業的教學，即便做的不好，老師依然有耐心的指導，是初學者也能不害怕 輕鬆上手的課程噢♡有機會 會想找朋友一起再次體驗☺️</h6>
+                  <div class="more-content">
+                    <p class="caption2">顯示更多內容</p>
+                    <span class="icon arrow-right"></span>
+                  </div>
+                  <div class="stars">
+                    <div class="icons">
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                    </div>
+                  </div>
+                  <div class="evaluate-avator">
+                    <div class="avator-user">
+                      <img src="https://picsum.photos/300/200/?random=10">
+                    </div>
+                    <div class="user-message">
+                      <div class="name">lulu0912</div>
+                      <div class="time">五天前</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="evaluate-card">
+                  <h6 class="footnote">第一次體驗手作乾燥花束課程，搭配老師幽默風趣又不失專業的教學，即便做的不好，老師依然有耐心的指導，是初學者也能不害怕 輕鬆上手的課程噢♡有機會 會想找朋友一起再次體驗☺️</h6>
+                  <div class="more-content">
+                    <p class="caption2">顯示更多內容</p>
+                    <span class="icon arrow-right"></span>
+                  </div>
+                  <div class="stars">
+                    <div class="icons">
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                    </div>
+                  </div>
+                  <div class="evaluate-avator">
+                    <div class="avator-user">
+                      <img src="https://picsum.photos/300/200/?random=10">
+                    </div>
+                    <div class="user-message">
+                      <div class="name">lulu0912</div>
+                      <div class="time">五天前</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="evaluate-card">
+                  <h6 class="footnote">第一次體驗手作乾燥花束課程，搭配老師幽默風趣又不失專業的教學，即便做的不好，老師依然有耐心的指導，是初學者也能不害怕 輕鬆上手的課程噢♡有機會 會想找朋友一起再次體驗☺️</h6>
+                  <div class="more-content">
+                    <p class="caption2">顯示更多內容</p>
+                    <span class="icon arrow-right"></span>
+                  </div>
+                  <div class="stars">
+                    <div class="icons">
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                      <span class="icon star"></span>
+                    </div>
+                  </div>
+                  <div class="evaluate-avator">
+                    <div class="avator-user">
+                      <img src="https://picsum.photos/300/200/?random=10">
+                    </div>
+                    <div class="user-message">
+                      <div class="name">lulu0912</div>
+                      <div class="time">五天前</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
     </content>
   </main>
 

@@ -11992,13 +11992,13 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
-.caption2, .caption2-a, .card-level {
+.caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
   font-size: calc(0.57rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
 
-.caption2-a, .card-level {
+.caption2-a, .stars .fraction, .card-level {
   font-weight: 500;
 }
 
@@ -12043,7 +12043,7 @@ textarea.form-control-lg {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
@@ -12063,7 +12063,7 @@ textarea.form-control-lg {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2rem;
   }
@@ -12084,11 +12084,11 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .movieUnder-btn, .button, .date-btn, .button-active {
+.company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
-.hito .swiper-slide .card-body, .hot-search .card_top .title {
+.hito .swiper-slide .card-body, .hot-search .card_top .title, .company-card .card-cover {
   backdrop-filter: blur(3px);
 }
 
@@ -12104,7 +12104,7 @@ textarea.form-control-lg {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.company-focus, .toolbar .company-focus, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12260,13 +12260,13 @@ img {
   font-weight: 500;
 }
 
-.caption2, .caption2-a, .card-level {
+.caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
   font-size: calc(0.57rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
 
-.caption2-a, .card-level {
+.caption2-a, .stars .fraction, .card-level {
   font-weight: 500;
 }
 
@@ -12311,7 +12311,7 @@ img {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
@@ -12331,7 +12331,7 @@ img {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2rem;
   }
@@ -12352,11 +12352,11 @@ img {
   border-radius: 0.25rem;
 }
 
-.smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .movieUnder-btn, .button, .date-btn, .button-active {
+.company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
-.hito .swiper-slide .card-body, .hot-search .card_top .title {
+.hito .swiper-slide .card-body, .hot-search .card_top .title, .company-card .card-cover {
   backdrop-filter: blur(3px);
 }
 
@@ -12372,7 +12372,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.company-focus, .toolbar .company-focus, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12468,6 +12468,12 @@ img {
   color: #F37B2A;
   background-color: rgba(0, 0, 0, 0.04);
   margin: 0;
+  cursor: pointer;
+}
+.button:hover, .date-btn:hover, .button-active:hover {
+  border: 0.025rem solid #F37B2A;
+  color: #fff;
+  background-color: #F37B2A;
 }
 
 .button-active {
@@ -12479,6 +12485,7 @@ img {
 .movieUnder-btn {
   padding: 0.3125rem 0.625rem;
   color: #908A86;
+  cursor: pointer;
   transition: all 0.4s;
 }
 @media (min-width: 768px) {
@@ -12499,6 +12506,7 @@ img {
   gap: 0.5rem;
   width: 100%;
   transition: all 0.4s;
+  cursor: pointer;
 }
 .movie-btn h6, .movie-btn .h6 {
   margin: 0;
@@ -12541,19 +12549,44 @@ img {
   height: 100%;
 }
 
-.company-focus, .toolbar .company-focus {
+.company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 0.0625rem;
-  padding: 0.625rem 0.875rem;
+  padding: 0.625rem 1.875rem;
   color: #fff;
   background-color: #F37B2A;
   border: 0;
+  cursor: pointer;
 }
-.company-focus:active {
+.company-focus .subhead, .tool-focus .subhead, .company-follow .subhead, .company-following .subhead {
+  margin: 0;
+}
+.company-focus:active, .tool-focus:active, .company-follow:active, .company-following:active {
   background-color: #de610c;
   color: #fff;
+}
+
+.company-following {
+  padding: 0.625rem;
+  color: #F37B2A;
+  background-color: rgba(0, 0, 0, 0.04);
+  border: 0.025rem solid rgba(0, 0, 0, 0.1);
+}
+.company-following .subhead {
+  margin: 0;
+}
+
+.company-follow {
+  gap: 0.25rem;
+  padding: 0.625rem;
+  color: #F37B2A;
+  background-color: #fff;
+  border: 0.05rem solid #F37B2A;
+}
+.company-follow .subhead {
+  margin: 0;
 }
 
 .title {
@@ -12569,6 +12602,7 @@ img {
 .title p {
   margin: 0;
   color: #AFAAA7;
+  text-shadow: 0 0 0.0125px #AFAAA7;
 }
 
 .card-level {
@@ -12582,6 +12616,33 @@ img {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
+}
+
+.stars {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 5px 0;
+}
+.stars .icons {
+  display: flex;
+  gap: 0;
+}
+.stars .icons .icon {
+  width: 1rem;
+  height: 1rem;
+}
+.stars .icons .star, .stars .icons .half-star {
+  background-color: #F37B2A;
+}
+.stars .fraction {
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0.0625rem;
+}
+.stars .messages-number {
+  color: #AFAAA7;
+  margin-top: 0.0625rem;
 }
 
 .smallCard, .largeCard {
@@ -12674,6 +12735,10 @@ img {
   -webkit-line-clamp: 1;
   overflow: hidden;
 }
+.avator_small .caption2 {
+  margin: 0;
+  color: #736B66;
+}
 
 .price {
   display: flex;
@@ -12737,6 +12802,46 @@ img {
 .card-content p {
   margin: 0;
   color: #736B66;
+}
+
+.company-card {
+  position: relative;
+}
+.company-card .img-container {
+  overflow: hidden;
+  background-color: #CECBC9;
+  aspect-ratio: 16/9;
+}
+.company-card .card-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: calc(0.5rem + 0.3vw);
+  padding: calc(0.625rem + 0.6vw) calc(1.125rem + 0.6vw);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 0 0 0.5rem 0.5rem;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.company-card .card-cover .subhead {
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-align: center;
+}
+.company-card .card-cover .stars .messages-number {
+  color: #736B66;
+}
+
+.tool-focus {
+  padding: 0.625rem;
 }
 
 .toolbar {
@@ -12871,13 +12976,13 @@ img {
   font-weight: 500;
 }
 
-.caption2, .caption2-a, .card-level {
+.caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number {
   font-size: calc(0.57rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
 
-.caption2-a, .card-level {
+.caption2-a, .card-level, .stars .fraction {
   font-weight: 500;
 }
 
@@ -12922,7 +13027,7 @@ img {
   .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
@@ -12942,7 +13047,7 @@ img {
   .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .caption2-a, .card-level {
+  .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2rem;
   }
@@ -12963,11 +13068,11 @@ img {
   border-radius: 0.25rem;
 }
 
-.button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .smallCard .img-container img, .largeCard .img-container img, .toolbar .company-focus {
+.button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .img-container img, .largeCard .img-container img, .company-card .img-container, .tool-focus, .toolbar .company-focus {
   border-radius: 0.5rem;
 }
 
-.hito .swiper-slide .card-body, .hot-search .card_top .title {
+.hito .swiper-slide .card-body, .hot-search .card_top .title, .company-card .card-cover {
   backdrop-filter: blur(3px);
 }
 
@@ -12983,7 +13088,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .toolbar .company-focus {
+.button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, .tool-focus, .toolbar .company-focus {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13234,15 +13339,6 @@ img {
 
 .solar--check-circle-broken {
   --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' stroke-width='2'%3E%3Cpath stroke-linejoin='round' d='m8.5 12.5l2 2l5-5'/%3E%3Cpath d='M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5'/%3E%3C/g%3E%3C/svg%3E");
-}
-
-.portfolio {
-  display: inline-block;
-  width: 1.2em;
-  height: 1.2em;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Crect width='18' height='18' x='3' y='3' rx='2'/%3E%3Cpath d='M3 9h18M9 21V9'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 .avator-user {
@@ -13546,7 +13642,6 @@ content {
   }
 }
 .hito .swiper-button-next-1 {
-  border: 1px solid red;
   height: 200px;
 }
 
