@@ -11993,7 +11993,7 @@ textarea.form-control-lg {
 }
 
 .caption2, .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .user-message .time, .courseCard .imgs .cover, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
-  font-size: calc(0.57rem + 0.1vw);
+  font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
@@ -12084,7 +12084,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .plan .people, .courseCard .card-price .card-box, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .plan .people, .courseCard .card-price .card-box, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12100,7 +12100,7 @@ textarea.form-control-lg {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card, .plan .people, .courseCard .imgs .img1-1, .company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user, .evaluate .swiper .swiper-wrapper .evaluate-card, .plan .people, .courseCard .imgs .img1-1, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12257,7 +12257,7 @@ img {
 }
 
 .caption2, .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .user-message .time, .courseCard .imgs .cover, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
-  font-size: calc(0.57rem + 0.1vw);
+  font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
@@ -12348,7 +12348,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .plan .people, .courseCard .card-price .card-box, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .plan .people, .courseCard .card-price .card-box, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12364,7 +12364,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card, .plan .people, .courseCard .imgs .img1-1, .company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user, .evaluate .swiper .swiper-wrapper .evaluate-card, .plan .people, .courseCard .imgs .img1-1, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12541,7 +12541,7 @@ img {
   height: 100%;
 }
 
-.company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following {
+.company-focus, .tool-normal, .tool-focus, .company-follow, .company-following {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12552,16 +12552,16 @@ img {
   border: 0;
   cursor: pointer;
 }
-.company-focus .subhead, .tool-focus .subhead, .company-follow .subhead, .company-following .subhead {
+.company-focus .subhead, .tool-normal .subhead, .tool-focus .subhead, .company-follow .subhead, .company-following .subhead {
   margin: 0;
 }
-.company-focus:active, .tool-focus:active, .company-follow:active, .company-following:active {
+.company-focus:active, .tool-normal:active, .tool-focus:active, .company-follow:active, .company-following:active {
   background-color: #de610c;
   color: #fff;
 }
 
 .company-following {
-  padding: 0.625rem;
+  padding: calc(0.625rem + 0.5vw);
   color: #F37B2A;
   background-color: rgba(0, 0, 0, 0.04);
   border: 0.025rem solid rgba(0, 0, 0, 0.1);
@@ -12572,10 +12572,11 @@ img {
 
 .company-follow {
   gap: 0.25rem;
-  padding: 0.625rem;
+  padding: calc(0.625rem + 0.5vw);
   color: #F37B2A;
   background-color: #fff;
   border: 0.05rem solid #F37B2A;
+  transition: all 0.3s;
 }
 .company-follow .subhead {
   margin: 0;
@@ -12585,7 +12586,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.375rem 0;
+  padding: calc(0.375rem + 0.1vw) 0;
 }
 .title h4, .title .h4 {
   color: rgba(0, 0, 0, 0.6);
@@ -12595,6 +12596,7 @@ img {
   margin: 0;
   color: #AFAAA7;
   text-shadow: 0 0 0.0125px #AFAAA7;
+  cursor: pointer;
 }
 
 .card-level {
@@ -12624,6 +12626,12 @@ img {
 .stars .icons .icon {
   width: 1rem;
   height: 1rem;
+}
+@media (min-width: 768px) {
+  .stars .icons .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
 .stars .icons .star, .stars .icons .half-star {
   background-color: #F37B2A;
@@ -12711,7 +12719,7 @@ img {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 0.25rem;
+  gap: calc(0.25rem + 0.2vw);
   padding: 0.0625rem 0.25rem;
 }
 .avator_small img {
@@ -12785,7 +12793,7 @@ img {
 }
 
 .card-content {
-  padding: 0.625rem 0;
+  padding: calc(0.625rem + 0.2vw) 0;
 }
 .card-content h5, .card-content .h5 {
   margin: 0.375rem 0;
@@ -12808,7 +12816,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: calc(0.5rem + 0.3vw);
+  gap: calc(0.5rem + 1vw);
   padding: calc(0.625rem + 0.6vw) calc(1.125rem + 0.6vw);
   background: rgba(255, 255, 255, 0.6);
   border-radius: 0 0 0.5rem 0.5rem;
@@ -12833,7 +12841,44 @@ img {
 }
 
 .tool-focus {
-  padding: 0.625rem;
+  padding: 1rem 0.625rem;
+}
+@media (min-width: 768px) {
+  .tool-focus .subhead {
+    line-height: 1.4;
+  }
+}
+@media (min-width: 1440px) {
+  .tool-focus {
+    padding: 1.06rem 0.625rem;
+  }
+}
+
+.tool-normal {
+  padding: 0.78rem 0.625rem;
+  color: #F37B2A;
+  background-color: #fff;
+  border: 0.05rem solid rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 768px) {
+  .tool-normal {
+    padding: 0.98rem 0.625rem;
+  }
+  .tool-normal .icon {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+@media (min-width: 1400px) {
+  .tool-normal {
+    padding: 1.13rem 0.625rem;
+  }
+}
+.tool-normal span {
+  background-color: #F37B2A;
+}
+.tool-normal:active {
+  background-color: #f2f2f2;
 }
 
 .toolbar {
@@ -12846,6 +12891,7 @@ img {
 .toolbar .subhead {
   margin: 0;
 }
+
 .largeTitle,
 .title1,
 .title2,
@@ -12969,7 +13015,7 @@ img {
 }
 
 .caption2, .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .user-message .time, .courseCard .imgs .cover, .caption2-a, .card-level, .stars .fraction, .stars .messages-number {
-  font-size: calc(0.57rem + 0.1vw);
+  font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
@@ -13060,7 +13106,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .plan .people, .courseCard .card-price .card-box, .button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .img-container img, .largeCard .img-container img, .company-card .img-container, .tool-focus, .toolbar .company-focus {
+.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .plan .people, .courseCard .card-price .card-box, .button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .img-container img, .largeCard .img-container img, .company-card .img-container, .tool-focus, .tool-normal {
   border-radius: 0.5rem;
 }
 
@@ -13076,7 +13122,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card, .plan .people, .courseCard .imgs .img1-1, .button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, .tool-focus, .toolbar .company-focus {
+.evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user, .evaluate .swiper .swiper-wrapper .evaluate-card, .plan .people, .courseCard .imgs .img1-1, .button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, .tool-focus, .tool-normal {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13329,6 +13375,15 @@ img {
   --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' stroke-width='2'%3E%3Cpath stroke-linejoin='round' d='m8.5 12.5l2 2l5-5'/%3E%3Cpath d='M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5'/%3E%3C/g%3E%3C/svg%3E");
 }
 
+.portfolio {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23F37B2A' d='M2 4.5A2.5 2.5 0 0 1 4.5 2h7A2.5 2.5 0 0 1 14 4.5v7a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 11.5zM4.5 3A1.5 1.5 0 0 0 3 4.5v3h10v-3A1.5 1.5 0 0 0 11.5 3zM13 8.5H8.5V13h3a1.5 1.5 0 0 0 1.5-1.5zm-5.5 0H3v3A1.5 1.5 0 0 0 4.5 13h3z'/%3E%3C/svg%3E");
+}
+
 .avator-user {
   display: inline-block;
   width: 1.25rem;
@@ -13357,6 +13412,17 @@ img {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%231877f2' d='M256 128C256 57.308 198.692 0 128 0S0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445' stroke-width='5.5' stroke='%231877f2'/%3E%3Cpath fill='%23fff' d='m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A129 129 0 0 0 128 256a129 129 0 0 0 20-1.555V165z' stroke-width='5.5' stroke='%23fff'/%3E%3C/svg%3E");
+}
+
+header, footer {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: #fff;
+}
+
+header {
+  top: 0;
 }
 
 @media (min-width: 768px) {
@@ -13400,6 +13466,13 @@ main {
   display: flex;
   flex-direction: column;
   gap: calc(1.25rem + 1.3vw);
+  padding-bottom: 5.5rem;
+  margin-top: 2.75rem;
+}
+@media (min-width: 768px) {
+  main {
+    margin-top: calc(4.375rem + 1.3vw);
+  }
 }
 
 .courseCard .imgs {
@@ -13457,7 +13530,7 @@ main {
   padding-top: 1rem;
 }
 .courseCard .card-body .card-title {
-  margin-bottom: 0.75rem;
+  margin-bottom: calc(0.75rem + 0.1vw);
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -13468,7 +13541,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 0.25rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: calc(0.5rem + 0.1vw);
 }
 .courseCard .card-body .place {
   display: flex;
@@ -13522,7 +13595,7 @@ main {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
-  gap: 0.25rem;
+  gap: calc(0.25rem + 1vw);
 }
 .courseCard .card-price .card-box .top .frame .card-item h6, .courseCard .card-price .card-box .top .frame .card-item .h6, .courseCard .card-price .card-box .top .frame .card-item p {
   margin: 0;
@@ -13558,7 +13631,7 @@ main {
   width: 100%;
 }
 .courseCard .card-price .card-box .bottom .frame .card-item span {
-  margin-right: 0.25rem;
+  margin-right: calc(0.25rem + 0.3vw);
 }
 .courseCard .card-price .card-box .bottom .frame .card-item span, .courseCard .card-price .card-box .bottom .frame .card-item h6, .courseCard .card-price .card-box .bottom .frame .card-item .h6, .courseCard .card-price .card-box .bottom .frame .card-item p {
   color: #736B66;
@@ -13571,6 +13644,11 @@ main {
   align-items: center;
   gap: 0.25rem;
 }
+@media (max-width: 767px) {
+  .courseCard .card-price .card-box .bottom .frame .card-item .text .caption2 {
+    font-size: calc(0.57rem + 0.1vw);
+  }
+}
 .courseCard .card-price .card-box .bottom .straight {
   background-color: #fff;
   width: calc(0.5rem + 0.1vw);
@@ -13582,10 +13660,17 @@ main {
   }
 }
 .courseCard .card-price .price {
-  margin: 0.75rem 0 0.5rem;
+  margin: calc(0.75rem + 0.8vw) 0 calc(0.5rem + 0.4vw);
 }
 .courseCard .card-price .price h4, .courseCard .card-price .price .h4 {
   color: #F37B2A;
+}
+
+.segmented {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #fff;
 }
 
 .segmented-controls {
@@ -13609,7 +13694,12 @@ content {
   justify-content: center;
   align-items: center;
   gap: calc(2.2rem + 0.3vw);
-  border: 1px solid red;
+}
+@media (min-width: 768px) {
+  content {
+    gap: calc(4.5rem + 0.3vw);
+    margin-bottom: 2.2rem;
+  }
 }
 
 .plan {
@@ -13617,8 +13707,8 @@ content {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 0.75rem;
-  padding-bottom: 2.25rem;
+  gap: calc(0.75rem + 0.8vw);
+  padding-bottom: calc(2.25rem + 1vw);
 }
 .plan .title h4, .plan .title .h4 {
   color: rgba(0, 0, 0, 0.8);
@@ -13635,7 +13725,7 @@ content {
 }
 .plan .options .date-btn:not(:last-child),
 .plan .options .people:not(:last-child) {
-  margin-bottom: 1rem;
+  margin-bottom: calc(1rem + 0.8vw);
 }
 .plan .people {
   border: 0.025rem solid rgba(0, 0, 0, 0.1);
@@ -13652,6 +13742,13 @@ content {
   align-items: flex-start;
   gap: 0.125rem;
 }
+@media (min-width: 768px) {
+  .plan .people .adult {
+    flex-direction: row;
+    align-items: anchor-center;
+    gap: 1.125rem;
+  }
+}
 .plan .people .adult .subhead, .plan .people .adult .caption2 {
   margin: 0;
 }
@@ -13667,9 +13764,20 @@ content {
   align-items: center;
   gap: 1.375rem;
 }
+@media (min-width: 768px) {
+  .plan .people .course-number {
+    gap: 3.375rem;
+  }
+}
 .plan .people .course-number span {
   color: #AFAAA7;
   cursor: pointer;
+}
+@media (min-width: 768px) {
+  .plan .people .course-number span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
 }
 .plan .people .course-number .title2 {
   margin: 0;
@@ -13692,21 +13800,21 @@ content {
 }
 
 .line {
-  margin-bottom: 0.875rem;
+  margin-bottom: 0.5rem;
 }
 
 .about-class {
-  margin-bottom: 2.625rem;
+  margin-bottom: calc(2.625rem + 1vw);
 }
 .about-class .title {
-  margin-bottom: 0.5rem;
+  margin-bottom: calc(0.5rem + 0.6vw);
 }
 .about-class .title h4, .about-class .title .h4 {
   color: #736B66;
 }
 .about-class .company-card {
   display: block;
-  margin-bottom: 1.375rem;
+  margin-bottom: calc(1.375rem + 0.4vw);
 }
 .about-class .btn-gp {
   display: flex;
@@ -13720,7 +13828,7 @@ content {
   width: 100%;
 }
 .about-class .btn-gp .company-focus {
-  padding: 0.625rem;
+  padding: calc(0.625rem + 0.5vw);
   border: 0.0625rem solid #F37B2A;
 }
 
@@ -13729,7 +13837,7 @@ content {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 1.125rem;
+  gap: calc(1.125rem + 0.6vw);
 }
 .about-teacher .title h4, .about-teacher .title .h4 {
   color: #736B66;
@@ -13739,7 +13847,7 @@ content {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 1rem;
+  gap: calc(1rem + 0.1vw);
 }
 .about-teacher .item {
   display: flex;
@@ -13749,7 +13857,10 @@ content {
 }
 .about-teacher .item .avator_small {
   width: 100%;
-  align-items: self-end;
+}
+.about-teacher .item .avator_small .avator-user {
+  width: 2.25rem;
+  height: 2.25rem;
 }
 .about-teacher .item .avator_small p {
   width: auto;
@@ -13777,20 +13888,17 @@ content {
   color: #736B66;
   line-height: 1.3;
   margin: 0;
+  text-align: justify;
 }
 .about-teacher .company-follow {
   width: 100%;
 }
-.about-teacher .company-follow .img-container {
-  width: 24px;
-  height: 24px;
-}
-.about-teacher .company-follow .img-container img {
-  background-color: transparent;
+.about-teacher .company-follow:active .portfolio {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23fff' d='M2 4.5A2.5 2.5 0 0 1 4.5 2h7A2.5 2.5 0 0 1 14 4.5v7a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 11.5zM4.5 3A1.5 1.5 0 0 0 3 4.5v3h10v-3A1.5 1.5 0 0 0 11.5 3zM13 8.5H8.5V13h3a1.5 1.5 0 0 0 1.5-1.5zm-5.5 0H3v3A1.5 1.5 0 0 0 4.5 13h3z'/%3E%3C/svg%3E");
 }
 
 .student .title {
-  margin-bottom: 0.5rem;
+  margin-bottom: calc(0.5rem + 0.1vw);
 }
 .student .swiper {
   width: 100%;
@@ -13850,15 +13958,19 @@ content {
   margin-bottom: 0;
 }
 .student .content ul {
-  padding-left: 1.125rem;
   text-align: justify;
+}
+@media (max-width: 767px) {
+  .student .content ul {
+    padding-left: 1.125rem;
+  }
 }
 .student .content .subtitle h4, .student .content .subtitle .h4 {
   color: #736B66;
 }
 
 .evaluate .title {
-  margin-bottom: 1.25rem;
+  margin-bottom: calc(0.625rem + 0.1vw);
 }
 .evaluate .swiper {
   width: 100%;
@@ -13869,10 +13981,13 @@ content {
   padding: 0.625rem 0;
 }
 .evaluate .swiper .swiper-wrapper .evaluate-card {
-  padding: 1rem;
+  padding: calc(1rem + 1vw);
   background-color: #fff;
   border: 0.05rem solid rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 .evaluate .swiper .swiper-wrapper .evaluate-card h6, .evaluate .swiper .swiper-wrapper .evaluate-card .h6 {
   text-overflow: ellipsis;
@@ -13881,8 +13996,14 @@ content {
   -webkit-line-clamp: 2;
   overflow: hidden;
   color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 0.25rem;
   line-height: normal;
+  min-height: 2.4169rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .evaluate .swiper .swiper-wrapper .evaluate-card h6, .evaluate .swiper .swiper-wrapper .evaluate-card .h6 {
+    min-height: 4.375rem;
+  }
 }
 .evaluate .swiper .swiper-wrapper .evaluate-card .more-content {
   display: flex;
@@ -13894,15 +14015,22 @@ content {
   margin: 0;
 }
 .evaluate .swiper .swiper-wrapper .evaluate-card .more-content span {
-  width: 1rem;
-  height: 1rem;
+  width: 0.625rem;
+  height: 0.625rem;
   color: #908A86;
+}
+@media (min-width: 768px) {
+  .evaluate .swiper .swiper-wrapper .evaluate-card .more-content span {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
 .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
+  padding: calc(0.125rem + 0.1vw) 0;
 }
 .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user {
   width: 2.25rem;
@@ -13910,12 +14038,14 @@ content {
 }
 .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user img {
   border-radius: 50%;
+  flex-shrink: 0;
 }
 .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .user-message {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  gap: calc(4px + 0.1vw) 0;
 }
 .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .user-message .name {
   color: #000;
@@ -13957,4 +14087,18 @@ content {
     width: 3rem;
     background-color: #AFAAA7;
   }
+}
+
+footer {
+  bottom: 0;
+}
+
+.toolbar {
+  width: 100%;
+}
+.toolbar .tool-normal {
+  width: 35%;
+}
+.toolbar .tool-focus {
+  width: 60%;
 }/*# sourceMappingURL=course_oneDay.css.map */

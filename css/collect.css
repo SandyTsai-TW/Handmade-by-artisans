@@ -11993,7 +11993,7 @@ textarea.form-control-lg {
 }
 
 .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
-  font-size: calc(0.57rem + 0.1vw);
+  font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
@@ -12080,7 +12080,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-.company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+.company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12096,7 +12096,7 @@ textarea.form-control-lg {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12253,7 +12253,7 @@ img {
 }
 
 .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
-  font-size: calc(0.57rem + 0.1vw);
+  font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
@@ -12340,7 +12340,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+.company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12356,7 +12356,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12533,7 +12533,7 @@ img {
   height: 100%;
 }
 
-.company-focus, .toolbar .company-focus, .tool-focus, .company-follow, .company-following {
+.company-focus, .tool-normal, .tool-focus, .company-follow, .company-following {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12544,16 +12544,16 @@ img {
   border: 0;
   cursor: pointer;
 }
-.company-focus .subhead, .tool-focus .subhead, .company-follow .subhead, .company-following .subhead {
+.company-focus .subhead, .tool-normal .subhead, .tool-focus .subhead, .company-follow .subhead, .company-following .subhead {
   margin: 0;
 }
-.company-focus:active, .tool-focus:active, .company-follow:active, .company-following:active {
+.company-focus:active, .tool-normal:active, .tool-focus:active, .company-follow:active, .company-following:active {
   background-color: #de610c;
   color: #fff;
 }
 
 .company-following {
-  padding: 0.625rem;
+  padding: calc(0.625rem + 0.5vw);
   color: #F37B2A;
   background-color: rgba(0, 0, 0, 0.04);
   border: 0.025rem solid rgba(0, 0, 0, 0.1);
@@ -12564,10 +12564,11 @@ img {
 
 .company-follow {
   gap: 0.25rem;
-  padding: 0.625rem;
+  padding: calc(0.625rem + 0.5vw);
   color: #F37B2A;
   background-color: #fff;
   border: 0.05rem solid #F37B2A;
+  transition: all 0.3s;
 }
 .company-follow .subhead {
   margin: 0;
@@ -12577,7 +12578,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.375rem 0;
+  padding: calc(0.375rem + 0.1vw) 0;
 }
 .title h4, .title .h4 {
   color: rgba(0, 0, 0, 0.6);
@@ -12587,6 +12588,7 @@ img {
   margin: 0;
   color: #AFAAA7;
   text-shadow: 0 0 0.0125px #AFAAA7;
+  cursor: pointer;
 }
 
 .card-level {
@@ -12616,6 +12618,12 @@ img {
 .stars .icons .icon {
   width: 1rem;
   height: 1rem;
+}
+@media (min-width: 768px) {
+  .stars .icons .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
 .stars .icons .star, .stars .icons .half-star {
   background-color: #F37B2A;
@@ -12703,7 +12711,7 @@ img {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 0.25rem;
+  gap: calc(0.25rem + 0.2vw);
   padding: 0.0625rem 0.25rem;
 }
 .avator_small img {
@@ -12777,7 +12785,7 @@ img {
 }
 
 .card-content {
-  padding: 0.625rem 0;
+  padding: calc(0.625rem + 0.2vw) 0;
 }
 .card-content h5, .card-content .h5 {
   margin: 0.375rem 0;
@@ -12800,7 +12808,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: calc(0.5rem + 0.3vw);
+  gap: calc(0.5rem + 1vw);
   padding: calc(0.625rem + 0.6vw) calc(1.125rem + 0.6vw);
   background: rgba(255, 255, 255, 0.6);
   border-radius: 0 0 0.5rem 0.5rem;
@@ -12825,7 +12833,44 @@ img {
 }
 
 .tool-focus {
-  padding: 0.625rem;
+  padding: 1rem 0.625rem;
+}
+@media (min-width: 768px) {
+  .tool-focus .subhead {
+    line-height: 1.4;
+  }
+}
+@media (min-width: 1440px) {
+  .tool-focus {
+    padding: 1.06rem 0.625rem;
+  }
+}
+
+.tool-normal {
+  padding: 0.78rem 0.625rem;
+  color: #F37B2A;
+  background-color: #fff;
+  border: 0.05rem solid rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 768px) {
+  .tool-normal {
+    padding: 0.98rem 0.625rem;
+  }
+  .tool-normal .icon {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+@media (min-width: 1400px) {
+  .tool-normal {
+    padding: 1.13rem 0.625rem;
+  }
+}
+.tool-normal span {
+  background-color: #F37B2A;
+}
+.tool-normal:active {
+  background-color: #f2f2f2;
 }
 
 .toolbar {
@@ -12838,6 +12883,7 @@ img {
 .toolbar .subhead {
   margin: 0;
 }
+
 .largeTitle,
 .title1,
 .title2,
@@ -12961,7 +13007,7 @@ img {
 }
 
 .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number {
-  font-size: calc(0.57rem + 0.1vw);
+  font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
 }
@@ -13048,7 +13094,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .company-card .img-container, .tool-focus, .toolbar .company-focus {
+.button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .img-container img, .largeCard .img-container img, .cards .collectCard .img-container img, .company-card .img-container, .tool-focus, .tool-normal {
   border-radius: 0.5rem;
 }
 
@@ -13064,7 +13110,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, .tool-focus, .toolbar .company-focus {
+.button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, .tool-focus, .tool-normal {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13315,6 +13361,15 @@ img {
 
 .solar--check-circle-broken {
   --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' stroke-width='2'%3E%3Cpath stroke-linejoin='round' d='m8.5 12.5l2 2l5-5'/%3E%3Cpath d='M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.portfolio {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23F37B2A' d='M2 4.5A2.5 2.5 0 0 1 4.5 2h7A2.5 2.5 0 0 1 14 4.5v7a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 11.5zM4.5 3A1.5 1.5 0 0 0 3 4.5v3h10v-3A1.5 1.5 0 0 0 11.5 3zM13 8.5H8.5V13h3a1.5 1.5 0 0 0 1.5-1.5zm-5.5 0H3v3A1.5 1.5 0 0 0 4.5 13h3z'/%3E%3C/svg%3E");
 }
 
 .avator-user {

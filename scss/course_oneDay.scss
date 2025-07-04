@@ -3,14 +3,14 @@
 
 // ////////HEADER////////////////////////////////
 header,footer {
-    // position: fixed;
-    // z-index: 2;
-    // width: 100%;
-    // background-color: $white;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: $white;
 }
 
 header {
-    // top: 0;
+    top: 0;
 }
 
 
@@ -58,7 +58,14 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    gap: calc(1.25rem + 1.3vw)
+    gap: calc(1.25rem + 1.3vw);
+    padding-bottom: 5.5rem;
+
+    margin-top: 2.75rem;
+    
+    @media (min-width: 768px) {
+        margin-top: calc(4.375rem + 1.3vw);
+    }
 }
 .courseCard {
     .imgs {
@@ -121,7 +128,7 @@ main {
     
         .card-title {
             @extend %fontBody;
-            margin-bottom: .75rem;
+            margin-bottom: calc(0.75rem + 0.1vw);
             @include textOverflow(2);
         }
         .evaluate {
@@ -129,7 +136,7 @@ main {
             justify-content: flex-start;
             align-items: center;
             gap: .25rem;
-            padding-bottom: .5rem;
+            padding-bottom: calc(0.5rem + 0.1vw);
         }
         .place {
             display: flex;
@@ -186,7 +193,7 @@ main {
                             display: flex;
                             justify-content: flex-end;
                             align-items: baseline;
-                            gap: .25rem;
+                            gap: calc(0.25rem + 1vw);
                         }
                         h6, p {
                             margin: 0;
@@ -231,7 +238,7 @@ main {
                         width: 100%;
         
                         span {
-                            margin-right: .25rem;
+                            margin-right: calc(0.25rem + 0.3vw);
                         }
                         span, h6, p{
                             color: $gray-100;
@@ -243,6 +250,13 @@ main {
                             display: flex;
                             align-items: center;
                             gap: .25rem;
+                            
+                            @media (max-width: 767px) {
+                                .caption2 {
+                                    font-size: calc(0.57rem + 0.1vw);
+                                }
+                            }
+
                         }
                     }
                 }
@@ -260,7 +274,7 @@ main {
         }
         
         .price {
-            margin: .75rem 0 .5rem;
+            margin: calc(0.75rem + 0.8vw) 0 calc(0.5rem + 0.4vw);
             h4 {
                 color: $primary;
             }
@@ -268,6 +282,13 @@ main {
     }
 }
 
+.segmented {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: $white;
+
+}
 
 .segmented-controls {
     display: flex;
@@ -292,7 +313,11 @@ content {
         justify-content: center;
         align-items: center;
         gap: calc(2.2rem + 0.3vw);
-        border: 1px solid red;
+
+    @media (min-width: 768px) {
+        gap: calc(4.5rem + 0.3vw);
+        margin-bottom: 2.2rem;
+    }
 }
 
 // plans/////////////////////////////////
@@ -301,8 +326,8 @@ content {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: .75rem;
-    padding-bottom: 2.25rem;
+    gap: calc(0.75rem + 0.8vw);
+    padding-bottom: calc(2.25rem + 1vw);
 
     .title {
         h4 {
@@ -320,7 +345,7 @@ content {
         width: 100%;
         .date-btn:not(:last-child),
         .people:not(:last-child) {
-            margin-bottom: 1rem;
+            margin-bottom: calc(1rem + 0.8vw);
         }
     }
     .people {
@@ -340,6 +365,12 @@ content {
             justify-content: center;
             align-items: flex-start;
             gap: .125rem;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            align-items: anchor-center;
+            gap: 1.125rem;
+        }
     
             .subhead, .caption2 {
                 margin: 0;
@@ -357,9 +388,17 @@ content {
             justify-content: center;
             align-items: center;
             gap: 1.375rem;
+
+            @media (min-width: 768px) {
+                gap: 3.375rem;
+            }
             span {
                 color: $gray-300;
                 cursor: pointer;
+                @media (min-width: 768px) {
+                    width: 2.25rem;
+                    height: 2.25rem;
+                }
             }
             .title2 {
                 margin: 0;
@@ -386,21 +425,21 @@ content {
 }
 
 .line {
-    margin-bottom: .875rem;
+    margin-bottom: .5rem;
 }
 
 // about
 .about-class {
-    margin-bottom: 2.625rem;
+    margin-bottom: calc(2.625rem + 1vw);
     .title {
-        margin-bottom: .5rem;
+        margin-bottom: calc(0.5rem + 0.6vw);
         h4 {
             color: $gray-100;
         }
     }
     .company-card {
         display: block;
-        margin-bottom: 1.375rem;
+        margin-bottom: calc(1.375rem + 0.4vw);
     }
     .btn-gp {
         display: flex;
@@ -415,7 +454,7 @@ content {
         }
 
         .company-focus {
-            padding: .625rem;
+            padding: calc(0.625rem + 0.5vw);
             border: .0625rem solid $primary;
         }
     }
@@ -427,7 +466,7 @@ content {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 1.125rem;
+    gap: calc(1.125rem + 0.6vw);
     .title {
         h4 {
             color: $gray-100;
@@ -438,7 +477,7 @@ content {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        gap: 1rem;
+        gap: calc(1rem + 0.1vw);
     }
     .item {
         display: flex;
@@ -447,7 +486,10 @@ content {
         width: 100%;
         .avator_small {
             width: 100%;
-            align-items: self-end;
+            .avator-user {
+                width: 2.25rem;
+                height: 2.25rem;
+            }
             p {
                 width: auto;
                 color: $black-02;
@@ -478,15 +520,14 @@ content {
             color: $gray-100;
             line-height: 1.3;
             margin: 0;
+            text-align: justify;
         }
     }
     .company-follow {
         width: 100%;
-        .img-container {
-            width: 24px;
-            height: 24px;
-            img {
-                background-color: transparent;
+        &:active {
+            .portfolio {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23fff' d='M2 4.5A2.5 2.5 0 0 1 4.5 2h7A2.5 2.5 0 0 1 14 4.5v7a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 11.5zM4.5 3A1.5 1.5 0 0 0 3 4.5v3h10v-3A1.5 1.5 0 0 0 11.5 3zM13 8.5H8.5V13h3a1.5 1.5 0 0 0 1.5-1.5zm-5.5 0H3v3A1.5 1.5 0 0 0 4.5 13h3z'/%3E%3C/svg%3E");
             }
         }
     }
@@ -495,7 +536,7 @@ content {
 // student
 .student {
     .title {
-        margin-bottom: .5rem;
+        margin-bottom: calc(.5rem + 0.1vw);
     }
     .swiper {
         width: 100%;
@@ -562,9 +603,12 @@ content {
             margin-bottom: 0;
         }
         ul {
-            padding-left: 1.125rem;
             text-align: justify;
+            @media (max-width: 767px) {
+                padding-left: 1.125rem;
+            }
         }
+
         .subtitle {
             h4 {
                 color: $gray-100;
@@ -575,7 +619,7 @@ content {
 
 .evaluate {
     .title {
-        margin-bottom: 1.25rem;
+        margin-bottom: calc(0.625rem + 0.1vw);
     }
     .swiper {
         width: 100%;
@@ -586,20 +630,27 @@ content {
             padding: .625rem 0;
 
             .evaluate-card {
-                // aspect-ratio: 16 / 9;
-                padding: 1rem;
+                padding: calc(1rem + 1vw);
                 background-color: $white;
                 border: .05rem solid $black-05;
                 @extend %radius8;
                 overflow: hidden;
                 @extend %text-bg-box;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
                 
                 h6 {
                     @include textOverflow(2);
                     overflow: hidden;
                     color: $black-02;
-                    margin-bottom: .25rem;
                     line-height: normal;
+                    min-height: 2.4169rem;
+                    margin-bottom: 1rem;
+
+                    @media (min-width: 768px) {
+                        min-height: 4.375rem;
+                    }
                 }
                 .more-content {
                     display: flex;
@@ -610,9 +661,14 @@ content {
                         margin: 0;
                     }
                     span {
-                        width: 1rem;
-                        height: 1rem;
+                        width: .625rem;
+                        height: .625rem;
                         color: $gray-200;
+
+                        @media (min-width: 768px) {
+                            width: 1.5rem;
+                            height: 1.5rem;
+                        }
                     }
                 }
                 .evaluate-avator {
@@ -620,12 +676,16 @@ content {
                     justify-content: flex-start;
                     align-items: center;
                     gap: 1rem;
+                    padding: calc(.125rem + 0.1vw) 0;
                     .avator-user {
                         width: 2.25rem;
                         height: 2.25rem;
+                        // align-self: self-end;
+                        @extend %text-bg-box;
                         
                         img {
-                            border-radius: 50%
+                            border-radius: 50%;
+                            flex-shrink: 0;
                         }
                     }
                     .user-message {
@@ -633,6 +693,7 @@ content {
                         flex-direction: column;
                         justify-content: center;
                         align-items: flex-start;
+                        gap: calc(4px + 0.1vw) 0;
 
                         .name {
                             @extend %footnote;
@@ -684,4 +745,16 @@ content {
 }
 
 // footer////////////////////////////////
+footer {
+    bottom: 0;
+}
+.toolbar {
+    width: 100%;
 
+    .tool-normal {
+        width: 35%;
+    }
+    .tool-focus {
+        width: 60%;
+    }
+}
