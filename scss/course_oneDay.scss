@@ -42,13 +42,18 @@ header {
     }
     .btn-group {
         button:nth-of-type(1) {
-                margin-right: .25rem;
+                margin-right: calc(0.25rem + 0.3vw);
         }
         span {
             background-color: $black-02;
                 @media (min-width: 768px) {
-                    width: 1.8rem;
-                    height: 1.8rem;
+                    width: 1.875rem;
+                    height: 1.875rem;
+                }
+
+                @media (min-width: 1440px) {
+                    width: 2.25rem;
+                    height: 2.25rem;
                 }
         }
     } 
@@ -251,7 +256,7 @@ main {
                             align-items: center;
                             gap: .25rem;
                             
-                            @media (max-width: 767px) {
+                            @media (max-width: 374px) {
                                 .caption2 {
                                     font-size: calc(0.57rem + 0.1vw);
                                 }
@@ -750,6 +755,8 @@ footer {
 }
 .toolbar {
     width: 100%;
+    padding: calc(0.125rem + 0.2vw) 0;
+
 
     .tool-normal {
         width: 35%;

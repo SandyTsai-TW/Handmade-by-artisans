@@ -12519,11 +12519,17 @@ img {
 }
 
 .date-btn {
-  padding: 0.625rem;
+  padding: calc(0.72rem + 0.2vw);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.25rem;
+}
+@media (min-width: 768px) {
+  .date-btn span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
 }
 .date-btn .subhead {
   margin: 0;
@@ -12552,6 +12558,12 @@ img {
   border: 0;
   cursor: pointer;
 }
+@media (min-width: 768px) {
+  .company-focus span, .tool-normal span, .tool-focus span, .company-follow span, .company-following span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
 .company-focus .subhead, .tool-normal .subhead, .tool-focus .subhead, .company-follow .subhead, .company-following .subhead {
   margin: 0;
 }
@@ -12577,6 +12589,12 @@ img {
   background-color: #fff;
   border: 0.05rem solid #F37B2A;
   transition: all 0.3s;
+}
+@media (min-width: 768px) {
+  .company-follow span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
 }
 .company-follow .subhead {
   margin: 0;
@@ -13450,15 +13468,21 @@ header {
   }
 }
 .navbar .btn-group button:nth-of-type(1) {
-  margin-right: 0.25rem;
+  margin-right: calc(0.25rem + 0.3vw);
 }
 .navbar .btn-group span {
   background-color: rgba(0, 0, 0, 0.8);
 }
 @media (min-width: 768px) {
   .navbar .btn-group span {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+}
+@media (min-width: 1440px) {
+  .navbar .btn-group span {
+    width: 2.25rem;
+    height: 2.25rem;
   }
 }
 
@@ -13644,7 +13668,7 @@ main {
   align-items: center;
   gap: 0.25rem;
 }
-@media (max-width: 767px) {
+@media (max-width: 374px) {
   .courseCard .card-price .card-box .bottom .frame .card-item .text .caption2 {
     font-size: calc(0.57rem + 0.1vw);
   }
@@ -14095,6 +14119,7 @@ footer {
 
 .toolbar {
   width: 100%;
+  padding: calc(0.125rem + 0.2vw) 0;
 }
 .toolbar .tool-normal {
   width: 35%;

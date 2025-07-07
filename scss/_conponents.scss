@@ -148,11 +148,17 @@
 // Date reservation / Status
 .date-btn {
     @extend %button;
-    padding: .625rem;
+    padding: calc(0.72rem + 0.2vw);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .25rem;
+    @media (min-width: 768px) {
+        span {
+            width: 2.25rem;
+            height: 2.25rem;
+        }
+    }
     .subhead {
         margin: 0;
     }
@@ -189,7 +195,12 @@
     border: 0;
     @extend %radius8;
     cursor: pointer;
-
+    @media (min-width: 768px) {
+        span {
+            width: 2.25rem;
+            height: 2.25rem;
+        }
+    }
     .subhead {
         margin: 0;
     }
@@ -218,7 +229,12 @@
     background-color: $white;
     border: .05rem solid $primary;
     transition: all .3s;
-
+    @media (min-width: 768px) {
+        span {
+            width: 2.25rem;
+            height: 2.25rem;
+        }
+    }
     .subhead {
         margin: 0;
     }

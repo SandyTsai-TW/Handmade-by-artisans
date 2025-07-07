@@ -12527,11 +12527,17 @@ img {
 }
 
 .date-btn {
-  padding: 0.625rem;
+  padding: calc(0.72rem + 0.2vw);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.25rem;
+}
+@media (min-width: 768px) {
+  .date-btn span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
 }
 .date-btn .subhead {
   margin: 0;
@@ -12560,6 +12566,12 @@ img {
   border: 0;
   cursor: pointer;
 }
+@media (min-width: 768px) {
+  .company-focus span, .tool-normal span, .tool-focus span, .company-follow span, .company-following span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
 .company-focus .subhead, .tool-normal .subhead, .tool-focus .subhead, .company-follow .subhead, .company-following .subhead {
   margin: 0;
 }
@@ -12585,6 +12597,12 @@ img {
   background-color: #fff;
   border: 0.05rem solid #F37B2A;
   transition: all 0.3s;
+}
+@media (min-width: 768px) {
+  .company-follow span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
 }
 .company-follow .subhead {
   margin: 0;
