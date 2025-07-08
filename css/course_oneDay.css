@@ -13833,6 +13833,13 @@ content {
   color: rgba(0, 0, 0, 0.8);
 }
 
+.start-date {
+  width: 100%;
+}
+.start-date .date-btn:not(:last-child) {
+  margin-bottom: calc(1rem + 0.8vw);
+}
+
 .times {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(98px, 1fr));
@@ -13973,16 +13980,12 @@ content {
 }
 .about-teacher .item {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
 .about-teacher .item .avator_small {
-  width: 100%;
-}
-.about-teacher .item .avator_small .avator-user {
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 40%;
 }
 .about-teacher .item .avator_small p {
   width: auto;
@@ -13993,7 +13996,7 @@ content {
   justify-content: flex-end;
   align-items: flex-end;
   gap: 0.5rem;
-  width: 100%;
+  width: 60%;
   padding-top: 0.25rem;
 }
 .about-teacher .item .teaching h6, .about-teacher .item .teaching .h6 {
