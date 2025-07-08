@@ -13580,6 +13580,18 @@ main {
   margin: 0.3125rem 0;
   color: #AFAAA7;
 }
+.courseCard .card-content ul li {
+  color: #736B66;
+  margin-bottom: 0;
+}
+.courseCard .card-content ul {
+  text-align: justify;
+}
+@media (max-width: 767px) {
+  .courseCard .card-content ul {
+    padding-left: 1.125rem;
+  }
+}
 .courseCard .card-price {
   padding: 0.5rem 0;
 }
@@ -14063,7 +14075,7 @@ content {
   color: #000;
   margin: 0;
 }
-.student .content ul, .student .content li {
+.student .content ul, .student .content ol, .student .content li {
   color: #736B66;
   margin-bottom: 0;
 }
@@ -14073,6 +14085,14 @@ content {
 @media (max-width: 767px) {
   .student .content ul {
     padding-left: 1.125rem;
+  }
+}
+.student .content ol {
+  text-align: justify;
+}
+@media (max-width: 767px) {
+  .student .content ol {
+    padding-left: 2rem;
   }
 }
 .student .content .subtitle h4, .student .content .subtitle .h4 {

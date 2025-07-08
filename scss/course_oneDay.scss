@@ -158,6 +158,20 @@ main {
             }
         }
     }
+// base.html card-content
+    .card-content {
+        ul li {
+            color: $gray-100;
+            margin-bottom: 0;
+        }
+        ul {
+            text-align: justify;
+            @media (max-width: 767px) {
+                padding-left: 1.125rem;
+            }
+        }
+    }
+
     .card-price {
         padding: .5rem 0;
         .card-box {
@@ -699,7 +713,7 @@ content {
             margin: 0;       
             }
         }
-        ul, li {
+        ul, ol, li {
             color: $gray-100;
             margin-bottom: 0;
         }
@@ -707,6 +721,13 @@ content {
             text-align: justify;
             @media (max-width: 767px) {
                 padding-left: 1.125rem;
+            }
+        }
+// base
+        ol {
+            text-align: justify;
+            @media (max-width: 767px) {
+                padding-left: 2rem;
             }
         }
 
