@@ -1,0 +1,138 @@
+@import "all";
+
+// ////////HEADER////////////////////////////////
+header,footer {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background-color: $white;
+}
+
+header {
+    top: 0;
+}
+.navbar {
+    .container {
+        flex-wrap: nowrap;
+        gap: .5rem;
+        
+        @media (min-width: 768px) {
+            height: 4rem;
+        }
+    }
+
+    button {
+            padding: 0;
+    }
+
+    .navbar-brand {
+        margin: 0;
+
+        img {
+            width: 2rem;
+            height: 2rem;
+
+            @media (min-width: 768px) {
+                width: 2.25rem;
+                height: 2.25rem;
+            }
+        }
+    }
+    form {
+        @media (min-width: 768px) {
+            height: 2.5rem;
+        }
+    }
+    .search {
+        background-color: $gray-200;
+    }
+    .btn-group {
+        button:nth-of-type(1) {
+                margin-right: .5rem;
+        }
+        span {
+        background-color: $black-02;
+            @media (min-width: 768px) {
+                width: 1.8rem;
+                height: 1.8rem;
+            }
+        }
+    } 
+}
+
+///////////////////// MAIN///////////////////////////////////
+main {
+    margin-top: calc(2.3rem + 1.3vw);
+
+    @media (min-width: 768px) {
+        margin-top: calc(7.8rem + 1.3vw);
+    }
+}
+
+// segmented-controls--filter///////////////////////
+
+.segmented-controls--filter {
+    .filters {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: .625rem;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: none;
+        background-color: transparent;
+        padding: .625rem .0625rem;
+        color: $gray-300;
+
+        div {
+            margin: 0;
+        }
+    }
+}
+
+
+// largeCards////////////////////////
+.largeCards {
+    display: flex;
+    flex-direction: column;
+    gap: calc(1.5rem + 0.3vw);
+    padding-bottom: 6rem;
+}
+.price {
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+
+// footer
+footer {
+    bottom: 0;
+    .tabbar {
+        border-top: .025rem solid $gray-400;
+        padding: 0.25rem 0;
+        .nav-link {
+            color: $gray-200;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
