@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/course_oneDay.css">
   <!-- js -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
     <script src="./node_modules/swiper/swiper-bundle.min.js" defer></script>
     <script src="js/course.js" defer></script>
     <script src="js/all.js" defer></script>
@@ -173,10 +174,76 @@
           <div class="plan">
             <div class="title">
               <h4 class="headline-a">開課日</h4>
-            </div>
-            <div class="date-btn">
+            </div>    
+            <div class="date-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <span class="icon calendar"></span>
               <div class="subhead">查看可預約日期</div>
+            </div>
+<!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-year">
+                    <span class="icon arrow-left"></span>
+                    <h5 class="modal-title" id="exampleModalLabel">2023年09月</h5>
+                    <span class="icon arrow-right"></span>
+                  </div>
+                  <div class="modal-week">
+                    <span>日</span>
+                    <span>一</span>
+                    <span>二</span>
+                    <span>三</span>
+                    <span>四</span>
+                    <span>五</span>
+                    <span>六</span>
+                  </div>
+                  <div class="modal-date">
+                    <a class="date null"></a>
+                    <a class="date null"></a>
+                    <a class="date null"></a>
+                    <a class="date null"></a>
+                    <a class="date null"></a>
+                    <a class="date disabled" tabindex="-1" role="button" aria-disabled="true">1</a>
+                    <a class="date disabled" tabindex="-1" role="button" aria-disabled="true">2</a>
+                    <a class="date">3</a>
+                    <a class="date">4</a>
+                    <a class="date">5</a>
+                    <a class="date">6</a>
+                    <a class="date">7</a>
+                    <a class="date active">8</a>
+                    <a class="date">9</a>
+                    <a class="date">10</a>
+                    <a class="date">11</a>
+                    <a class="date">12</a>
+                    <a class="date">13</a>
+                    <a class="date">14</a>
+                    <a class="date">15</a>
+                    <a class="date">16</a>
+                    <a class="date">17</a>
+                    <a class="date">18</a>
+                    <a class="date">19</a>
+                    <a class="date">20</a>
+                    <a class="date">21</a>
+                    <a class="date">22</a>
+                    <a class="date">23</a>
+                    <a class="date">24</a>
+                    <a class="date">25</a>
+                    <a class="date">26</a>
+                    <a class="date">27</a>
+                    <a class="date">28</a>
+                    <a class="date">29</a>
+                    <a class="date disabled" tabindex="-1" role="button" aria-disabled="true">30</a>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="company-focus">確定</button>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
           <div class="plan">
@@ -479,7 +546,7 @@
     <div class="container">
       <div class="toolbar">
         <div class="tool-normal">
-          <span href="#!" class="icon message"></span>
+          <a href="message.html"><span class="icon message"></span></a>
         </div>
         <a href="#!" type="button" class="tool-focus">
           <div class="subhead">立即報名</div>

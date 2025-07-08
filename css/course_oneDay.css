@@ -11928,7 +11928,7 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
-.title3 {
+.title3, .plan .modal-dialog .modal-date .date {
   font-size: calc(1.25rem + 0.6vw);
   line-height: 1.5625;
   letter-spacing: 0.015rem;
@@ -11948,14 +11948,14 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
-.callout {
+.callout, .plan .modal-dialog .modal-year h5, .plan .modal-dialog .modal-year .h5 {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.3125;
   letter-spacing: 0.05rem;
 }
 
-.subhead, .button, .date-btn, .button-active, .subhead-a {
+.subhead, .plan .modal-dialog .modal-week span, .button, .date-btn, .button-active, .subhead-a {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
@@ -12032,7 +12032,7 @@ textarea.form-control-lg {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .button, .date-btn, .button-active, .subhead-a {
+  .subhead, .plan .modal-dialog .modal-week span, .button, .date-btn, .button-active, .subhead-a {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -12054,7 +12054,7 @@ textarea.form-control-lg {
   .callout {
     font-size: calc(1.6rem + 0.2vw);
   }
-  .subhead, .button, .date-btn, .button-active, .subhead-a {
+  .subhead, .plan .modal-dialog .modal-week span, .button, .date-btn, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .user-message .name, .search-bar .form-control, .footnote-a, .underline {
@@ -12084,7 +12084,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .plan .people, .courseCard .card-price .card-box, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .people, .courseCard .card-price .card-box, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12100,7 +12100,7 @@ textarea.form-control-lg {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user, .evaluate .swiper .swiper-wrapper .evaluate-card, .plan .people, .courseCard .imgs .img1-1, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user, .evaluate .swiper .swiper-wrapper .evaluate-card, .people, .courseCard .imgs .img1-1, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12192,7 +12192,7 @@ img {
   font-weight: 500;
 }
 
-.title3 {
+.title3, .plan .modal-dialog .modal-date .date {
   font-size: calc(1.25rem + 0.6vw);
   line-height: 1.5625;
   letter-spacing: 0.015rem;
@@ -12212,14 +12212,14 @@ img {
   font-weight: 500;
 }
 
-.callout {
+.callout, .plan .modal-dialog .modal-year h5, .plan .modal-dialog .modal-year .h5 {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.3125;
   letter-spacing: 0.05rem;
 }
 
-.subhead, .button, .date-btn, .button-active, .subhead-a {
+.subhead, .plan .modal-dialog .modal-week span, .button, .date-btn, .button-active, .subhead-a {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
@@ -12296,7 +12296,7 @@ img {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .button, .date-btn, .button-active, .subhead-a {
+  .subhead, .plan .modal-dialog .modal-week span, .button, .date-btn, .button-active, .subhead-a {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -12318,7 +12318,7 @@ img {
   .callout {
     font-size: calc(1.6rem + 0.2vw);
   }
-  .subhead, .button, .date-btn, .button-active, .subhead-a {
+  .subhead, .plan .modal-dialog .modal-week span, .button, .date-btn, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .user-message .name, .search-bar .form-control, .footnote-a, .underline {
@@ -12348,7 +12348,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .plan .people, .courseCard .card-price .card-box, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .people, .courseCard .card-price .card-box, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12364,7 +12364,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user, .evaluate .swiper .swiper-wrapper .evaluate-card, .plan .people, .courseCard .imgs .img1-1, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user, .evaluate .swiper .swiper-wrapper .evaluate-card, .people, .courseCard .imgs .img1-1, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12968,7 +12968,7 @@ img {
   font-weight: 500;
 }
 
-.title3 {
+.title3, .plan .modal-dialog .modal-date .date {
   font-size: calc(1.25rem + 0.6vw);
   line-height: 1.5625;
   letter-spacing: 0.015rem;
@@ -12988,14 +12988,14 @@ img {
   font-weight: 500;
 }
 
-.callout {
+.callout, .plan .modal-dialog .modal-year h5, .plan .modal-dialog .modal-year .h5 {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.3125;
   letter-spacing: 0.05rem;
 }
 
-.subhead, .subhead-a, .button, .button-active, .date-btn {
+.subhead, .plan .modal-dialog .modal-week span, .subhead-a, .button, .button-active, .date-btn {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.25;
   letter-spacing: 0.0375rem;
@@ -13072,7 +13072,7 @@ img {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .subhead-a, .button, .button-active, .date-btn {
+  .subhead, .plan .modal-dialog .modal-week span, .subhead-a, .button, .button-active, .date-btn {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -13094,7 +13094,7 @@ img {
   .callout {
     font-size: calc(1.6rem + 0.2vw);
   }
-  .subhead, .subhead-a, .button, .button-active, .date-btn {
+  .subhead, .plan .modal-dialog .modal-week span, .subhead-a, .button, .button-active, .date-btn {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, .evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .user-message .name, .footnote-a, .underline, .search-bar .form-control {
@@ -13124,7 +13124,7 @@ img {
   border-radius: 0.25rem;
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .plan .people, .courseCard .card-price .card-box, .button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .img-container img, .largeCard .img-container img, .company-card .img-container, .tool-focus, .tool-normal {
+.evaluate .swiper .swiper-wrapper .evaluate-card, .student .swiper .swiper-wrapper .img-container, .people, .courseCard .card-price .card-box, .button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .img-container img, .largeCard .img-container img, .company-card .img-container, .tool-focus, .tool-normal {
   border-radius: 0.5rem;
 }
 
@@ -13140,7 +13140,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user, .evaluate .swiper .swiper-wrapper .evaluate-card, .plan .people, .courseCard .imgs .img1-1, .button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, .tool-focus, .tool-normal {
+.evaluate .swiper .swiper-wrapper .evaluate-card .evaluate-avator .avator-user, .evaluate .swiper .swiper-wrapper .evaluate-card, .people, .courseCard .imgs .img1-1, .button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, .tool-focus, .tool-normal {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13668,7 +13668,7 @@ main {
   align-items: center;
   gap: 0.25rem;
 }
-@media (max-width: 374px) {
+@media (max-width: 767px) {
   .courseCard .card-price .card-box .bottom .frame .card-item .text .caption2 {
     font-size: calc(0.57rem + 0.1vw);
   }
@@ -13734,24 +13734,110 @@ content {
   gap: calc(0.75rem + 0.8vw);
   padding-bottom: calc(2.25rem + 1vw);
 }
-.plan .title h4, .plan .title .h4 {
+.plan .title label {
+  margin: 0;
   color: rgba(0, 0, 0, 0.8);
 }
-.plan .times {
+.plan .title input,
+.plan .title label {
+  margin: 0.4rem 0;
+}
+.plan .title input {
+  border: 2px solid red;
+}
+.plan .modal-dialog {
+  top: 25%;
+}
+.plan .modal-dialog .modal-body {
+  padding: 0 1rem;
+}
+.plan .modal-dialog .modal-year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: calc(0.6rem + 0.1vw);
+}
+.plan .modal-dialog .modal-year span {
+  color: #736B66;
+}
+.plan .modal-dialog .modal-year h5, .plan .modal-dialog .modal-year .h5 {
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.plan .modal-dialog .modal-week {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plan .modal-dialog .modal-week span {
+  padding: 0.625rem;
+  color: #736B66;
+}
+.plan .modal-dialog .modal-date {
+  padding: 0.1875rem 0 0.375rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0.2813rem;
+  grid-row-gap: 0.375rem;
+  text-align: center;
+}
+.plan .modal-dialog .modal-date .date {
+  color: #000;
+  cursor: pointer;
+  padding: 0.17rem 0;
+}
+.plan .modal-dialog .modal-date .date:active {
+  color: #fff;
+  background-color: #F37B2A;
+  border-radius: 50%;
+}
+.plan .modal-dialog .modal-date .date:disabled {
+  color: #AFAAA7;
+  pointer-events: none;
+}
+.plan .modal-dialog .modal-date .date.disabled {
+  pointer-events: none;
+  color: #AFAAA7;
+  text-decoration: line-through;
+}
+.plan .modal-dialog .modal-date .date.active {
+  color: #fff;
+  background-color: #F37B2A;
+  border-radius: 50%;
+}
+.plan .modal-dialog .modal-date .date.null {
+  pointer-events: none;
+}
+.plan .modal-dialog .modal-footer {
+  padding: 0.5rem 1rem;
+}
+.plan .modal-dialog .modal-footer .company-focus {
+  margin: 0;
+}
+
+.title h4, .title .h4 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.times {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(98px, 1fr));
   grid-column-gap: 15px;
   grid-row-gap: 12px;
   width: 100%;
 }
-.plan .options {
+
+.options {
   width: 100%;
 }
-.plan .options .date-btn:not(:last-child),
-.plan .options .people:not(:last-child) {
+.options .date-btn:not(:last-child),
+.options .people:not(:last-child) {
   margin-bottom: calc(1rem + 0.8vw);
 }
-.plan .people {
+
+.people {
   border: 0.025rem solid rgba(0, 0, 0, 0.1);
   background-color: rgba(0, 0, 0, 0.04);
   padding: 0.75rem 1rem;
@@ -13759,7 +13845,7 @@ content {
   justify-content: space-between;
   align-items: center;
 }
-.plan .people .adult {
+.people .adult {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13767,43 +13853,43 @@ content {
   gap: 0.125rem;
 }
 @media (min-width: 768px) {
-  .plan .people .adult {
+  .people .adult {
     flex-direction: row;
     align-items: anchor-center;
     gap: 1.125rem;
   }
 }
-.plan .people .adult .subhead, .plan .people .adult .caption2 {
+.people .adult .subhead, .people .adult .caption2 {
   margin: 0;
 }
-.plan .people .adult .subhead {
+.people .adult .subhead {
   color: rgba(0, 0, 0, 0.8);
 }
-.plan .people .adult .caption2 {
+.people .adult .caption2 {
   color: #908A86;
 }
-.plan .people .course-number {
+.people .course-number {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.375rem;
 }
 @media (min-width: 768px) {
-  .plan .people .course-number {
+  .people .course-number {
     gap: 3.375rem;
   }
 }
-.plan .people .course-number span {
+.people .course-number span {
   color: #AFAAA7;
   cursor: pointer;
 }
 @media (min-width: 768px) {
-  .plan .people .course-number span {
+  .people .course-number span {
     width: 2.25rem;
     height: 2.25rem;
   }
 }
-.plan .people .course-number .title2 {
+.people .course-number .title2 {
   margin: 0;
   color: #F37B2A;
 }
