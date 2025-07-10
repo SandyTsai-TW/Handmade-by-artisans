@@ -58,6 +58,11 @@ main {
         }
         .card-cover {
             padding: .375rem .625rem;
+            min-height: auto;
+
+        @media (min-width: 768px) {
+            padding: 1rem 1.25rem;
+        }
             p {
                 max-width: 100%;
             }
