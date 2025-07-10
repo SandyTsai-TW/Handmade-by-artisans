@@ -1,6 +1,14 @@
 @import "all";
 
 // ////////HEADER////////////////////////////////
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: $white;
+    top: 0;
+}
+
 .navbar {
     padding: .625rem 0;
 
@@ -22,6 +30,12 @@ main {
     padding: calc(1.25rem + 0.3vw) 0;
     background: $other-02;
     height: 100%;
+
+    margin-top: calc(2.75rem + 1.3vw);
+
+    @media (min-width: 768px) {
+        margin-top: calc(3.25rem + 1.3vw);
+    }
 }
 
 .message-date {

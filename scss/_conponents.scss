@@ -328,50 +328,50 @@
             @extend %radius8;
             @extend %r-bg; 
         }
-    }
-    span {
-        width: 12%;
-        height: 12%;
-        position: absolute;
-        right: 3%;
-        top: 7%;
-    }
-    .unfill-heart {
-        background-color: $white-02;
-    }
-    .heart {
-        background-color: $primary;
-    }
-    .card-cover {
-        width: 100%;
-        background: $other-03;
-    
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        gap: .5rem;
-        
-        padding: .25rem .625rem;
-        min-height: 18%;
-    
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        
-        border-radius: 0 0 .5rem .5rem;
-        overflow: hidden;
-
-        @media (min-width: 768px) {
-            padding: 0.6rem 1rem;
+        span {
+            width: 12%;
+            height: 12%;
+            position: absolute;
+            right: 3%;
+            top: 7%;
         }
-
-        p {
-            margin: 0;
-            color: $white;
-            @extend %text-bg;
-            max-width: 65%;
-            @include textOverflow(1);
+        .unfill-heart {
+            background-color: $white-02;
+        }
+        .heart {
+            background-color: $primary;
+        }
+        .card-cover {
+            width: 100%;
+            background: $other-03;
+        
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: .5rem;
+            
+            padding: .25rem .625rem;
+            min-height: 18%;
+        
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            
+            border-radius: 0 0 .5rem .5rem;
             overflow: hidden;
+    
+            @media (min-width: 768px) {
+                padding: 0.6rem 1rem;
+            }
+    
+            p {
+                margin: 0;
+                color: $white;
+                @extend %text-bg;
+                max-width: 65%;
+                @include textOverflow(1);
+                overflow: hidden;
+            }
         }
     }
 
@@ -388,6 +388,23 @@
 
         @media (min-width: 768px) {
             min-height: 4.375rem; 
+        }
+    }
+}
+
+.movieCard, %movieCard {
+    @extend %smallCard;
+    span {
+        background-color: $white;
+        width: 22%;
+        height: 22%;
+    }
+    .card-cover {
+        background: $black-04;
+        padding: .375rem 1.125rem;
+
+        p {
+            max-width: 100%;
         }
     }
 }

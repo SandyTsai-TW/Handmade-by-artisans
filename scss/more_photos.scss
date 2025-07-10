@@ -1,0 +1,103 @@
+@import "all";
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+// ////////HEADER////////////////////////////////
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: $nav-linear;
+    top: 0;
+}
+
+.navbar {
+    padding: .625rem 0;
+        @media (min-width: 768px) {
+            padding: 1rem 0;
+        }
+    .container {
+        display: block;
+    }
+}
+
+///////////////////// MAIN///////////////////////////////////
+main {
+    margin-top: calc(2.75rem + 1.3vw);
+
+    @media (min-width: 768px) {
+        margin-top: calc(3.25rem + 1.3vw);
+    }
+}
+
+
+/* ---- grid ---- */
+.grid {
+    background: #7a7a7a;
+   
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    /* ---- .grid-item ---- */
+    .grid-sizer,
+    .grid-item {
+        width: 48%;
+    }
+
+    .grid-item {
+        float: left;
+        margin-bottom: .75rem;
+
+        @extend %movieCard;
+        .img-container {
+            img {
+                box-shadow: none;
+            }
+            span {
+                width: 16%;
+                height: 28%;
+            }
+            .card-cover {
+                padding: .375rem .625rem;
+                p {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .item-2 {
+        .img-container {
+            img {
+                aspect-ratio: 3 / 4;
+            }
+            span{
+                right: 4%;
+                top: -3%;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
