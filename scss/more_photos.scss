@@ -31,57 +31,52 @@ main {
     }
 }
 
-
-/* ---- grid ---- */
 .grid {
-    background: #7a7a7a;
-   
-    &::after {
-        content: '';
-        display: block;
-        clear: both;
-    }
+    display: flex;
+    gap: 1rem;
 
-    /* ---- .grid-item ---- */
-    .grid-sizer,
-    .grid-item {
-        width: 48%;
+    @media (min-width: 768px) {
+        gap: 2rem;
     }
-
-    .grid-item {
-        float: left;
-        margin-bottom: .75rem;
-
-        @extend %movieCard;
-        .img-container {
-            img {
-                box-shadow: none;
-            }
-            span {
-                width: 16%;
-                height: 28%;
-            }
-            .card-cover {
-                padding: .375rem .625rem;
-                p {
-                    max-width: 100%;
-                }
-            }
-        }
-    }
-    .item-2 {
-        .img-container {
-            img {
-                aspect-ratio: 3 / 4;
-            }
-            span{
-                right: 4%;
-                top: -3%;
-            }
-        }
-    }
-    
 }
+.grid-left,
+.grid-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.grid-item {
+    @extend %movieCard;
+    .img-container {
+        img {
+            box-shadow: none;
+        }
+        span {
+            width: 16%;
+            height: 28%;
+        }
+        .card-cover {
+            padding: .375rem .625rem;
+            p {
+                max-width: 100%;
+            }
+        }
+    }
+}
+.item-2 {
+    .img-container {
+        img {
+            aspect-ratio: 3 / 4;
+        }
+        span{
+            right: 4%;
+            top: -3%;
+        }
+    }
+}
+
+
 
 
 
