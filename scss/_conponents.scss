@@ -329,11 +329,16 @@
             @extend %r-bg; 
         }
         span {
-            width: 12%;
-            height: 12%;
+            width: 1.5rem;
+            height: 1.5rem;
             position: absolute;
             right: 3%;
             top: 7%;
+
+            @media (min-width: 768px) {
+                width: 2.25rem;
+                height: 2.25rem;
+            }
         }
         .unfill-heart {
             background-color: $white-02;
@@ -394,17 +399,21 @@
 
 .movieCard, %movieCard {
     @extend %smallCard;
-    span {
-        background-color: $white;
-        width: 22%;
-        height: 22%;
-    }
-    .card-cover {
-        background: $black-04;
-        padding: .375rem 1.125rem;
-
-        p {
-            max-width: 100%;
+    .img-container {
+        span {
+            background-color: $white;
+            @media (min-width: 768px) {
+                    width: 3rem;
+                    height: 3rem;
+            }
+        }
+        .card-cover {
+            background: $black-04;
+            padding: .375rem 1.125rem;
+    
+            p {
+                max-width: 100%;
+            }
         }
     }
 }
@@ -459,8 +468,7 @@
         min-height: 10%;
 
         @media (min-width: 768px) {
-            padding: 0.8rem 1rem;
-            
+            padding: 0.8rem 1rem;   
         }
     }              
     .card-title {
@@ -569,8 +577,12 @@
                 box-shadow: none;
             }
             span {
-                width: 16%;
-                height: 28%;
+                width: 1.5rem;
+                height: 1.5rem;
+                @media (min-width: 768px) {
+                    width: 3rem;
+                    height: 3rem;
+                }
             }
             .card-cover {
                 padding: .375rem .625rem;
@@ -592,7 +604,7 @@
             }
             span{
                 right: 4%;
-                top: -3%;
+                top: 4%;
             }
         }
     }
