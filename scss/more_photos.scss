@@ -25,61 +25,12 @@ header {
 ///////////////////// MAIN///////////////////////////////////
 main {
     margin-top: calc(2.75rem + 1.3vw);
-
+    padding-bottom: 3.25rem;
     @media (min-width: 768px) {
         margin-top: calc(3.25rem + 1.3vw);
     }
 }
 
-.grid {
-    display: flex;
-    gap: 1rem;
-
-    @media (min-width: 768px) {
-        gap: 2rem;
-    }
-}
-.grid-left,
-.grid-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-.grid-item {
-    @extend %movieCard;
-    .img-container {
-        img {
-            box-shadow: none;
-        }
-        span {
-            width: 16%;
-            height: 28%;
-        }
-        .card-cover {
-            padding: .375rem .625rem;
-            min-height: auto;
-
-        @media (min-width: 768px) {
-            padding: 1rem 1.25rem;
-        }
-            p {
-                max-width: 100%;
-            }
-        }
-    }
-}
-.item-2 {
-    .img-container {
-        img {
-            aspect-ratio: 3 / 4;
-        }
-        span{
-            right: 4%;
-            top: -3%;
-        }
-    }
-}
 
 
 

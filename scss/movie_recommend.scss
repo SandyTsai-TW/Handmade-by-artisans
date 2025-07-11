@@ -1,0 +1,130 @@
+@import "all";
+
+// ////////HEADER////////////////////////////////
+header, footer {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: $white;
+}
+
+header {
+    top: 0;
+}
+
+.navbar {
+    .container {
+        flex-wrap: nowrap;
+        gap: .5rem;
+        
+        @media (min-width: 768px) {
+            height: 4rem;
+        }
+    }
+
+    button {
+            padding: 0;
+    }
+
+    form {
+        @media (min-width: 768px) {
+            height: 2.5rem;
+        }
+    }
+    .search {
+        background-color: $gray-200;
+    }
+    .btn { 
+        span {
+            background-color: $black-02;
+                @media (min-width: 768px) {
+                    width: 1.8rem;
+                    height: 1.8rem;
+                }
+        }
+    } 
+}
+
+
+
+///////////////////// MAIN///////////////////////////////////
+main {
+    margin-top: 3.125rem;
+        @media (min-width: 768px) {
+            margin-top: 5rem;
+        }
+}
+
+.segmented {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: $white;
+}
+
+.segmented-controls {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    padding-top: 1.5rem;
+        
+        @media (min-width: 768px) {
+            padding-top: 2.6875rem;
+        }
+
+    .btn-active {
+        h6 {
+            color: $primary;
+        }
+        .box {
+            background-color: $primary;
+            border-radius: 0.25rem 0.25rem 0 0;
+        }
+    }
+}
+
+.grid {
+    padding-top: calc(.5rem + 1.3vw);
+    padding-bottom: calc(5rem + 1.3vw);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// footer
+footer {
+    bottom: 0;
+    .tabbar {
+        border-top: .025rem solid $gray-400;
+        padding: 0.25rem 0;
+        .nav-link {
+            color: $gray-200;
+        }
+        .btn-active {
+            color: $primary;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
