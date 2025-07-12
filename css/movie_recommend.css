@@ -13596,9 +13596,13 @@ main {
   text-align: center;
 }
 .swiper .swiper-wrapper .swiper-slide .movieUnder-btn {
-  padding: 0.3125rem 0.625rem;
+  padding: 0.25rem 0.375rem;
   line-height: 1.5;
-  letter-spacing: 0.1rem;
+}
+@media (max-width: 320px) {
+  .swiper .swiper-wrapper .swiper-slide .movieUnder-btn {
+    padding: 0.3125rem;
+  }
 }
 .swiper .swiper-wrapper .swiper-slide .active {
   color: #F37B2A;
