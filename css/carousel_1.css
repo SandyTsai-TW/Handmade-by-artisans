@@ -12467,10 +12467,15 @@ img {
 }
 
 .movieUnder-btn {
-  padding: 0.3125rem 0.625rem;
+  padding: 0.1875rem 0.125rem;
   color: #908A86;
   cursor: pointer;
   transition: all 0.4s;
+}
+@media (max-width: 320px) {
+  .movieUnder-btn {
+    padding: 0.125rem 0.1563rem;
+  }
 }
 @media (min-width: 768px) {
   .movieUnder-btn {
@@ -13571,13 +13576,20 @@ main {
 
 .movieUnder {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0.375rem 0;
+  gap: 0.25rem;
 }
 
 .movieUnder-btn {
   text-align: center;
+  width: 100%;
+}
+@media (max-width: 320px) {
+  .movieUnder-btn {
+    font-size: calc(0.56rem + 0.1vw);
+  }
 }
 
 .active {

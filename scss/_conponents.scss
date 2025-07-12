@@ -95,14 +95,16 @@
 
 // movie-under
 .movieUnder-btn {
-    padding: .3125rem .625rem;
+    padding: .1875rem .125rem;
     @extend %caption1;
     color: $gray-200;
     @extend %radius8;
     cursor: pointer;
 
     transition: all .4s;
-
+        @media (max-width: 320px) {
+            padding: .125rem .1563rem;
+        }
         @media (min-width: 768px) {
             padding: .625rem;
         }

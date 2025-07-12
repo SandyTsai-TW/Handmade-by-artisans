@@ -83,12 +83,18 @@ main {
 }
 .movieUnder {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: .375rem 0;   
+    padding: .375rem 0;
+    gap: .25rem;   
 }
 .movieUnder-btn {
     text-align: center;
+    width: 100%;
+
+    @media (max-width: 320px) {
+        font-size: calc(0.56rem + 0.1vw); 
+    }
 }
 
 .active {
