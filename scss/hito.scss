@@ -1,0 +1,208 @@
+@import "all";
+
+// ////////HEADER////////////////////////////////
+header, footer {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: $white;
+}
+
+header {
+    top: 0;
+}
+
+.navbar {
+    .container {
+        flex-wrap: nowrap;
+        gap: .3125rem;
+        
+        @media (min-width: 768px) {
+            height: 4rem;
+        }
+    }
+
+    button {
+        padding: 0;
+        color: $black-01;
+    }
+    
+    form {
+        @media (min-width: 768px) {
+            height: 2.5rem;
+        }
+        span {
+            background-color: $gray-100;
+            padding-right: .25rem;
+
+            @media (min-width: 768px) {
+                width: 1.8rem;
+                height: 1.8rem;
+            }
+        }
+    }
+    .btn-group {
+        button:nth-of-type(1) {
+                margin-right: .25rem;
+        }
+        span {
+            background-color: $black-02;
+                @media (min-width: 768px) {
+                    width: 1.8rem;
+                    height: 1.8rem;
+                }
+        }
+    } 
+}
+
+
+.swiper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    @media (min-width: 768px) {
+        padding-bottom: 1rem;
+    }
+
+        .swiper-wrapper{
+            margin: .375rem 0 .25rem;
+
+            @media (min-width: 768px) {
+            margin: calc(.375rem + 0.8vw);
+            }
+
+            .swiper-slide {
+                display: inline-block;
+                text-align: center;
+        
+                .movieUnder-btn {
+                    padding: .375rem .625rem;
+                    line-height: 1.5;
+
+                    @media (max-width: 320px) {
+                        padding: .3125rem;
+                    }
+                }
+                .active {
+                    color: $primary;
+                    background-color: $white;
+                    @extend %r-bg;
+                }
+            }
+        }
+
+        .swiper-scrollbar {
+            display: none;
+    
+            @media (min-width: 768px) {
+                display: block;
+            }
+        }
+        .swiper-scrollbar-drag {
+            background-color: $gray-300;
+        }
+}
+
+///////////////////// MAIN///////////////////////////////////
+main {
+    margin-top: calc(5.5rem + 1.3vw);
+    
+    @media (min-width: 768px) {
+        margin-top: calc(10.2825rem + 1.3vw);
+    }
+
+}
+
+
+// filter
+.segmented-controls--filter {
+    .filters {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: .625rem;
+        padding: .125rem;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: none;
+        background-color: transparent;
+        // padding: .1875rem .0625rem;
+        padding: .0625rem 0;
+        color: $gray-300;
+
+            @media (min-width: 768px) {
+                padding: 0.625rem .0625rem;
+            }
+
+        div {
+            margin: 0;
+        }
+
+        // keyword 為了配合上面的字體大小，要更小一點。//
+        .keyword-font {
+            font-size: calc(0.67rem + 0.1vw);
+
+            @media (min-width: 768px) {
+                font-size: calc(1rem + 0.3vw);
+            }
+        }
+        .keyword-icon {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            @media (min-width: 768px) {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+}
+
+//////////// content/////////////////////////////////
+
+// largeCards////////////////////////
+.largeCards {
+    display: flex;
+    flex-direction: column;
+    gap: calc(1.5rem + 0.3vw);
+
+    padding-bottom: 2.5rem;
+    &:last-child {
+        padding-bottom: 5rem;
+    }
+}
+
+.price {
+    width: 35%;
+}
+
+// footer
+footer {
+    bottom: 0;
+    .tabbar {
+        border-top: .025rem solid $gray-400;
+        padding: 0.25rem 0;
+        .nav-link {
+            color: $gray-200;
+        }
+        .btn-active {
+            color: $primary;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
