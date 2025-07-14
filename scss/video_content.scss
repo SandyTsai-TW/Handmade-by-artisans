@@ -1,0 +1,146 @@
+@import "all";
+
+// ////////HEADER////////////////////////////////
+header,footer {
+    // position: fixed;
+    // z-index: 2;
+    // width: 100%;
+    // background-color: $white;
+}
+
+header {
+    // position: relative;
+    // z-index: 2;
+    // width: 100%;
+    // background-color: $black-02;
+    // top: 0;
+}
+
+.navbar {
+    .container {
+        @media (min-width: 768px) {
+            height: 4rem;
+        }
+
+        button {
+            padding: 0;
+        }
+
+        span {
+            background-color: $black-02;
+                @media (min-width: 768px) {
+                    width: 1.875rem;
+                    height: 1.875rem;
+                }
+                @media (min-width: 1440px) {
+                    width: 2.25rem;
+                    height: 2.25rem;
+                }
+        }
+    }
+}
+
+////////////////// MAIN//////////////////////////
+
+.movieCard-full {
+    @extend %movieCard;
+    // position: absolute;
+    // top: 0;
+    // width: 100%;
+    .img-container {
+        img {
+            aspect-ratio: 3 / 4;
+            border-radius: 0%;
+            box-shadow: none;
+            // height: 80vh;
+        }
+        .card-cover {
+            background: $other-03;
+            @extend %blur20;
+            border-radius: 0%;
+            padding: .625rem 1.125rem;
+        }
+    }
+}
+// main .container {
+//     position: absolute;
+//     width: 100%;
+//     bottom: 50%;
+//     background: $bg;
+// }
+.movie-content {
+    padding: 1.5rem 0 2.25rem;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 1.5rem;        
+
+    .avator, .text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: .5rem;
+        margin-bottom: 1.25rem;
+    }
+    h6 {
+        margin-bottom: 1.5rem;
+        color: $gray-100;
+        text-align: justify;
+        line-height: 1.2;
+    }
+    .text {
+        gap: .375rem;
+        margin: 0;
+
+        .caption1 {
+            margin: 0;
+            color: $primary;
+            @include textOverflow(1);
+            overflow: hidden;
+            width: 65%;
+        }
+        .company-focus {
+            padding: 0.625rem 0.9rem;
+            width: 35%;
+        }
+    }
+}
+
+.movie {
+    margin-bottom: 5.5rem;
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-pagination {
+        display: none;
+
+        @media (min-width: 768px) {
+            display: block;
+            text-align: center;
+            margin: 1rem 3rem;
+        }
+    }
+}
+
+
+// content////////////////////////////
+
+
+    
+
+// footer////////////////////////////////
+footer {
+    // position: absolute;
+    // width: 100%;
+    // bottom: 0;
+    .tabbar {
+        border-top: .025rem solid $gray-400;
+        padding: 0.25rem 0;
+        .nav-link {
+            color: $gray-200;
+        }
+        .btn-active {
+            color: $primary;
+        }
+    }
+}

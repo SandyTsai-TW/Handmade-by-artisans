@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>職人手作</title>
+    <link rel="shortcut icon" href="./Images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/video_content.css">
+  <!-- js -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./node_modules/swiper/swiper-bundle.min.js" defer></script>
+    <script src="js/video_content.js" defer></script>
+    <script src="js/all.js" defer></script>
+</head>
+<body>
+ <header>
+    <nav class="navbar">
+      <div class="container">
+        <a onclick="goBack()"><span class="icon arrow-left"></span></a>
+        <button type="button" class="btn">
+          <a href="collect.html"><span class="icon unfill-heart"></span></a>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <a href="#" class="movieCard-full">
+      <div class="img-container">
+        <img src="https://picsum.photos/300/200/?random=10">
+        <div class="card-cover">
+          <p class="subhead">木工家具製作過程-雕花</p>
+        </div>
+      </div>
+    </a>
+    <div class="container">
+      <div class="movie-content">
+        <div class="avator">
+          <div class="avator_large">
+            <img class="avator-user" src="./example-pic/woodworker-avator.webp">
+            <p class="footnote">LALA木工教室</p>
+          </div>
+          <div class="company-follow">
+            <span class="icon plus"></span>
+            <div class="subhead">追蹤</div>
+          </div>
+        </div>
+        <h6 class="footnote">你有多久沒為自己安排一段寧靜的時光，享受親手造物的感動與滿足？ 往往因為各種原因，在生活中慢慢被磨去稜角，總該找些時間與自己相處。 只要一把美工小刀、藉由木雕小物，一筆一劃找回屬於你與眾不同的漂亮角度。</h6>
+        <div class="text">
+          <p class="caption1">想學習更多技巧嗎? 還不快來報名</p>
+          <a href="course_advanced.html" class="company-focus">
+            <span class="icon view-more"></span>
+            <div class="subhead">查看課程</div>
+          </a>
+        </div>
+      </div>
+      <div class="movie">
+          <div class="title">
+            <h4 class="headline-a">更多照片</h4>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#" class="movieCard">
+                  <div class="img-container">
+                    <img src="./example-pic/moviepage-1.webp">
+                    <span class="icon movie"></span>
+                    <div class="card-cover">
+                      <p class="subhead-a">木工家具製作過程-雕花</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="movieCard">
+                  <div class="img-container">
+                    <img src="./example-pic/moviepage-2.webp">
+                    <span class="icon images"></span>
+                    <div class="card-cover">
+                      <p class="subhead-a">插花過程分享</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="movieCard">
+                  <div class="img-container">
+                    <img src="./example-pic/moviepage-3.webp">
+                    <span class="icon movie"></span>
+                    <div class="card-cover">
+                      <p class="subhead-a">絹印刮板</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+    </div>
+    
+    <content>
+      <!-- swiper 更多照片 -->
+    </content>
+  </main>
+
+
+
+  <footer>
+    <div class="tabbar">
+      <div class="container">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" aria-disabled="true" href="index.html">
+              <span class="icon home"></span>
+              <div class="caption2">首頁</div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="collect.html">
+              <span class="icon unfill-heart"></span>
+              <div class="caption2">收藏</div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movie_recommend.html">
+              <span class="icon movie"></span>
+              <div class="caption2">職人影片</div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="notify.html">
+              <span class="icon bell"></span>
+              <div class="caption2">通知</div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="icon user"></span>
+              <div class="caption2">我的</div>
+            </a>
+          </li>          
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

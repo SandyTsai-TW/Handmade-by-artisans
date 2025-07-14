@@ -12092,7 +12092,7 @@ textarea.form-control-lg {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .smallCard .card-title, .largeCard .card-title, .cards .collectCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .cards .collectCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
+.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .cards .collectCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .cards .collectCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12352,7 +12352,7 @@ img {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .smallCard .card-title, .largeCard .card-title, .cards .collectCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .cards .collectCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
+.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .cards .collectCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .cards .collectCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12581,7 +12581,7 @@ img {
 
 .company-follow {
   gap: 0.25rem;
-  padding: calc(0.625rem + 0.5vw);
+  padding: 0.5813rem;
   color: #F37B2A;
   background-color: #fff;
   border: 0.05rem solid #F37B2A;
@@ -12752,17 +12752,17 @@ img {
   max-width: 100%;
 }
 
-.avator_small {
+.avator_small, .avator_large {
   display: flex;
   justify-content: start;
   align-items: center;
   gap: calc(0.25rem + 0.2vw);
   padding: 0.0625rem 0.25rem;
 }
-.avator_small img {
+.avator_small img, .avator_large img {
   flex-shrink: 0;
 }
-.avator_small .footnote {
+.avator_small .footnote, .avator_large .footnote {
   color: #736B66;
   margin: 0;
   width: 75%;
@@ -12772,9 +12772,21 @@ img {
   -webkit-line-clamp: 1;
   overflow: hidden;
 }
-.avator_small .caption2 {
+.avator_small .caption2, .avator_large .caption2 {
   margin: 0;
   color: #736B66;
+}
+
+.avator_large {
+  gap: calc(0.5rem + 0.2vw);
+}
+.avator_large .avator-user {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.avator_large .footnote {
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
 }
 
 .price {
@@ -13200,7 +13212,7 @@ img {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .card-level, .smallCard .img-container .card-cover p, .smallCard .card-title, .movieCard .img-container .card-cover p, .movieCard .card-title, .avator_small .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .img-container .card-cover p, .cards .collectCard .img-container .card-cover p, .largeCard .card-title, .cards .collectCard .card-title, .grid .grid-item .img-container .card-cover p, .grid .grid-item .card-title {
+.avator-user, .card-level, .smallCard .img-container .card-cover p, .smallCard .card-title, .movieCard .img-container .card-cover p, .movieCard .card-title, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .img-container .card-cover p, .cards .collectCard .img-container .card-cover p, .largeCard .card-title, .cards .collectCard .card-title, .grid .grid-item .img-container .card-cover p, .grid .grid-item .card-title {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13453,7 +13465,7 @@ img {
   --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23000' d='M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14l.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z' stroke-width='0.2' stroke='%23000'/%3E%3C/svg%3E");
 }
 
-.solar--check-circle-broken {
+.check-circle {
   --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' stroke-width='2'%3E%3Cpath stroke-linejoin='round' d='m8.5 12.5l2 2l5-5'/%3E%3Cpath d='M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5'/%3E%3C/g%3E%3C/svg%3E");
 }
 

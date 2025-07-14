@@ -226,7 +226,8 @@
 .company-follow {
     @extend %company-focus;
     gap: .25rem;
-    padding: calc(0.625rem + 0.5vw);
+    // padding: calc(0.625rem + 0.5vw);
+    padding: 0.5813rem;
     color: $primary;
     background-color: $white;
     border: .05rem solid $primary;
@@ -420,7 +421,7 @@
     }
 }
 
-.avator_small {
+.avator_small, %avator_small {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -442,6 +443,20 @@
     .caption2 {
         margin: 0;
         color: $gray-100;
+    }
+}
+
+.avator_large {
+    @extend %avator_small;
+    gap: calc(0.5rem + 0.2vw);
+
+    .avator-user {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .footnote {
+        color: $black-02;
+        width: 100%;
     }
 }
 
