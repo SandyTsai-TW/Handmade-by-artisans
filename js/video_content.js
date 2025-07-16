@@ -19,20 +19,9 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-const click111 = document.querySelector("#click111");
-const open111 = document.querySelector("#open111");
 
-// const keyframes = {
-//   translate: [0,'0 -46%']
-// }
-const options = {
-  duration: 2000,
-  easing: "ease",
-  fill: "forwards",
-};
-
-click111.addEventListener('click',() => {
-  // console.log("click");
-  open111.animate({ translate: [0, "0 -46%"] }, options);
+$(document).ready(function () {
+  $(".flip").click(function(){
+    $(".flip").toggleClass('addH');
+  });
 });
-
