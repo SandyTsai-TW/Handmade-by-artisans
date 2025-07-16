@@ -13522,7 +13522,7 @@ img {
 
 header, footer {
   position: fixed;
-  z-index: 4;
+  z-index: 2;
   width: 100%;
 }
 
@@ -13556,12 +13556,13 @@ header {
   }
 }
 
-.movieCard-full {
+main {
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 1;
 }
+
 .movieCard-full .img-container img {
   aspect-ratio: 3/4;
   border-radius: 0%;
@@ -13576,26 +13577,14 @@ header {
 }
 
 main .container {
-  max-width: 100%;
-  position: absolute;
-  width: 100%;
-  top: 57%;
-  z-index: 3;
+  transform: translate(0, -7%);
   background: linear-gradient(to bottom, rgba(234, 131, 56, 0.6), rgba(232, 146, 84, 0.1), transparent 0%), linear-gradient(#fff);
   border-radius: 0.9375rem 0.9375rem 0 0;
 }
-@media (max-width: 320px) {
-  main .container {
-    top: 67%;
-  }
-}
-@media (min-width: 425px) {
-  main .container {
-    top: 57%;
-  }
-}
 @media (min-width: 768px) {
   main .container {
+    max-width: 98%;
+    transform: translate(0, -3%);
     padding: 1rem 2rem;
   }
 }
@@ -13606,7 +13595,7 @@ main .container {
 }
 
 .movie-content {
-  padding: 1.5rem 0 2.25rem;
+  padding: 1.5rem 0 1.4rem;
 }
 .movie-content .avator, .movie-content .text {
   display: flex;
