@@ -222,11 +222,17 @@
     .subhead {
         margin: 0;
     }
+
+    &:active {
+        background-color: rgba(0, 0, 0, 0.08);
+        border-color: $black-05;
+        color: $primary;
+    } 
+
 }
 .company-follow {
     @extend %company-focus;
     gap: .25rem;
-    // padding: calc(0.625rem + 0.5vw);
     padding: 0.5813rem;
     color: $primary;
     background-color: $white;
@@ -241,6 +247,7 @@
     .subhead {
         margin: 0;
     }
+
 }
 
 
@@ -631,7 +638,7 @@
 .tool-focus {
     @extend %company-focus;
     padding: 1rem .625rem;
-
+    
     @media (min-width: 768px) {
         .subhead {
             line-height: 1.4;

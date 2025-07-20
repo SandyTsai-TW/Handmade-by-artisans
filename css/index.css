@@ -12594,6 +12594,11 @@ img {
 .company-following .subhead {
   margin: 0;
 }
+.company-following:active {
+  background-color: rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #F37B2A;
+}
 
 .company-follow {
   gap: 0.25rem;
