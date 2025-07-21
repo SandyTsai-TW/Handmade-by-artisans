@@ -55,7 +55,6 @@ main {
 
             &:focus {
                 border: .1rem solid $primary;
-                // border-color: $primary;
                 box-shadow: none;
                 caret-color: $primary;
             }
