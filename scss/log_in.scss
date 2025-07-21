@@ -9,7 +9,7 @@ main {
     padding-top: calc(5.3rem + 0.3vw);
     padding-bottom: calc(6rem + 0.3vw);
 }
-.container {
+.container-28 {
     padding: 0 1.75rem;
 }
 .box {
@@ -54,7 +54,8 @@ main {
             }
 
             &:focus {
-                border-color: $primary;
+                border: .1rem solid $primary;
+                // border-color: $primary;
                 box-shadow: none;
                 caret-color: $primary;
             }
