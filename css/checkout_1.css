@@ -12092,7 +12092,7 @@ textarea.form-control-lg {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.info .item .point .underline, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
+.info .points .point .underline, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12104,7 +12104,7 @@ textarea.form-control-lg {
   box-shadow: inset 0 4px 4px -10px rgba(0, 0, 0, 0.1), 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.info .item .form-switch .form-check-input[type=checkbox]:checked, .info .item .form-switch .form-check-input[type=checkbox] {
+.info .points .mySwitch .circle {
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15), 0 3px 1px 0 rgba(0, 0, 0, 0.06);
 }
 
@@ -12356,7 +12356,7 @@ img {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.info .item .point .underline, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
+.info .points .point .underline, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12368,7 +12368,7 @@ img {
   box-shadow: inset 0 4px 4px -10px rgba(0, 0, 0, 0.1), 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.info .item .form-switch .form-check-input[type=checkbox]:checked, .info .item .form-switch .form-check-input[type=checkbox] {
+.info .points .mySwitch .circle {
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15), 0 3px 1px 0 rgba(0, 0, 0, 0.06);
 }
 
@@ -13235,7 +13235,7 @@ img {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.info .item .point .underline, .avator-user, .card-level, .smallCard .img-container .card-cover p, .smallCard .card-title, .movieCard .img-container .card-cover p, .movieCard .card-title, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .img-container .card-cover p, .largeCard .card-title, .grid .grid-item .img-container .card-cover p, .grid .grid-item .card-title {
+.info .points .point .underline, .avator-user, .card-level, .smallCard .img-container .card-cover p, .smallCard .card-title, .movieCard .img-container .card-cover p, .movieCard .card-title, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .img-container .card-cover p, .largeCard .card-title, .grid .grid-item .img-container .card-cover p, .grid .grid-item .card-title {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13247,7 +13247,7 @@ img {
   box-shadow: inset 0 4px 4px -10px rgba(0, 0, 0, 0.1), 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.info .item .form-switch .form-check-input[type=checkbox]:checked, .info .item .form-switch .form-check-input[type=checkbox] {
+.info .points .mySwitch .circle {
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15), 0 3px 1px 0 rgba(0, 0, 0, 0.06);
 }
 
@@ -13662,35 +13662,68 @@ main {
 .info .item .price .gray {
   color: #736B66;
 }
-.info .item .img-container {
+.info .item .price .pri {
+  color: #F37B2A;
+}
+.info .points {
+  gap: 0.25rem;
+}
+.info .points .img-container {
   width: 2.5rem;
   height: 2.5rem;
 }
-.info .item .img-container img {
+.info .points .img-container img {
   background: #fff;
 }
-.info .item .point {
+.info .points .point {
   display: flex;
   flex-direction: column;
+  width: 68%;
 }
-.info .item .point .d-flex {
+.info .points .point .d-flex {
   gap: 0.125rem;
 }
-.info .item .point .d-flex .subhead, .info .item .point .d-flex .number {
+.info .points .point .d-flex .subhead, .info .points .point .d-flex .number {
   align-self: baseline;
 }
-.info .item .point .d-flex .subhead {
+.info .points .point .d-flex .subhead {
   color: rgba(0, 0, 0, 0.8);
 }
-.info .item .point .d-flex .number {
+.info .points .point .d-flex .number {
   color: #F37B2A;
 }
-.info .item .point .underline {
+.info .points .point .underline {
   margin: 0;
   color: #736B66;
 }
-.info .item .form-switch .form-check-input[type=checkbox] {
+.info .points .mySwitch .switch-bg {
   width: 3.1875rem;
   height: 1.9375rem;
-  border-radius: 0.9375em;
+  border-radius: 0.9375rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.info .points .mySwitch .bg-add {
+  background-color: #F37B2A;
+}
+.info .points .mySwitch .circle {
+  width: 1.6875rem;
+  height: 1.6875rem;
+  border-radius: 50%;
+  background-color: #fff;
+  outline: 0.0313rem solid rgba(0, 0, 0, 0.04);
+  transform: translate(6%, 6%);
+  transition: all 0.3s;
+}
+.info .points .mySwitch .add {
+  transform: translate(80%, 6%);
+  transition: all 0.3s;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer .toolbar {
+  background-color: #fff;
 }/*# sourceMappingURL=checkout_1.css.map */

@@ -139,7 +139,13 @@ main {
             .gray {
                 color: $gray-100;
             }
+            .pri {
+                color: $primary;
+            }
         }
+    }
+    .points {
+        gap: .25rem;
         .img-container {
             width: 2.5rem;
             height: 2.5rem;
@@ -150,6 +156,7 @@ main {
         .point {
             display: flex;
             flex-direction: column;
+            width: 68%;
             .d-flex {
                 gap: .125rem;
                 .subhead, .number {
@@ -168,23 +175,45 @@ main {
                 @extend %text-bg;
             }
         }
-        .form-switch {
-            .form-check-input[type=checkbox] {
+        .mySwitch {
+            .switch-bg {
                 width: 3.1875rem;
                 height: 1.9375rem;
-                // box-shadow: none;
-                border-radius: .9375em;
-                @extend %switch;                
+                border-radius: .9375rem;
+                background-color: $black-05;
             }
-            .form-check-input[type=checkbox]:checked {
+            .bg-add {
+                background-color: $primary;
+            }
+            .circle {
+                width: 1.6875rem;
+                height: 1.6875rem;
+                border-radius: 50%;
+                background-color: $white;
+                outline: .0313rem solid $other-01;
                 @extend %switch;
+                transform: translate(6%, 6%);
+                transition: all .3s;
             }
-            
+            .add {
+                transform: translate(80%, 6%);
+                transition: all .3s;
+            }
         }
     }
     
 }
 
+// footer////////////////////////////////
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    .toolbar {
+        background-color: $white;
+    }
+}
 
 
 
