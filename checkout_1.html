@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>職人手作</title>
+    <link rel="shortcut icon" href="./Images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/checkout_1.css">
+<!-- js -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="js/checkout_1.js" defer></script>
+    <script src="js/all.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+          <div class="order">
+            <a onclick="goBack()"><span class="icon arrow-left"></span></a>
+            <div class="flex">
+                <div class="subhead">1. 訂單確認</div>
+                <div class="line"></div>
+                <div class="subhead active">2. 填寫基本資料</div>
+            </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="container">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="btn flip" data-bs-toggle="collapse" href="#collapseOne">
+                        <h6 class="subhead">實木拼花板凳課-每周上課一天</h6>
+                        <p class="caption2">將課程中板凳作品再做變化，學習椅面拼板變化，發揮深淺色木與組合不同長方正方線條，拼出富有設計深度的藝術椅面，讓簡單的板凳轉身成為時尚作品。</p>
+                        <div class="line"></div>
+                        <div class="details">
+                            <h6 class="subhead">明細</h6>
+                            <span id="arrow" class="icon arrow-down"></span>
+                        </div>
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <div class="list">
+                            <h4 class="subhead">開課日</h4>
+                            <p class="subhead">09/04(一)</p>
+                        </div>
+                        <div class="list">
+                            <h4 class="subhead">上課時間</h4>
+                            <p class="subhead">09:00~17:00</p>
+                        </div>
+                        <div class="list">
+                            <h4 class="subhead">方案名稱</h4>
+                            <p class="subhead">富士山之美</p>
+                        </div>
+                        <div class="list">
+                            <h4 class="subhead">人數</h4>
+                            <p class="subhead">成人*1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <div class="item">
+                <div class="subhead">小計</div>
+                <div class="price">
+                    <h5 class="subhead">NT$</h5>
+                    <h4 class="number">17,000</h4>
+                </div>
+            </div>
+            <div class="item">
+                <div class="subhead">折扣碼</div>
+                <button class="discount">
+                    <h6 class="number">EXXXXXXX123</h6>
+                </button>
+                <div class="price">
+                    <h5 class="caption1">-NT$</h5>
+                    <h4 class="number gray">200</h4>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-container">
+                    <img src="./Icons/30-LOGO Points.svg" alt="">
+                </div>
+                <div class="point">
+                    <div class="d-flex">
+                        <div class="subhead">職人點數折抵</div>
+                        <div class="number">38</div>
+                    </div>
+                    <div class="underline">未達職人點數折抵門檻</div>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>                </div>
+                </div>
+        </div>
+    </div>
+  </main>
+
+</body>
+</html>

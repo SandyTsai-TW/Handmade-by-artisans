@@ -1,0 +1,207 @@
+@import "all";
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+// ////////HEADER////////////////////////////////
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: $white;
+    top: 0;
+}
+
+.navbar {
+    padding: .625rem 0;
+        @media (min-width: 768px) {
+            padding: 1rem 0;
+        }
+    .container {
+        .order {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;            
+        }
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.25rem;
+            width: 100%;
+            padding: 0 .75rem;
+
+            .subhead {
+                margin: 0;
+            }
+            .line {
+                width: 17.5%;
+                background: $gray-100;
+            }
+            .active {
+                color: $gray-200;
+            }
+        }
+    }
+}
+
+///////////////////// MAIN///////////////////////////////////
+main {
+    margin-top: calc(2.75rem + 1.3vw);
+    padding-top: 1.5rem;
+    // padding-bottom: 3.25rem;
+    // @media (min-width: 768px) {
+    //     margin-top: calc(3.25rem + 1.3vw);
+    // }
+}
+
+.card {
+    .card-header {
+        padding: 0;
+        
+        .btn {
+            padding: .75rem .75rem 0;
+            &:active {
+                border: transparent;
+            }
+
+            .subhead, .caption2 {
+                margin: 0;
+                text-align: left;
+            }
+            .subhead {
+                color: $black-02;
+                padding-bottom: .25rem;
+            }
+            .caption2 {
+                color: $gray-200;
+                margin-bottom: .75rem;
+            }
+            .details {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: .5rem;
+                padding: .375rem 0;
+            }
+            #arrow {
+                color: $black-02;
+                transition: all .4s;
+            }
+            .add {
+                transform: rotateX(-180deg);
+                transition: all .4s;
+            }
+        }
+    }
+    .card-body {
+        padding: 1rem .75rem;
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: .375rem;
+            .subhead {
+                margin: 0;
+            }
+            h4 {
+                color: $black-02;
+            }
+            p {
+                color: $gray-100;
+            }
+        }
+    }
+}
+.info {
+    .item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 2.125rem;
+        
+        &:not(:last-child) {
+            margin-bottom: .375rem;
+        }
+        .subhead {
+            margin: 0;
+            color: $gray-100;
+        }
+        .price {
+            h5, h4 {
+                color: $black-01;
+            }
+            .gray {
+                color: $gray-100;
+            }
+        }
+        .img-container {
+            width: 2.5rem;
+            height: 2.5rem;
+            img {
+                background: $white;
+            }
+        }
+        .point {
+            display: flex;
+            flex-direction: column;
+            .d-flex {
+                gap: .125rem;
+                .subhead, .number {
+                    align-self: baseline;
+                }
+                .subhead {
+                    color: $black-02;
+                }
+                .number {
+                    color: $primary;
+                }
+            }
+            .underline {
+                margin: 0;
+                color: $gray-100;
+                @extend %text-bg;
+            }
+        }
+        .form-switch {
+            .form-check-input[type=checkbox] {
+                width: 3.1875rem;
+                height: 1.9375rem;
+                // box-shadow: none;
+                border-radius: .9375em;
+                @extend %switch;                
+            }
+            .form-check-input[type=checkbox]:checked {
+                @extend %switch;
+            }
+            
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

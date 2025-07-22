@@ -12080,7 +12080,7 @@ textarea.form-control-lg {
   border-radius: 0.125rem;
 }
 
-.carousel .swiper .swiper-slide img, .card-level {
+.carousel .swiper .swiper-slide img, .discount, .card-level {
   border-radius: 0.25rem;
 }
 
@@ -12104,7 +12104,7 @@ textarea.form-control-lg {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.discount, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12348,7 +12348,7 @@ img {
   border-radius: 0.125rem;
 }
 
-.carousel .swiper .swiper-slide img, .card-level {
+.carousel .swiper .swiper-slide img, .discount, .card-level {
   border-radius: 0.25rem;
 }
 
@@ -12372,7 +12372,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.discount, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12959,6 +12959,16 @@ img {
   top: 4%;
 }
 
+.discount {
+  padding: 0.25rem 0.625rem;
+  background-color: #fff;
+  border: 0.125rem solid #F37B2A;
+}
+.discount h6, .discount .h6 {
+  margin: 0;
+  color: #F37B2A;
+}
+
 .tool-focus {
   padding: 1rem 0.625rem;
 }
@@ -13221,7 +13231,7 @@ img {
   border-radius: 0.125rem;
 }
 
-.carousel .swiper .swiper-slide img, .card-level {
+.carousel .swiper .swiper-slide img, .card-level, .discount {
   border-radius: 0.25rem;
 }
 
@@ -13245,7 +13255,7 @@ img {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, .tool-focus, .tool-normal {
+.button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, .discount, .tool-focus, .tool-normal {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 

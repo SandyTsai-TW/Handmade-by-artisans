@@ -633,7 +633,18 @@
         }
     }
 }
+.discount {
+    padding: .25rem .625rem;
+    @extend %radius4;
+    @extend %text-bg-box;
+    background-color: $white;
+    border: .125rem solid $primary;
 
+    h6 {
+        margin: 0;
+        color: $primary;
+    }
+}
 // footer/////////////////////////////
 .tool-focus {
     @extend %company-focus;
