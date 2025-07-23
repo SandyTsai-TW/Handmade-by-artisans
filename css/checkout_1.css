@@ -12065,7 +12065,7 @@ textarea.form-control-lg {
   }
   .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
-    line-height: 1.2rem;
+    line-height: 1.2;
   }
 }
 .number {
@@ -12074,6 +12074,11 @@ textarea.form-control-lg {
   font-size: calc(0.75rem + 1.2vw);
   line-height: 1.3125;
   letter-spacing: 0.015rem;
+}
+@media (min-width: 768px) {
+  .number {
+    font-size: calc(1.4rem + 1.2vw);
+  }
 }
 
 .discount, .card-level {
@@ -12329,7 +12334,7 @@ img {
   }
   .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
-    line-height: 1.2rem;
+    line-height: 1.2;
   }
 }
 .number {
@@ -12338,6 +12343,11 @@ img {
   font-size: calc(0.75rem + 1.2vw);
   line-height: 1.3125;
   letter-spacing: 0.015rem;
+}
+@media (min-width: 768px) {
+  .number {
+    font-size: calc(1.4rem + 1.2vw);
+  }
 }
 
 .discount, .card-level {
@@ -13208,7 +13218,7 @@ img {
   }
   .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number {
     font-size: calc(1.1rem + 0.3vw);
-    line-height: 1.2rem;
+    line-height: 1.2;
   }
 }
 .number {
@@ -13217,6 +13227,11 @@ img {
   font-size: calc(0.75rem + 1.2vw);
   line-height: 1.3125;
   letter-spacing: 0.015rem;
+}
+@media (min-width: 768px) {
+  .number {
+    font-size: calc(1.4rem + 1.2vw);
+  }
 }
 
 .card-level, .discount {
@@ -13584,6 +13599,14 @@ header {
 main {
   margin-top: calc(2.75rem + 1.3vw);
   padding-top: 1.5rem;
+  padding-bottom: 6.37rem;
+}
+@media (min-width: 768px) {
+  main {
+    margin-top: calc(3.4375rem + 1.3vw);
+    padding-top: 2rem;
+    padding-bottom: 8.75rem;
+  }
 }
 
 .card .card-header {
@@ -13591,6 +13614,11 @@ main {
 }
 .card .card-header .btn {
   padding: 0.75rem 0.75rem 0;
+}
+@media (min-width: 768px) {
+  .card .card-header .btn {
+    padding: 1.2rem 1.2rem 0;
+  }
 }
 .card .card-header .btn:active {
   border: transparent;
@@ -13601,11 +13629,21 @@ main {
 }
 .card .card-header .btn .subhead {
   color: rgba(0, 0, 0, 0.8);
-  padding-bottom: 0.25rem;
+  padding-bottom: calc(0.1875rem + 0.3vw);
+}
+@media (min-width: 768px) {
+  .card .card-header .btn .subhead {
+    padding-bottom: calc(0.5rem + 0.3vw);
+  }
 }
 .card .card-header .btn .caption2 {
   color: #908A86;
   margin-bottom: 0.75rem;
+}
+@media (min-width: 768px) {
+  .card .card-header .btn .caption2 {
+    margin-bottom: 1rem;
+  }
 }
 .card .card-header .btn .details {
   display: flex;
@@ -13628,10 +13666,21 @@ main {
   flex-direction: column;
   gap: 0.75rem;
 }
+@media (min-width: 768px) {
+  .card .card-body {
+    padding: 1.4rem 1.2rem;
+    gap: 1rem;
+  }
+}
 .card .card-body .list {
   display: flex;
   flex-direction: column;
   gap: 0.375rem;
+}
+@media (min-width: 768px) {
+  .card .card-body .list {
+    gap: 0.625rem;
+  }
 }
 .card .card-body .list .subhead {
   margin: 0;
@@ -13643,6 +13692,14 @@ main {
   color: #736B66;
 }
 
+.info {
+  padding: 1rem 0;
+}
+@media (min-width: 768px) {
+  .info {
+    padding: 1.75rem 0;
+  }
+}
 .info .item {
   display: flex;
   justify-content: space-between;
@@ -13650,7 +13707,12 @@ main {
   min-height: 2.125rem;
 }
 .info .item:not(:last-child) {
-  margin-bottom: 0.375rem;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 768px) {
+  .info .item:not(:last-child) {
+    margin-bottom: 0.875rem;
+  }
 }
 .info .item .subhead {
   margin: 0;
@@ -13726,4 +13788,8 @@ footer {
 }
 footer .toolbar {
   background-color: #fff;
+}
+footer .toolbar .price .number {
+  font-size: calc(1.5rem + 0.9vw);
+  color: #F37B2A;
 }/*# sourceMappingURL=checkout_1.css.map */

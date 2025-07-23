@@ -50,10 +50,12 @@ header {
 main {
     margin-top: calc(2.75rem + 1.3vw);
     padding-top: 1.5rem;
-    // padding-bottom: 3.25rem;
-    // @media (min-width: 768px) {
-    //     margin-top: calc(3.25rem + 1.3vw);
-    // }
+    padding-bottom: 6.37rem;
+        @media (min-width: 768px) {
+            margin-top: calc(3.4375rem + 1.3vw);
+            padding-top: 2rem;
+            padding-bottom: 8.75rem;
+        }
 }
 
 .card {
@@ -62,6 +64,9 @@ main {
         
         .btn {
             padding: .75rem .75rem 0;
+                @media (min-width: 768px) {
+                    padding: 1.2rem 1.2rem 0;                    
+                }
             &:active {
                 border: transparent;
             }
@@ -72,11 +77,19 @@ main {
             }
             .subhead {
                 color: $black-02;
-                padding-bottom: .25rem;
+                padding-bottom: calc(.1875rem + 0.3vw);
+
+                @media (min-width: 768px) {
+                    padding-bottom: calc(.5rem + 0.3vw);
+                }
             }
             .caption2 {
                 color: $gray-200;
                 margin-bottom: .75rem;
+                
+                @media (min-width: 768px) {
+                    margin-bottom: 1rem;
+                }
             }
             .details {
                 display: flex;
@@ -100,12 +113,18 @@ main {
         display: flex;
         flex-direction: column;
         gap: .75rem;
-
+                @media (min-width: 768px) {
+                    padding: 1.4rem 1.2rem;
+                    gap: 1rem;
+                }
 
         .list {
             display: flex;
             flex-direction: column;
             gap: .375rem;
+                @media (min-width: 768px) {
+                    gap: .625rem;
+                }
             .subhead {
                 margin: 0;
             }
@@ -119,6 +138,10 @@ main {
     }
 }
 .info {
+    padding: 1rem 0;
+        @media (min-width: 768px) {
+            padding: 1.75rem 0;
+        }
     .item {
         display: flex;
         justify-content: space-between;
@@ -126,7 +149,11 @@ main {
         min-height: 2.125rem;
         
         &:not(:last-child) {
-            margin-bottom: .375rem;
+            margin-bottom: .5rem;
+
+            @media (min-width: 768px) {
+                margin-bottom: .875rem;
+            }
         }
         .subhead {
             margin: 0;
@@ -212,6 +239,15 @@ footer {
 
     .toolbar {
         background-color: $white;
+        .price {
+            .number {
+                font-size: calc(1.5rem + 0.9vw);
+                color: $primary;
+
+            @media (min-width: 768px) {
+                font-size: calc(2rem + 0.9vw);
+            }
+        }
     }
 }
 

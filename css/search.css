@@ -12065,7 +12065,7 @@ textarea.form-control-lg {
   }
   .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
-    line-height: 1.2rem;
+    line-height: 1.2;
   }
 }
 .number {
@@ -12074,6 +12074,11 @@ textarea.form-control-lg {
   font-size: calc(0.75rem + 1.2vw);
   line-height: 1.3125;
   letter-spacing: 0.015rem;
+}
+@media (min-width: 768px) {
+  .number {
+    font-size: calc(1.4rem + 1.2vw);
+  }
 }
 
 .search-imgs .search-img img {
@@ -12329,7 +12334,7 @@ img {
   }
   .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
-    line-height: 1.2rem;
+    line-height: 1.2;
   }
 }
 .number {
@@ -12338,6 +12343,11 @@ img {
   font-size: calc(0.75rem + 1.2vw);
   line-height: 1.3125;
   letter-spacing: 0.015rem;
+}
+@media (min-width: 768px) {
+  .number {
+    font-size: calc(1.4rem + 1.2vw);
+  }
 }
 
 .search-imgs .search-img img {
@@ -13208,7 +13218,7 @@ img {
   }
   .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number {
     font-size: calc(1.1rem + 0.3vw);
-    line-height: 1.2rem;
+    line-height: 1.2;
   }
 }
 .number {
@@ -13217,6 +13227,11 @@ img {
   font-size: calc(0.75rem + 1.2vw);
   line-height: 1.3125;
   letter-spacing: 0.015rem;
+}
+@media (min-width: 768px) {
+  .number {
+    font-size: calc(1.4rem + 1.2vw);
+  }
 }
 
 .search-imgs .search-img img {

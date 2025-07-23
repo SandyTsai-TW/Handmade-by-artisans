@@ -234,17 +234,22 @@ $font-weight-semibold: 700;
     }
     .caption2, %caption2 {
         font-size: calc(1.1rem + 0.3vw);
-        line-height: 1.2rem;
+        line-height: 1.2;
     }
 }
 
-.number {
+.number, %number {
     font-family: "SF pro";
     font-weight: $font-weight-medium;
     font-size: calc( .75rem + 1.2vw);
     line-height: 1.3125;
     letter-spacing: 0.015rem;
+    
+    @media (min-width: 768px) {
+        font-size: calc(1.4rem + 1.2vw);
+    }
 }
+
 
 //////////////////Others//////////////////////////////////////////
 
