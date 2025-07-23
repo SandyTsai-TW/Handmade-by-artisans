@@ -13792,4 +13792,9 @@ footer .toolbar {
 footer .toolbar .price .number {
   font-size: calc(1.5rem + 0.9vw);
   color: #F37B2A;
+}
+@media (min-width: 768px) {
+  footer .toolbar .price .number {
+    font-size: calc(2rem + 0.9vw);
+  }
 }/*# sourceMappingURL=checkout_1.css.map */

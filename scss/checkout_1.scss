@@ -244,29 +244,10 @@ footer {
                 font-size: calc(1.5rem + 0.9vw);
                 color: $primary;
 
-            @media (min-width: 768px) {
-                font-size: calc(2rem + 0.9vw);
+                @media (min-width: 768px) {
+                    font-size: calc(2rem + 0.9vw);
+                }
             }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
