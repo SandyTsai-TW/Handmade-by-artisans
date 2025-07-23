@@ -15,16 +15,20 @@
                 <img src="./Images/favicon.svg" alt="職人手作">
             </div>
             <form>
-                <div class="mb-20">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="帳號或E-mail">
+                <div class="input-field mb-20">
+                    <div class="text-field">
+                        <input class="form-control" type="email" placeholder="帳號或E-mail" id="email" aria-describedby="emailHelp" required/>
+                    </div>
                 </div>
-                <div class="password-bar">
-                    <input class="form-control" type="password" placeholder="密碼" id="exampleInputPassword1"/>
-                    <button class="btn">
-                        <span class="icon eye-off"></span>
-                    </button>
+                <div class="input-field mb-20">
+                    <div class="text-field">
+                        <input class="form-control" type="password" placeholder="密碼" id="pwd" required/>
+                        <button class="btn">
+                            <span class="icon eye-off"></span>
+                        </button>
+                        <a href="./forget_password.html"><div id="exampleInputPassword1" class="form-text">忘記密碼?</div></a>
+                    </div>
                 </div>
-                <a href="./forget_password.html"><div id="exampleInputPassword1" class="form-text">忘記密碼?</div></a>
                 <button class="tool-focus">
                     <div class="subhead">登入</div>
                 </button>

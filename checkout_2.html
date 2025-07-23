@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>職人手作</title>
+    <link rel="shortcut icon" href="./Images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/checkout_2.css">
+<!-- js -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="js/checkout_2.js" defer></script>
+    <script src="js/all.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+          <div class="order">
+            <a onclick="goBack()"><span class="icon arrow-left"></span></a>
+            <div class="flex">
+                <div class="subhead">1. 訂單確認</div>
+                <div class="line"></div>
+                <div class="subhead active">2. 填寫基本資料</div>
+            </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="container">
+        <form>
+            <div class="title">
+                <h4 class="headline">訂購人資料</h4>
+            </div>
+            <div class="input-field">
+                <label for="username" class="form-label">
+                    <div class="title">姓名*</div>
+                </label>
+                <div class="text-field">
+                    <input class="form-control" type="text" placeholder="例:陳小明" id="username" required/>
+                </div>
+            </div>
+            <div class="input-field">
+                <label for="phone" class="form-label">
+                    <div class="title">手機號碼*</div>
+                </label>
+                <div class="text-field">
+                    <input class="form-control" type="tel" placeholder="09XX-XXX-XXX" id="phone" required/>
+                </div>
+            </div>
+            <div class="input-field">
+                <label for="email" class="form-label">
+                    <div class="title">E-mail</div>
+                </label>
+                <div class="text-field">
+                    <input class="form-control" type="email" placeholder="例:XXXXX@example.com" id="email"/>
+                </div>
+            </div>
+            <div class="switch-box">
+                <p class="subhead">同會員資料</p>
+                <div class="mySwitch">
+                    <div class="switch-bg">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="line"></div>
+        <div class="payment">
+            <div class="title">
+                <h4 class="headline">付款方式</h4>
+                <p class="underline">幫助</p>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="toolbar">
+        <div class="price">
+            <h5 class="title2">NT$</h5>
+            <h4 class="number">16,800</h4>
+        </div>
+        <a href="#!" type="button" class="company-focus">
+          <div class="subhead">下一步</div>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

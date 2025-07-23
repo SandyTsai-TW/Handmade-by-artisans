@@ -1,0 +1,140 @@
+@import "all";
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+// ////////HEADER////////////////////////////////
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: $white;
+    top: 0;
+}
+
+.navbar {
+    padding: .625rem 0;
+        @media (min-width: 768px) {
+            padding: 1rem 0;
+        }
+    .container {
+        .order {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;            
+        }
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.25rem;
+            width: 100%;
+            padding: 0 .75rem;
+
+            .subhead {
+                margin: 0;
+                color: $gray-200;
+            }
+            .line {
+                width: 17.5%;
+                background: $gray-100;
+            }
+            .active {
+                color: $black-01;
+            }
+        }
+    }
+}
+
+///////////////////// MAIN///////////////////////////////////
+main {
+    margin-top: calc(2.75rem + 1.3vw);
+    padding-top: 1rem;
+    // padding-bottom: 6.37rem;
+    //     @media (min-width: 768px) {
+    //         margin-top: calc(3.4375rem + 1.3vw);
+    //         padding-top: 2rem;
+    //         padding-bottom: 8.75rem;
+    //     }
+}
+form {   
+    .input-field {
+        .text-field {
+            .form-control {
+                line-height: 1.85;
+            }
+        }
+    }
+    .switch-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .625rem 0;
+        p {
+            margin: 0;
+            color: $primary;
+        }
+        .mySwitch {
+                .switch-bg {
+                    width: 3.1875rem;
+                    height: 1.9375rem;
+                    border-radius: .9375rem;
+                    background-color: $black-05;
+                }
+                .bg-add {
+                    background-color: $primary;
+                }
+                .circle {
+                    width: 1.6875rem;
+                    height: 1.6875rem;
+                    border-radius: 50%;
+                    background-color: $white;
+                    outline: .0313rem solid $other-01;
+                    @extend %switch;
+                    transform: translate(6%, 6%);
+                    transition: all .3s;
+                }
+                .add {
+                    transform: translate(80%, 6%);
+                    transition: all .3s;
+                }
+        }
+    }
+}
+.line {
+    margin-top: .625rem;
+    margin-bottom: 1rem;
+}
+.payment {
+    margin-bottom: 1rem;
+    .title {
+        h4 {
+            color: $black-01;
+        }
+        p {
+            color: $primary
+        };
+    }
+}
+
+// footer////////////////////////////////
+footer {
+    // position: fixed;
+    // bottom: 0;
+    // width: 100%;
+
+    .toolbar {
+        background-color: $white;
+        .price {
+            .number {
+                font-size: calc(1.5rem + 0.9vw);
+                color: $primary;
+
+                @media (min-width: 768px) {
+                    font-size: calc(2rem + 0.9vw);
+                }
+            }
+        }
+    }
+}
