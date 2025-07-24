@@ -51,18 +51,20 @@ header {
 main {
     margin-top: calc(2.75rem + 1.3vw);
     padding-top: 1rem;
-    // padding-bottom: 6.37rem;
-    //     @media (min-width: 768px) {
-    //         margin-top: calc(3.4375rem + 1.3vw);
-    //         padding-top: 2rem;
-    //         padding-bottom: 8.75rem;
-    //     }
+    padding-bottom: 3.5rem;
+        @media (min-width: 768px) {
+            margin-top: calc(3.5rem + 1.3vw);
+            padding-top: 2rem;
+            padding-bottom: 8.75rem;
+        }
 }
-form {   
-    .input-field {
-        .text-field {
-            .form-control {
-                line-height: 1.85;
+.container {
+    form {   
+        .input-field {
+            .text-field {
+                .form-control {
+                    line-height: 1.85;
+                }
             }
         }
     }
@@ -76,65 +78,196 @@ form {
             color: $primary;
         }
         .mySwitch {
-                .switch-bg {
-                    width: 3.1875rem;
-                    height: 1.9375rem;
-                    border-radius: .9375rem;
-                    background-color: $black-05;
-                }
-                .bg-add {
-                    background-color: $primary;
-                }
-                .circle {
-                    width: 1.6875rem;
-                    height: 1.6875rem;
-                    border-radius: 50%;
-                    background-color: $white;
-                    outline: .0313rem solid $other-01;
-                    @extend %switch;
-                    transform: translate(6%, 6%);
-                    transition: all .3s;
-                }
-                .add {
-                    transform: translate(80%, 6%);
-                    transition: all .3s;
-                }
-        }
-    }
-}
-.line {
-    margin-top: .625rem;
-    margin-bottom: 1rem;
-}
-.payment {
-    margin-bottom: 1rem;
-    .title {
-        h4 {
-            color: $black-01;
-        }
-        p {
-            color: $primary
-        };
-    }
-}
-
-// footer////////////////////////////////
-footer {
-    // position: fixed;
-    // bottom: 0;
-    // width: 100%;
-
-    .toolbar {
-        background-color: $white;
-        .price {
-            .number {
-                font-size: calc(1.5rem + 0.9vw);
-                color: $primary;
+            .switch-bg {
+                width: 3.1875rem;
+                height: 1.9375rem;
+                border-radius: .9375rem;
+                background-color: $black-05;
 
                 @media (min-width: 768px) {
-                    font-size: calc(2rem + 0.9vw);
+                    width: 3.9375rem;
+                    height: 2.4375rem;
+                    border-radius: 1.2188rem;
                 }
             }
+            .bg-add {
+                background-color: $primary;
+            }
+            .circle {
+                width: 1.6875rem;
+                height: 1.6875rem;
+                border-radius: 50%;
+                background-color: $white;
+                outline: .0313rem solid $other-01;
+                @extend %switch;
+                transform: translate(6%, 6%);
+                transition: all .3s;
+
+                @media (min-width: 768px) {
+                    width: 2.125rem;
+                    height: 2.1875rem;
+                }
+            }
+            .add {
+                transform: translate(80%, 6%);
+                transition: all .3s;
+            }
+        }
+    }
+    .line {
+        margin-top: .625rem;
+        margin-bottom: 1rem;
+
+        @media (min-width: 768px) {
+            margin-top: .75rem;
+        }
+    }
+    .payment {
+        margin-bottom: 1rem;
+        .title {
+            h4 {
+                color: $black-01;
+            }
+            p {
+                color: $primary
+            };
+        }
+        .creditCard {
+            margin-top: 1rem;
+            
+            .form-check {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: .125rem 0;
+        
+                .form-check-input[type=checkbox] {
+                    width: 1.25rem;
+                    height: 1.25rem;
+                    border-radius: 50%;
+                    --bs-form-check-bg-image: none;
+                    border: .125rem solid $gray-400;
+                    box-shadow: none;
+                    margin-right: .5rem;
+                    margin-top: .4375rem;
+        
+                    &:checked {
+                        border: .375rem solid $primary;
+                        background-color: $white;
+                    }
+                }
+                .form-check-label {
+                    width: 100%;
+                    .creditCard-text {
+                        h5, h6 {
+                            margin: 0;
+                        }
+                        h5 {
+                            padding: .1rem;
+                            color: $black-01;
+                        }
+                        h6 {
+                            padding-bottom: .0625rem;
+                            color: $danger;
+                        }
+                    }
+                }
+                span {
+                    color: $black-01;
+                }
+        
+            }
+            .text-field {
+                .form-control {
+                    line-height: 1.85;
+                    &:focus {
+                        border: .1rem solid $info;
+                        caret-color: $info;
+                        box-shadow: none;
+                    }
+                }
+            }
+            .card-info {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: .5rem;
+                span {
+                    color: $black-01;
+                }
+            }
+        }
+    }
+    .item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 2.125rem;
+    }
+    .points {
+        gap: .25rem;
+        margin-bottom: 1rem;
+        .img-container {
+            width: 2.5rem;
+            height: 2.5rem;
+            img {
+                background: $white;
+            }
+        }
+        .point {
+            display: flex;
+            flex-direction: column;
+            width: 68%;
+            .d-flex {
+                gap: .125rem;
+                .subhead, .number {
+                    align-self: baseline;
+                }
+                .headline {
+                    margin: 0;
+                    color: $black-02;
+                }
+            }
+            .footnote {
+                margin: 0;
+                color: $gray-100;
+                @extend %text-bg;
+            }
+        }
+        .title1 {
+            margin: 0;
+            color: $primary;
+        }
+    }
+}
+.free-cancel {
+    background-color: $warning;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+    padding: .625rem;
+    
+        @media (min-width: 768px) {
+            gap: 1rem;
+            padding: 1.2rem;
+        }
+    .footnote {
+        margin: 0;
+    }
+
+}
+// footer////////////////////////////////
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: $white;
+
+    .toolbar-checkout {
+        .company-focus {
+            padding: .625rem 2.625rem;
         }
     }
 }

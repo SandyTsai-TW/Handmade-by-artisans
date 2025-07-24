@@ -775,7 +775,7 @@ form {
         background-color: darken($color: $white, $amount: 5%);
     }
 }
-.toolbar {
+.toolbar, %toolbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -785,5 +785,44 @@ form {
 
     .subhead {
         margin: 0;
+    }
+}
+
+.toolbar-checkout {
+    @extend %toolbar;
+    gap: 1rem;
+    background-color: $white;
+    padding: .125rem 0;
+    .left {
+        .price {
+            .title2, .number {
+                line-height: 1;
+            }
+            .number {
+                font-size: calc(1.5rem + 0.9vw);
+                
+                @media (min-width: 768px) {
+                    font-size: calc(2rem + 0.9vw);
+                }
+            }
+        }
+        .feedback {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: .375rem;
+            .img-container {
+                width: 1.375rem;
+                height: 1.375rem;
+                img {
+                    background-color: $white;
+                }
+            }
+            .callout {
+                margin: 0;
+                color: $primary;
+                padding-top: .125rem;
+            }
+        }
     }
 }

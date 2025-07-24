@@ -209,6 +209,12 @@ main {
                 height: 1.9375rem;
                 border-radius: .9375rem;
                 background-color: $black-05;
+
+                @media (min-width: 768px) {
+                    width: 3.9375rem;
+                    height: 2.4375rem;
+                    border-radius: 1.2188rem;
+                }
             }
             .bg-add {
                 background-color: $primary;
@@ -222,6 +228,11 @@ main {
                 @extend %switch;
                 transform: translate(6%, 6%);
                 transition: all .3s;
+
+                @media (min-width: 768px) {
+                    width: 2.125rem;
+                    height: 2.1875rem;
+                }
             }
             .add {
                 transform: translate(80%, 6%);
@@ -237,18 +248,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-
-    .toolbar {
-        background-color: $white;
-        .price {
-            .number {
-                font-size: calc(1.5rem + 0.9vw);
-                color: $primary;
-
-                @media (min-width: 768px) {
-                    font-size: calc(2rem + 0.9vw);
-                }
-            }
-        }
-    }
+    background-color: $white;
 }

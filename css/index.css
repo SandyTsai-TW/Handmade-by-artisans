@@ -13101,15 +13101,50 @@ form .input-field .text-field .form-text {
   background-color: rgb(242.25, 242.25, 242.25);
 }
 
-.toolbar {
+.toolbar, .toolbar-checkout {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
   padding: calc(0.75rem + 0.4vw) 0;
 }
-.toolbar .subhead {
+.toolbar .subhead, .toolbar-checkout .subhead {
   margin: 0;
+}
+
+.toolbar-checkout {
+  gap: 1rem;
+  background-color: #fff;
+  padding: 0.125rem 0;
+}
+.toolbar-checkout .left .price .title2, .toolbar-checkout .left .price .number {
+  line-height: 1;
+}
+.toolbar-checkout .left .price .number {
+  font-size: calc(1.5rem + 0.9vw);
+}
+@media (min-width: 768px) {
+  .toolbar-checkout .left .price .number {
+    font-size: calc(2rem + 0.9vw);
+  }
+}
+.toolbar-checkout .left .feedback {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.375rem;
+}
+.toolbar-checkout .left .feedback .img-container {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+.toolbar-checkout .left .feedback .img-container img {
+  background-color: #fff;
+}
+.toolbar-checkout .left .feedback .callout {
+  margin: 0;
+  color: #F37B2A;
+  padding-top: 0.125rem;
 }
 
 .largeTitle,
