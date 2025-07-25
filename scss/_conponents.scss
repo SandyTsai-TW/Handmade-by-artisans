@@ -793,6 +793,11 @@ form {
     gap: 1rem;
     background-color: $white;
     padding: .125rem 0;
+
+        @media (min-width: 768px) {
+            padding: .25rem 0;
+        }
+
     .left {
         .price {
             .title2, .number {

@@ -240,6 +240,16 @@ main {
             }
         }
     }
+    .points-box {
+        display: flex;
+        align-items: center;
+        gap: .375rem;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            gap: .625rem;
+        }
+    }
     
 }
 
@@ -249,4 +259,15 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: $white;
+
+    .toolbar-checkout {
+        padding: .5rem 0;
+
+            @media (min-width: 768px) {
+                padding: 1rem 0;
+            }
+        .company-focus {
+            padding: .625rem 2.625rem;
+        }
+    }
 }

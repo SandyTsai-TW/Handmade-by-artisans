@@ -12097,7 +12097,7 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.container .points .point .footnote, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
+.container .payment .points .point .footnote, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12366,7 +12366,7 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.container .points .point .footnote, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
+.container .payment .points .point .footnote, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13109,6 +13109,11 @@ form .input-field .text-field .form-text {
   background-color: #fff;
   padding: 0.125rem 0;
 }
+@media (min-width: 768px) {
+  .toolbar-checkout {
+    padding: 0.25rem 0;
+  }
+}
 .toolbar-checkout .left .price .title2, .toolbar-checkout .left .price .number {
   line-height: 1;
 }
@@ -13366,7 +13371,7 @@ form .input-field .text-field .form-text {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.container .points .point .footnote, .avator-user, .card-level, .smallCard .img-container .card-cover p, .smallCard .card-title, .movieCard .img-container .card-cover p, .movieCard .card-title, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .img-container .card-cover p, .largeCard .card-title, .grid .grid-item .img-container .card-cover p, .grid .grid-item .card-title {
+.container .payment .points .point .footnote, .avator-user, .card-level, .smallCard .img-container .card-cover p, .smallCard .card-title, .movieCard .img-container .card-cover p, .movieCard .card-title, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .img-container .card-cover p, .largeCard .card-title, .grid .grid-item .img-container .card-cover p, .grid .grid-item .card-title {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13722,7 +13727,7 @@ main {
   main {
     margin-top: calc(3.5rem + 1.3vw);
     padding-top: 2rem;
-    padding-bottom: 8.75rem;
+    padding-bottom: 5.25rem;
   }
 }
 
@@ -13734,6 +13739,11 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 0.625rem 0;
+}
+@media (min-width: 768px) {
+  .container .switch-box {
+    padding: 0.75rem 0;
+  }
 }
 .container .switch-box p {
   margin: 0;
@@ -13811,6 +13821,13 @@ main {
   margin-right: 0.5rem;
   margin-top: 0.4375rem;
 }
+@media (min-width: 768px) {
+  .container .payment .creditCard .form-check .form-check-input[type=checkbox] {
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-right: 0.75rem;
+  }
+}
 .container .payment .creditCard .form-check .form-check-input[type=checkbox]:checked {
   border: 0.375rem solid #F37B2A;
   background-color: #fff;
@@ -13832,6 +13849,12 @@ main {
 .container .payment .creditCard .form-check span {
   color: #000;
 }
+@media (min-width: 768px) {
+  .container .payment .creditCard .form-check span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
 .container .payment .creditCard .text-field .form-control {
   line-height: 1.85;
 }
@@ -13850,45 +13873,62 @@ main {
 .container .payment .creditCard .card-info span {
   color: #000;
 }
-.container .item {
+@media (min-width: 768px) {
+  .container .payment .creditCard .card-info span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+.container .payment .item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 2.125rem;
 }
-.container .points {
+.container .payment .points {
   gap: 0.25rem;
   margin-bottom: 1rem;
 }
-.container .points .img-container {
+.container .payment .points .img-container {
   width: 2.5rem;
   height: 2.5rem;
 }
-.container .points .img-container img {
+.container .payment .points .img-container img {
   background: #fff;
 }
-.container .points .point {
+.container .payment .points .point {
   display: flex;
   flex-direction: column;
   width: 68%;
 }
-.container .points .point .d-flex {
+.container .payment .points .point .d-flex {
   gap: 0.125rem;
 }
-.container .points .point .d-flex .subhead, .container .points .point .d-flex .number {
+.container .payment .points .point .d-flex .subhead, .container .payment .points .point .d-flex .number {
   align-self: baseline;
 }
-.container .points .point .d-flex .headline {
+.container .payment .points .point .d-flex .headline {
   margin: 0;
   color: rgba(0, 0, 0, 0.8);
 }
-.container .points .point .footnote {
+.container .payment .points .point .footnote {
   margin: 0;
   color: #736B66;
 }
-.container .points .title1 {
+.container .payment .points .title1 {
   margin: 0;
   color: #F37B2A;
+}
+.container .payment .points-box {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .container .payment .points-box {
+    gap: 0.625rem;
+  }
 }
 
 .free-cancel {
@@ -13902,7 +13942,16 @@ main {
 @media (min-width: 768px) {
   .free-cancel {
     gap: 1rem;
-    padding: 1.2rem;
+    padding: 1.5rem;
+  }
+}
+.free-cancel span {
+  color: #000;
+}
+@media (min-width: 768px) {
+  .free-cancel span {
+    width: 2.25rem;
+    height: 2.25rem;
   }
 }
 .free-cancel .footnote {

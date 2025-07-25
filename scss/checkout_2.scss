@@ -55,7 +55,7 @@ main {
         @media (min-width: 768px) {
             margin-top: calc(3.5rem + 1.3vw);
             padding-top: 2rem;
-            padding-bottom: 8.75rem;
+            padding-bottom: 5.25rem;
         }
 }
 .container {
@@ -73,6 +73,10 @@ main {
         justify-content: space-between;
         align-items: center;
         padding: .625rem 0;
+
+        @media (min-width: 768px) {
+            padding: .75rem 0;
+        }
         p {
             margin: 0;
             color: $primary;
@@ -150,6 +154,12 @@ main {
                     box-shadow: none;
                     margin-right: .5rem;
                     margin-top: .4375rem;
+
+                        @media (min-width: 768px) {
+                            width: 1.875rem;
+                            height: 1.875rem;
+                            margin-right: .75rem;
+                        }
         
                     &:checked {
                         border: .375rem solid $primary;
@@ -174,6 +184,11 @@ main {
                 }
                 span {
                     color: $black-01;
+
+                    @media (min-width: 768px) {
+                        width: 2.25rem;
+                        height: 2.25rem;
+                    }
                 }
         
             }
@@ -195,49 +210,64 @@ main {
                 margin-bottom: .5rem;
                 span {
                     color: $black-01;
+
+                    @media (min-width: 768px) {
+                        width: 2.25rem;
+                        height: 2.25rem;
+                    }
                 }
             }
         }
-    }
-    .item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 2.125rem;
-    }
-    .points {
-        gap: .25rem;
-        margin-bottom: 1rem;
-        .img-container {
-            width: 2.5rem;
-            height: 2.5rem;
-            img {
-                background: $white;
-            }
-        }
-        .point {
+        .item {
             display: flex;
-            flex-direction: column;
-            width: 68%;
-            .d-flex {
-                gap: .125rem;
-                .subhead, .number {
-                    align-self: baseline;
-                }
-                .headline {
-                    margin: 0;
-                    color: $black-02;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 2.125rem;
+        }
+        .points {
+            gap: .25rem;
+            margin-bottom: 1rem;
+            .img-container {
+                width: 2.5rem;
+                height: 2.5rem;
+                img {
+                    background: $white;
                 }
             }
-            .footnote {
+            .point {
+                display: flex;
+                flex-direction: column;
+                width: 68%;
+                .d-flex {
+                    gap: .125rem;
+                    .subhead, .number {
+                        align-self: baseline;
+                    }
+                    .headline {
+                        margin: 0;
+                        color: $black-02;
+                    }
+                }
+                .footnote {
+                    margin: 0;
+                    color: $gray-100;
+                    @extend %text-bg;
+                }
+            }
+            .title1 {
                 margin: 0;
-                color: $gray-100;
-                @extend %text-bg;
+                color: $primary;
             }
         }
-        .title1 {
-            margin: 0;
-            color: $primary;
+        .points-box {
+            display: flex;
+            align-items: center;
+            gap: .375rem;
+            width: 100%;
+
+            @media (min-width: 768px) {
+                gap: .625rem;
+            }
         }
     }
 }
@@ -251,7 +281,15 @@ main {
     
         @media (min-width: 768px) {
             gap: 1rem;
-            padding: 1.2rem;
+            padding: 1.5rem;
+        }
+        span {
+            color: $black-01;
+            
+            @media (min-width: 768px) {
+                width: 2.25rem;
+                height: 2.25rem;
+            }
         }
     .footnote {
         margin: 0;

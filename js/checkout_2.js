@@ -1,9 +1,14 @@
 $(document).ready(function () {
 
 // switch
-  $(".mySwitch").click(function () {
-    $(".switch-bg").toggleClass("bg-add"),
-    $(".circle").toggleClass("add");
+  $("#switch1").click(function () {
+    $("#switch-bg1").toggleClass("bg-add"),
+    $("#circle1").toggleClass("add");
+  });
+
+  $("#switch2").click(function () {
+    $("#switch-bg2").toggleClass("bg-add"), 
+    $("#circle2").toggleClass("add");
   });
 
 });

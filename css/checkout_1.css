@@ -13109,6 +13109,11 @@ form .input-field .text-field .form-text {
   background-color: #fff;
   padding: 0.125rem 0;
 }
+@media (min-width: 768px) {
+  .toolbar-checkout {
+    padding: 0.25rem 0;
+  }
+}
 .toolbar-checkout .left .price .title2, .toolbar-checkout .left .price .number {
   line-height: 1;
 }
@@ -13910,10 +13915,32 @@ main {
   transform: translate(80%, 6%);
   transition: all 0.3s;
 }
+.info .points-box {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .info .points-box {
+    gap: 0.625rem;
+  }
+}
 
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #fff;
+}
+footer .toolbar-checkout {
+  padding: 0.5rem 0;
+}
+@media (min-width: 768px) {
+  footer .toolbar-checkout {
+    padding: 1rem 0;
+  }
+}
+footer .toolbar-checkout .company-focus {
+  padding: 0.625rem 2.625rem;
 }/*# sourceMappingURL=checkout_1.css.map */

@@ -13101,6 +13101,11 @@ form .input-field .text-field .form-text {
   background-color: #fff;
   padding: 0.125rem 0;
 }
+@media (min-width: 768px) {
+  .toolbar-checkout {
+    padding: 0.25rem 0;
+  }
+}
 .toolbar-checkout .left .price .title2, .toolbar-checkout .left .price .number {
   line-height: 1;
 }
