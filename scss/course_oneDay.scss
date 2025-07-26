@@ -576,8 +576,12 @@ content {
         }
 
         .company-focus {
-            padding: calc(0.625rem + 0.5vw);
+            padding: .5813rem;
             border: .0625rem solid $primary;
+        
+            @media (min-width: 768px) {
+                padding: .875rem;
+            }
         }
     }
     

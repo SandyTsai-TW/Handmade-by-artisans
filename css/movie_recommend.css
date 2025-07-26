@@ -11920,7 +11920,7 @@ textarea.form-control-lg {
 
 .title2, .title2-a {
   font-size: calc(1.375rem + 0.9vw);
-  line-height: 1.75;
+  line-height: 1.1;
   letter-spacing: 0.015rem;
 }
 
@@ -11957,7 +11957,7 @@ textarea.form-control-lg {
 
 .subhead, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
   font-size: calc(0.84rem + 0.3vw);
-  line-height: 1.25;
+  line-height: 1.5;
   letter-spacing: 0.0375rem;
 }
 
@@ -12093,7 +12093,7 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   backdrop-filter: blur(3px);
 }
 
-.swiper .swiper-wrapper .swiper-slide .active, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .movieUnder-btn:hover {
+.swiper .swiper-wrapper .swiper-slide .active, .profilePage .profilePage-avator .circle-bg .avator-container, .profilePage .profilePage-avator .circle-bg, .profilePage .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .movieUnder-btn:hover {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -12185,7 +12185,7 @@ img {
 
 .title2, .title2-a {
   font-size: calc(1.375rem + 0.9vw);
-  line-height: 1.75;
+  line-height: 1.1;
   letter-spacing: 0.015rem;
 }
 
@@ -12222,7 +12222,7 @@ img {
 
 .subhead, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
   font-size: calc(0.84rem + 0.3vw);
-  line-height: 1.25;
+  line-height: 1.5;
   letter-spacing: 0.0375rem;
 }
 
@@ -12358,7 +12358,7 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   backdrop-filter: blur(3px);
 }
 
-.swiper .swiper-wrapper .swiper-slide .active, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .movieUnder-btn:hover {
+.swiper .swiper-wrapper .swiper-slide .active, .profilePage .profilePage-avator .circle-bg .avator-container, .profilePage .profilePage-avator .circle-bg, .profilePage .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .movieUnder-btn:hover {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -12603,6 +12603,9 @@ img {
   transition: all 0.3s;
 }
 @media (min-width: 768px) {
+  .company-follow {
+    padding: 0.875rem;
+  }
   .company-follow span {
     width: 2.25rem;
     height: 2.25rem;
@@ -12920,6 +12923,12 @@ img {
   align-items: center;
   gap: 1rem;
 }
+@media (min-width: 768px) {
+  .grid .grid-left,
+  .grid .grid-right {
+    gap: 1.5rem;
+  }
+}
 .grid .grid-item .img-container img {
   box-shadow: none;
 }
@@ -13042,6 +13051,79 @@ form .input-field .text-field .form-text {
 .discount h6, .discount .h6 {
   margin: 0;
   color: #F37B2A;
+}
+
+.profilePage .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+.profilePage .img-container {
+  aspect-ratio: 21/9;
+  border-radius: 0 0 0.9375rem 0.9375rem;
+  overflow: hidden;
+}
+.profilePage .img-container img {
+  background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+.profilePage .profilePage-avator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -8%);
+}
+@media (min-width: 768px) {
+  .profilePage .profilePage-avator {
+    transform: translate(-50%, 0);
+  }
+}
+@media (min-width: 1024px) {
+  .profilePage .profilePage-avator {
+    transform: translate(-50%, 25%);
+  }
+}
+.profilePage .profilePage-avator .circle-bg {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .profilePage .profilePage-avator .circle-bg {
+    width: 15.625rem;
+    height: 15.625rem;
+  }
+}
+@media (min-width: 1440px) {
+  .profilePage .profilePage-avator .circle-bg {
+    width: 21.875rem;
+    height: 21.875rem;
+  }
+}
+.profilePage .profilePage-avator .circle-bg .avator-container {
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+@media (min-width: 768px) {
+  .profilePage .profilePage-avator .circle-bg .avator-container {
+    width: 14.6875rem;
+    height: 14.6875rem;
+  }
+}
+@media (min-width: 1440px) {
+  .profilePage .profilePage-avator .circle-bg .avator-container {
+    width: 20.3125rem;
+    height: 20.3125rem;
+  }
 }
 
 .tool-focus {
@@ -13186,7 +13268,7 @@ form .input-field .text-field .form-text {
 
 .title2, .title2-a {
   font-size: calc(1.375rem + 0.9vw);
-  line-height: 1.75;
+  line-height: 1.1;
   letter-spacing: 0.015rem;
 }
 
@@ -13223,7 +13305,7 @@ form .input-field .text-field .form-text {
 
 .subhead, .subhead-a, .button, .button-active, .date-btn, form .input-field .form-label, form .input-field .text-field .form-control {
   font-size: calc(0.84rem + 0.3vw);
-  line-height: 1.25;
+  line-height: 1.5;
   letter-spacing: 0.0375rem;
 }
 
@@ -13359,7 +13441,7 @@ form .input-field .text-field .form-text {
   backdrop-filter: blur(3px);
 }
 
-.swiper .swiper-wrapper .swiper-slide .active, .movieUnder-btn:hover, .smallCard .img-container img, .movieCard .img-container img, .largeCard .img-container img, .grid .grid-item .img-container img {
+.swiper .swiper-wrapper .swiper-slide .active, .movieUnder-btn:hover, .smallCard .img-container img, .movieCard .img-container img, .largeCard .img-container img, .grid .grid-item .img-container img, .profilePage .img-container, .profilePage .profilePage-avator .circle-bg, .profilePage .profilePage-avator .circle-bg .avator-container {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
