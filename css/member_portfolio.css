@@ -13840,7 +13840,7 @@ main .container .buttons {
 main .container .buttons .button {
   width: 100%;
   text-align: center;
-  padding: 0.7188rem 0.825rem;
+  padding: 0.7188rem 0.75rem;
 }
 @media (min-width: 768px) {
   main .container .buttons .button {
