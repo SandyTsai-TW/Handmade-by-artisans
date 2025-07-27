@@ -147,6 +147,51 @@
     }
 }
 
+// order-btn
+.order-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .125rem;
+    transition: all .4s;
+    cursor: pointer;
+
+    .footnote {
+        margin: 0;
+        color: $gray-300;
+        letter-spacing: -0.0313rem;
+    }
+    .box {
+        width: 100%;
+        height: .25rem;
+        border-radius:  0;
+        background: transparent;
+    }
+    &:hover {
+        .footnote {
+            color: $primary;
+        }
+        .box {
+            background-color: $primary;
+            border-radius: 0.25rem 0.25rem 0 0;
+        }
+    }
+}
+
+.orderSchedule-btn {
+    padding: .375rem;
+    background-color: $white;
+    color: $primary;
+    @extend %radius4;
+    @extend %text-bg-box;
+    border: 0;
+
+    .caption1 {
+        margin: 0;
+    }
+}
+
 // Date reservation / Status
 .date-btn {
     @extend %button;
@@ -811,6 +856,123 @@ form {
         }
     }
 }
+
+// order number card
+ .orderCard {
+    width: 100%;
+    overflow: hidden;
+    .card-body {
+        padding: 0 .75rem;
+        border-radius: .5rem .5rem 0 0;
+        border: .0625rem solid $black-04;
+        border-bottom-color: transparent;
+        background: $other-01;
+
+        .card-title {
+            margin-top: .375rem;
+            margin-bottom: .25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .order-number {
+                display: flex;
+                gap: .625rem;
+                h5, p{
+                    margin: 0;
+                    color: $black-02;
+                }
+            }
+        }
+        .line {
+        background-color: $white;
+        }
+        .card-subtitle {
+            margin-top: .5rem;
+            margin-bottom: 1rem;
+                h6 {
+                    color: $gray-100;
+                    margin-bottom: .25rem;
+                }
+                p {
+                    color: $gray-200;
+                    margin-bottom: 0;
+                }
+        }
+        .card-detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: .375rem;
+                h5 {
+                    color: $gray-100;
+                    margin-bottom: 0;
+                }
+                .texts {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    gap: 1.25rem;
+                    padding: .2188rem 0;
+
+                    .text {
+                        display: flex;
+                        justify-content: center;
+                        align-items: baseline;
+
+                        h6, .text-number, p{
+                            color: $gray-200;
+                            margin-bottom: 0;
+                        }
+                        h6 {
+                            padding-right: .375rem;
+                        }
+                        .text-number {
+                            @extend %caption2;
+                            padding-right: .125rem;
+                        }
+                    }
+                }
+        }
+        .card-date {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: .625rem;
+                .date-btn {
+                    padding: .125rem .3125rem;
+                    border: .025rem solid $black-04;
+                    @extend %radius4;
+                    background-color: $gray-500;
+                    .footnote {
+                        margin-bottom: 0;  
+                        color: $black-02;
+                    }
+                }
+                h6 {
+                    margin-bottom: 0;
+                }
+                .price {
+                    h4 {
+                        color: $primary;
+                    }
+                }
+        }
+    }
+    .qrcode {
+        background: $gray-500;
+        border-radius: 0 0 .5rem .5rem;
+        border: .0625rem solid $black-04;
+        border-top-color: transparent;
+        
+        .footnote {
+            padding: .375rem 0;
+            margin-bottom: 0;
+            text-align: center;
+            color: $primary;
+        }
+    }
+}
+
 // footer/////////////////////////////
 .tool-focus {
     @extend %company-focus;

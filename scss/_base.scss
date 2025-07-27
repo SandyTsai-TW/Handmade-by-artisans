@@ -128,7 +128,8 @@ $font-weight-semibold: 700;
 .footnote, %footnote {
     font-size: calc(0.8rem + 0.3vw);
     font-weight: $font-weight-regular;
-    line-height: 1.125;
+    // line-height: 1.125;
+    line-height: 1.3;
     letter-spacing: 0.0313rem;
 }
 
@@ -146,8 +147,9 @@ $font-weight-semibold: 700;
 .caption1, %caption1 {
     font-size: calc(0.7rem + 0.1vw);
     font-weight: $font-weight-regular;
-    line-height: 1.2;
-    letter-spacing: 0.015rem;
+    // line-height: 1.2;
+    line-height: 1.4;
+    letter-spacing: -0.015rem;
 }
 
 .caption1-a, %caption1-a {

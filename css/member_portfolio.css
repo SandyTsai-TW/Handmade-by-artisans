@@ -11968,7 +11968,7 @@ textarea.form-control-lg {
 .footnote, form .input-field .text-field .form-text, .search-bar .form-control, .underline, .footnote-a {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
-  line-height: 1.125;
+  line-height: 1.3;
   letter-spacing: 0.0313rem;
 }
 
@@ -11984,15 +11984,15 @@ textarea.form-control-lg {
 .caption1, .movieUnder-btn, .caption1-a {
   font-size: calc(0.7rem + 0.1vw);
   font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.015rem;
+  line-height: 1.4;
+  letter-spacing: -0.015rem;
 }
 
 .caption1-a {
   font-weight: 500;
 }
 
-.caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+.caption2, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
   font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
@@ -12043,7 +12043,7 @@ textarea.form-control-lg {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
@@ -12063,7 +12063,7 @@ textarea.form-control-lg {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2;
   }
@@ -12081,7 +12081,7 @@ textarea.form-control-lg {
   }
 }
 
-.discount, .card-level {
+.orderCard .card-body .card-date .date-btn, .discount, .card-level, .orderSchedule-btn {
   border-radius: 0.25rem;
 }
 
@@ -12101,7 +12101,7 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.discount, form .input-field .text-field .form-control, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.discount, form .input-field .text-field .form-control, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .orderSchedule-btn, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12233,7 +12233,7 @@ img {
 .footnote, form .input-field .text-field .form-text, .search-bar .form-control, .footnote-a, .underline {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
-  line-height: 1.125;
+  line-height: 1.3;
   letter-spacing: 0.0313rem;
 }
 
@@ -12249,15 +12249,15 @@ img {
 .caption1, .movieUnder-btn, .caption1-a {
   font-size: calc(0.7rem + 0.1vw);
   font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.015rem;
+  line-height: 1.4;
+  letter-spacing: -0.015rem;
 }
 
 .caption1-a {
   font-weight: 500;
 }
 
-.caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+.caption2, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
   font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
@@ -12308,7 +12308,7 @@ img {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
@@ -12328,7 +12328,7 @@ img {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2;
   }
@@ -12346,7 +12346,7 @@ img {
   }
 }
 
-.discount, .card-level {
+.orderCard .card-body .card-date .date-btn, .discount, .card-level, .orderSchedule-btn {
   border-radius: 0.25rem;
 }
 
@@ -12366,7 +12366,7 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.discount, form .input-field .text-field .form-control, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .button, .date-btn, .button-active {
+.discount, form .input-field .text-field .form-control, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .orderSchedule-btn, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12523,6 +12523,44 @@ img {
 .movie-btn:hover .box {
   background-color: #F37B2A;
   border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.order-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.125rem;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.order-btn .footnote {
+  margin: 0;
+  color: #AFAAA7;
+  letter-spacing: -0.0313rem;
+}
+.order-btn .box {
+  width: 100%;
+  height: 0.25rem;
+  border-radius: 0;
+  background: transparent;
+}
+.order-btn:hover .footnote {
+  color: #F37B2A;
+}
+.order-btn:hover .box {
+  background-color: #F37B2A;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.orderSchedule-btn {
+  padding: 0.375rem;
+  background-color: #fff;
+  color: #F37B2A;
+  border: 0;
+}
+.orderSchedule-btn .caption1 {
+  margin: 0;
 }
 
 .date-btn {
@@ -13126,6 +13164,113 @@ form .input-field .text-field .form-text {
   }
 }
 
+.orderCard {
+  width: 100%;
+  overflow: hidden;
+}
+.orderCard .card-body {
+  padding: 0 0.75rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.4);
+  border-bottom-color: transparent;
+  background: rgba(0, 0, 0, 0.04);
+}
+.orderCard .card-body .card-title {
+  margin-top: 0.375rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.orderCard .card-body .card-title .order-number {
+  display: flex;
+  gap: 0.625rem;
+}
+.orderCard .card-body .card-title .order-number h5, .orderCard .card-body .card-title .order-number .h5, .orderCard .card-body .card-title .order-number p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+.orderCard .card-body .line {
+  background-color: #fff;
+}
+.orderCard .card-body .card-subtitle {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.orderCard .card-body .card-subtitle h6, .orderCard .card-body .card-subtitle .h6 {
+  color: #736B66;
+  margin-bottom: 0.25rem;
+}
+.orderCard .card-body .card-subtitle p {
+  color: #908A86;
+  margin-bottom: 0;
+}
+.orderCard .card-body .card-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.375rem;
+}
+.orderCard .card-body .card-detail h5, .orderCard .card-body .card-detail .h5 {
+  color: #736B66;
+  margin-bottom: 0;
+}
+.orderCard .card-body .card-detail .texts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 0.2188rem 0;
+}
+.orderCard .card-body .card-detail .texts .text {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.orderCard .card-body .card-detail .texts .text h6, .orderCard .card-body .card-detail .texts .text .h6, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text p {
+  color: #908A86;
+  margin-bottom: 0;
+}
+.orderCard .card-body .card-detail .texts .text h6, .orderCard .card-body .card-detail .texts .text .h6 {
+  padding-right: 0.375rem;
+}
+.orderCard .card-body .card-detail .texts .text .text-number {
+  padding-right: 0.125rem;
+}
+.orderCard .card-body .card-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+.orderCard .card-body .card-date .date-btn {
+  padding: 0.125rem 0.3125rem;
+  border: 0.025rem solid rgba(0, 0, 0, 0.4);
+  background-color: #EFEDED;
+}
+.orderCard .card-body .card-date .date-btn .footnote {
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+.orderCard .card-body .card-date h6, .orderCard .card-body .card-date .h6 {
+  margin-bottom: 0;
+}
+.orderCard .card-body .card-date .price h4, .orderCard .card-body .card-date .price .h4 {
+  color: #F37B2A;
+}
+.orderCard .qrcode {
+  background: #EFEDED;
+  border-radius: 0 0 0.5rem 0.5rem;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.4);
+  border-top-color: transparent;
+}
+.orderCard .qrcode .footnote {
+  padding: 0.375rem 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #F37B2A;
+}
+
 .tool-focus {
   padding: 1rem 0.625rem;
 }
@@ -13316,7 +13461,7 @@ form .input-field .text-field .form-text {
 .footnote, .footnote-a, .underline, .search-bar .form-control, form .input-field .text-field .form-text {
   font-size: calc(0.8rem + 0.3vw);
   font-weight: 400;
-  line-height: 1.125;
+  line-height: 1.3;
   letter-spacing: 0.0313rem;
 }
 
@@ -13332,15 +13477,15 @@ form .input-field .text-field .form-text {
 .caption1, .caption1-a, .movieUnder-btn {
   font-size: calc(0.7rem + 0.1vw);
   font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.015rem;
+  line-height: 1.4;
+  letter-spacing: -0.015rem;
 }
 
 .caption1-a {
   font-weight: 500;
 }
 
-.caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number {
+.caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number {
   font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
@@ -13391,7 +13536,7 @@ form .input-field .text-field .form-text {
   .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number {
+  .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
@@ -13411,7 +13556,7 @@ form .input-field .text-field .form-text {
   .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number {
+  .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2;
   }
@@ -13429,7 +13574,7 @@ form .input-field .text-field .form-text {
   }
 }
 
-.card-level, .discount {
+.orderSchedule-btn, .card-level, .discount, .orderCard .card-body .card-date .date-btn {
   border-radius: 0.25rem;
 }
 
@@ -13449,7 +13594,7 @@ form .input-field .text-field .form-text {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.button, .button-active, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, form .input-field .text-field .form-control, .discount, .tool-focus, .tool-normal {
+.button, .button-active, .orderSchedule-btn, .date-btn, .message-avator, .message-avator img, .company-focus, .company-following, .company-follow, form .input-field .text-field .form-control, .discount, .tool-focus, .tool-normal {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13788,6 +13933,9 @@ header {
   }
 }
 
+main {
+  padding-bottom: 6rem;
+}
 main .container-11 {
   padding: 0 0.7188rem;
 }
@@ -13861,6 +14009,24 @@ main .container .grid {
     padding-top: calc(1.5rem + 1.3vw);
     padding-bottom: calc(7rem + 1.3vw);
   }
+}
+main .container .segmented-controls--order {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1.5rem;
+  padding: 0.125rem 0;
+  margin: 0.5rem 0;
+}
+main .container .segmented-controls--order .btn-active .footnote {
+  color: #F37B2A;
+}
+main .container .segmented-controls--order .btn-active .box {
+  background-color: #F37B2A;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+main .container .orderCard:first-child {
+  margin-bottom: 1rem;
 }
 
 footer {
