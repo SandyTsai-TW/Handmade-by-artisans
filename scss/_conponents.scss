@@ -179,7 +179,7 @@
     }
 }
 
-.orderSchedule-btn {
+.orderSchedule-btn, %orderSchedule-btn {
     padding: .375rem;
     background-color: $white;
     color: $primary;
@@ -190,6 +190,12 @@
     .caption1 {
         margin: 0;
     }
+}
+
+.orderSchedule-btn-pri {
+    @extend %orderSchedule-btn;
+    background-color: $primary;
+    color: $white;
 }
 
 // Date reservation / Status
@@ -817,6 +823,9 @@ form {
             @media (min-width: 1024px) {
                 transform: translate(-50%, 25%);
             }
+            @media (min-width: 2056px) {
+                transform: translate(-50%, 92%);
+            }
         .circle-bg {
             background-color: $white-02;
             @extend %r-bg;
@@ -868,12 +877,28 @@ form {
         border-bottom-color: transparent;
         background: $other-01;
 
+        @include pad {
+            padding: 0 1rem;
+        }
+        @include pad1024 {
+            padding: 0 2rem;
+            border: .125rem solid $black-04;
+            border-bottom-color: transparent;
+        }
         .card-title {
             margin-top: .375rem;
             margin-bottom: .25rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            @include pad {
+                margin-top: .625rem;
+                margin-bottom: .375rem;
+            }
+            @include pad1024 {
+                margin-top: .875rem;
+                margin-bottom: .625rem;
+            }
             .order-number {
                 display: flex;
                 gap: .625rem;
@@ -884,18 +909,39 @@ form {
             }
         }
         .line {
-        background-color: $white;
+            background-color: $white;
+            @include pad1024 {
+                height: .25rem;
+            }
         }
         .card-subtitle {
             margin-top: .5rem;
             margin-bottom: 1rem;
+            @include pad {
+                margin-top: .625rem;
+                margin-bottom: 1.25rem;
+            }
+            @include pad1024 {
+                margin-top: 1rem;
+                margin-bottom: 1.375rem;
+            }
                 h6 {
                     color: $gray-100;
                     margin-bottom: .25rem;
+                    @include pad {
+                        margin-bottom: .625rem;
+                    }
+                    @include pad1024 {
+                        margin-bottom: .75rem;
+                    }
                 }
                 p {
                     color: $gray-200;
                     margin-bottom: 0;
+
+                    @include mobile {
+                        line-height: .625rem;
+                    }
                 }
         }
         .card-detail {
@@ -938,6 +984,12 @@ form {
             justify-content: space-between;
             align-items: center;
             margin-bottom: .625rem;
+            @include pad {
+                margin-bottom: .75rem;
+            }
+            @include pad1024 {
+                margin-bottom: .875rem;
+            }
                 .date-btn {
                     padding: .125rem .3125rem;
                     border: .025rem solid $black-04;
@@ -963,12 +1015,22 @@ form {
         border-radius: 0 0 .5rem .5rem;
         border: .0625rem solid $black-04;
         border-top-color: transparent;
+        @include pad1024 {
+            border: .125rem solid $black-04;
+            border-top-color: transparent;
+        }
         
         .footnote {
             padding: .375rem 0;
             margin-bottom: 0;
             text-align: center;
             color: $primary;
+            @include pad {
+                padding: .75rem 0;
+            }
+            @include pad1024 {
+                padding: .875rem 0;
+            }
         }
     }
 }

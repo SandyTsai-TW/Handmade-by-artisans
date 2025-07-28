@@ -53,7 +53,7 @@
         <a href="member_follower.html" class="button">追蹤者影片</a>
       </div>
       <div class="segmented-controls--order">
-          <a href="member_orderFinish.html" class="order-btn btn-active">
+          <a href="member_orderFinish.html" class="order-btn">
             <h6 class="footnote">已完成</h6>
             <div class="box"></div>
           </a>
@@ -69,21 +69,21 @@
             <h6 class="footnote">課程進行中</h6>
             <div class="box"></div>
           </a>
-          <a href="member_canceled.html" class="order-btn">
+          <a href="member_canceled.html" class="order-btn btn-active">
             <h6 class="footnote">已取消</h6>
             <div class="box"></div>
           </a>
       </div>
       <div class="orderCards">
         <div class="orderCard">
-          <div class="card-body">
+          <div class="card-body canceled">
             <div class="card-title">
               <div class="order-number">
                 <h5 class="caption1">訂單編號</h5>
                 <p class="caption1">XXXXXXXXXXXXXXX</p>
               </div>
-              <div class="orderSchedule-btn">
-                <div class="caption1">已完成</div>
+              <div class="orderSchedule-btn-pri">
+                <div class="caption1">已取消</div>
               </div>
             </div>
             <div class="line"></div>
@@ -121,20 +121,15 @@
               </div>
             </div>
           </div>
-<!-- Button trigger modal -->
-          <div class="qrcode" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <div class="footnote">查看憑證</div>
-          </div>
-        </div>
         <div class="orderCard">
-          <div class="card-body">
+          <div class="card-body canceled">
             <div class="card-title">
               <div class="order-number">
                 <h5 class="caption1">訂單編號</h5>
                 <p class="caption1">XXXXXXXXXXXXXXX</p>
               </div>
-              <div class="orderSchedule-btn">
-                <div class="caption1">已完成</div>
+              <div class="orderSchedule-btn-pri">
+                <div class="caption1">已取消</div>
               </div>
             </div>
             <div class="line"></div>
@@ -172,26 +167,6 @@
               </div>
             </div>
           </div>
-<!-- Button trigger modal -->
-          <div class="qrcode" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <div class="footnote">查看憑證</div>
-          </div>
-        </div>
-      </div>
-<!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <span class="icon qrcode-scan"></span>
-            <div class="caption2-a">XXXXXXXXXX</div>
-          </div>
-        </div>
-      </div>
       </div>
   </main>
 

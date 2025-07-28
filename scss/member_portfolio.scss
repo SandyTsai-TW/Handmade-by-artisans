@@ -48,6 +48,9 @@ header {
 }
 
 ////////////////// MAIN//////////////////////////
+.s-pb-6 {
+    padding-bottom: 6rem;
+}
 main {
     .container-11 {
         padding: 0 .7188rem;
@@ -90,7 +93,7 @@ main {
             justify-content: center;
             align-items: center;
             gap: 1rem;
-            
+
                 @media (min-width: 768px) {
                     gap: 2rem;
                 }
@@ -99,7 +102,10 @@ main {
                 width: 100%;
                 text-align: center;
                 padding: .7188rem .75rem;
-    
+                
+                @include mobile {
+                    padding: .625rem .6875rem;
+                }
                 @media (min-width: 768px) {
                     padding: .875rem .825rem;
                 }
@@ -126,6 +132,19 @@ main {
             padding: .125rem 0;
             margin: .5rem 0;
             
+            @include mobile {
+                gap: 1.375rem;
+            }
+            @include pad {
+                gap: 3.2rem;
+                padding: .375rem 0;
+                margin: .625rem 0;
+            }
+            @include pad1024 {
+                gap: 5.5rem;
+                padding: .5rem 0;
+                margin: .75rem 0;
+            }
             .btn-active {
                 .footnote {
                     color: $primary;
@@ -138,6 +157,49 @@ main {
         }
         .orderCard:first-child {
             margin-bottom: 1rem;
+
+            @include pad {
+                margin-bottom: 2rem;
+            }
+            @include pad1024 {
+                margin-bottom: 3rem;
+            }
+        }
+        .modal-dialog {
+            width: 45.3%;
+            top: 25%;
+            left: 25%;
+            @include pad {
+                top: 40%;
+                left: 0;
+            }
+            .modal-body {
+                text-align: center;
+                span {
+                    width: 6rem;
+                    height: 6rem;
+                    @include pad {
+                        width: 7.5rem;
+                        height: 7.5rem;
+                    }
+                }
+                .caption2-a {
+                    margin-top: .5rem;
+                }
+            }
+        }
+
+        .canceled {
+            border-radius: .5rem;
+            border-bottom-color: $black-04;
+            margin-bottom: 1rem;
+            
+            @include pad {
+                margin-bottom: 2rem;
+            }
+            @include pad1024 {
+                margin-bottom: 3rem;
+            }
         }
     }
 }

@@ -25,6 +25,23 @@ $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-semibold: 700;
 
+@mixin mobile {
+    @media (max-width: 320px) {
+        @content;
+    }
+}
+
+@mixin pad {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin pad1024 {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
 
 .largeTitle,
 .title1,
