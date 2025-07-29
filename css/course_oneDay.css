@@ -13347,6 +13347,7 @@ form .input-field .text-field .form-text {
   border-radius: 0 0 0.5rem 0.5rem;
   border: 0.0625rem solid rgba(0, 0, 0, 0.4);
   border-top-color: transparent;
+  cursor: pointer;
 }
 @media (min-width: 1024px) {
   .orderCard .qrcode {
