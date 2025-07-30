@@ -1,0 +1,234 @@
+@import "all";
+
+// ////////HEADER////////////////////////////////
+header,footer {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+header {
+    top: 0;
+    background: $nav-linear;
+}
+
+.navbar {
+    .container {
+        justify-content: flex-end;
+
+        @media (min-width: 768px) {
+            height: 4rem;
+        }
+        .btn-group {
+            button {
+                padding: 0;
+                color: $black-01;
+            }
+            button:nth-of-type(1) {
+                margin-right: calc(0.25rem + 0.3vw);
+        
+                @media (min-width: 768px) {
+                    margin-right: .75rem;
+                }
+            }
+            span {
+                background-color: $black-02;
+                    @media (min-width: 768px) {
+                        width: 1.875rem;
+                        height: 1.875rem;
+                    }
+    
+                    @media (min-width: 1440px) {
+                        width: 2.25rem;
+                        height: 2.25rem;
+                    }
+            }
+        } 
+    }
+}
+
+////////////////// MAIN//////////////////////////
+.s-pb-6 {
+    padding-bottom: 6rem;
+}
+main {
+    .container-11 {
+        padding: 0 .7188rem;
+
+        .profilePage {
+            position: relative;
+        }
+    }
+    .container {
+        .info {
+            text-align: center;
+            margin-top: 4.6875rem;
+            margin-bottom: 1.5rem;
+    
+                @media (min-width: 768px) {
+                    margin-top: 7.75rem;
+                    margin-bottom: 2rem;
+                }
+                @media (min-width: 1440px) {
+                    margin-top: 10.375rem;
+                    margin-bottom: 2.1rem;
+                }
+            .title2, .subhead {
+                margin-bottom: 0;
+            }
+            .title2 {
+                color: $black-02;
+                padding: .375rem 0;
+    
+                @media (min-width: 768px) {
+                    padding: .625rem 0;
+                }
+            }
+            .subhead {
+                color: $gray-100;
+            }
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+                @media (min-width: 768px) {
+                    gap: 2rem;
+                }
+    
+            .button {
+                width: 100%;
+                text-align: center;
+                padding: .7188rem .75rem;
+                
+                @include mobile {
+                    padding: .625rem .6875rem;
+                }
+                @media (min-width: 768px) {
+                    padding: .875rem .825rem;
+                }
+                @media (min-width: 1440px) {
+                    padding: 1rem 1.2rem;
+                }
+            }
+        }
+// order.html
+        .segmented-controls--order {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 1.5rem;
+            padding: .125rem 0;
+            margin: .5rem 0;
+            
+            @include mobile {
+                gap: 1.375rem;
+            }
+            @include pad {
+                gap: 3.2rem;
+                padding: .375rem 0;
+                margin: .625rem 0;
+            }
+            @include pad1024 {
+                gap: 5.5rem;
+                padding: .5rem 0;
+                margin: .75rem 0;
+            }
+            .btn-active {
+                .footnote {
+                    color: $primary;
+                }
+                .box {
+                    background-color: $primary;
+                    border-radius: 0.25rem 0.25rem 0 0;
+                }
+            }
+        }
+        .orderCard:first-child {
+            margin-bottom: 1rem;
+
+            @include pad {
+                margin-bottom: 2rem;
+            }
+            @include pad1024 {
+                margin-bottom: 3rem;
+            }
+        }
+        .modal-dialog {
+            max-width: 100%;
+            top: 30%;
+            @include pad {
+                max-width: 90%;
+            }
+            .modal-body {
+                padding: 1rem .75rem;
+                max-width: 100%;
+
+                .ink-progress {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-column-gap: .5rem;
+                    grid-row-gap: .875rem;
+                    
+                    .ink {
+                        display: inline-block;
+                        text-align: center;
+                        
+                        .circle-bg {
+                            margin: auto;
+                            margin-bottom: .125rem;
+                            width: 3.75rem;
+                            height: 3.75rem;
+                            border-radius: 50%;
+                            background-color: $gray-400;
+                            @include pad {
+                                width: 5rem;
+                                height: 5rem;
+                            }
+                            .img-container {
+                                width: 3rem;
+                                height: 3rem;
+                                border-radius: 50%;
+                                overflow: hidden;
+                                transform: translate(13%,10%);
+                                @include pad {
+                                    width: 4.5rem;
+                                    height: 4.5rem;
+                                    transform: translate(6%,5%);
+                                }
+                                img {
+                                    background-color: $white;
+                                }
+                            }
+                        }
+                        .time {
+                            @extend %caption2;
+                            color: $gray-100;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// footer////////////////////////////////
+footer {
+    bottom: 0;
+    background-color: $white;
+    .tabbar {
+        border-top: .025rem solid $gray-400;
+        padding: 0.25rem 0;
+        .nav-link {
+            color: $gray-200;
+        }
+        .btn-active {
+            color: $primary;
+        }
+    }
+}
