@@ -11992,7 +11992,7 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
-.caption2, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+.caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
   font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
@@ -12043,7 +12043,7 @@ textarea.form-control-lg {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
@@ -12063,7 +12063,7 @@ textarea.form-control-lg {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2;
   }
@@ -12257,7 +12257,7 @@ img {
   font-weight: 500;
 }
 
-.caption2, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+.caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
   font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
@@ -12308,7 +12308,7 @@ img {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
@@ -12328,7 +12328,7 @@ img {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2;
   }
@@ -13700,7 +13700,7 @@ form .input-field .text-field .form-text {
   font-weight: 500;
 }
 
-.caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
+.caption2, .modal-dialog .modal-body .ink-progress .ink .time, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
   font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
@@ -13751,7 +13751,7 @@ form .input-field .text-field .form-text {
   .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
+  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
@@ -13771,7 +13771,7 @@ form .input-field .text-field .form-text {
   .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
+  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2;
   }
@@ -14101,68 +14101,108 @@ img {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%231877f2' d='M256 128C256 57.308 198.692 0 128 0S0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445' stroke-width='5.5' stroke='%231877f2'/%3E%3Cpath fill='%23fff' d='m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A129 129 0 0 0 128 256a129 129 0 0 0 20-1.555V165z' stroke-width='5.5' stroke='%23fff'/%3E%3C/svg%3E");
 }
 
-header {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-  background-color: #fff;
-  top: 0;
-}
-
 .navbar {
   padding: 0.625rem 0;
 }
+.navbar .container {
+  display: block;
+}
 .navbar .container h6, .navbar .container .h6 {
   margin: 0;
-  color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
 }
 
-main {
-  background-color: rgba(251, 197, 159, 0.21);
-  height: 100%;
-  margin-top: calc(2.75rem + 1.3vw);
+.info {
+  padding: 0.75rem 0 1.5rem;
 }
-main .container {
-  height: 100%;
+@media (min-width: 768px) {
+  .info {
+    padding: 1.75rem 0;
+  }
 }
-main .content {
+.info .item {
   display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 2.125rem;
 }
-main .content .titles {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 2rem;
+.info .item:not(:last-child) {
+  margin-bottom: 0.5rem;
 }
-main .content .titles .title h4, main .content .titles .title .h4 {
+@media (min-width: 768px) {
+  .info .item:not(:last-child) {
+    margin-bottom: 0.875rem;
+  }
+}
+.info .item .subhead {
+  margin: 0;
+  color: #736B66;
+}
+.info .item .price h5, .info .item .price .h5, .info .item .price h4, .info .item .price .h4 {
   color: #000;
 }
-main .content .buttons .line {
-  background-color: #fff;
-  height: 0.1875rem;
+.info .item .price .gray {
+  color: #736B66;
 }
-main .content .buttons h2, main .content .buttons .h2 {
+.info .item .price .pri {
   color: #F37B2A;
-  margin: 1.5rem 0;
 }
 
-footer {
+.modal-dialog {
+  max-width: 100%;
+  top: 30%;
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    max-width: 90%;
+  }
+}
+.modal-dialog .modal-body {
+  padding: 1rem 0.75rem;
+  max-width: 100%;
+}
+.modal-dialog .modal-body .ink-progress {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.875rem;
+}
+.modal-dialog .modal-body .ink-progress .ink {
+  display: inline-block;
+  text-align: center;
+}
+.modal-dialog .modal-body .ink-progress .ink .circle-bg {
+  margin: auto;
+  margin-bottom: 0.125rem;
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  background-color: #CECBC9;
+}
+@media (min-width: 768px) {
+  .modal-dialog .modal-body .ink-progress .ink .circle-bg {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+.modal-dialog .modal-body .ink-progress .ink .circle-bg .img-container {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translate(13%, 10%);
+}
+@media (min-width: 768px) {
+  .modal-dialog .modal-body .ink-progress .ink .circle-bg .img-container {
+    width: 4.5rem;
+    height: 4.5rem;
+    transform: translate(6%, 5%);
+  }
+}
+.modal-dialog .modal-body .ink-progress .ink .circle-bg .img-container img {
   background-color: #fff;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
 }
-footer .tabbar {
-  border-top: 0.025rem solid #CECBC9;
-  padding: 0.25rem 0;
-}
-footer .tabbar .nav-link {
-  color: #908A86;
-}
-footer .tabbar .btn-active {
-  color: #F37B2A;
-}/*# sourceMappingURL=member_settings.css.map */
+.modal-dialog .modal-body .ink-progress .ink .time {
+  color: #736B66;
+}/*# sourceMappingURL=member_orderDetails.css.map */

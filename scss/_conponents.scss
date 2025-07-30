@@ -867,7 +867,7 @@ form {
 }
 
 // order number card
- .orderCard {
+.orderCard {
     width: 100%;
     overflow: hidden;
     .card-body {
@@ -1031,6 +1031,121 @@ form {
             }
             @include pad1024 {
                 padding: .875rem 0;
+            }
+        }
+    }
+}
+
+.orderCard-details {
+    width: 100%;
+    overflow: hidden;
+    .card-body {
+        padding: 0 .75rem;
+        border-radius: .5rem .5rem 0 0;
+        border: .0625rem solid $black-03;
+        border-bottom: .0625rem solid transparent;
+        background: $other-01;
+
+        @include pad {
+            padding: 0 1rem;
+        }
+        @include pad1024 {
+            padding: 0 2rem;
+            border: .125rem solid $black-04;
+            border-bottom-color: transparent;
+        }
+        .card-title {
+            margin-top: .75rem;
+            margin-bottom: .625rem;
+            @include pad {
+                margin-top: .625rem;
+                margin-bottom: 1.25rem;
+            }
+            @include pad1024 {
+                margin-top: 1rem;
+                margin-bottom: 1.375rem;
+            }
+                h6 {
+                    color: $black-02;
+                    margin-bottom: .25rem;
+                    @include pad {
+                        margin-bottom: .625rem;
+                    }
+                    @include pad1024 {
+                        margin-bottom: .75rem;
+                    }
+                }
+                p {
+                    color: $gray-200;
+                    margin-bottom: 0;
+
+                    @include mobile {
+                        line-height: .625rem;
+                    }
+                }
+        }
+        .card-detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: .5rem;
+            .card-level {
+                line-height: 1.5;
+                padding: .125rem .2813rem;
+                min-width: auto;
+            }
+            .texts {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                gap: 1.25rem;
+                padding: .2188rem 0;
+
+                .text {
+                    display: flex;
+                    justify-content: center;
+                    align-items: baseline;
+
+                    h6, .text-number, p{
+                        color: $gray-200;
+                        margin-bottom: 0;
+                    }
+                    h6 {
+                        padding-right: .375rem;
+                    }
+                    .text-number {
+                        @extend %caption2;
+                        padding-right: .125rem;
+                    }
+                }
+            }
+        }
+    }
+    .cover {
+        padding: .25rem 0;
+        background-color: $black-05;
+        border-radius: 0 0 .5rem .5rem;
+        border: .0625rem solid $black-03;
+        border-top: .0625rem solid $black-05;
+        .courseName {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: .125rem 0;
+            h6 {
+                margin: 0;
+                color: $gray-200;
+                text-align: center;
+                width: 100%;
+            }
+        }
+        .line {
+            background-color: $white;
+            margin: .25rem 0;
+        }
+        .courseDetails {
+            h6{
+                color: $black-02;
             }
         }
     }
