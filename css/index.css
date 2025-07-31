@@ -13121,7 +13121,7 @@ form .input-field .text-field .form-text {
   background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
 }
 .profilePage .img-container {
-  aspect-ratio: 21/9;
+  aspect-ratio: 16/9;
   border-radius: 0 0 0.9375rem 0.9375rem;
   overflow: hidden;
 }
@@ -13132,21 +13132,21 @@ form .input-field .text-field .form-text {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -8%);
+  transform: translate(-50%, 0%);
 }
 @media (min-width: 768px) {
   .profilePage .profilePage-avator {
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 20%);
   }
 }
 @media (min-width: 1024px) {
   .profilePage .profilePage-avator {
-    transform: translate(-50%, 25%);
+    transform: translate(-50%, 50%);
   }
 }
 @media (min-width: 2056px) {
   .profilePage .profilePage-avator {
-    transform: translate(-50%, 92%);
+    transform: translate(-50%, 100%);
   }
 }
 .profilePage .profilePage-avator .circle-bg {

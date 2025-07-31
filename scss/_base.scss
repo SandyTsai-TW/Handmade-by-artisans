@@ -20,6 +20,8 @@ $other-01: rgba($color: #000000, $alpha: 0.04);
 $other-02: rgba(251,197,159,.21);
 $other-03: linear-gradient(90deg, rgba(0, 0, 0, .4) 31%, rgba(0, 0, 0, .05) 97%);
 $nav-linear:  linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255, .1));
+$bars: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .7) 99%);
+
 //////////////////Font//////////////////////////////////////////
 $font-weight-regular: 400;
 $font-weight-medium: 500;

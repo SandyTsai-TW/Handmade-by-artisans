@@ -12089,6 +12089,10 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   border-radius: 0.5rem;
 }
 
+footer {
+  backdrop-filter: blur(20px);
+}
+
 .company-card .card-cover {
   backdrop-filter: blur(3px);
 }
@@ -12352,6 +12356,10 @@ img {
 
 form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
+}
+
+footer {
+  backdrop-filter: blur(20px);
 }
 
 .company-card .card-cover {
@@ -13797,6 +13805,10 @@ form .input-field .text-field .form-text {
   border-radius: 0.5rem;
 }
 
+footer {
+  backdrop-filter: blur(20px);
+}
+
 .company-card .card-cover {
   backdrop-filter: blur(3px);
 }
@@ -14101,24 +14113,190 @@ img {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%231877f2' d='M256 128C256 57.308 198.692 0 128 0S0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445' stroke-width='5.5' stroke='%231877f2'/%3E%3Cpath fill='%23fff' d='m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A129 129 0 0 0 128 256a129 129 0 0 0 20-1.555V165z' stroke-width='5.5' stroke='%23fff'/%3E%3C/svg%3E");
 }
 
-.loading {
+header, footer {
+  position: fixed;
+  z-index: 2;
   width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
 }
-.loading .spinner-box {
-  margin: auto;
+
+header {
+  top: 0;
+  background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.1));
+}
+
+.navbar .container {
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .navbar .container {
+    height: 4rem;
+  }
+}
+.navbar .container button {
+  padding: 0;
+  color: #000;
+}
+.navbar .container span {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+@media (min-width: 768px) {
+  .navbar .container span {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+}
+@media (min-width: 1440px) {
+  .navbar .container span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+main .container-11 {
+  padding: 0 0.7188rem;
+}
+main .container-11 .profilePage {
+  position: relative;
+}
+main .container .info {
+  margin-top: 4.6875rem;
+  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.loading .spinner-box .spinner-border {
-  width: 6.25rem;
-  height: 6.25rem;
-  border-width: 1rem;
+@media (min-width: 768px) {
+  main .container .info {
+    margin-top: 7.75rem;
+    margin-bottom: 2rem;
+  }
 }
-.loading .spinner-box .title2 {
-  padding-top: 1.875rem;
+@media (min-width: 1440px) {
+  main .container .info {
+    margin-top: 10.375rem;
+    margin-bottom: 2.1rem;
+  }
+}
+main .container .info .title2 {
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 0.0313rem 0;
+}
+@media (min-width: 768px) {
+  main .container .info .title2 {
+    padding: 0.625rem 0;
+  }
+}
+main .container .info .items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 0.25rem;
+}
+main .container .info .items .stars {
+  margin: 0;
+  justify-content: center;
+}
+main .container .info .items .teaching {
+  display: flex;
+  gap: 0.5rem;
+}
+main .container .info .items .teaching h5, main .container .info .items .teaching .h5, main .container .info .items .teaching p {
+  margin: 0;
+}
+main .container .info .items .teaching h5, main .container .info .items .teaching .h5 {
+  color: rgba(0, 0, 0, 0.8);
+}
+main .container .info .items .teaching p {
+  color: rgba(0, 0, 0, 0.6);
+}
+main .container .info .items .place p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+main .container .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  main .container .buttons {
+    gap: 2rem;
+  }
+}
+main .container .buttons .button-active {
+  width: 100%;
   text-align: center;
-}/*# sourceMappingURL=loading.css.map */
+  padding: 0.625rem 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+main .container .buttons .button-active .subhead {
+  margin: 0;
+}
+main .container .buttons .button {
+  width: 100%;
+  text-align: center;
+  padding: 0.7188rem 0.75rem;
+}
+@media (max-width: 320px) {
+  main .container .buttons .button {
+    padding: 0.625rem 0.6875rem;
+  }
+}
+@media (min-width: 768px) {
+  main .container .buttons .button {
+    padding: 0.875rem 0.825rem;
+  }
+}
+@media (min-width: 1440px) {
+  main .container .buttons .button {
+    padding: 1rem 1.2rem;
+  }
+}
+main .container .segmented-controls {
+  display: flex;
+  padding: 1rem 0 0.75rem;
+}
+main .container .segmented-controls .movie-btn {
+  gap: 0.125rem;
+}
+main .container .segmented-controls .movie-btn .caption1 {
+  line-height: 1.56;
+}
+main .container .segmented-controls .movie-btn .box {
+  background-color: transparent;
+}
+main .container .segmented-controls .movie-btn:hover .box {
+  background-color: #F37B2A;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+main .container .segmented-controls .btn-active h6, main .container .segmented-controls .btn-active .h6 {
+  color: #F37B2A;
+}
+main .container .segmented-controls .btn-active .box {
+  background-color: #F37B2A;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+main .container .grid {
+  padding-top: calc(0.5rem + 1.3vw);
+  padding-bottom: calc(5rem + 1.3vw);
+}
+@media (min-width: 768px) {
+  main .container .grid {
+    padding-top: calc(1.5rem + 1.3vw);
+    padding-bottom: calc(7rem + 1.3vw);
+  }
+}
+
+footer {
+  bottom: 0;
+  height: 34px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 99%);
+}/*# sourceMappingURL=company_info.css.map */

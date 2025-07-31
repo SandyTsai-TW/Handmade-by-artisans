@@ -802,7 +802,7 @@ form {
         background: $company;
     }
     .img-container {
-        aspect-ratio: 21 / 9;
+        aspect-ratio: 16 / 9;
         border-radius: 0 0 .9375rem .9375rem;
         overflow: hidden;
         @extend %r-bg;
@@ -815,16 +815,16 @@ form {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -8%);
+        transform: translate(-50%, 0%);
 
             @media (min-width: 768px) {
-                transform: translate(-50%, 0);
+                transform: translate(-50%, 20%);
             }
             @media (min-width: 1024px) {
-                transform: translate(-50%, 25%);
+                transform: translate(-50%, 50%);
             }
             @media (min-width: 2056px) {
-                transform: translate(-50%, 92%);
+                transform: translate(-50%, 100%);
             }
         .circle-bg {
             background-color: $white-02;
