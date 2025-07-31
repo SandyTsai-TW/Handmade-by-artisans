@@ -11934,13 +11934,13 @@ textarea.form-control-lg {
   letter-spacing: 0.015rem;
 }
 
-.headline, .fontBody, .headline-a {
+.headline, .fontBody, .headline-a, .course-progress .header h1, .course-progress .header .h1 {
   font-size: calc(1rem + 0.3vw);
   line-height: 1.375;
   letter-spacing: 0.05rem;
 }
 
-.headline-a {
+.headline-a, .course-progress .header h1, .course-progress .header .h1 {
   font-weight: 700;
 }
 
@@ -11992,7 +11992,7 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
-.caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+.caption2, .course-progress .body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
   font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
@@ -12023,7 +12023,7 @@ textarea.form-control-lg {
     line-height: 1.5625;
     letter-spacing: 0.015rem;
   }
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .course-progress .header h1, .course-progress .header .h1, .fontBody {
     font-size: calc(0.9rem + 0.1vw);
   }
   .callout {
@@ -12043,12 +12043,12 @@ textarea.form-control-lg {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .course-progress .body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
 @media (min-width: 768px) {
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .course-progress .header h1, .course-progress .header .h1, .fontBody {
     font-size: calc(1.6rem + 0.4vw);
   }
   .callout {
@@ -12063,7 +12063,7 @@ textarea.form-control-lg {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .course-progress .body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2;
   }
@@ -12085,7 +12085,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+.course-progress .body, form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12199,13 +12199,13 @@ img {
   letter-spacing: 0.015rem;
 }
 
-.headline, .headline-a, .fontBody {
+.headline, .headline-a, .course-progress .header h1, .course-progress .header .h1, .fontBody {
   font-size: calc(1rem + 0.3vw);
   line-height: 1.375;
   letter-spacing: 0.05rem;
 }
 
-.headline-a {
+.headline-a, .course-progress .header h1, .course-progress .header .h1 {
   font-weight: 700;
 }
 
@@ -12257,7 +12257,7 @@ img {
   font-weight: 500;
 }
 
-.caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+.caption2, .course-progress .body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
   font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
@@ -12288,7 +12288,7 @@ img {
     line-height: 1.5625;
     letter-spacing: 0.015rem;
   }
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .course-progress .header h1, .course-progress .header .h1, .fontBody {
     font-size: calc(0.9rem + 0.1vw);
   }
   .callout {
@@ -12308,12 +12308,12 @@ img {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .course-progress .body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
 @media (min-width: 768px) {
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .course-progress .header h1, .course-progress .header .h1, .fontBody {
     font-size: calc(1.6rem + 0.4vw);
   }
   .callout {
@@ -12328,7 +12328,7 @@ img {
   .caption1, .movieUnder-btn, .caption1-a {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
+  .caption2, .course-progress .body .ink-progress .ink .time, .orderCard-details .card-body .card-detail .texts .text .text-number, .orderCard .card-body .card-detail .texts .text .text-number, .stars .messages-number, .caption2-a, .stars .fraction, .card-level {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2;
   }
@@ -12350,7 +12350,7 @@ img {
   border-radius: 0.25rem;
 }
 
-form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+.course-progress .body, form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -13642,13 +13642,13 @@ form .input-field .text-field .form-text {
   letter-spacing: 0.015rem;
 }
 
-.headline, .headline-a, .fontBody {
+.headline, .headline-a, .course-progress .header h1, .course-progress .header .h1, .fontBody {
   font-size: calc(1rem + 0.3vw);
   line-height: 1.375;
   letter-spacing: 0.05rem;
 }
 
-.headline-a {
+.headline-a, .course-progress .header h1, .course-progress .header .h1 {
   font-weight: 700;
 }
 
@@ -13700,7 +13700,7 @@ form .input-field .text-field .form-text {
   font-weight: 500;
 }
 
-.caption2, .modal-dialog .modal-body .ink-progress .ink .time, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
+.caption2, .course-progress .body .ink-progress .ink .time, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
   font-size: calc(0.65rem + 0.1vw);
   line-height: 0.875rem;
   letter-spacing: 0.0313rem;
@@ -13731,7 +13731,7 @@ form .input-field .text-field .form-text {
     line-height: 1.5625;
     letter-spacing: 0.015rem;
   }
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .course-progress .header h1, .course-progress .header .h1, .fontBody {
     font-size: calc(0.9rem + 0.1vw);
   }
   .callout {
@@ -13751,12 +13751,12 @@ form .input-field .text-field .form-text {
   .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(0.6rem + 0.2vw);
   }
-  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
+  .caption2, .course-progress .body .ink-progress .ink .time, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
     font-size: calc(0.46rem + 0.2vw);
   }
 }
 @media (min-width: 768px) {
-  .headline, .headline-a, .fontBody {
+  .headline, .headline-a, .course-progress .header h1, .course-progress .header .h1, .fontBody {
     font-size: calc(1.6rem + 0.4vw);
   }
   .callout {
@@ -13771,7 +13771,7 @@ form .input-field .text-field .form-text {
   .caption1, .caption1-a, .movieUnder-btn {
     font-size: calc(1.2rem + 0.3vw);
   }
-  .caption2, .modal-dialog .modal-body .ink-progress .ink .time, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
+  .caption2, .course-progress .body .ink-progress .ink .time, .caption2-a, .card-level, .stars .fraction, .stars .messages-number, .orderCard .card-body .card-detail .texts .text .text-number, .orderCard-details .card-body .card-detail .texts .text .text-number {
     font-size: calc(1.1rem + 0.3vw);
     line-height: 1.2;
   }
@@ -13793,7 +13793,7 @@ form .input-field .text-field .form-text {
   border-radius: 0.25rem;
 }
 
-.button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .img-container img, .movieCard .img-container img, .largeCard .img-container img, .company-card .img-container, .grid .grid-item .img-container img, form .input-field .text-field .form-control, .tool-focus, .tool-normal {
+.course-progress .body, .button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .img-container img, .movieCard .img-container img, .largeCard .img-container img, .company-card .img-container, .grid .grid-item .img-container img, form .input-field .text-field .form-control, .tool-focus, .tool-normal {
   border-radius: 0.5rem;
 }
 
@@ -14105,11 +14105,22 @@ img {
   padding: 0.625rem 0;
 }
 .navbar .container {
-  display: block;
+  justify-content: flex-start;
+  gap: 0.25rem;
 }
 .navbar .container h6, .navbar .container .h6 {
   margin: 0;
   display: inline-block;
+}
+
+main {
+  padding-top: calc(1.2rem + 1.3vw);
+  padding-bottom: calc(2.2rem + 1.3vw);
+}
+@media (min-width: 768px) {
+  main {
+    padding-top: calc(2rem + 1.3vw);
+  }
 }
 
 .info {
@@ -14148,31 +14159,30 @@ img {
   color: #F37B2A;
 }
 
-.modal-dialog {
-  max-width: 100%;
-  top: 30%;
+.course-progress .header {
+  margin: auto;
 }
-@media (min-width: 768px) {
-  .modal-dialog {
-    max-width: 90%;
-  }
+.course-progress .header h1, .course-progress .header .h1 {
+  margin-bottom: 0.5rem;
+  justify-content: center;
 }
-.modal-dialog .modal-body {
+.course-progress .body {
   padding: 1rem 0.75rem;
   max-width: 100%;
+  border: 1px solid #736B66;
 }
-.modal-dialog .modal-body .ink-progress {
+.course-progress .body .ink-progress {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.875rem;
 }
-.modal-dialog .modal-body .ink-progress .ink {
+.course-progress .body .ink-progress .ink {
   display: inline-block;
   text-align: center;
 }
-.modal-dialog .modal-body .ink-progress .ink .circle-bg {
+.course-progress .body .ink-progress .ink .circle-bg {
   margin: auto;
   margin-bottom: 0.125rem;
   width: 3.75rem;
@@ -14181,12 +14191,12 @@ img {
   background-color: #CECBC9;
 }
 @media (min-width: 768px) {
-  .modal-dialog .modal-body .ink-progress .ink .circle-bg {
+  .course-progress .body .ink-progress .ink .circle-bg {
     width: 5rem;
     height: 5rem;
   }
 }
-.modal-dialog .modal-body .ink-progress .ink .circle-bg .img-container {
+.course-progress .body .ink-progress .ink .circle-bg .img-container {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -14194,15 +14204,15 @@ img {
   transform: translate(13%, 10%);
 }
 @media (min-width: 768px) {
-  .modal-dialog .modal-body .ink-progress .ink .circle-bg .img-container {
+  .course-progress .body .ink-progress .ink .circle-bg .img-container {
     width: 4.5rem;
     height: 4.5rem;
     transform: translate(6%, 5%);
   }
 }
-.modal-dialog .modal-body .ink-progress .ink .circle-bg .img-container img {
+.course-progress .body .ink-progress .ink .circle-bg .img-container img {
   background-color: #fff;
 }
-.modal-dialog .modal-body .ink-progress .ink .time {
+.course-progress .body .ink-progress .ink .time {
   color: #736B66;
 }/*# sourceMappingURL=member_orderDetails.css.map */

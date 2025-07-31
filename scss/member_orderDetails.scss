@@ -6,7 +6,8 @@
     padding: .625rem 0;
 
     .container {
-        display: block;
+        justify-content: flex-start;
+        gap: .25rem;
         
         h6 {
             margin: 0;
@@ -17,12 +18,12 @@
 
 ///////////////////// MAIN///////////////////////////////////
 main {
-    // margin-top: calc(.2rem + 1.3vw);
-    // margin-bottom: calc(2.2rem + 1.3vw);
+    padding-top: calc(1.2rem + 1.3vw);
+    padding-bottom: calc(2.2rem + 1.3vw);
 
-    // @media (min-width: 768px) {
-    //     margin-bottom: calc(4.2rem + 1.3vw);
-    // }
+    @media (min-width: 768px) {
+        padding-top: calc(2rem + 1.3vw);
+    }
 }
 
 .info {
@@ -60,16 +61,21 @@ main {
         }
     }
 }
-.modal-dialog {
-    max-width: 100%;
-    top: 30%;
-    @include pad {
-        max-width: 90%;
+.course-progress {
+    .header {
+        margin: auto;
+        h1 {
+            margin-bottom: .5rem;
+            @extend %headline-a;
+            justify-content: center;
+        }
     }
-    .modal-body {
+    .body {
         padding: 1rem .75rem;
         max-width: 100%;
-
+        @extend %radius8;
+        border: 1px solid $gray-100;
+    
         .ink-progress {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
