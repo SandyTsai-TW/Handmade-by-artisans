@@ -13144,9 +13144,9 @@ form .input-field .text-field .form-text {
     transform: translate(-50%, 50%);
   }
 }
-@media (min-width: 2056px) {
+@media (min-width: 2560px) {
   .profilePage .profilePage-avator {
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 150%);
   }
 }
 .profilePage .profilePage-avator .circle-bg {

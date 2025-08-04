@@ -83,6 +83,9 @@ main {
                 justify-content: center;
                 align-self: center;
                 gap: .25rem;
+                @include pad {
+                    gap: .5rem;
+                }
 
                 .teaching {
                     display: flex;
@@ -139,42 +142,54 @@ main {
                 }
             }
         }
-        .segmented-controls {
-            display: flex;
-            padding: 1rem 0 .75rem;
-            .movie-btn {
-                gap: .125rem;
-                .caption1 {
-                    line-height: 1.56;
+    }
+    content {
+        .segmented {
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            background-color: $white;
+            
+            .segmented-controls {     
+                display: flex;
+                padding: 1rem 0 .75rem;
+                .movie-btn {
+                    gap: .125rem;
+                    .caption1 {
+                        line-height: 1.56;
+                    }
+                    .box {
+                        background-color: transparent;
+                    }
+                &:hover {
+                    .box {
+                        background-color: $primary;
+                        border-radius: 0.25rem 0.25rem 0 0;
+                    }
                 }
-                .box {
-                    background-color: transparent;
                 }
-            &:hover {
-                .box {
-                    background-color: $primary;
-                    border-radius: 0.25rem 0.25rem 0 0;
+                .btn-active {
+                    h6 {
+                        color: $primary;
+                    }
+                    .box {
+                        background-color: $primary;
+                        border-radius: 0.25rem 0.25rem 0 0;
+                    }
                 }
+            .grid {
+                padding-top: calc(.5rem + 1.3vw);
+                padding-bottom: calc(5rem + 1.3vw);
+        
+                    @media (min-width: 768px) {
+                        padding-top: calc(1.5rem + 1.3vw);
+                        padding-bottom: calc(7rem + 1.3vw);
+                    }
             }
             }
-            .btn-active {
-                h6 {
-                    color: $primary;
-                }
-                .box {
-                    background-color: $primary;
-                    border-radius: 0.25rem 0.25rem 0 0;
-                }
-            }
-        .grid {
-            padding-top: calc(.5rem + 1.3vw);
-            padding-bottom: calc(5rem + 1.3vw);
-
-                @media (min-width: 768px) {
-                    padding-top: calc(1.5rem + 1.3vw);
-                    padding-bottom: calc(7rem + 1.3vw);
-                }
         }
+        .grid {
+            padding-bottom: 5rem;
         }
     }
 }
