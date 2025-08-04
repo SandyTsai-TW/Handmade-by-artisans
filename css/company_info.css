@@ -14259,36 +14259,42 @@ main .container .buttons .button {
     padding: 1rem 1.2rem;
   }
 }
-main .container .segmented-controls {
+main content .segmented {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #fff;
+}
+main content .segmented .segmented-controls {
   display: flex;
   padding: 1rem 0 0.75rem;
 }
-main .container .segmented-controls .movie-btn {
+main content .segmented .segmented-controls .movie-btn {
   gap: 0.125rem;
 }
-main .container .segmented-controls .movie-btn .caption1 {
+main content .segmented .segmented-controls .movie-btn .caption1 {
   line-height: 1.56;
 }
-main .container .segmented-controls .movie-btn .box {
+main content .segmented .segmented-controls .movie-btn .box {
   background-color: transparent;
 }
-main .container .segmented-controls .movie-btn:hover .box {
+main content .segmented .segmented-controls .movie-btn:hover .box {
   background-color: #F37B2A;
   border-radius: 0.25rem 0.25rem 0 0;
 }
-main .container .segmented-controls .btn-active h6, main .container .segmented-controls .btn-active .h6 {
+main content .segmented .segmented-controls .btn-active h6, main content .segmented .segmented-controls .btn-active .h6 {
   color: #F37B2A;
 }
-main .container .segmented-controls .btn-active .box {
+main content .segmented .segmented-controls .btn-active .box {
   background-color: #F37B2A;
   border-radius: 0.25rem 0.25rem 0 0;
 }
-main .container .grid {
+main content .grid {
   padding-top: calc(0.5rem + 1.3vw);
   padding-bottom: calc(5rem + 1.3vw);
 }
 @media (min-width: 768px) {
-  main .container .grid {
+  main content .grid {
     padding-top: calc(1.5rem + 1.3vw);
     padding-bottom: calc(7rem + 1.3vw);
   }
