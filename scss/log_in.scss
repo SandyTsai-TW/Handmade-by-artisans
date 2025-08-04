@@ -33,11 +33,11 @@ main {
             background: $white;
         }
     }
-    .mb-20 {
-        margin-bottom: calc(1rem + 1.2vw);
-    }
     form {
         .input-field {
+            &:not(:last-child) {
+                margin-bottom: calc(1rem + 1.2vw);
+            }
             .text-field {
                 .form-control {
                     line-height: 1.85;

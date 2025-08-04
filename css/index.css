@@ -14145,8 +14145,11 @@ header {
     height: 4rem;
   }
 }
-.navbar button {
+.navbar .btn {
   padding: 0;
+}
+.navbar .btn:active {
+  border-color: transparent;
 }
 .navbar .navbar-brand {
   margin: 0;

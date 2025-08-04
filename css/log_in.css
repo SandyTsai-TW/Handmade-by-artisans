@@ -14137,7 +14137,7 @@ main {
 .box .img-container img {
   background: #fff;
 }
-.box .mb-20 {
+.box form .input-field:not(:last-child) {
   margin-bottom: calc(1rem + 1.2vw);
 }
 .box form .input-field .text-field .form-control {

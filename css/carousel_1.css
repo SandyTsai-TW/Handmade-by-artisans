@@ -14211,7 +14211,7 @@ main {
 }
 @media (min-width: 768px) {
   main {
-    margin-top: calc(8.625rem + 1.3vw);
+    margin-top: calc(4.375rem + 1.3vw);
   }
 }
 

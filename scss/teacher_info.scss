@@ -19,10 +19,13 @@ header {
         @media (min-width: 768px) {
             height: 4rem;
         }
-        button {
+        .btn {
             padding: 0;
-            color: $black-01;
+            &:active {
+                border-color: transparent;
+            }
         }
+        
         span {
             background-color: $black-02;
                 @media (min-width: 768px) {

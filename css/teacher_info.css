@@ -14132,9 +14132,11 @@ header {
     height: 4rem;
   }
 }
-.navbar .container button {
+.navbar .container .btn {
   padding: 0;
-  color: #000;
+}
+.navbar .container .btn:active {
+  border-color: transparent;
 }
 .navbar .container span {
   background-color: rgba(0, 0, 0, 0.8);

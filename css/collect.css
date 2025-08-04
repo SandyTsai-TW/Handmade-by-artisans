@@ -14160,7 +14160,12 @@ main {
   }
 }
 .cards .collectCard .card-title {
-  min-height: 1.875rem;
+  min-height: 2rem;
+}
+@media (min-width: 768px) {
+  .cards .collectCard .card-title {
+    min-height: 4rem;
+  }
 }
 .cards .collectCard .card-body {
   padding: calc(0.4375rem + 0.3vw);
