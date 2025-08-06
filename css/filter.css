@@ -12089,7 +12089,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12105,7 +12105,7 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.discount, form .input-field .text-field .form-control, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .orderSchedule-btn, .orderSchedule-btn-pri, .button, .date-btn, .button-active {
+.discount, form .input-field .text-field .form-control, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .message-avator, .message-avator img, .orderSchedule-btn, .orderSchedule-btn-pri, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12358,7 +12358,7 @@ img {
   border-radius: 0.25rem;
 }
 
-form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12374,7 +12374,7 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.discount, form .input-field .text-field .form-control, .company-focus, .tool-normal, .tool-focus, .company-follow, .company-following, .message-avator, .message-avator img, .orderSchedule-btn, .orderSchedule-btn-pri, .button, .date-btn, .button-active {
+.discount, form .input-field .text-field .form-control, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .message-avator, .message-avator img, .orderSchedule-btn, .orderSchedule-btn-pri, .button, .date-btn, .button-active {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12605,7 +12605,7 @@ img {
   height: 100%;
 }
 
-.company-focus, .tool-normal, .tool-focus, .company-follow, .company-following {
+.company-focus, .tool-normal, .tool-focus, .company-following {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12617,15 +12617,15 @@ img {
   cursor: pointer;
 }
 @media (min-width: 768px) {
-  .company-focus span, .tool-normal span, .tool-focus span, .company-follow span, .company-following span {
+  .company-focus span, .tool-normal span, .tool-focus span, .company-following span {
     width: 2.25rem;
     height: 2.25rem;
   }
 }
-.company-focus .subhead, .tool-normal .subhead, .tool-focus .subhead, .company-follow .subhead, .company-following .subhead {
+.company-focus .subhead, .tool-normal .subhead, .tool-focus .subhead, .company-following .subhead {
   margin: 0;
 }
-.company-focus:active, .tool-normal:active, .tool-focus:active, .company-follow:active, .company-following:active {
+.company-focus:active, .tool-normal:active, .tool-focus:active, .company-following:active {
   background-color: rgb(221.52, 96.72, 12.48);
   color: #fff;
 }
@@ -12646,11 +12646,15 @@ img {
 }
 
 .company-follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 0.25rem;
   padding: 0.5813rem;
   color: #F37B2A;
   background-color: #fff;
   border: 0.05rem solid #F37B2A;
+  cursor: pointer;
   transition: all 0.3s;
 }
 @media (min-width: 768px) {

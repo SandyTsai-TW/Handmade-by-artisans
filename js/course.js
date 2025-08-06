@@ -18,9 +18,15 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+const btn = document.querySelector("#btn-follow");
+const text = document.querySelector("#text");
 
-$(document).ready(function () {
-  $(".company-follow").click(function () {
-    $(".company-follow").toggleClass("company-follow-active");
-  });
+btn.addEventListener("click", () => {
+  btn.classList.toggle("company-follow-active");
+
+  if (text.textContent === "加入追蹤") {
+    text.textContent = "追蹤中";
+  } else {
+    text.textContent = "加入追蹤";
+  }
 });

@@ -282,12 +282,17 @@
 
 }
 .company-follow {
-    @extend %company-focus;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: .25rem;
     padding: 0.5813rem;
     color: $primary;
     background-color: $white;
+    @extend %text-bg-box;
+    @extend %radius8;
     border: .05rem solid $primary;
+    cursor: pointer;
     transition: all .3s;
     @media (min-width: 768px) {
         padding: 0.875rem;

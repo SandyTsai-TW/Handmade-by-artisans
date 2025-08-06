@@ -581,6 +581,10 @@ content {
             color: $primary;
             background-color: $other-01;
             border: .025rem solid $black-05;
+
+            span {
+                display: none;
+            }
         }
 
         .company-focus {
