@@ -577,6 +577,11 @@ content {
         .company-focus {
             width: 100%;
         }
+        .company-follow-active {
+            color: $primary;
+            background-color: $other-01;
+            border: .025rem solid $black-05;
+        }
 
         .company-focus {
             padding: .5813rem;

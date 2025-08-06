@@ -17,3 +17,10 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+
+$(document).ready(function () {
+  $(".company-follow").click(function () {
+    $(".company-follow").toggleClass("company-follow-active");
+  });
+});
