@@ -19,9 +19,22 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+const btn = document.querySelector("#btn-follow");
+const text = document.querySelector("#text");
+
+btn.addEventListener("click", () => {
+  btn.classList.toggle("company-follow-active");
+
+  if (text.textContent === "加入追蹤") {
+    text.textContent = "追蹤中";
+  } else {
+    text.textContent = "加入追蹤";
+  }
+});
 
 $(document).ready(function () {
   $(".flip").click(function(){
     $(".flip").toggleClass('addH');
   });
 });
+

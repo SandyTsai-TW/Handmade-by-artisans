@@ -14202,6 +14202,18 @@ main .container .movie-content .avator, main .container .movie-content .text {
   gap: 0.5rem;
   margin-bottom: 1.25rem;
 }
+main .container .movie-content .avator .avator_large .subhead {
+  margin: 0;
+  font-size: calc(0.86rem + 0.3vw);
+}
+main .container .movie-content .avator .company-follow {
+  padding: calc(0.4rem + 0.3vw) calc(1.06rem + 0.3vw);
+}
+main .container .movie-content .avator .company-follow:active {
+  background-color: rgb(242.25, 242.25, 242.25);
+  color: #F37B2A;
+  border: 0.05rem solid #EFEDED;
+}
 main .container .movie-content h6, main .container .movie-content .h6 {
   margin-bottom: 1.5rem;
   color: #736B66;

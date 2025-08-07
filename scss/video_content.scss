@@ -88,6 +88,22 @@ main .container {
             gap: .5rem;
             margin-bottom: 1.25rem;
         }
+        .avator {
+            .avator_large {
+                .subhead {
+                    margin: 0;
+                    font-size: calc(0.86rem + 0.3vw);
+                }
+            }
+            .company-follow {
+                padding: calc(0.4rem + 0.3vw) calc(1.06rem + 0.3vw);
+                &:active {
+                    background-color: darken($color: $white, $amount: 5%);
+                    color: $primary;
+                    border: .05rem solid $gray-500;
+                }
+            }
+        }
         h6 {
             margin-bottom: 1.5rem;
             color: $gray-100;
