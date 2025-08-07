@@ -22,22 +22,32 @@ header {
             height: 4rem;
             max-width: 90%;
         }
-
+        span {
+            background-color: $white;
+        }
         button {
             padding: 0;
         }
+        .btn-group {
+            .btn:active {
+                border-color: transparent;
+            }
+            button:nth-of-type(1) {
+                    margin-right: calc(0.25rem + 0.3vw);
+            }
+            span {
+                background-color: $white;
+                    @media (min-width: 768px) {
+                        width: 1.875rem;
+                        height: 1.875rem;
+                    }
 
-        span {
-            background-color: $white;
-                @media (min-width: 768px) {
-                    width: 1.875rem;
-                    height: 1.875rem;
-                }
-                @media (min-width: 1440px) {
-                    width: 2.25rem;
-                    height: 2.25rem;
-                }
-        }
+                    @media (min-width: 1440px) {
+                        width: 2.25rem;
+                        height: 2.25rem;
+                    }
+            }
+        } 
     }
 }
 
@@ -52,7 +62,8 @@ main {
     @extend %movieCard;
     .img-container {
         img {
-            aspect-ratio: 3 / 4;
+            aspect-ratio: 9 / 16;
+            height: 80vh;
             border-radius: 0%;
             box-shadow: none;
         }
@@ -90,26 +101,69 @@ main .container {
         }
         .avator {
             .avator_large {
+                width: 100%;
                 .subhead {
                     margin: 0;
                     font-size: calc(0.86rem + 0.3vw);
+                    @include pad {
+                        font-size: calc(1.5rem + 0.3vw);
+                    }
                 }
             }
             .company-follow {
+                width: 37%;
                 padding: calc(0.4rem + 0.3vw) calc(1.06rem + 0.3vw);
-                &:active {
-                    background-color: darken($color: $white, $amount: 5%);
-                    color: $primary;
-                    border: .05rem solid $gray-500;
+                @include mobile {
+                    padding: 0;
+                }
+            }
+            .company-follow-active {
+                color: $primary;
+                background-color: $other-01;
+                border: .025rem solid $black-05;
+
+                span {
+                    display: none;
                 }
             }
         }
-        h6 {
+        .content {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
             margin-bottom: 1.5rem;
-            color: $gray-100;
-            text-align: justify;
-            line-height: 1.2;
+            max-height: 1.125rem;
+            h6 {
+                margin: 0;
+                color: $black-02;
+                text-align: justify;
+                line-height: 1.2;
+
+                @include textOverflow(1);
+                overflow: hidden;
+                width: 60%;
+            }
+            p {
+                margin-bottom: 0;
+                color: $gray-100;
+                width: 20%;
+            }
         }
+        .moreText {
+            flex-direction: column;
+            max-height: inherit;
+            h6 {
+                width: 100%;
+                overflow: visible;
+                display: initial;
+                min-height: 5.625rem;
+            }
+            p {
+                display: none;
+            };
+        }
+        
         .text {
             gap: .375rem;
             margin: 0;
@@ -119,12 +173,10 @@ main .container {
                 color: $primary;
                 @include textOverflow(1);
                 overflow: hidden;
-                width: 65%;
             }
             .company-focus {
                 padding: 0.625rem 0.9rem;
-                width: 35%;
-    
+                width: 37%;
                 @media (max-width: 320px) {
                     padding: 0.625rem 0.7rem;
                 }
@@ -197,13 +249,10 @@ main .container {
         }
 }
 .addH {
-    transform: translate(0, -46%);
+    transform: translate(0, -80%);
     transition: all .6s;
-
-    @media (min-width: 768px) {
-        transform: translate(0, -104%);
-    }
 }
+
 
 
 
