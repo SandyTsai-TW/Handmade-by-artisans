@@ -14238,7 +14238,7 @@ main .container .buttons {
 main .container .buttons .button-active {
   width: 100%;
   text-align: center;
-  padding: 0.625rem 0.75rem;
+  padding: 0.6513rem 0.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14246,6 +14246,24 @@ main .container .buttons .button-active {
 }
 main .container .buttons .button-active .subhead {
   margin: 0;
+  line-height: 1.65;
+}
+@media (min-width: 768px) {
+  main .container .buttons .button-active {
+    padding: 0.875rem 0.825rem;
+  }
+  main .container .buttons .button-active span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+main .container .buttons .company-follow-active {
+  color: #F37B2A;
+  background-color: rgba(0, 0, 0, 0.04);
+  border: 0.025rem solid rgba(0, 0, 0, 0.1);
+}
+main .container .buttons .company-follow-active span {
+  display: none;
 }
 main .container .buttons .button {
   width: 100%;
@@ -14276,6 +14294,11 @@ main content .segmented {
 main content .segmented .segmented-controls {
   display: flex;
   padding: 1rem 0 0.75rem;
+}
+@media (min-width: 768px) {
+  main content .segmented .segmented-controls {
+    padding: 1.7rem 0 1.2rem;
+  }
 }
 main content .segmented .segmented-controls .movie-btn {
   gap: 0.125rem;

@@ -14234,7 +14234,7 @@ main .container .buttons {
 main .container .buttons .button-active {
   width: 100%;
   text-align: center;
-  padding: 0.625rem 0.75rem;
+  padding: 0.6513rem 0.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14242,6 +14242,19 @@ main .container .buttons .button-active {
 }
 main .container .buttons .button-active .subhead {
   margin: 0;
+}
+@media (min-width: 768px) {
+  main .container .buttons .button-active {
+    padding: 0.875rem 0.825rem;
+  }
+}
+main .container .buttons .company-follow-active {
+  color: #F37B2A;
+  background-color: rgba(0, 0, 0, 0.04);
+  border: 0.025rem solid rgba(0, 0, 0, 0.1);
+}
+main .container .buttons .company-follow-active span {
+  display: none;
 }
 main .container .buttons .button {
   width: 100%;

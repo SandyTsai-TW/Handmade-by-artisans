@@ -120,13 +120,29 @@ main {
             .button-active {
                 width: 100%;
                 text-align: center;
-                padding: .625rem .75rem;
+                padding: .6513rem .75rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: .25rem;
                 .subhead {
                     margin: 0;
+                    line-height: 1.65;
+                }
+                @include pad {
+                    padding: .875rem .825rem;
+                       span {
+                        width: 2.25rem;
+                        height: 2.25rem;
+                    }
+                }
+            }
+            .company-follow-active {
+                color: $primary;
+                background-color: $other-01;
+                border: .025rem solid $black-05;
+                span {
+                    display: none;
                 }
             }
             .button {
@@ -156,6 +172,9 @@ main {
             .segmented-controls {     
                 display: flex;
                 padding: 1rem 0 .75rem;
+                @include pad {
+                    padding: 1.7rem 0 1.2rem;
+                }
                 .movie-btn {
                     gap: .125rem;
                     .caption1 {

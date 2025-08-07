@@ -117,13 +117,25 @@ main {
             .button-active {
                 width: 100%;
                 text-align: center;
-                padding: .625rem .75rem;
+                padding: .6513rem .75rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: .25rem;
                 .subhead {
                     margin: 0;
+                }
+                @include pad {
+                    padding: .875rem .825rem;
+                }
+            }
+            .company-follow-active {
+                color: $primary;
+                background-color: $other-01;
+                border: .025rem solid $black-05;
+
+                span {
+                    display: none;
                 }
             }
             .button {
