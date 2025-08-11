@@ -204,7 +204,12 @@ main {
         }
     }
 }
-
+.s-mt-6 {
+    margin-top: 5.625rem;
+        @include pad {
+            margin-top: 9.9rem;
+        }
+}
 //////////// content/////////////////////////////////
 
 // largeCards////////////////////////
