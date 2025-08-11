@@ -12085,7 +12085,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-form .input-field .text-field .form-control, .company-card .img-container, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+form .input-field .text-field .form-control, .company-card .img-container, .movieCard .img-container img, .grid .grid-item .img-container img, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12093,11 +12093,11 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   backdrop-filter: blur(3px);
 }
 
-.swiper .swiper-wrapper .swiper-slide .active, .profilePage .profilePage-avator .circle-bg .avator-container, .profilePage .profilePage-avator .circle-bg, .profilePage .img-container, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img, .movieUnder-btn:hover {
+.swiper .swiper-wrapper .swiper-slide .active, .profilePage .profilePage-avator .circle-bg .avator-container, .profilePage .profilePage-avator .circle-bg, .profilePage .img-container, .movieCard .img-container img, .grid .grid-item .img-container img, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieUnder-btn:hover {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .movieCard .smallCard-box .card-title, .grid .grid-item .smallCard-box .card-title, .smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .movieCard .smallCard-box .img-container .card-cover p, .grid .grid-item .smallCard-box .img-container .card-cover p, .card-level {
+.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12105,7 +12105,7 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.largeCard img {
+.largeCard .smallCard-box .img-container img {
   box-shadow: inset 0 4px 4px -10px rgba(0, 0, 0, 0.1), 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -12350,7 +12350,7 @@ img {
   border-radius: 0.25rem;
 }
 
-form .input-field .text-field .form-control, .company-card .img-container, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+form .input-field .text-field .form-control, .company-card .img-container, .movieCard .img-container img, .grid .grid-item .img-container img, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12358,11 +12358,11 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   backdrop-filter: blur(3px);
 }
 
-.swiper .swiper-wrapper .swiper-slide .active, .profilePage .profilePage-avator .circle-bg .avator-container, .profilePage .profilePage-avator .circle-bg, .profilePage .img-container, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img, .movieUnder-btn:hover {
+.swiper .swiper-wrapper .swiper-slide .active, .profilePage .profilePage-avator .circle-bg .avator-container, .profilePage .profilePage-avator .circle-bg, .profilePage .img-container, .movieCard .img-container img, .grid .grid-item .img-container img, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieUnder-btn:hover {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .movieCard .smallCard-box .card-title, .grid .grid-item .smallCard-box .card-title, .smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .movieCard .smallCard-box .img-container .card-cover p, .grid .grid-item .smallCard-box .img-container .card-cover p, .card-level {
+.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12370,7 +12370,7 @@ form .input-field .text-field .form-control, .company-card .img-container, .smal
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.largeCard img {
+.largeCard .smallCard-box .img-container img {
   box-shadow: inset 0 4px 4px -10px rgba(0, 0, 0, 0.1), 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -12725,7 +12725,7 @@ img {
   margin-top: 0.0625rem;
 }
 
-.smallCard span, .largeCard span, .movieCard span, .grid .grid-item span {
+.smallCard span, .largeCard span {
   width: 1.5rem;
   height: 1.5rem;
   z-index: 3;
@@ -12735,28 +12735,28 @@ img {
   cursor: pointer;
 }
 @media (min-width: 768px) {
-  .smallCard span, .largeCard span, .movieCard span, .grid .grid-item span {
+  .smallCard span, .largeCard span {
     width: 2.25rem;
     height: 2.25rem;
   }
 }
-.smallCard .unfill-heart, .largeCard .unfill-heart, .movieCard .unfill-heart, .grid .grid-item .unfill-heart {
+.smallCard .unfill-heart, .largeCard .unfill-heart {
   background-color: rgba(255, 255, 255, 0.8);
 }
-.smallCard .heart, .largeCard .heart, .movieCard .heart, .grid .grid-item .heart {
+.smallCard .heart, .largeCard .heart {
   background-color: #F37B2A;
   transition: all 0.3s;
 }
-.smallCard .smallCard-box, .largeCard .smallCard-box, .movieCard .smallCard-box, .grid .grid-item .smallCard-box {
+.smallCard .smallCard-box, .largeCard .smallCard-box {
   border: transparent;
 }
-.smallCard .smallCard-box .img-container, .largeCard .smallCard-box .img-container, .movieCard .smallCard-box .img-container, .grid .grid-item .smallCard-box .img-container {
+.smallCard .smallCard-box .img-container, .largeCard .smallCard-box .img-container {
   position: relative;
 }
-.smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img {
+.smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img {
   aspect-ratio: 16/9;
 }
-.smallCard .smallCard-box .img-container .card-cover, .largeCard .smallCard-box .img-container .card-cover, .movieCard .smallCard-box .img-container .card-cover, .grid .grid-item .smallCard-box .img-container .card-cover {
+.smallCard .smallCard-box .img-container .card-cover, .largeCard .smallCard-box .img-container .card-cover {
   width: 100%;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 31%, rgba(0, 0, 0, 0.05) 97%);
   display: flex;
@@ -12771,11 +12771,11 @@ img {
   overflow: hidden;
 }
 @media (min-width: 768px) {
-  .smallCard .smallCard-box .img-container .card-cover, .largeCard .smallCard-box .img-container .card-cover, .movieCard .smallCard-box .img-container .card-cover, .grid .grid-item .smallCard-box .img-container .card-cover {
+  .smallCard .smallCard-box .img-container .card-cover, .largeCard .smallCard-box .img-container .card-cover {
     padding: 0.6rem 1rem;
   }
 }
-.smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .movieCard .smallCard-box .img-container .card-cover p, .grid .grid-item .smallCard-box .img-container .card-cover p {
+.smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p {
   margin: 0;
   color: #fff;
   max-width: 65%;
@@ -12785,10 +12785,10 @@ img {
   -webkit-line-clamp: 1;
   overflow: hidden;
 }
-.smallCard .smallCard-box .card-body, .largeCard .smallCard-box .card-body, .movieCard .smallCard-box .card-body, .grid .grid-item .smallCard-box .card-body {
+.smallCard .smallCard-box .card-body, .largeCard .smallCard-box .card-body {
   padding: calc(0.625rem + 0.3vw) 0.625rem;
 }
-.smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .movieCard .smallCard-box .card-title, .grid .grid-item .smallCard-box .card-title {
+.smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title {
   color: rgba(0, 0, 0, 0.6);
   min-height: 2.5rem;
   overflow: hidden;
@@ -12798,13 +12798,21 @@ img {
   -webkit-line-clamp: 2;
 }
 @media (min-width: 768px) {
-  .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .movieCard .smallCard-box .card-title, .grid .grid-item .smallCard-box .card-title {
+  .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title {
     min-height: 4.375rem;
   }
 }
 
+.movieCard .img-container, .grid .grid-item .img-container {
+  position: relative;
+}
 .movieCard .img-container span, .grid .grid-item .img-container span {
-  background-color: #fff;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 @media (min-width: 768px) {
   .movieCard .img-container span, .grid .grid-item .img-container span {
@@ -12812,12 +12820,37 @@ img {
     height: 3rem;
   }
 }
+.movieCard .img-container img, .grid .grid-item .img-container img {
+  aspect-ratio: 16/9;
+}
 .movieCard .img-container .card-cover, .grid .grid-item .img-container .card-cover {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 0 0 0.5rem 0.5rem;
+  overflow: hidden;
   background: rgba(0, 0, 0, 0.4);
   padding: 0.375rem 1.125rem;
 }
+@media (min-width: 768px) {
+  .movieCard .img-container .card-cover, .grid .grid-item .img-container .card-cover {
+    padding: 0.6rem 1rem;
+  }
+}
 .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p {
   max-width: 100%;
+  margin: 0;
+  color: #fff;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
 }
 
 .avator_small, .avator_large {
@@ -12870,12 +12903,18 @@ img {
   color: #000;
 }
 
-.largeCard .card-cover {
+.largeCard {
+  position: relative;
+}
+.largeCard span {
+  z-index: 2;
+}
+.largeCard .smallCard-box .card-cover {
   padding: 0.375rem 0.625rem;
   min-height: 10%;
 }
 @media (min-width: 768px) {
-  .largeCard .card-cover {
+  .largeCard .smallCard-box .card-cover {
     padding: 0.8rem 1rem;
   }
 }
@@ -13800,7 +13839,7 @@ form .input-field .text-field .form-text {
   border-radius: 0.25rem;
 }
 
-.button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .company-card .img-container, .grid .grid-item .smallCard-box .img-container img, form .input-field .text-field .form-control, .tool-focus, .tool-normal {
+.button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .smallCard-box .img-container img, .movieCard .img-container img, .largeCard .smallCard-box .img-container img, .company-card .img-container, .grid .grid-item .img-container img, form .input-field .text-field .form-control, .tool-focus, .tool-normal {
   border-radius: 0.5rem;
 }
 
@@ -13808,11 +13847,11 @@ form .input-field .text-field .form-text {
   backdrop-filter: blur(3px);
 }
 
-.swiper .swiper-wrapper .swiper-slide .active, .movieUnder-btn:hover, .smallCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img, .profilePage .img-container, .profilePage .profilePage-avator .circle-bg, .profilePage .profilePage-avator .circle-bg .avator-container {
+.swiper .swiper-wrapper .swiper-slide .active, .movieUnder-btn:hover, .smallCard .smallCard-box .img-container img, .movieCard .img-container img, .largeCard .smallCard-box .img-container img, .grid .grid-item .img-container img, .profilePage .img-container, .profilePage .profilePage-avator .circle-bg, .profilePage .profilePage-avator .circle-bg .avator-container {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .card-level, .smallCard .smallCard-box .img-container .card-cover p, .smallCard .smallCard-box .card-title, .movieCard .smallCard-box .img-container .card-cover p, .movieCard .smallCard-box .card-title, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .card-title, .grid .grid-item .smallCard-box .img-container .card-cover p, .grid .grid-item .smallCard-box .card-title {
+.avator-user, .card-level, .smallCard .smallCard-box .img-container .card-cover p, .smallCard .smallCard-box .card-title, .movieCard .img-container .card-cover p, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .card-title, .grid .grid-item .img-container .card-cover p {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13820,7 +13859,7 @@ form .input-field .text-field .form-text {
   box-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
-.largeCard img {
+.largeCard .smallCard-box .img-container img {
   box-shadow: inset 0 4px 4px -10px rgba(0, 0, 0, 0.1), 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 

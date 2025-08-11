@@ -3,7 +3,7 @@
 // ////////HEADER////////////////////////////////
 header, footer {
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     width: 100%;
     background-color: $white;
 }
@@ -110,7 +110,7 @@ header {
 
 ///////////////////// MAIN///////////////////////////////////
 main {
-    margin-top: calc(5.45rem + 1.3vw);
+    margin-top: calc(2.825rem + 1.3vw);
     
     @media (min-width: 768px) {
         margin-top: calc(4.375rem + 1.3vw);
@@ -127,7 +127,7 @@ main {
 .segmented-controls {
     position: sticky;
     top: 3rem;
-    z-index: 2;
+    z-index: 3;
     background-color: $white;
 
     @media (min-width: 768px) {
@@ -208,20 +208,26 @@ main {
 //////////// content/////////////////////////////////
 
 // largeCards////////////////////////
-.largeCards {
+.largeCard, %largeCard {
     display: flex;
     flex-direction: column;
     gap: calc(1.5rem + 0.3vw);
 
     padding-bottom: 2.5rem;
+
     &:last-child {
         padding-bottom: 5rem;
     }
+
+   .card-text {
+        .price {
+            width: 35%;
+        }
+   }
 }
 
-.price {
-    width: 35%;
-}
+
+
 
 // footer
 footer {

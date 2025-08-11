@@ -429,7 +429,6 @@
                 gap: .5rem;
                 
                 padding: .25rem .625rem;
-                // min-height: 18%;
             
                 position: absolute;
                 left: 0;
@@ -472,21 +471,54 @@
 }
 
 .movieCard, %movieCard {
-    @extend %smallCard;
     .img-container {
+        position: relative;
+
         span {
-            background-color: $white;
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            right: 5%;
+            top: 5%;
+
+            background-color: $white-02;
             @media (min-width: 768px) {
                     width: 3rem;
                     height: 3rem;
             }
         }
+        img {
+            aspect-ratio: 16 / 9;
+            @extend %radius8;
+            @extend %r-bg; 
+        }
         .card-cover {
+            width: 100%;        
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: .5rem;
+                    
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            
+            border-radius: 0 0 .5rem .5rem;
+            overflow: hidden;
             background: $black-04;
             padding: .375rem 1.125rem;
+
+            @media (min-width: 768px) {
+                padding: 0.6rem 1rem;
+            }
     
             p {
                 max-width: 100%;
+                margin: 0;
+                color: $white;
+                @extend %text-bg;
+                @include textOverflow(1);
+                overflow: hidden;
             }
         }
     }
@@ -548,17 +580,26 @@
 
 .largeCard, %largeCard {
     @extend %smallCard;
-        img {
-            @extend %class-bg; 
-        }
-    .card-cover {
-        padding: .375rem .625rem;
-        min-height: 10%;
+    position: relative;
 
-        @media (min-width: 768px) {
-            padding: 0.8rem 1rem;   
+    span {
+        z-index: 2;
+    }
+    .smallCard-box {
+        .img-container {
+            img {
+                @extend %class-bg; 
+            }
         }
-    }              
+        .card-cover {
+            padding: .375rem .625rem;
+            min-height: 10%;
+    
+            @media (min-width: 768px) {
+                padding: 0.8rem 1rem;   
+            }
+        }              
+    }
     .card-title {
         color: $black-02;
         min-height: 0;
