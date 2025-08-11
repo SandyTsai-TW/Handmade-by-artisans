@@ -12742,6 +12742,7 @@ img {
 }
 .smallCard .unfill-heart, .largeCard .unfill-heart {
   background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s;
 }
 .smallCard .heart, .largeCard .heart {
   background-color: #F37B2A;

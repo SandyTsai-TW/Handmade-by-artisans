@@ -403,6 +403,7 @@
     }
     .unfill-heart {
         background-color: $white-02;
+        transition: all .3s;
     }
     .heart {
         background-color: $primary;
