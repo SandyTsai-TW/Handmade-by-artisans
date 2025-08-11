@@ -12085,7 +12085,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+form .input-field .text-field .form-control, .company-card .img-container, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12097,11 +12097,11 @@ footer {
   backdrop-filter: blur(3px);
 }
 
-.profilePage .profilePage-avator .circle-bg .avator-container, .profilePage .profilePage-avator .circle-bg, .profilePage .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .movieUnder-btn:hover {
+.profilePage .profilePage-avator .circle-bg .avator-container, .profilePage .profilePage-avator .circle-bg, .profilePage .img-container, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img, .movieUnder-btn:hover {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
+.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .movieCard .smallCard-box .card-title, .grid .grid-item .smallCard-box .card-title, .smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .movieCard .smallCard-box .img-container .card-cover p, .grid .grid-item .smallCard-box .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12354,7 +12354,7 @@ img {
   border-radius: 0.25rem;
 }
 
-form .input-field .text-field .form-control, .company-card .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
+form .input-field .text-field .form-control, .company-card .img-container, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img, .company-follow, .company-focus, .tool-normal, .tool-focus, .company-following, .movieUnder-btn, .button, .date-btn, .button-active {
   border-radius: 0.5rem;
 }
 
@@ -12366,11 +12366,11 @@ footer {
   backdrop-filter: blur(3px);
 }
 
-.profilePage .profilePage-avator .circle-bg .avator-container, .profilePage .profilePage-avator .circle-bg, .profilePage .img-container, .smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img, .movieUnder-btn:hover {
+.profilePage .profilePage-avator .circle-bg .avator-container, .profilePage .profilePage-avator .circle-bg, .profilePage .img-container, .smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img, .movieUnder-btn:hover {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title, .smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .card-level {
+.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .movieCard .smallCard-box .card-title, .grid .grid-item .smallCard-box .card-title, .smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .movieCard .smallCard-box .img-container .card-cover p, .grid .grid-item .smallCard-box .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12733,35 +12733,38 @@ img {
   margin-top: 0.0625rem;
 }
 
-.smallCard, .largeCard, .movieCard, .grid .grid-item {
-  border: transparent;
-}
-.smallCard .img-container, .largeCard .img-container, .movieCard .img-container, .grid .grid-item .img-container {
-  position: relative;
-}
-.smallCard .img-container img, .largeCard .img-container img, .movieCard .img-container img, .grid .grid-item .img-container img {
-  aspect-ratio: 16/9;
-}
-.smallCard .img-container span, .largeCard .img-container span, .movieCard .img-container span, .grid .grid-item .img-container span {
+.smallCard span, .largeCard span, .movieCard span, .grid .grid-item span {
   width: 1.5rem;
   height: 1.5rem;
+  z-index: 3;
   position: absolute;
-  right: 3%;
-  top: 7%;
+  right: 4%;
+  top: 4%;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
-  .smallCard .img-container span, .largeCard .img-container span, .movieCard .img-container span, .grid .grid-item .img-container span {
+  .smallCard span, .largeCard span, .movieCard span, .grid .grid-item span {
     width: 2.25rem;
     height: 2.25rem;
   }
 }
-.smallCard .img-container .unfill-heart, .largeCard .img-container .unfill-heart, .movieCard .img-container .unfill-heart, .grid .grid-item .img-container .unfill-heart {
+.smallCard .unfill-heart, .largeCard .unfill-heart, .movieCard .unfill-heart, .grid .grid-item .unfill-heart {
   background-color: rgba(255, 255, 255, 0.8);
 }
-.smallCard .img-container .heart, .largeCard .img-container .heart, .movieCard .img-container .heart, .grid .grid-item .img-container .heart {
+.smallCard .heart, .largeCard .heart, .movieCard .heart, .grid .grid-item .heart {
   background-color: #F37B2A;
+  transition: all 0.3s;
 }
-.smallCard .img-container .card-cover, .largeCard .img-container .card-cover, .movieCard .img-container .card-cover, .grid .grid-item .img-container .card-cover {
+.smallCard .smallCard-box, .largeCard .smallCard-box, .movieCard .smallCard-box, .grid .grid-item .smallCard-box {
+  border: transparent;
+}
+.smallCard .smallCard-box .img-container, .largeCard .smallCard-box .img-container, .movieCard .smallCard-box .img-container, .grid .grid-item .smallCard-box .img-container {
+  position: relative;
+}
+.smallCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img {
+  aspect-ratio: 16/9;
+}
+.smallCard .smallCard-box .img-container .card-cover, .largeCard .smallCard-box .img-container .card-cover, .movieCard .smallCard-box .img-container .card-cover, .grid .grid-item .smallCard-box .img-container .card-cover {
   width: 100%;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 31%, rgba(0, 0, 0, 0.05) 97%);
   display: flex;
@@ -12776,11 +12779,11 @@ img {
   overflow: hidden;
 }
 @media (min-width: 768px) {
-  .smallCard .img-container .card-cover, .largeCard .img-container .card-cover, .movieCard .img-container .card-cover, .grid .grid-item .img-container .card-cover {
+  .smallCard .smallCard-box .img-container .card-cover, .largeCard .smallCard-box .img-container .card-cover, .movieCard .smallCard-box .img-container .card-cover, .grid .grid-item .smallCard-box .img-container .card-cover {
     padding: 0.6rem 1rem;
   }
 }
-.smallCard .img-container .card-cover p, .largeCard .img-container .card-cover p, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p {
+.smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .movieCard .smallCard-box .img-container .card-cover p, .grid .grid-item .smallCard-box .img-container .card-cover p {
   margin: 0;
   color: #fff;
   max-width: 65%;
@@ -12790,10 +12793,10 @@ img {
   -webkit-line-clamp: 1;
   overflow: hidden;
 }
-.smallCard .card-body, .largeCard .card-body, .movieCard .card-body, .grid .grid-item .card-body {
+.smallCard .smallCard-box .card-body, .largeCard .smallCard-box .card-body, .movieCard .smallCard-box .card-body, .grid .grid-item .smallCard-box .card-body {
   padding: calc(0.625rem + 0.3vw) 0.625rem;
 }
-.smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title {
+.smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .movieCard .smallCard-box .card-title, .grid .grid-item .smallCard-box .card-title {
   color: rgba(0, 0, 0, 0.6);
   min-height: 2.5rem;
   overflow: hidden;
@@ -12803,7 +12806,7 @@ img {
   -webkit-line-clamp: 2;
 }
 @media (min-width: 768px) {
-  .smallCard .card-title, .largeCard .card-title, .movieCard .card-title, .grid .grid-item .card-title {
+  .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .movieCard .smallCard-box .card-title, .grid .grid-item .smallCard-box .card-title {
     min-height: 4.375rem;
   }
 }
@@ -13805,7 +13808,7 @@ form .input-field .text-field .form-text {
   border-radius: 0.25rem;
 }
 
-.button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .img-container img, .movieCard .img-container img, .largeCard .img-container img, .company-card .img-container, .grid .grid-item .img-container img, form .input-field .text-field .form-control, .tool-focus, .tool-normal {
+.button, .button-active, .movieUnder-btn, .date-btn, .company-focus, .company-following, .company-follow, .smallCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .company-card .img-container, .grid .grid-item .smallCard-box .img-container img, form .input-field .text-field .form-control, .tool-focus, .tool-normal {
   border-radius: 0.5rem;
 }
 
@@ -13817,11 +13820,11 @@ footer {
   backdrop-filter: blur(3px);
 }
 
-.movieUnder-btn:hover, .smallCard .img-container img, .movieCard .img-container img, .largeCard .img-container img, .grid .grid-item .img-container img, .profilePage .img-container, .profilePage .profilePage-avator .circle-bg, .profilePage .profilePage-avator .circle-bg .avator-container {
+.movieUnder-btn:hover, .smallCard .smallCard-box .img-container img, .movieCard .smallCard-box .img-container img, .largeCard .smallCard-box .img-container img, .grid .grid-item .smallCard-box .img-container img, .profilePage .img-container, .profilePage .profilePage-avator .circle-bg, .profilePage .profilePage-avator .circle-bg .avator-container {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .card-level, .smallCard .img-container .card-cover p, .smallCard .card-title, .movieCard .img-container .card-cover p, .movieCard .card-title, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .img-container .card-cover p, .largeCard .card-title, .grid .grid-item .img-container .card-cover p, .grid .grid-item .card-title {
+.avator-user, .card-level, .smallCard .smallCard-box .img-container .card-cover p, .smallCard .smallCard-box .card-title, .movieCard .smallCard-box .img-container .card-cover p, .movieCard .smallCard-box .card-title, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .card-title, .grid .grid-item .smallCard-box .img-container .card-cover p, .grid .grid-item .smallCard-box .card-title {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 

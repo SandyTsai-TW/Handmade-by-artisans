@@ -335,7 +335,92 @@ content {
             text-align: center;
             margin: .8rem 3rem;
         }
-    }          
+    }
+
+
+    .smallCard, %smallCard {
+        span {
+            width: 1.5rem;
+            height: 1.5rem;
+            z-index: 3;
+            position: absolute;
+            right: 4%;
+            top: 4%;
+
+            @media (min-width: 768px) {
+                width: 2.25rem;
+                height: 2.25rem;
+            }
+        }
+        .unfill-heart {
+            background-color: $white-02;
+        }
+        .heart {
+            background-color: $primary;
+            transition: all .3s;
+        }
+        .smallCard-box {
+            border: transparent;
+            
+            .img-container {
+                position: relative;
+
+                img {
+                    aspect-ratio: 16 / 9;
+                    @extend %radius8;
+                    @extend %r-bg; 
+                }
+                .card-cover {
+                    width: 100%;
+                    background: $other-03;
+                
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: .5rem;
+                    
+                    padding: .25rem .625rem;
+                    // min-height: 18%;
+                
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    
+                    border-radius: 0 0 .5rem .5rem;
+                    overflow: hidden;
+            
+                    @media (min-width: 768px) {
+                        padding: 0.6rem 1rem;
+                    }
+            
+                    p {
+                        margin: 0;
+                        color: $white;
+                        @extend %text-bg;
+                        max-width: 65%;
+                        @include textOverflow(1);
+                        overflow: hidden;
+                    }
+                }
+            }
+
+            .card-body {
+                padding: calc(0.625rem + 0.3vw) .625rem;
+            }               
+            .card-title {
+                color: $black-03;
+                @extend %text-bg;
+
+                min-height: 2.5rem;
+                overflow: hidden;
+                @include textOverflow(2);
+
+                @media (min-width: 768px) {
+                    min-height: 4.375rem; 
+                }
+            }
+        }          
+    }
 }
 
         

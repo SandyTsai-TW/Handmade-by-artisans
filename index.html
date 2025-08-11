@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/index.css">
 <!-- js -->
     <script src="./node_modules/swiper/swiper-bundle.min.js" defer></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js" defer></script>
     <script src="js/index.js" defer></script>
 </head>
 <body>
@@ -82,7 +83,6 @@
       </ul>
     </div>
   </div>
-
 
   <main>
 <!-- carousel swiper-->
@@ -245,61 +245,67 @@
           <div class="swiper mySwiper2">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <a href="course_advanced.html" class="smallCard">
-                  <div class="img-container">
-                    <img src="./example-pic/woodworker-0.jpg">
-                    <span class="icon unfill-heart"></span>
-                    <div class="card-cover">
-                      <button class="card-level" type="button">長期進階</button>
-                      <p class="caption2">台北</p>
+                <div class="smallCard">
+                  <span id="heart" class="icon unfill-heart"></span>
+                  <a href="course_advanced.html" class="smallCard-box">
+                    <div class="img-container">
+                      <img src="./example-pic/woodworker-0.jpg">
+                      <div class="card-cover">
+                        <button class="card-level" type="button">長期進階</button>
+                        <p class="caption2">台北</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title subhead-a">家具實木拼花板凳課-每周上課一天</h5>
-                    <div class="avator_small">
-                      <img class="avator-user" src="./example-pic/woodworker-avator.webp">
-                      <p class="footnote">LALA木工教室</p>
+                    <div class="card-body">
+                      <h5 class="card-title subhead-a">家具實木拼花板凳課-每周上課一天</h5>
+                      <div class="avator_small">
+                        <img class="avator-user" src="./example-pic/woodworker-avator.webp">
+                        <p class="footnote">LALA木工教室</p>
+                      </div>
                     </div>
-                  </div>
-                </a>
+                  </a>
+                </div>
               </div>
               <div class="swiper-slide">
-                <a href="course_oneDay.html" class="smallCard">
-                  <div class="img-container">
-                    <img src="./example-pic/flower-5.jpg">
-                    <span class="icon heart"></span>
-                    <div class="card-cover">
-                      <button class="card-level" type="button">一日體驗</button>
-                      <p class="caption2">台北</p>
+                <div class="smallCard">
+                  <span id="heart2" class="icon heart"></span>
+                  <a href="course_oneDay.html" class="smallCard-box">
+                    <div class="img-container">
+                      <img src="./example-pic/flower-5.jpg">
+                      <div class="card-cover">
+                        <button class="card-level" type="button">一日體驗</button>
+                        <p class="caption2">台北</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title subhead-a">【乾燥花束手作課程】不敗經典手綁花束|一人成團|兩人同行優惠</h5>
-                    <div class="avator_small">
-                      <img class="avator-user" src="./example-pic/Hito-3.webp">
-                      <p class="footnote">微微花物</p>
+                    <div class="card-body">
+                      <h5 class="card-title subhead-a">【乾燥花束手作課程】不敗經典手綁花束|一人成團|兩人同行優惠</h5>
+                      <div class="avator_small">
+                        <img class="avator-user" src="./example-pic/Hito-3.webp">
+                        <p class="footnote">微微花物</p>
+                      </div>
                     </div>
-                  </div>
-                </a>
+                  </a>
+                </div>
               </div>
               <div class="swiper-slide">
-                <a href="course_base.html" class="smallCard">
-                  <div class="img-container">
-                    <img src="./example-pic/silkscreen-1.jpg">
-                    <span class="icon unfill-heart"></span>
-                    <div class="card-cover">
-                      <button class="card-level" type="button">短期基礎</button>
-                      <p class="caption2">台北</p>
+                <div class="smallCard">
+                  <span id="heart3" class="icon unfill-heart"></span>
+                  <a href="course_base.html" class="smallCard-box">
+                    <div class="img-container">
+                      <img src="./example-pic/silkscreen-1.jpg">
+                      <div class="card-cover">
+                        <button class="card-level" type="button">短期基礎</button>
+                        <p class="caption2">台北</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title subhead-a">絹印研習班報名</h5>
-                    <div class="avator_small">
-                      <img class="avator-user" src="./example-pic/silkscreen-avator.webp">
-                      <p class="footnote">樂樂工作室</p>
+                    <div class="card-body">
+                      <h5 class="card-title subhead-a">絹印研習班報名</h5>
+                      <div class="avator_small">
+                        <img class="avator-user" src="./example-pic/silkscreen-avator.webp">
+                        <p class="footnote">樂樂工作室</p>
+                      </div>
                     </div>
-                  </div>
-                </a>
+                  </a>
+                </div>
               </div>
             </div>
             <div class="swiper-pagination-2"></div>
@@ -399,6 +405,5 @@
     </div>
   </footer>
 
-  
 </body>
 </html>
