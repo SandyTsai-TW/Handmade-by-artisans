@@ -22,6 +22,10 @@ header {
         button {
             padding: 0;
             color: $black-01;
+
+            &:hover {
+                border-color: transparent;
+            }
         }
         span {
             background-color: $black-02;

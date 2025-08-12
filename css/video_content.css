@@ -14194,7 +14194,7 @@ header {
   margin-right: calc(0.25rem + 0.3vw);
 }
 .navbar .container .btn-group span {
-  background-color: #fff;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   .navbar .container .btn-group span {
@@ -14207,6 +14207,14 @@ header {
     width: 2.25rem;
     height: 2.25rem;
   }
+}
+.navbar .container .btn-group .unfill-heart {
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.navbar .container .btn-group .heart {
+  background-color: #F37B2A;
+  transition: all 0.3s;
 }
 
 main {

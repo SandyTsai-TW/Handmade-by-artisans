@@ -36,7 +36,8 @@ header {
                     margin-right: calc(0.25rem + 0.3vw);
             }
             span {
-                background-color: $white;
+                cursor: pointer;
+
                     @media (min-width: 768px) {
                         width: 1.875rem;
                         height: 1.875rem;
@@ -46,6 +47,14 @@ header {
                         width: 2.25rem;
                         height: 2.25rem;
                     }
+            }
+            .unfill-heart {
+                background-color: $white;
+                transition: all .3s;
+            }
+            .heart {
+                background-color: $primary;
+                transition: all .3s;
             }
         } 
     }

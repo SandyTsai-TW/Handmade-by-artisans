@@ -14183,6 +14183,9 @@ header {
   padding: 0;
   color: #000;
 }
+.navbar .container button:hover {
+  border-color: transparent;
+}
 .navbar .container span {
   background-color: rgba(0, 0, 0, 0.8);
 }

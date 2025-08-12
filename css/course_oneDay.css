@@ -14202,7 +14202,8 @@ header {
   margin-right: calc(0.25rem + 0.3vw);
 }
 .navbar .btn-group span {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   .navbar .btn-group span {
@@ -14215,6 +14216,13 @@ header {
     width: 2.25rem;
     height: 2.25rem;
   }
+}
+.navbar .btn-group .unfill-heart {
+  transition: all 0.3s;
+}
+.navbar .btn-group .heart {
+  background-color: #F37B2A;
+  transition: all 0.3s;
 }
 
 main {
