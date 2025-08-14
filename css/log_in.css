@@ -14190,6 +14190,9 @@ main {
 .box form .input-field .text-field .form-control {
   line-height: 1.85;
 }
+.box form .input-field .text-field .form-text {
+  display: inline-block;
+}
 .box form .tool-focus {
   width: 100%;
   padding: 0.625rem;
@@ -14220,7 +14223,10 @@ main {
   width: 100%;
   margin-top: 1.875rem;
 }
-.other-login span {
+.other-login .company-following:not(:last-child) {
+  margin-bottom: calc(1rem + 1.2vw);
+}
+.other-login .company-following span {
   background-color: transparent;
   margin-right: 0.25rem;
 }

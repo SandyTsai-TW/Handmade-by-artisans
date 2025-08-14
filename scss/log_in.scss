@@ -42,6 +42,9 @@ main {
                 .form-control {
                     line-height: 1.85;
                 }
+                .form-text {
+                    display: inline-block;
+                }
             }
         }
         .tool-focus {
@@ -74,9 +77,14 @@ main {
     width: 100%;
     margin-top: 1.875rem;
 
-    span {
-        background-color: transparent;
-        margin-right: .25rem;
+    .company-following {
+         &:not(:last-child) {
+            margin-bottom: calc(1rem + 1.2vw);
+        }
+        span {
+            background-color: transparent;
+            margin-right: .25rem;
+        }
     }
     .footnote {
         color: $gray-100;
@@ -85,7 +93,7 @@ main {
     }
 }
     
-    
+
     
 
 

@@ -6,8 +6,8 @@ function replaceClass(id, oldClass, newClass) {
   } else {
     elem.addClass(oldClass).removeClass(newClass);
   }
-
 }
+
 $(document).ready(function () {
   $("#heart").click(function () {
     replaceClass("heart", "unfill-heart", "heart");
