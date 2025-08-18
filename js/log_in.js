@@ -1,8 +1,9 @@
-function togglePasswordVisibility() {
-  var passwordInput = document.getElementById("passwordInput");
-  if (passwordInput.type === "password") {
-    passwordInput.type = "text";
+$(".toggle-password").click(function () {
+  $(this).toggleClass("eye eye-off");
+  var input = $($(this).attr("toggle"));
+  if (input.attr("type") == "password") {
+    input.attr("type", "text");
   } else {
-    passwordInput.type = "password";
+    input.attr("type", "password");
   }
-};
+});

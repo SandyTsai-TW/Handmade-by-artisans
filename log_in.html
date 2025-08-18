@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="./Images/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/log_in.css">
 <!-- js -->
-    <!-- <script src="./node_modules/jquery/dist/jquery.min.js" defer></script> -->
+    <script src="./node_modules/jquery/dist/jquery.min.js" defer></script>
     <script src="js/log_in.js" defer></script>
 </head>
 <body>
@@ -25,9 +25,9 @@
                 </div>
                 <div class="input-field">
                     <div class="text-field">
-                        <input class="form-control" type="password" name="password" placeholder="密碼" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$" title="至少8位，必須包含大小寫字母和數字" id="passwordInput" required/>
+                        <input id="password-field" class="form-control" type="password" name="password" placeholder="密碼" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$" title="至少8位，必須包含大小寫字母和數字" required/>
                         <button class="btn">
-                            <span id="eye" class="icon eye-off" onclick="togglePasswordVisibility()"></span>
+                            <span toggle="#password-field" class="icon eye-off toggle-password"></span>
                         </button>
                         <a href="./forget_password.html"><div id="exampleInputPassword1" class="form-text">忘記密碼?</div></a>
                     </div>
