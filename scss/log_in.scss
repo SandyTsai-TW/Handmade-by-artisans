@@ -3,6 +3,28 @@
 /* force scrollbar */
 html { overflow-y: scroll; }
 
+// ////////HEADER////////////////////////////////
+header, footer {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: $white;
+}
+
+header {
+    top: 0;
+}
+
+.navbar {
+    .container {
+        flex-wrap: nowrap;
+        gap: .3125rem;
+        
+        @media (min-width: 768px) {
+            height: 4rem;
+        }
+    }  
+}
 
 ///////////////////// MAIN///////////////////////////////////
 main {
