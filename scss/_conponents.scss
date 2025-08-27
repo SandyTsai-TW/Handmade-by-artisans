@@ -264,7 +264,7 @@
     }
 }
 
-.company-following {
+.company-following, %company-following {
     @extend %company-focus;
     padding: calc(0.625rem + 0.5vw);
     color: $primary;

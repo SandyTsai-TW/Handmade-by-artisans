@@ -19,6 +19,8 @@ header {
     .container {
         flex-wrap: nowrap;
         gap: .3125rem;
+        margin: 0;
+        padding: 0 1.75rem;
         
         @media (min-width: 768px) {
             height: 4rem;
@@ -95,24 +97,37 @@ main {
         margin: 0 .75rem 0;
     }
 }
-.other-login {
-    width: 100%;
-    margin-top: 1.875rem;
 
-    .company-following {
-         &:not(:last-child) {
-            margin-bottom: calc(1rem + 1.2vw);
-        }
-        span {
-            background-color: transparent;
-            margin-right: .25rem;
-        }
-    }
-    .footnote {
-        color: $gray-100;
-        margin-top: 1rem;
-        line-height: 1.2;
-    }
+// firebaseui
+.firebaseui-container {
+    max-width: 100%;
+    padding-top: 1.875rem;
+}
+.firebaseui-card-content {
+    padding: 0 .75rem;
+}
+.firebaseui-idp-list>.firebaseui-list-item, .firebaseui-tenant-list>.firebaseui-list-item {
+    margin-bottom: calc(1rem + 1.2vw);
+}
+.firebaseui-idp-button, .firebaseui-tenant-button{
+    max-width: 100%;
+    text-align: -webkit-center;
+    padding: calc(0.625rem + 0.5vw);
+    border-radius: 0.5rem;
+    border: .025rem solid $black-05;
+}
+.firebaseui-idp-icon {
+    background-color: transparent;
+}
+.firebaseui-idp-text {
+    @extend %subhead;
+}
+.footnote {
+    padding: 0 1rem;
+    color: $gray-100;
+    margin-top: 1rem;
+    line-height: 1.2;
+    text-align: justify;
 }
     
 

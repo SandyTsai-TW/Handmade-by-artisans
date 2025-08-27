@@ -25,10 +25,7 @@ $(document).ready(function () {
 
   // 按登出按鈕，做登出的動作
   $("#logout").on("click", function () {
-    firebase
-      .auth()
-      .signOut()
-      .then(function () {
+    firebase.auth().signOut().then(function () {
         $(".unauth").show();
         $(".auth").hide();
       })
@@ -47,5 +44,6 @@ $(document).ready(function () {
       input.attr("type", "password");
     }
   });
+
 });
 

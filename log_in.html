@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>職人手作</title>
     <link rel="shortcut icon" href="./Images/favicon.svg" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
     <link rel="stylesheet" href="./css/log_in.css">
 <!-- js -->
 <!-- firebase -->
     <script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-app-compat.js" defer></script>
     <script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore-compat.js" defer></script>
     <script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-auth-compat.js" defer></script>
-    <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth__zh_tw.js" defer></script>
     <script src="js/firebase_config.js" defer></script>
      
     <script src="./node_modules/jquery/dist/jquery.min.js" defer></script>
@@ -57,62 +58,12 @@
                 <div class="subhead">或</div>
                 <div class="line"></div>
             </div>
-            <div class="box">
-                <div id="firebaseui-auth-container" lang="zh-tw">
-                    <div class="firebaseui-container firebaseui-page-provider-sign-in firebaseui-id-page-provider-sign-in firebaseui-use-spinner">
-                        <div class="firebaseui-card-content">
-                            <form onsubmit="return false;">
-                                <ul class="firebaseui-idp-list">
-                                    <li class="firebaseui-list-item">
-                                        <button class="firebaseui-idp-button mdl-button mdl-js-button mdl-button--raised firebaseui-idp-password firebaseui-id-idp-button" data-provider-id="password" style="background-color:#db4437" data-upgraded=",MaterialButton">
-                                            <span class="firebaseui-idp-icon-wrapper">
-                                                <img class="firebaseui-idp-icon" alt="" src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/mail.svg">
-                                            </span>
-                                            <span class="firebaseui-idp-text firebaseui-idp-text-long">Sign in with email</span>
-                                            <span class="firebaseui-idp-text firebaseui-idp-text-short">Email</span>
-                                        </button>
-                                    </li>
-                                    <li class="firebaseui-list-item">
-                                        <button class="firebaseui-idp-button mdl-button mdl-js-button mdl-button--raised firebaseui-idp-google firebaseui-id-idp-button" data-provider-id="google.com" style="background-color:#ffffff" data-upgraded=",MaterialButton">
-                                            <span class="firebaseui-idp-icon-wrapper">
-                                                <img class="firebaseui-idp-icon" alt="" src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg">
-                                            </span>
-                                            <span class="firebaseui-idp-text firebaseui-idp-text-long">Sign in with Google</span>
-                                            <span class="firebaseui-idp-text firebaseui-idp-text-short">Google</span>
-                                        </button>
-                                    </li>
-                                    <li class="firebaseui-list-item">
-                                        <button class="firebaseui-idp-button mdl-button mdl-js-button mdl-button--raised firebaseui-idp-facebook firebaseui-id-idp-button" data-provider-id="facebook.com" style="background-color:#3b5998" data-upgraded=",MaterialButton">
-                                            <span class="firebaseui-idp-icon-wrapper">
-                                                <img class="firebaseui-idp-icon" alt="" src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/facebook.svg">
-                                            </span>
-                                            <span class="firebaseui-idp-text firebaseui-idp-text-long">Sign in with Facebook</span>
-                                            <span class="firebaseui-idp-text firebaseui-idp-text-short">Facebook</span>
-                                        </button>
-                                    </li>
-                                </ul>
-                            </form>
-                        </div>
-                        <div class="firebaseui-card-footer firebaseui-provider-sign-in-footer"></div>
-                    </div>
-                </div>
-
-
-
-                <div class="other-login">
-                    <a href="#!" class="company-following">
-                        <span class="icon google"></span>
-                        <div class="subhead">使用Google繼續</div>
-                    </a>
-                    <a href="#!" class="company-following">
-                        <span class="icon facebook"></span>
-                        <div class="subhead">使用Facebook繼續</div>
-                    </a>
-                    <div class="footnote">登入或註冊時，表示已詳閱並同意「職人手作」資料使用政策與使用條款。</div>
-                </div>
-            </div>
+<!-- firebaseui -->
+            <div id="firebaseui-auth-container"></div>
+            <div class="footnote">登入或註冊時，表示已詳閱並同意「職人手作」資料使用政策與使用條款。</div>
         </div>
     </main>
+
 
 </body>
 </html>

@@ -11955,7 +11955,7 @@ textarea.form-control-lg {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .firebaseui-idp-text, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
+.subhead, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.5;
   letter-spacing: 0.0375rem;
@@ -12032,7 +12032,7 @@ textarea.form-control-lg {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .firebaseui-idp-text, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
+  .subhead, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -12054,7 +12054,7 @@ textarea.form-control-lg {
   .callout {
     font-size: calc(1.6rem + 0.2vw);
   }
-  .subhead, .firebaseui-idp-text, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
+  .subhead, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, form .input-field .text-field .form-text, .search-bar .form-control, .footnote-a, .underline {
@@ -12220,7 +12220,7 @@ img {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .firebaseui-idp-text, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
+.subhead, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.5;
   letter-spacing: 0.0375rem;
@@ -12297,7 +12297,7 @@ img {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .firebaseui-idp-text, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
+  .subhead, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -12319,7 +12319,7 @@ img {
   .callout {
     font-size: calc(1.6rem + 0.2vw);
   }
-  .subhead, .firebaseui-idp-text, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
+  .subhead, form .input-field .text-field .form-control, form .input-field .form-label, .button, .date-btn, .button-active, .subhead-a {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, form .input-field .text-field .form-text, .search-bar .form-control, .footnote-a, .underline {
@@ -13710,7 +13710,7 @@ form .input-field .text-field .form-text {
   letter-spacing: 0.05rem;
 }
 
-.subhead, .firebaseui-idp-text, .subhead-a, .button, .button-active, .date-btn, form .input-field .form-label, form .input-field .text-field .form-control {
+.subhead, .subhead-a, .button, .button-active, .date-btn, form .input-field .form-label, form .input-field .text-field .form-control {
   font-size: calc(0.84rem + 0.3vw);
   line-height: 1.5;
   letter-spacing: 0.0375rem;
@@ -13787,7 +13787,7 @@ form .input-field .text-field .form-text {
     line-height: 1.3125;
     letter-spacing: 0.05rem;
   }
-  .subhead, .firebaseui-idp-text, .subhead-a, .button, .button-active, .date-btn, form .input-field .form-label, form .input-field .text-field .form-control {
+  .subhead, .subhead-a, .button, .button-active, .date-btn, form .input-field .form-label, form .input-field .text-field .form-control {
     font-size: calc(0.7rem + 0.1vw);
     line-height: 1.25;
     letter-spacing: 0.0375rem;
@@ -13809,7 +13809,7 @@ form .input-field .text-field .form-text {
   .callout {
     font-size: calc(1.6rem + 0.2vw);
   }
-  .subhead, .firebaseui-idp-text, .subhead-a, .button, .button-active, .date-btn, form .input-field .form-label, form .input-field .text-field .form-control {
+  .subhead, .subhead-a, .button, .button-active, .date-btn, form .input-field .form-label, form .input-field .text-field .form-control {
     font-size: calc(1.5rem + 0.3vw);
   }
   .footnote, .footnote-a, .underline, .search-bar .form-control, form .input-field .text-field .form-text {
@@ -14153,22 +14153,17 @@ html {
   overflow-y: scroll;
 }
 
-header, footer {
+header {
   position: fixed;
   z-index: 2;
   width: 100%;
   background-color: #fff;
-}
-
-header {
   top: 0;
 }
 
 .navbar .container {
   flex-wrap: nowrap;
   gap: 0.3125rem;
-  margin: 0;
-  padding: 0 1.75rem;
 }
 @media (min-width: 768px) {
   .navbar .container {
@@ -14185,92 +14180,6 @@ main {
   padding: 0 1.75rem;
 }
 
-.box {
-  padding: 0 0.625rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.box .img-container {
-  width: 6rem;
-  height: 6rem;
-  margin-bottom: 1.125rem;
-}
-@media (min-width: 768px) {
-  .box .img-container {
-    width: 7.5rem;
-    height: 7.5rem;
-    margin-bottom: 2.25rem;
-  }
-}
-.box .img-container img {
-  background: #fff;
-}
-.box form .input-field:not(:last-child) {
-  margin-bottom: calc(1rem + 1.2vw);
-}
-.box form .input-field .text-field .form-control {
-  line-height: 1.85;
-}
-.box form .input-field .text-field .form-text {
-  display: inline-block;
-}
-.box form .tool-focus {
-  width: 100%;
-  padding: 0.625rem;
-  margin-top: 1.625rem;
-  margin-bottom: 1.875rem;
-}
-@media (min-width: 768px) {
-  .box form .tool-focus {
-    padding: 1rem;
-  }
-}
-
-.lines {
-  width: 100%;
-  padding: 0.075rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.lines .line {
-  background-color: #AFAAA7;
-}
-.lines .subhead {
-  margin: 0 0.75rem 0;
-}
-
-.firebaseui-container {
-  max-width: 100%;
-  padding-top: 1.875rem;
-}
-
-.firebaseui-card-content {
-  padding: 0 0.75rem;
-}
-
-.firebaseui-idp-list > .firebaseui-list-item, .firebaseui-tenant-list > .firebaseui-list-item {
-  margin-bottom: calc(1rem + 1.2vw);
-}
-
-.firebaseui-idp-button, .firebaseui-tenant-button {
-  max-width: 100%;
-  text-align: -webkit-center;
-  padding: calc(0.625rem + 0.5vw);
-  border-radius: 0.5rem;
-  border: 0.025rem solid rgba(0, 0, 0, 0.1);
-}
-
-.firebaseui-idp-icon {
-  background-color: transparent;
-}
-
-.footnote {
-  padding: 0 1rem;
-  color: #736B66;
-  margin-top: 1rem;
-  line-height: 1.2;
-  text-align: justify;
-}/*# sourceMappingURL=log_in.css.map */
+#firebaseui-auth-container {
+  border: 1px solid red;
+}/*# sourceMappingURL=log_in copy.css.map */
