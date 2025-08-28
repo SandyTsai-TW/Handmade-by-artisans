@@ -14177,7 +14177,7 @@ header {
 }
 
 main {
-  padding-top: calc(5.3rem + 0.3vw);
+  padding-top: 36%;
   padding-bottom: calc(6rem + 0.3vw);
 }
 
@@ -14195,51 +14195,17 @@ main {
 .box .img-container {
   width: 6rem;
   height: 6rem;
-  margin-bottom: 1.125rem;
+  margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
   .box .img-container {
     width: 7.5rem;
     height: 7.5rem;
-    margin-bottom: 2.25rem;
+    margin-bottom: 3rem;
   }
 }
 .box .img-container img {
   background: #fff;
-}
-.box form .input-field:not(:last-child) {
-  margin-bottom: calc(1rem + 1.2vw);
-}
-.box form .input-field .text-field .form-control {
-  line-height: 1.85;
-}
-.box form .input-field .text-field .form-text {
-  display: inline-block;
-}
-.box form .tool-focus {
-  width: 100%;
-  padding: 0.625rem;
-  margin-top: 1.625rem;
-  margin-bottom: 1.875rem;
-}
-@media (min-width: 768px) {
-  .box form .tool-focus {
-    padding: 1rem;
-  }
-}
-
-.lines {
-  width: 100%;
-  padding: 0.075rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.lines .line {
-  background-color: #AFAAA7;
-}
-.lines .subhead {
-  margin: 0 0.75rem 0;
 }
 
 .firebaseui-container {
