@@ -11,8 +11,15 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
     <script src="./node_modules/swiper/swiper-bundle.min.js" defer></script>
     <script src="./node_modules/jquery/dist/jquery.min.js" defer></script>
+  <!-- firebase -->
+    <script src="./node_modules/firebase/js/firebase-app-compat.js" defer></script>
+    <script src="./node_modules/firebase/js/firebase-auth-compat.js" defer></script>
+    <script src="./node_modules/firebase/js/firebase-firestore-compat.js" defer></script>
+    <script src="js/firebase_config.js" defer></script>
+    
     <script src="js/course.js" defer></script>
     <script src="js/carousel_1.js" defer></script>
+    <script src="js/log_in.js" defer></script>
     <script src="js/all.js" defer></script>
 </head>
 <body>
@@ -550,7 +557,10 @@
         <a href="message.html" class="tool-normal">
           <span class="icon message"></span>
         </a>
-        <a href="log_in.html" type="button" class="tool-focus">
+        <a href="checkout_1.html" type="button" class="tool-focus auth">
+          <div class="subhead">立即報名</div>
+        </a>
+        <a href="log_in.html" type="button" class="tool-focus unauth">
           <div class="subhead">立即報名</div>
         </a>
       </div>
