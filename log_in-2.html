@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>職人手作</title>
+    <link rel="shortcut icon" href="./Images/favicon.svg" type="image/x-icon">
+<!-- firebaseui -->
+    <link rel="stylesheet" href="./node_modules/firebase/css/firebase-ui-auth.css">
+    <link rel="stylesheet" href="./css/log_in.css">
+<!-- js -->
+<!-- firebase -->
+    <script src="./node_modules/firebase/js/firebase-app-compat.js" defer></script>
+    <script src="./node_modules/firebase/js/firebase-auth-compat.js" defer></script>
+    <script src="./node_modules/firebase/js/firebase-firestore-compat.js" defer></script>
+    <script src="./node_modules/firebase/js/firebase-ui-auth__zh_tw.js" defer></script>
+    <script src="js/firebase_config-2.js" defer></script>
+     
+    <script src="./node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="js/log_in.js" defer></script>
+    <script src="js/all.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a onclick="goBack()"><span class="icon arrow-left"></span></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-28">
+            <div class="box">
+                <div class="img-container">
+                    <img src="./Images/favicon.svg" alt="職人手作">
+                </div>
+                <h2 class="title2-a">歡迎回來</h2>
+            </div>
+<!-- firebaseui -->
+            <div id="firebaseui-auth-container-2"></div>
+            <div class="footnote">登入或註冊時，表示已詳閱並同意「職人手作」資料使用政策與使用條款。</div>
+        </div>
+    </main>
+
+
+</body>
+</html>
