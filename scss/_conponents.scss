@@ -789,6 +789,10 @@ form {
                     border: .1rem solid $info;
                     caret-color: $info;
                 }
+                &:disabled {
+                    background-color: rgba(239, 239, 239, .8);
+                    box-shadow: none;
+                }
             }
             button {
                 position: absolute;

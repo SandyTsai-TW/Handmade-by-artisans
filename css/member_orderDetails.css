@@ -13093,6 +13093,10 @@ form .input-field .text-field .form-control:focus {
   border: 0.1rem solid #009FFC;
   caret-color: #009FFC;
 }
+form .input-field .text-field .form-control:disabled {
+  background-color: rgba(239, 239, 239, 0.8);
+  box-shadow: none;
+}
 form .input-field .text-field button {
   position: absolute;
   padding: 0.75rem 0.625rem;

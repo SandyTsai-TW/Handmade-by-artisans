@@ -12089,10 +12089,6 @@ form .input-field .text-field .form-control, .company-card .img-container, .movi
   border-radius: 0.5rem;
 }
 
-footer {
-  backdrop-filter: blur(20px);
-}
-
 .company-card .card-cover {
   backdrop-filter: blur(3px);
 }
@@ -12101,7 +12097,7 @@ footer {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .card-level {
+.container .points .point .footnote, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12111,6 +12107,10 @@ footer {
 
 .largeCard .smallCard-box .img-container img {
   box-shadow: inset 0 4px 4px -10px rgba(0, 0, 0, 0.1), 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.container .switch-box .mySwitch .circle {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15), 0 3px 1px 0 rgba(0, 0, 0, 0.06);
 }
 
 html, body {
@@ -12358,10 +12358,6 @@ form .input-field .text-field .form-control, .company-card .img-container, .movi
   border-radius: 0.5rem;
 }
 
-footer {
-  backdrop-filter: blur(20px);
-}
-
 .company-card .card-cover {
   backdrop-filter: blur(3px);
 }
@@ -12370,7 +12366,7 @@ footer {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .card-level {
+.container .points .point .footnote, .avator-user, .price h5, .price .h5, .price h4, .price .h4, .price p, .avator_small .footnote, .avator_large .footnote, .movieCard .img-container .card-cover p, .grid .grid-item .img-container .card-cover p, .smallCard .smallCard-box .card-title, .largeCard .smallCard-box .card-title, .smallCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .img-container .card-cover p, .card-level {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -12380,6 +12376,10 @@ footer {
 
 .largeCard .smallCard-box .img-container img {
   box-shadow: inset 0 4px 4px -10px rgba(0, 0, 0, 0.1), 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.container .switch-box .mySwitch .circle {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15), 0 3px 1px 0 rgba(0, 0, 0, 0.06);
 }
 
 html, body {
@@ -13856,10 +13856,6 @@ form .input-field .text-field .form-text {
   border-radius: 0.5rem;
 }
 
-footer {
-  backdrop-filter: blur(20px);
-}
-
 .company-card .card-cover {
   backdrop-filter: blur(3px);
 }
@@ -13868,7 +13864,7 @@ footer {
   box-shadow: 4px 2px 20px -10px rgba(0, 0, 0, 0.1), 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.avator-user, .card-level, .smallCard .smallCard-box .img-container .card-cover p, .smallCard .smallCard-box .card-title, .movieCard .img-container .card-cover p, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .card-title, .grid .grid-item .img-container .card-cover p {
+.container .points .point .footnote, .avator-user, .card-level, .smallCard .smallCard-box .img-container .card-cover p, .smallCard .smallCard-box .card-title, .movieCard .img-container .card-cover p, .avator_small .footnote, .avator_large .footnote, .price h5, .price .h5, .price h4, .price .h4, .price p, .largeCard .smallCard-box .img-container .card-cover p, .largeCard .smallCard-box .card-title, .grid .grid-item .img-container .card-cover p {
   text-shadow: 0px 2px 6px rgba(141, 140, 140, 0.2);
 }
 
@@ -13878,6 +13874,10 @@ footer {
 
 .largeCard .smallCard-box .img-container img {
   box-shadow: inset 0 4px 4px -10px rgba(0, 0, 0, 0.1), 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.container .switch-box .mySwitch .circle {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15), 0 3px 1px 0 rgba(0, 0, 0, 0.06);
 }
 
 html, body {
@@ -14164,212 +14164,304 @@ img {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%231877f2' d='M256 128C256 57.308 198.692 0 128 0S0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445' stroke-width='5.5' stroke='%231877f2'/%3E%3Cpath fill='%23fff' d='m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A129 129 0 0 0 128 256a129 129 0 0 0 20-1.555V165z' stroke-width='5.5' stroke='%23fff'/%3E%3C/svg%3E");
 }
 
-header, footer {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
+/* force scrollbar */
+html {
+  overflow-y: scroll;
 }
 
 header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background: #fff;
   top: 0;
-  background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.1));
 }
 
-.navbar .container {
-  justify-content: space-between;
+.navbar {
+  padding: 0.625rem 0;
 }
 @media (min-width: 768px) {
-  .navbar .container {
-    height: 4rem;
+  .navbar {
+    padding: 1rem 0;
   }
 }
-.navbar .container button {
-  padding: 0;
+.navbar .container .order {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.navbar .container .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
+  padding: 0 0.75rem;
+}
+.navbar .container .flex .subhead {
+  margin: 0;
+  color: #908A86;
+}
+.navbar .container .flex .line {
+  width: 17.5%;
+  background: #736B66;
+}
+.navbar .container .flex .active {
   color: #000;
 }
-.navbar .container button:hover {
-  border-color: transparent;
-}
-.navbar .container span {
-  background-color: rgba(0, 0, 0, 0.8);
+
+main {
+  margin-top: calc(2.75rem + 1.3vw);
+  padding-top: 1rem;
+  padding-bottom: 3.5rem;
 }
 @media (min-width: 768px) {
-  .navbar .container span {
-    width: 1.875rem;
-    height: 1.875rem;
+  main {
+    margin-top: calc(3.5rem + 1.3vw);
+    padding-top: 2rem;
+    padding-bottom: 5.25rem;
   }
 }
-@media (min-width: 1440px) {
-  .navbar .container span {
+
+.container form .input-field .text-field:disabled {
+  border: 1px solid red;
+}
+.container form .input-field .text-field .form-control {
+  line-height: 1.85;
+}
+.container .switch-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem 0;
+}
+@media (min-width: 768px) {
+  .container .switch-box {
+    padding: 0.75rem 0;
+  }
+}
+.container .switch-box p {
+  margin: 0;
+  color: #F37B2A;
+}
+.container .switch-box .mySwitch .switch-bg {
+  width: 3.1875rem;
+  height: 1.9375rem;
+  border-radius: 0.9375rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 768px) {
+  .container .switch-box .mySwitch .switch-bg {
+    width: 3.9375rem;
+    height: 2.4375rem;
+    border-radius: 1.2188rem;
+  }
+}
+.container .switch-box .mySwitch .bg-add {
+  background-color: #F37B2A;
+}
+.container .switch-box .mySwitch .circle {
+  width: 1.6875rem;
+  height: 1.6875rem;
+  border-radius: 50%;
+  background-color: #fff;
+  outline: 0.0313rem solid rgba(0, 0, 0, 0.04);
+  transform: translate(6%, 6%);
+  transition: all 0.3s;
+}
+@media (min-width: 768px) {
+  .container .switch-box .mySwitch .circle {
+    width: 2.125rem;
+    height: 2.1875rem;
+  }
+}
+.container .switch-box .mySwitch .add {
+  transform: translate(80%, 6%);
+  transition: all 0.3s;
+}
+.container .line {
+  margin-top: 0.625rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .container .line {
+    margin-top: 0.75rem;
+  }
+}
+.container .payment {
+  margin-bottom: 1rem;
+}
+.container .payment .title h4, .container .payment .title .h4 {
+  color: #000;
+}
+.container .payment .title p {
+  color: #F37B2A;
+}
+.container .payment .creditCard {
+  margin-top: 1rem;
+}
+.container .payment .creditCard .form-check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.125rem 0;
+}
+.container .payment .creditCard .form-check .form-check-input[type=checkbox] {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  --bs-form-check-bg-image: none;
+  border: 0.125rem solid #CECBC9;
+  box-shadow: none;
+  margin-right: 0.5rem;
+  margin-top: 0.4375rem;
+}
+@media (min-width: 768px) {
+  .container .payment .creditCard .form-check .form-check-input[type=checkbox] {
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-right: 0.75rem;
+  }
+}
+.container .payment .creditCard .form-check .form-check-input[type=checkbox]:checked {
+  border: 0.375rem solid #F37B2A;
+  background-color: #fff;
+}
+.container .payment .creditCard .form-check .form-check-label {
+  width: 100%;
+}
+.container .payment .creditCard .form-check .form-check-label .creditCard-text h5, .container .payment .creditCard .form-check .form-check-label .creditCard-text .h5, .container .payment .creditCard .form-check .form-check-label .creditCard-text h6, .container .payment .creditCard .form-check .form-check-label .creditCard-text .h6 {
+  margin: 0;
+}
+.container .payment .creditCard .form-check .form-check-label .creditCard-text h5, .container .payment .creditCard .form-check .form-check-label .creditCard-text .h5 {
+  padding: 0.1rem;
+  color: #000;
+}
+.container .payment .creditCard .form-check .form-check-label .creditCard-text h6, .container .payment .creditCard .form-check .form-check-label .creditCard-text .h6 {
+  padding-bottom: 0.0625rem;
+  color: #FC442F;
+}
+.container .payment .creditCard .form-check span {
+  color: #000;
+}
+@media (min-width: 768px) {
+  .container .payment .creditCard .form-check span {
     width: 2.25rem;
     height: 2.25rem;
   }
 }
-
-main .container-11 {
-  padding: 0 0.7188rem;
+.container .payment .creditCard .text-field .form-control {
+  line-height: 1.85;
 }
-main .container-11 .profilePage {
-  position: relative;
+.container .payment .creditCard .text-field .form-control:focus {
+  border: 0.1rem solid #009FFC;
+  caret-color: #009FFC;
+  box-shadow: none;
 }
-main .container .info {
-  margin-top: 4.6875rem;
-  margin-bottom: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-@media (min-width: 768px) {
-  main .container .info {
-    margin-top: 7.75rem;
-    margin-bottom: 2rem;
-  }
-}
-@media (min-width: 1440px) {
-  main .container .info {
-    margin-top: 10.375rem;
-    margin-bottom: 2.1rem;
-  }
-}
-main .container .info .title2 {
-  margin-bottom: 0;
-  color: rgba(0, 0, 0, 0.8);
-  padding: 0.0313rem 0;
-}
-@media (min-width: 768px) {
-  main .container .info .title2 {
-    padding: 0.625rem 0;
-  }
-}
-main .container .info .items {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
-  gap: 0.25rem;
-}
-main .container .info .items .stars {
-  margin: 0;
-  justify-content: center;
-}
-main .container .info .items .teaching {
-  display: flex;
-  gap: 0.5rem;
-}
-main .container .info .items .teaching h5, main .container .info .items .teaching .h5, main .container .info .items .teaching p {
-  margin: 0;
-}
-main .container .info .items .teaching h5, main .container .info .items .teaching .h5 {
-  color: rgba(0, 0, 0, 0.8);
-}
-main .container .info .items .teaching p {
-  color: rgba(0, 0, 0, 0.6);
-}
-main .container .info .items .place p {
-  margin: 0;
-  color: rgba(0, 0, 0, 0.6);
-}
-main .container .buttons {
+.container .payment .creditCard .card-info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.container .payment .creditCard .card-info span {
+  color: #000;
 }
 @media (min-width: 768px) {
-  main .container .buttons {
-    gap: 2rem;
+  .container .payment .creditCard .card-info span {
+    width: 2.25rem;
+    height: 2.25rem;
   }
 }
-main .container .buttons .button-active {
-  width: 100%;
-  text-align: center;
-  padding: 0.6513rem 0.75rem;
+.container .item {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  min-height: 2.125rem;
+}
+.container .points {
   gap: 0.25rem;
+  margin-bottom: 1rem;
 }
-main .container .buttons .button-active .subhead {
-  margin: 0;
+.container .points .img-container {
+  width: 2.5rem;
+  height: 2.5rem;
 }
-@media (min-width: 768px) {
-  main .container .buttons .button-active {
-    padding: 0.875rem 0.825rem;
-  }
+.container .points .img-container img {
+  background: #fff;
 }
-main .container .buttons .company-follow-active {
-  color: #F37B2A;
-  background-color: rgba(0, 0, 0, 0.04);
-  border: 0.025rem solid rgba(0, 0, 0, 0.1);
-}
-main .container .buttons .company-follow-active span {
-  display: none;
-}
-main .container .buttons .button {
-  width: 100%;
-  text-align: center;
-  padding: 0.7188rem 0.75rem;
-}
-@media (max-width: 320px) {
-  main .container .buttons .button {
-    padding: 0.625rem 0.6875rem;
-  }
-}
-@media (min-width: 768px) {
-  main .container .buttons .button {
-    padding: 0.875rem 0.825rem;
-  }
-}
-@media (min-width: 1440px) {
-  main .container .buttons .button {
-    padding: 1rem 1.2rem;
-  }
-}
-main content .segmented {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  background-color: #fff;
-}
-main content .segmented .segmented-controls {
+.container .points .point {
   display: flex;
-  padding: 1rem 0 0.75rem;
+  flex-direction: column;
+  width: 68%;
 }
-main content .segmented .segmented-controls .movie-btn {
+.container .points .point .d-flex {
   gap: 0.125rem;
 }
-main content .segmented .segmented-controls .movie-btn .caption1 {
-  line-height: 1.56;
+.container .points .point .d-flex .subhead, .container .points .point .d-flex .number {
+  align-self: baseline;
 }
-main content .segmented .segmented-controls .movie-btn .box {
-  background-color: transparent;
+.container .points .point .d-flex .headline {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
 }
-main content .segmented .segmented-controls .movie-btn:hover .box {
-  background-color: #F37B2A;
-  border-radius: 0.25rem 0.25rem 0 0;
+.container .points .point .footnote {
+  margin: 0;
+  color: #736B66;
 }
-main content .segmented .segmented-controls .btn-active h6, main content .segmented .segmented-controls .btn-active .h6 {
+.container .points .title1 {
+  margin: 0;
   color: #F37B2A;
 }
-main content .segmented .segmented-controls .btn-active .box {
-  background-color: #F37B2A;
-  border-radius: 0.25rem 0.25rem 0 0;
-}
-main content .grid {
-  padding-top: calc(0.5rem + 1.3vw);
-  padding-bottom: calc(5rem + 1.3vw);
+.container .points-box {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  width: 100%;
 }
 @media (min-width: 768px) {
-  main content .grid {
-    padding-top: calc(1.5rem + 1.3vw);
-    padding-bottom: calc(7rem + 1.3vw);
+  .container .points-box {
+    gap: 0.625rem;
   }
 }
 
+.free-cancel {
+  background-color: #F7D201;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.625rem;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 768px) {
+  .free-cancel {
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+}
+.free-cancel span {
+  color: #000;
+}
+@media (min-width: 768px) {
+  .free-cancel span {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+.free-cancel .footnote {
+  margin: 0;
+}
+
 footer {
+  position: fixed;
   bottom: 0;
-  height: 34px;
+  z-index: 2;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 99%);
-}/*# sourceMappingURL=company_info.css.map */
+  background-color: #fff;
+}
+footer .toolbar-checkout .company-focus {
+  padding: 0.625rem 2.625rem;
+}/*# sourceMappingURL=checkout_2text.css.map */
