@@ -62,11 +62,15 @@ main {
     form {   
         .input-field {
             .text-field {
+                &:disabled {
+                    border: 1px solid red;
+                }
                 .form-control {
                     line-height: 1.85;
                 }
             }
         }
+        
     }
     .switch-box {
         display: flex;
@@ -218,56 +222,56 @@ main {
                 }
             }
         }
-        .item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            min-height: 2.125rem;
-        }
-        .points {
-            gap: .25rem;
-            margin-bottom: 1rem;
-            .img-container {
-                width: 2.5rem;
-                height: 2.5rem;
-                img {
-                    background: $white;
-                }
+    }
+    .item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 2.125rem;
+    }
+    .points {
+        gap: .25rem;
+        margin-bottom: 1rem;
+        .img-container {
+            width: 2.5rem;
+            height: 2.5rem;
+            img {
+                background: $white;
             }
-            .point {
-                display: flex;
-                flex-direction: column;
-                width: 68%;
-                .d-flex {
-                    gap: .125rem;
-                    .subhead, .number {
-                        align-self: baseline;
-                    }
-                    .headline {
-                        margin: 0;
-                        color: $black-02;
-                    }
+        }
+        .point {
+            display: flex;
+            flex-direction: column;
+            width: 68%;
+            .d-flex {
+                gap: .125rem;
+                .subhead, .number {
+                    align-self: baseline;
                 }
-                .footnote {
+                .headline {
                     margin: 0;
-                    color: $gray-100;
-                    @extend %text-bg;
+                    color: $black-02;
                 }
             }
-            .title1 {
+            .footnote {
                 margin: 0;
-                color: $primary;
+                color: $gray-100;
+                @extend %text-bg;
             }
         }
-        .points-box {
-            display: flex;
-            align-items: center;
-            gap: .375rem;
-            width: 100%;
+        .title1 {
+            margin: 0;
+            color: $primary;
+        }
+    }
+    .points-box {
+        display: flex;
+        align-items: center;
+        gap: .375rem;
+        width: 100%;
 
-            @media (min-width: 768px) {
-                gap: .625rem;
-            }
+        @media (min-width: 768px) {
+            gap: .625rem;
         }
     }
 }
@@ -278,6 +282,7 @@ main {
     align-items: center;
     gap: .625rem;
     padding: .625rem;
+    margin-bottom: .5rem;
     
         @media (min-width: 768px) {
             gap: 1rem;
@@ -300,6 +305,7 @@ main {
 footer {
     position: fixed;
     bottom: 0;
+    z-index: 2;
     width: 100%;
     background-color: $white;
 
