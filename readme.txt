@@ -1,4 +1,3 @@
-*字體為PingFang TC { Regular / Semibold / Medium }
-  價格數字的部分 SF pro { Medium }
-
-*icon 為iconify
+※【個人專案】 
+※此練習包括UI/UX到前端工程，皆一人製作。 
+※裡面為了學習所使用的圖片均為練習用，不作為商業目的。
