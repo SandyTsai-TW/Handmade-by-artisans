@@ -48,38 +48,40 @@ main {
 
     .collectCard {
         @extend %largeCard;
-        .img-container {
-            img {
-                aspect-ratio: 3 / 4;
-            }
-            .card-level {
-                padding: .125rem .25rem;
-                @media (min-width: 768px) {
-                    padding: 0.5rem;
+        .smallCard-box {
+            .img-container {
+                img {
+                    aspect-ratio: 3 / 4;
+                }
+                .card-level {
+                    padding: .125rem .25rem;
+                    @media (min-width: 768px) {
+                        padding: 0.5rem;
+                    }
+                }
+                .caption2 {
+                    @media (min-width: 768px) {
+                        line-height: 1.3rem;
+                    }
                 }
             }
-            .caption2 {
-                @media (min-width: 768px) {
-                    line-height: 1.3rem;
+            .card-title {
+                min-height: 2.1875rem;
+    
+                @include pad {
+                    min-height: 4rem;
                 }
             }
-        }
-        .card-title {
-            min-height: 2rem;
-
-            @include pad {
-                min-height: 4rem;
-            }
-        }
-        .card-body {
-            padding: calc(0.4375rem + 0.3vw);
-            
-                @media (min-width: 768px) {
-                    padding: calc(0.625rem + 0.3vw);
+            .card-body {
+                padding: calc(0.4375rem + 0.3vw);
+                
+                    @media (min-width: 768px) {
+                        padding: calc(0.625rem + 0.3vw);
+                    }
+    
+                .card-text {
+                    justify-content: flex-end;
                 }
-
-            .card-text {
-                justify-content: flex-end;
             }
         }
     }

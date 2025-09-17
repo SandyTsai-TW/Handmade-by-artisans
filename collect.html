@@ -6,6 +6,16 @@
     <title>職人手作</title>
     <link rel="shortcut icon" href="./Images/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/collect.css">
+<!-- js -->
+    <script src="./node_modules/swiper/swiper-bundle.min.js" defer></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js" defer></script>
+<!-- firebase -->
+    <script src="./node_modules/firebase/js/firebase-app-compat.js" defer></script>
+    <script src="./node_modules/firebase/js/firebase-auth-compat.js" defer></script>
+    <script src="./node_modules/firebase/js/firebase-firestore-compat.js" defer></script>
+    
+    <script src="js/firebase_config.js" defer></script>
+    <script src="js/log_in.js" defer></script>
 </head>
 <body>
   <header>
@@ -20,7 +30,7 @@
     <div class="container">
       <div class="cards">
         <div class="collectCard">
-          <a href="course_oneDay.html">
+          <a href="course_oneDay.html" class="smallCard-box">
             <div class="img-container">
               <img src="./example-pic/flower-5.jpg">
               <div class="card-cover">
@@ -41,7 +51,7 @@
           </a>
         </div>
         <div class="collectCard">
-          <a href="course_oneDay.html">
+          <a href="course_oneDay.html" class="smallCard-box">
             <div class="img-container">
               <img src="./example-pic/candle.webp">
               <div class="card-cover">
@@ -61,7 +71,7 @@
           </a>
         </div>
         <div class="collectCard">
-          <a href="course_base.html">
+          <a href="course_base.html" class="smallCard-box">
             <div class="img-container">
               <img src="./example-pic/silkscreen-1.jpg">
               <div class="card-cover">
@@ -81,7 +91,7 @@
           </a>
         </div>
         <div class="collectCard">
-          <a href="course_advanced.html">
+          <a href="course_advanced.html" class="smallCard-box">
             <div class="img-container">
               <img src="./example-pic/MY-2.webp">
               <div class="card-cover">
@@ -101,7 +111,7 @@
           </a>
         </div>
         <div class="collectCard">
-          <a href="course_base.html">
+          <a href="course_base.html" class="smallCard-box">
             <div class="img-container">
               <img src="./example-pic/collect-1.webp">
               <div class="card-cover">
@@ -121,7 +131,7 @@
           </a>
         </div>
         <div class="collectCard">
-          <a href="course_oneDay.html">
+          <a href="course_oneDay.html" class="smallCard-box">
             <div class="img-container">
               <img src="./example-pic/paint-3.webp">
               <div class="card-cover">
@@ -173,8 +183,14 @@
               <div class="caption2">通知</div>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li class="nav-item auth">
+            <a class="nav-link" href="/member_portfolio.html">
+              <span class="icon user"></span>
+              <div class="caption2">我的</div>
+            </a>
+          </li>
+          <li class="nav-item unauth">
+            <a class="nav-link" href="/log_in.html">
               <span class="icon user"></span>
               <div class="caption2">我的</div>
             </a>
